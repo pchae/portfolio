@@ -5,8 +5,8 @@
       id="hero"
       class="pb1 b3"
       statement="Bridging the gap between design and technology"
-      img-landscape="night-landscape.jpg"
-      img-portrait="night-portrait.jpg"
+      img-landscape="nyc.jpg"
+      img-portrait="portrait-nyc.jpg"
     />
     <QuoteBlock
       id="quote"

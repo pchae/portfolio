@@ -30,11 +30,11 @@ html {
 /* Selection */
 
 ::-moz-selection { /* Code for Firefox */
-  background: #564090;
+  background: #303030;
 }
 
 ::selection {
-  background: #564090;
+  background: #303030;
 }
 
 
@@ -346,13 +346,13 @@ li {
 
 /* Scrollbar Colour */
 ::-webkit-scrollbar {
-  background-color: #000018;
+  background-color: #000;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #564090;
+  background-color: #303030;
   border: 4px solid;
-  border-color: #000018;
+  border-color: #000;
   border-radius: 8px;
 }
 
