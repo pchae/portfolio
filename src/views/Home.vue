@@ -49,6 +49,12 @@ export default {
     Clientlist,
     FooterFull,
   },
+  metaInfo: {
+    // if no subcomponents specify a metaInfo.title, this title will be used
+    title: 'Phil Choi',
+    // all titles will be injected into this template
+    titleTemplate: '%s | Product Design'
+  }
 };
 </script>
 
