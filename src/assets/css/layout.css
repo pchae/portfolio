@@ -1,0 +1,396 @@
+/* 2021 Saturdays.io, Inc. All Rights Reservered. */
+/* Last Update: Thu Feb 2, 2021 */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+*:after, *:before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+#app {
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+  background-color: #000018;
+}
+
+
+
+
+/* Selection */
+
+::-moz-selection { /* Code for Firefox */
+  background: #564090;
+}
+
+::selection {
+  background: #564090;
+}
+
+
+
+
+/* Padding */
+
+.pad1 {
+  padding: 1rem 0;
+}
+
+.pad2 {
+  padding: 2rem 0;
+}
+
+.pad3 {
+  padding: 3rem 0;
+}
+
+.pad4 {
+  padding: 4rem 0;
+}
+
+.pad5 {
+  padding: 5rem 0;
+}
+
+.pad6 {
+  padding: 6rem 0;
+}
+
+
+/* Padding Bottom */
+
+.pb05 {
+  padding-bottom: 0.5rem;
+}
+
+.pb1 {
+  padding-bottom: 1rem;
+}
+
+.pb2 {
+  padding-bottom: 2rem;
+}
+
+.pb3 {
+  padding-bottom: 3rem;
+}
+
+.pb4 {
+  padding-bottom: 4rem;
+}
+
+.pb5 {
+  padding-bottom: 5rem;
+}
+
+.pb6 {
+  padding-bottom: 6rem;
+}
+
+
+/* Padding Top */
+
+.pt05 {
+  padding-top: 0.5rem;
+}
+
+.pt1 {
+  padding-top: 1rem;
+}
+
+.pt2 {
+  padding-top: 2rem;
+}
+
+.pt3 {
+  padding-top: 3rem;
+}
+
+.pt4 {
+  padding-top: 4rem;
+}
+
+.pt5 {
+  padding-top: 5rem;
+}
+
+.pt6 {
+  padding-top: 6rem;
+}
+
+
+.border-t {
+  border-top: 1px solid #fff;
+}
+
+
+
+
+/* Div Containers */
+  
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.container-sm {
+  max-width: 640px;
+  margin: 0 auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.container-lg {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.container-xl {
+  max-width: 100%;
+  margin: 0 auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.content-wrapper {
+  padding-bottom: 0rem;
+}
+
+
+/* Flex Containers */
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1.25rem;
+}
+
+
+/* Grid Containers */
+
+.grid {
+  display: grid;
+  /* Define in component */
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+
+
+
+
+/* Card Containers */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  border-radius: 0.25rem;
+  text-align: left;
+}
+
+.thumb {
+  margin: 0;
+}
+
+
+
+/* Links */
+
+a {
+  color: #6440C6;
+}
+
+a, button, svg, svg path {
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+a:hover, button:hover {
+  opacity: .6;
+}
+
+.link {
+  cursor: pointer;
+}
+
+
+
+
+/* Typography */
+  
+h1 {
+  font-size: 4rem;
+  line-height: 1.5;
+}
+  
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+  
+h3 {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 300;
+}
+  
+h4 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+h5 {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+h6 {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+p {
+  line-height: 1.5;
+}
+
+
+/* List Items */
+
+ul {
+  list-style-type: none;
+  line-height: 2;
+}
+
+li {
+  line-height: 2;
+}
+
+/* Custom Typography */
+
+.section-heading {
+  margin-bottom: 0rem;
+}
+
+.title {
+  margin-bottom: 0rem;
+}
+
+.subtext {
+  color: #D0D0D0;
+}
+
+
+
+
+/* Colours */
+
+.b0 {
+  background-color: transparent;
+  background: none;
+}
+
+.b1 {
+  background-color: #000018;
+}
+  
+.b2 {
+  background-color: #272949;
+}
+
+.b3 {
+  background-color: #000;
+}
+
+.b4 {
+  background-color: #fff;
+}
+
+
+
+
+/* Rich Media Assets */
+
+.thumb img, video {
+  display: inline-block;
+  width: 100%;
+}
+
+.thumb {
+  display: block;
+  height: auto;
+  padding: 0;
+  border-radius: 0.25rem;
+  margin-top: 1rem;
+  /* Remove margin-bottom and place onto div or flex class */
+}
+
+
+
+
+/* Scrollbar Colour */
+::-webkit-scrollbar {
+  background-color: #000018;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #564090;
+  border: 4px solid;
+  border-color: #000018;
+  border-radius: 8px;
+}
+
+
+
+
+/* Mobile Media Queries */
+
+@media only screen and (max-width: 800px) {
+
+  h1 {
+    font-size: 3rem;
+    line-height: 1.5
+  }
+
+  h2 {
+    font-size: 2rem;
+    line-height: 1.5
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    line-height: 1.5
+  }
+  
+  h4 {
+    font-size: 1.25rem;
+    line-height: 1.5
+  }
+
+  h6 {
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.5
+  }
+
+}
