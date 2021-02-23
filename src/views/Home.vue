@@ -5,8 +5,8 @@
       id="hero"
       class="pb3 b3"
       statement="Canadian Product Designer based in Toronto."
-      img-landscape="brooklyn.jpg"
-      img-portrait="city-portrait.jpg"
+      img-landscape="nyc.jpg"
+      img-portrait="portrait-nyc.jpg"
     />
     <QuoteBlock
       id="who-we-are"

@@ -20,7 +20,7 @@
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.20.0",
-    "eslint-plugin-vue": "^6.2.2",
+    "eslint-plugin-vue": "7.6.0",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
@@ -35,7 +35,9 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "vue/experimental-script-setup-vars": "error"
+    }
   },
   "browserslist": [
     "> 1%",
