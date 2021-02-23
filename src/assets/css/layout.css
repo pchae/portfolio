@@ -17,11 +17,11 @@ html {
 }
 
 #app {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #fff;
-  background-color: #000018;
+  background-color: #000;
 }
 
 
