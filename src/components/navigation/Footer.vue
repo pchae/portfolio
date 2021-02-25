@@ -9,12 +9,12 @@
         id="nav-links"
         class="frow"
       >
-        <div class="link">
+        <div class="nav-link">
           <router-link to="/">
             <h6>Work</h6>
           </router-link>
         </div>
-        <div class="link">
+        <div class="nav-link">
           <router-link to="/info">
             <h6>Info</h6>
           </router-link>
@@ -26,7 +26,7 @@
 
 <script>
 export default {
-  name: 'FooterFull',
+  name: 'Footer',
   props: {
     legal: {
       type: String,
@@ -49,8 +49,8 @@ export default {
 <style scoped>
 
   footer {
-    color: #fff;
-    padding: 2rem 0;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
   }
 
   .nav {
@@ -72,12 +72,15 @@ export default {
 
 /* Link Override */
 
-  .link {
-    padding: 0 1rem;
-  }
+.nav-link:nth-child(odd) {
+  padding-right: 1rem;
+}
+
+.nav-link:nth-child(2n) {
+  padding-left: 1rem;
+}
 
   a {
-    color: #fff;
   }
 
 @media only screen and (max-width: 640px) {

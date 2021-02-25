@@ -45,6 +45,10 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
+.subtext {
+  color: #000;
+}
+
 @media only screen and (max-width: 640px) {
 }
 

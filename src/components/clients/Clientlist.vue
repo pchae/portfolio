@@ -185,15 +185,6 @@ export default {
   cursor: default;
 }
 
-.img-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1rem;
-}
-
-.col {
-  span: 1;
-}
 
 @media screen and (min-width: 960px) {
   .client-partners {

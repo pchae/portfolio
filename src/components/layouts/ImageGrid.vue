@@ -4,29 +4,59 @@
       <h2 class="section-heading">
         {{ headline }}
       </h2>
-      <div class="grid">
-        <div class="col">
+      <div class="flex">
+        <div class="list-container">
           <ImgCard
             :index="1"
             img-src="thumb_starz.jpg"
             img-alt="Starz Play apps"
-          />
-          <ImgCard
-            :index="2"
-            img-src="thumb_pbs.jpg"
-            img-alt="PBS Streaming app"
+            title="Starz Play"
+            desc="Roku, Amazon, Samsung"
           />
         </div>
-        <div class="col">
+        <div class="list-container">
           <ImgCard
             :index="3"
             img-src="thumb_engage.jpg"
             img-alt="Engage whitelabel components"
+            title="Engage Whitelabel"
+            desc="PWA, SaaS"
           />
+        </div>
+        <div class="list-container">
+          <ImgCard
+            :index="6"
+            img-src="webapp.png"
+            img-alt="Engage PWA"
+            title="Community Content"
+            desc="React Native, SaaS"
+          />
+        </div>
+        <div class="list-container">
+          <ImgCard
+            :index="5"
+            img-src="thumb_pizza.jpg"
+            img-alt="Pizza Pizza native apps"
+            title="Pizza Pizza"
+            desc="Android, iOS"
+          />
+        </div>
+        <div class="list-container">
+          <ImgCard
+            :index="2"
+            img-src="thumb_pbs.jpg"
+            img-alt="PBS Streaming app"
+            title="PBS"
+            desc="Microsoft Lumia & Surface"
+          />
+        </div>
+        <div class="list-container">
           <ImgCard
             :index="4"
             img-src="thumb_rbc.jpg"
             img-alt="RBC Fintech"
+            title="Fintech"
+            desc="Android, iOS"
           />
         </div>
       </div>
@@ -78,10 +108,20 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
+  .flex {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+  }
+
+  .list-container {
+    width: calc(50% - 1rem);
+  }
+
 @media only screen and (max-width: 800px) {
-  .grid {
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 0;
+
+  .list-container {
+    width: 100%;
   }
 }
 
