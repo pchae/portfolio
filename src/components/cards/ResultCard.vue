@@ -41,7 +41,7 @@ export default {
   .cardtitle {
     font-weight: 300;
     line-height: 1.5;
-    color: #fff;
+    color: #000;
   }
 
   .desc {
