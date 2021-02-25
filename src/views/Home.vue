@@ -1,29 +1,18 @@
 <template>
   <div>
     <NavBar />
-    <Cover
-      id="hero"
-      class="pb3 b3"
-      statement="Canadian Product Designer based in Toronto."
-      img-landscape="nyc.jpg"
-      img-portrait="portrait-nyc.jpg"
-    />
     <QuoteBlock
       id="who-we-are"
-      class="pad5 b3"
-      headline=""
-      desc="My focus is on art, design, and technology as well as when, where, and how they affect everyday life."
+      class="pad6 b4"
+      headline="I am a product designer who creates impactful and compelling business solutions that delight, surprise, and inspire."
+      desc="Currently at Saturdays.io"
     />
     <ImageGrid
-      class="pad5 b3"
-      headline="Past Projects"
+      class="b4"
+      headline=""
     />
-    <Clientlist
-      class="pad5 b3"
-      headline="We partner with brands brave enough to do things differently."
-    />
-    <FooterFull
-      class="pad2 b3"
+    <Footer
+      class="pad4 b4"
       legal="© 2014-2021 Phil Choi v2"
     />
   </div>
@@ -33,21 +22,17 @@
 // @ is an alias to /src
 
 import NavBar from '@/components/navigation/NavBar.vue';
-import Cover from '@/components/Cover.vue';
 import QuoteBlock from '@/components/layouts/QuoteBlock.vue';
 import ImageGrid from '@/components/layouts/ImageGrid.vue';
-import Clientlist from '@/components/clients/Clientlist.vue';
-import FooterFull from '@/components/navigation/FooterFull.vue';
+import Footer from '@/components/navigation/Footer.vue';
 
 export default {
   name: 'Home',
   components: {
     NavBar,
-    Cover,
     QuoteBlock,
     ImageGrid,
-    Clientlist,
-    FooterFull,
+    Footer,
   },
   metaInfo: {
     // if no subcomponents specify a metaInfo.title, this title will be used
