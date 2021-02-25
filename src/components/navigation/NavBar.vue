@@ -75,11 +75,11 @@ header {
 /* Link Override */
 
 a {
-  color: #fff;
+  color: #40b884;
 }
 
 .active > h6 {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #000;
 }
 
 .link {
