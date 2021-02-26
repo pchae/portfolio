@@ -80,9 +80,6 @@ export default {
   padding-left: 1rem;
 }
 
-  a {
-  }
-
 @media only screen and (max-width: 640px) {
   .fcontain {
     display: flex;
