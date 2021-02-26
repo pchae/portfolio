@@ -30,11 +30,13 @@ html {
 /* Selection */
 
 ::-moz-selection { /* Code for Firefox */
-  background: #303030;
+  background: #3044CC;
+  color: #fff;
 }
 
 ::selection {
-  background: #303030;
+  background: #3044CC;
+  color: #fff;
 }
 
 
@@ -213,7 +215,7 @@ html {
 /* Links */
 
 a {
-  color: #6440C6;
+  color: #40b884;
 }
 
 a, button, svg, svg path {
