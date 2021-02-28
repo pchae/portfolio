@@ -182,6 +182,28 @@ html {
   gap: 1.25rem;
 }
 
+.fcontain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.frow {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.fcol {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexcol {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
 
 /* Grid Containers */
 
