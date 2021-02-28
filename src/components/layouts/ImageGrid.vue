@@ -1,14 +1,11 @@
 <template>
   <section :class="[padding, bgColor]">
     <div class="container-lg content-wrapper">
-      <h2 class="section-heading">
-        {{ headline }}
-      </h2>
       <div class="flex">
         <div class="list-container">
           <ImgCard
             :index="1"
-            img-src="thumb_starz.jpg"
+            img-src="blank.png"
             img-alt="Starz Play apps"
             title="Starz Play"
             desc="Roku, Amazon, Samsung"
@@ -16,8 +13,8 @@
         </div>
         <div class="list-container">
           <ImgCard
-            :index="3"
-            img-src="thumb_engage.jpg"
+            :index="2"
+            img-src="blank.png"
             img-alt="Engage whitelabel components"
             title="Engage Whitelabel"
             desc="PWA, SaaS"
@@ -25,8 +22,8 @@
         </div>
         <div class="list-container">
           <ImgCard
-            :index="6"
-            img-src="webapp.png"
+            :index="3"
+            img-src="blank.png"
             img-alt="Engage PWA"
             title="Community Content"
             desc="React Native, SaaS"
@@ -34,8 +31,8 @@
         </div>
         <div class="list-container">
           <ImgCard
-            :index="5"
-            img-src="thumb_pizza.jpg"
+            :index="4"
+            img-src="blank.png"
             img-alt="Pizza Pizza native apps"
             title="Pizza Pizza"
             desc="Android, iOS"
@@ -43,8 +40,8 @@
         </div>
         <div class="list-container">
           <ImgCard
-            :index="2"
-            img-src="thumb_pbs.jpg"
+            :index="5"
+            img-src="blank.png"
             img-alt="PBS Streaming app"
             title="PBS"
             desc="Microsoft Lumia & Surface"
@@ -52,10 +49,10 @@
         </div>
         <div class="list-container">
           <ImgCard
-            :index="4"
-            img-src="thumb_rbc.jpg"
-            img-alt="RBC Fintech"
-            title="Fintech"
+            :index="6"
+            img-src="blank.png"
+            img-alt="Fintech Design Systems"
+            title="Fintech Design Systems"
             desc="Android, iOS"
           />
         </div>
@@ -70,10 +67,6 @@ import ImgCard from '@/components/cards/imgCard.vue';
 export default {
   name: 'ImageGrid',
   props: {
-    headline: {
-      type: String,
-      default: '',
-    },
     imgSrc: {
       type: String,
       default: '',
