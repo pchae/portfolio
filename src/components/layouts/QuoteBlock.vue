@@ -4,13 +4,13 @@
     :class="[padding, bgColor]"
   >
     <div class="container-lg">
-      <div class="">
+      <div class="quote pt5">
         <h2 class="section-headline">
           {{ headline }}
         </h2>
-        <h3 class="subtext">
+        <h4 class="subtext">
           {{ desc }}
-        </h3>
+        </h4>
       </div>
     </div>
   </section>
@@ -44,11 +44,24 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
-.subtext {
-  color: #000;
+.section-headline {
+  margin-bottom: 2rem;
 }
 
+.subtext {
+  display: flex;
+  color: #000;
+  font-weight: 400;
+  width: 66%;
+  justify-content: flex-end;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  min-height: 10rem;
+  justify-content: flex-end;
+}
 @media only screen and (max-width: 640px) {
 }
 

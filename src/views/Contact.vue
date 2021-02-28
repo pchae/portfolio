@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Navbar />
+    <Navbar id="navigation" />
     <TwoColumn
       class="pad5"
       headline="Lorem ipsum dolor sit"
