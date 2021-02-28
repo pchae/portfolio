@@ -206,9 +206,24 @@ html {
   text-align: left;
 }
 
-.thumb {
-  margin: 0;
+
+
+
+/* Rich Media Assets */
+
+.thumb img, video {
+  display: inline-block;
+  width: 100%;
 }
+
+.thumb {
+  display: block;
+  height: auto;
+  padding: 0;
+  border-radius: 0.25rem;
+  /* Remove margin-bottom and place onto div or flex class */
+}
+
 
 
 
@@ -323,25 +338,6 @@ li {
 
 .b4 {
   background-color: #fff;
-}
-
-
-
-
-/* Rich Media Assets */
-
-.thumb img, video {
-  display: inline-block;
-  width: 100%;
-}
-
-.thumb {
-  display: block;
-  height: auto;
-  padding: 0;
-  border-radius: 0.25rem;
-  margin-top: 1rem;
-  /* Remove margin-bottom and place onto div or flex class */
 }
 
 
