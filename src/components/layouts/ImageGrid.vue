@@ -24,9 +24,9 @@
           <ImgCard
             :index="3"
             img-src="blank.png"
-            img-alt="Engage PWA"
-            title="Community Content"
-            desc="React Native, SaaS"
+            img-alt="PBS"
+            title="PBS"
+            desc="Microsoft Lumia & Surface"
           />
         </div>
         <div class="list-container">
@@ -42,9 +42,9 @@
           <ImgCard
             :index="5"
             img-src="blank.png"
-            img-alt="PBS Streaming app"
-            title="PBS"
-            desc="Microsoft Lumia & Surface"
+            img-alt="C51"
+            title="C51"
+            desc="React Native, SaaS"
           />
         </div>
         <div class="list-container">
