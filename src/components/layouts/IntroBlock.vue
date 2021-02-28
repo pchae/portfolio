@@ -1,15 +1,13 @@
 <template>
-  <section
-    :id="[sectionID]"
-    :class="[padding, bgColor]"
-  >
+  <section :id="[sectionID]" :class="[padding, bgColor]">
     <div class="container-lg">
-      <div class="temp1">
+      <div class="fcol intro">
         <h2 class="section-headline">
           {{ headline }}
         </h2>
         <h3 class="subtext">
-          Founder and principle designer at <a href="https://saturdays.io">Saturdays.io</a>
+          Founder and principle designer at
+          <a href="https://saturdays.io">Saturdays.io</a>
         </h3>
       </div>
     </div>
@@ -18,25 +16,25 @@
 
 <script>
 export default {
-  name: 'IntroBlock',
+  name: "IntroBlock",
   props: {
     headline: {
       type: String,
-      default: '',
+      default: "",
     },
     desc: {
       type: String,
-      default: '',
+      default: "",
     },
     sectionID: {
       type: String,
-      default: '',
+      default: "",
     },
   },
   data() {
     return {
-      padding: '',
-      bgColor: '',
+      padding: "",
+      bgColor: "",
     };
   },
 };
@@ -44,18 +42,15 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
 .subtext {
   color: #000;
 }
 
-.temp1 {
-  display: flex;
-  flex-direction: column;
-  height: 20rem;
+.intro {
+  min-height: 20rem;
   justify-content: flex-end;
 }
+
 @media only screen and (max-width: 640px) {
 }
-
 </style>
