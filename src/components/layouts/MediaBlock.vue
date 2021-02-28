@@ -1,12 +1,13 @@
 <template>
-  <section :class="[padding, bgColor]">
+  <section
+    :id="[sectionID]"
+    :class="[padding, bgColor]">
     <div class="container-lg">
-      <h2 class="section-heading pb2">
-        {{ headline }}
+      <h2 class="section-heading">
       </h2>
-      <h3 class="subtext">
+      <p class="subtext">
         {{ subline }}
-      </h3>
+      </p>
     </div>
     <div class="container-lg media-block">
       <img
@@ -37,6 +38,10 @@ export default {
       type: String,
       default: '',
     },
+    sectionID: {
+      type: String,
+      default: '',
+    },
   },
   data() {
     return {
@@ -49,6 +54,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.subtext {
+  font-weight: 400;
+  color: #181818;
+}
 
 .media-block img {
   display: block;
