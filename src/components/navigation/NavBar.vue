@@ -1,42 +1,61 @@
 <template>
   <!-- Header -->
-  <header :class="[padding, bgColor]">
-    <div class="pad1">
+  <header :id="[sectionID]" :class="[bgColor]" class="pad1">
+    <div>
       <div class="container-lg fcontain">
         <div class="logo">
           <router-link to="/" exact>
             <h5>Phil Choi</h5>
           </router-link>
         </div>
-        <div id="nav" class="frow">
-          <div class="nav-link">
-            <router-link to="/" active-class="active" exact>
-              <h6>Work</h6>
-            </router-link>
-          </div>
-          <div class="nav-link">
-            <router-link to="/info" active-class="active" exact>
-              <h6>Info</h6>
-            </router-link>
-          </div>
+
+        <div role="button" class="button toggle" @click='toggle = !toggle' aria-expanded="false">
+          <img src="@/assets/icons/menu.svg">
         </div>
       </div>
+
+      <div id="menu" class="overlay" v-show="toggle">
+        <div class="container-lg fcontain overnav pad1">
+          <div role="button" class="button toggle" @click='toggle = !toggle' aria-expanded="true">
+            <img src="@/assets/icons/close.svg">
+          </div>
+        </div>
+
+          <div id="nav" class="container-lg fcol menu-links">
+            <div class="nav-link">
+              <router-link to="/" active-class="active" exact>
+                <h2>Work</h2>
+              </router-link>
+            </div>
+            <div class="nav-link">
+              <router-link to="/info" active-class="active" exact>
+                <h2>Info</h2>
+              </router-link>
+            </div>
+          </div>
+      </div>
+
     </div>
   </header>
 </template>
 
 <script>
 export default {
-  name: "NavBar",
+  name: "Navbar",
   props: {
-    padding: {
+    sectionID: {
       type: String,
-      default: "",
+      default: '',
     },
     bgColor: {
       type: String,
       default: "",
     },
+  },
+  data: function() {
+    return {
+      toggle: false
+    };
   },
 };
 </script>
@@ -52,55 +71,55 @@ header {
 }
 
 .fcontain {
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
   justify-content: space-between;
 }
 
-.frow {
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
-}
-
 .nav-link:nth-child(odd) {
-  padding-right: 1rem;
+  margin-bottom: 4rem;
 }
 
 .nav-link:nth-child(2n) {
-  padding-left: 1rem;
+  margin-bottom: 0rem;
 }
 
-/* Link Override */
-
-a {
-  color: #40b884;
-}
-
-.active > h6 {
-  border-bottom: 1px solid #000;
-}
-
-.link {
-  padding: 0 1rem;
-}
 
 /* Mobile Menu */
 
-.mobile-menu {
+.button {
+  /* show hand cursor */
   display: flex;
-  flex-direction: column;
+  margin: 0;
+  justify-content: center;
   align-items: center;
-  justify-content: flex-start;
+  cursor: pointer;
+  height: 2rem;
+  width: 2rem;
+}
+
+.overlay {
+  display: inherit;
+  flex-direction: column;
   position: absolute;
   top: 0;
-  left: 0;
   height: 100vh;
   width: 100%;
   background-color: #000;
-  opacity: 0;
+  overflow: visible;
+  opacity: 1;
   z-index: 1000;
+}
+
+.overnav {
+  justify-content: end;
+  flex-direction: row-reverse;
+}
+
+.menu-links {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
 }
 
 .class-to-flexrow-position {
@@ -116,6 +135,19 @@ a {
   width: 100%;
 }
 
-@media only screen and (max-width: 640px) {
+/* Link Override */
+
+.active {
+  background-color: #dcdcdc;
+  border-radius: 0.25rem;
 }
+
+.active > h2 {
+  border-bottom: 1px solid;
+}
+
+.link {
+  padding: 0 1rem;
+}
+
 </style>
