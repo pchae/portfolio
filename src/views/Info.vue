@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NavBar id="navigation" />
+    <Navbar id="navigation" />
     <TextBlock
       id="about"
       class="pad5 b4"
@@ -78,7 +78,7 @@
 
 <script>
 // @ is an alias to /src
-import NavBar from '@/components/navigation/NavBar.vue';
+import Navbar from '@/components/navigation/Navbar.vue';
 import TextBlock from '@/components/layouts/TextBlock.vue';
 import MediaBlock from '@/components/layouts/MediaBlock.vue';
 import BookGrid from '@/components/layouts/BookGrid.vue';
@@ -89,7 +89,7 @@ import Footer from '@/components/navigation/Footer.vue';
 export default {
   name: 'Info',
   components: {
-    NavBar,
+    Navbar,
     TextBlock,
     MediaBlock,
     BookGrid,
