@@ -52,17 +52,18 @@ export default {
   display: flex;
   color: #000;
   font-weight: 400;
-  width: 66%;
-  justify-content: flex-end;
+  width: 100%;
 }
 
 .quote {
   display: flex;
   flex-direction: column;
   min-height: 10rem;
-  justify-content: flex-end;
 }
-@media only screen and (max-width: 640px) {
+
+@media only screen and (max-width: 800px) {
+  .subtext {
+  }
 }
 
 </style>

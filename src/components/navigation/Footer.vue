@@ -74,16 +74,13 @@ export default {
 /* Link Override */
 
 .nav-link:nth-child(1n) {
-  padding-right: 1rem;
 }
 
 .nav-link:nth-child(2n) {
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .nav-link:nth-child(3n) {
-  padding-left: 1rem;
+  padding-left: 0rem;
 }
 
 @media only screen and (max-width: 640px) {

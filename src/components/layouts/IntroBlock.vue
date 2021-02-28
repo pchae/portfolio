@@ -7,7 +7,7 @@
         </h2>
         <h3 class="subtext">
           Founder and principle designer at
-          <a href="https://saturdays.io">Saturdays.io</a>
+          <a href="https://saturdays.io" target="_blank">Saturdays.io</a>
         </h3>
       </div>
     </div>

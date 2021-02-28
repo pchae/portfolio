@@ -60,7 +60,10 @@ export default {
   min-height: 10rem;
   justify-content: flex-end;
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 980px) {
+  .subtext {
+    width: 100%;
+  }
 }
 
 </style>
