@@ -3,7 +3,7 @@
     <Navbar id="navigation" />
     <QuoteBlock
       id="quote"
-      class="pad6 b4"
+      class="pad5 b4"
       headline="My focus is on art, design, and technology as well as when, where, and how they affect everyday life."
       desc="As an 80s kid, I hold a unique perspective due to maturing in parallel with the shift from analog to digital technologies.
       The result is that I'm able to bridge the cultural and ideological gaps between older generations and today's youth."
@@ -27,15 +27,25 @@
       class="pad1 b4"
       title="Skillset"
     />
+    <MediaBlock
+      id="process-img"
+      class="pb5 b4"
+      subline=""
+      img-src="thumbs/blank2.png"
+      img-alt="Development process diagram"
+    />
 
     <SectionTitle
       id="section-experience"
       class="pad1 b4"
       title="Experience"
     />
-    <BookGrid
-      id="books"
+    <MediaBlock
+      id="process-img"
       class="pb5 b4"
+      subline=""
+      img-src="thumbs/blank2.png"
+      img-alt="Development process diagram"
     />
 
     <SectionTitle

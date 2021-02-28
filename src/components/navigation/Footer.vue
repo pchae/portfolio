@@ -12,16 +12,6 @@
         class="frow"
       >
         <div class="nav-link">
-          <router-link to="/">
-            <h6>Work</h6>
-          </router-link>
-        </div>
-        <div class="nav-link">
-          <router-link to="/info">
-            <h6>Info</h6>
-          </router-link>
-        </div>
-        <div class="nav-link">
           <a href="https://www.linkedin.com/in/pchoi1/" target="_blank">
             <h6>LinkedIn</h6>
           </a>

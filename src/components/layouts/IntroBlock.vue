@@ -1,7 +1,7 @@
 <template>
   <section :id="[sectionID]" :class="[padding, bgColor]">
     <div class="container-lg">
-      <div class="fcol intro">
+      <div class="fcol intro pt5">
         <h2 class="section-headline">
           {{ headline }}
         </h2>
@@ -47,7 +47,7 @@ export default {
 }
 
 .intro {
-  min-height: 20rem;
+  min-height: 10rem;
   justify-content: flex-end;
 }
 
