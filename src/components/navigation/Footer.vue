@@ -1,6 +1,8 @@
 <template>
   <!-- Footer -->
-  <footer :class="[padding, bgColor] ">
+  <footer
+    :id="[sectionID]"
+    :class="[padding, bgColor] ">
     <div class="container-lg fcontain">
       <div class="copyright">
         <h6>{{ legal }}</h6>
@@ -38,6 +40,10 @@ export default {
       default: '',
     },
     bgColor: {
+      type: String,
+      default: '',
+    },
+    sectionID: {
       type: String,
       default: '',
     },
