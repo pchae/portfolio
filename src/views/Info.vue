@@ -4,23 +4,50 @@
     <QuoteBlock
       id="quote"
       class="pad6 b4"
-      headline=""
-      desc="As an 80s kid, I hold a unique perspective due to maturing in parallel with the shift from analog to digital technologies. The result is that I'm able to bridge the cultural and ideological gaps between older generations and today's youth."
+      headline="My focus is on art, design, and technology as well as when, where, and how they affect everyday life."
+      desc="As an 80s kid, I hold a unique perspective due to maturing in parallel with the shift from analog to digital technologies.
+      The result is that I'm able to bridge the cultural and ideological gaps between older generations and today's youth."
+    />
+    <SectionTitle
+      id="section-process"
+      class="pt1 b4"
+      title="Process"
     />
     <MediaBlock
-      class="pad5 b4"
-      headline="The Process"
-      subline=""
-      img-src="process.svg"
+      id="process-img"
+      class="pb5 b4"
+      subline="1. End to End Design & Development process diagram"
+      img-src="thumbs/blank2.png"
       img-alt="Development process diagram"
     />
+    <SectionTitle
+      id="section-skills"
+      class="pad1 b4"
+      title="Skills"
+    />
+    <SectionTitle
+      id="section-experience"
+      class="pad1 b4"
+      title="Experience"
+    />
+    <SectionTitle
+      id="section-reading"
+      class="pad1 b4"
+      title="Reading list"
+    />
+    <SectionTitle
+      id="section-clients"
+      class="pad1 b4"
+      title="Clients"
+    />
     <Clientlist
-      class="pad5 b4"
-      headline="Client list"
+      id="clientlist"
+      class="pb5 b4"
     />
     <Footer
-      class="pad4 b4"
-      legal="© 2014-2021 Phil Choi v2"
+      id="footer"
+      class="b4"
+      legal="© 2014-2021"
     />
   </div>
 </template>
@@ -31,6 +58,7 @@ import NavBar from '@/components/navigation/NavBar.vue';
 import QuoteBlock from '@/components/layouts/QuoteBlock.vue';
 import MediaBlock from '@/components/layouts/MediaBlock.vue';
 import Clientlist from '@/components/clients/Clientlist.vue';
+import SectionTitle from '@/components/layouts/SectionTitle.vue';
 import Footer from '@/components/navigation/Footer.vue';
 
 export default {
@@ -40,6 +68,7 @@ export default {
     QuoteBlock,
     MediaBlock,
     Clientlist,
+    SectionTitle,
     Footer,
   },
   metaInfo: {
