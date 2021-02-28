@@ -1,7 +1,7 @@
 <template>
   <div>
     <Navbar id="navigation" />
-    <QuoteBlock
+    <TextBlock
       id="quote"
       class="pad5 b4"
       headline="My focus is on art, design, and technology as well as when, where, and how they affect everyday life."
@@ -79,7 +79,7 @@
 <script>
 // @ is an alias to /src
 import Navbar from '@/components/navigation/Navbar.vue';
-import QuoteBlock from '@/components/layouts/QuoteBlock.vue';
+import TextBlock from '@/components/layouts/TextBlock.vue';
 import MediaBlock from '@/components/layouts/MediaBlock.vue';
 import BookGrid from '@/components/layouts/BookGrid.vue';
 import Clientlist from '@/components/clients/Clientlist.vue';
@@ -90,7 +90,7 @@ export default {
   name: 'Info',
   components: {
     Navbar,
-    QuoteBlock,
+    TextBlock,
     MediaBlock,
     BookGrid,
     Clientlist,
