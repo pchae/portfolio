@@ -2,7 +2,7 @@
   <div>
     <Navbar id="navigation" />
     <TextBlock
-      id="quote"
+      id="about"
       class="pad5 b4"
       headline="My focus is on art, design, and technology as well as when, where, and how they affect everyday life."
       desc="As an 80s kid, I hold a unique perspective due to maturing in parallel with the shift from analog to digital technologies.
