@@ -21,6 +21,11 @@
             <h6>Info</h6>
           </router-link>
         </div>
+        <div class="nav-link">
+          <a href="https://www.linkedin.com/in/pchoi1/" target="_blank">
+            <h6>LinkedIn</h6>
+          </a>
+        </div>
       </div>
     </div>
   </footer>
@@ -78,11 +83,16 @@ export default {
 
 /* Link Override */
 
-.nav-link:nth-child(odd) {
+.nav-link:nth-child(1n) {
   padding-right: 1rem;
 }
 
 .nav-link:nth-child(2n) {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.nav-link:nth-child(3n) {
   padding-left: 1rem;
 }
 
