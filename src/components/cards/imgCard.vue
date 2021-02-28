@@ -6,8 +6,8 @@
         :alt="imgAlt"
       >
     </div>
-    <div class="">
-      <h4 class="cardtitle">
+    <div class="text-box">
+      <h4 class="card-title">
         {{ title }}
       </h4>
       <p class="desc">
@@ -18,16 +18,16 @@
 </template>
 
 <script>
-export default {
-  name: 'ImgCard',
-  props: {
-    title: {
-      type: String,
-      default: '',
-    },
-    desc: {
-      type: String,
-      default: '',
+  export default {
+    name: 'ImgCard',
+    props: {
+      title: {
+        type: String,
+        default: '',
+      },
+      desc: {
+        type: String,
+        default: '',
     },
     imgSrc: {
       type: String,
@@ -44,8 +44,16 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-.thumb {}
-.cardtitle {}
-.desc{}
+  .thumb {
+  }
+
+  .text-box {
+  }
+
+  .card-title {
+  }
+
+  .desc{
+  }
 
 </style>

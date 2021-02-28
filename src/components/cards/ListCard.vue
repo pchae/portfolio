@@ -1,6 +1,6 @@
 <template>
   <div class="card">
-    <h3 class="cardtitle">
+    <h3 class="card-title">
       {{ title }}
     </h3>
     <ul class="desc">
@@ -55,7 +55,7 @@ export default {
     margin-bottom: 0.5rem;
   }
 
-  .cardtitle {
+  .card-title {
     font-weight: 700;
     line-height: 1.5;
     color: #fff;
