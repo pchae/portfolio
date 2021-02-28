@@ -1,7 +1,7 @@
 <template>
-  <section :class="[padding, bgColor]">
+  <section :id="[sectionID]" :class="[padding, bgColor]">
     <div class="container-lg content-wrapper">
-      <div class="flex">
+      <div class="flex fwrap">
         <div class="list-container">
           <ImgCard
             :index="1"
@@ -66,6 +66,10 @@ export default {
       type: String,
       default: '',
     },
+    sectionID: {
+      type: String,
+      default: "",
+    },
   },
 
   data() {
@@ -84,7 +88,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-  .flex {
+  .fwrap {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 1rem;
