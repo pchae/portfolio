@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Navbar id="navigation" />
+    <NavBar id="navigation" />
     <TwoColumn
       class="pad5"
       headline="Lorem ipsum dolor sit"
@@ -11,13 +11,13 @@
 
 <script>
 // @ is an alias to /src
-import Navbar from '@/components/navigation/Navbar.vue';
+import NavBar from '@/components/navigation/NavBar.vue';
 import TwoColumn from '@/components/layouts/TwoColumn.vue';
 
 export default {
   name: 'Contact',
   components: {
-    Navbar,
+    NavBar,
     TwoColumn,
   },
   metaInfo: {
