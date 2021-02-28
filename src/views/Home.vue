@@ -1,19 +1,20 @@
 <template>
   <div>
-    <NavBar />
-    <QuoteBlock
-      id="who-we-are"
-      class="pad6 b4"
-      headline="I am a product designer who creates impactful and compelling business solutions that delight, surprise, and inspire."
-      desc="Currently at Saturdays.io"
+    <Navbar id="navigation" />
+    <IntroBlock
+      id="headline"
+      class="pad5 b4"
+      headline="I'm a product designer who creates impactful digital solutions that delight, surprise, and inspire."
+      desc=""
     />
     <ImageGrid
+      id="projects"
       class="b4"
-      headline=""
     />
     <Footer
-      class="pad4 b4"
-      legal="© 2014-2021 Phil Choi v2"
+      id="footer"
+      class="b4"
+      legal="© 2014-2021"
     />
   </div>
 </template>
@@ -21,16 +22,16 @@
 <script>
 // @ is an alias to /src
 
-import NavBar from '@/components/navigation/NavBar.vue';
-import QuoteBlock from '@/components/layouts/QuoteBlock.vue';
+import Navbar from '@/components/navigation/Navbar.vue';
+import IntroBlock from '@/components/layouts/IntroBlock.vue';
 import ImageGrid from '@/components/layouts/ImageGrid.vue';
 import Footer from '@/components/navigation/Footer.vue';
 
 export default {
   name: 'Home',
   components: {
-    NavBar,
-    QuoteBlock,
+    Navbar,
+    IntroBlock,
     ImageGrid,
     Footer,
   },
