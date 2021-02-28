@@ -11,13 +11,13 @@
 
 <script>
 // @ is an alias to /src
-import NavBar from '@/components/navigation/NavBar.vue';
+import Navbar from '@/components/navigation/Navbar.vue';
 import TwoColumn from '@/components/layouts/TwoColumn.vue';
 
 export default {
   name: 'Contact',
   components: {
-    NavBar,
+    Navbar,
     TwoColumn,
   },
   metaInfo: {

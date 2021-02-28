@@ -46,7 +46,7 @@
 
 <script>
 export default {
-  name: "NavBar",
+  name: "Navbar",
   props: {
     sectionID: {
       type: String,
