@@ -1,10 +1,7 @@
 <template>
   <div class="thumb">
     <div class="">
-      <img
-        :src="require('@/assets/thumbs/' + imgSrc)"
-        :alt="imgAlt"
-      >
+      <img :src="require('@/assets/thumbs/' + imgSrc)" :alt="imgAlt" />
     </div>
     <div class="text-box">
       <h4 class="card-title">
@@ -18,24 +15,24 @@
 </template>
 
 <script>
-  export default {
-    name: 'ImgCard',
-    props: {
-      title: {
-        type: String,
-        default: '',
-      },
-      desc: {
-        type: String,
-        default: '',
+export default {
+  name: "ImgCard",
+  props: {
+    title: {
+      type: String,
+      default: "",
+    },
+    desc: {
+      type: String,
+      default: "",
     },
     imgSrc: {
       type: String,
-      default: '',
+      default: "",
     },
     imgAlt: {
       type: String,
-      default: '',
+      default: "",
     },
   },
 };
@@ -43,17 +40,15 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.thumb {
+}
 
-  .thumb {
-  }
+.text-box {
+}
 
-  .text-box {
-  }
+.card-title {
+}
 
-  .card-title {
-  }
-
-  .desc{
-  }
-
+.desc {
+}
 </style>
