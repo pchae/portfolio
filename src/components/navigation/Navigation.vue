@@ -1,46 +1,66 @@
 <template>
   <!-- Header -->
-  <header :class="[padding, bgColor]">
-    <div class="header pad1">
-      <div class="container-xl fcontain">
+  <header :id="[sectionID]" :class="[bgColor]" class="pad1">
+    <div>
+      <div class="container-lg fcontain">
         <div class="logo">
           <router-link to="/" exact>
             <h5>Phil Choi</h5>
           </router-link>
         </div>
-        <div id="nav" class="frow">
-          <div class="link">
-            <router-link to="/" exact>
-              <h6>About</h6>
-            </router-link>
-          </div>
-          <div class="link">
-            <router-link to="/info" exact>
-              <h6>Info</h6>
-            </router-link>
-          </div>
+
+        <div role="button" class="button toggle" @click='toggle = !toggle' aria-expanded="false">
+          <img src="@/assets/icons/menu.svg">
         </div>
       </div>
+
+      <div id="menu" class="overlay" v-show="toggle">
+        <div class="container-lg fcontain overnav pad1">
+          <div role="button" class="button toggle" @click='toggle = !toggle' aria-expanded="true">
+            <img src="@/assets/icons/close.svg">
+          </div>
+        </div>
+
+          <div id="nav" class="container-lg fcol menu-links">
+            <div class="nav-link">
+              <router-link to="/" active-class="active" exact>
+                <h2>Work</h2>
+              </router-link>
+            </div>
+            <div class="nav-link">
+              <router-link to="/info" active-class="active" exact>
+                <h2>Info</h2>
+              </router-link>
+            </div>
+            <div class="nav-link">
+              <router-link to="/contact" active-class="active" exact>
+                <h2>Contact</h2>
+              </router-link>
+            </div>
+          </div>
+      </div>
+
     </div>
   </header>
 </template>
 
 <script>
 export default {
-  name: "Navigation",
+  name: "Nav",
   props: {
-    logo: {
+    sectionID: {
       type: String,
-      default: "",
-    },
-    padding: {
-      type: String,
-      default: "",
+      default: '',
     },
     bgColor: {
       type: String,
       default: "",
     },
+  },
+  data: function() {
+    return {
+      toggle: false
+    };
   },
 };
 </script>
@@ -51,30 +71,93 @@ header {
   display: block;
   position: absolute;
   width: 100%;
-  top: 0;
   background-color: transparent;
   background: none;
 }
 
 .fcontain {
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
   justify-content: space-between;
 }
 
-.frow {
+.nav-link:nth-child(odd) {
+  margin-bottom: 4rem;
+}
+
+.nav-link:nth-child(even) {
+  margin-bottom: 4rem;
+}
+
+
+/* Mobile Menu */
+
+.button {
+  /* show hand cursor */
   display: flex;
-  flex-direction: row;
-  align-items: baseline;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 2rem;
+  width: 2rem;
+}
+
+.overlay {
+  display: inherit;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: #000;
+  overflow: visible;
+  opacity: 1;
+  z-index: 1000;
+}
+
+.overnav {
+  justify-content: end;
+  flex-direction: row-reverse;
+}
+
+.menu-links {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.class-to-flexrow-position {
+  width: 100%;
+}
+
+.class-to-vertically-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
 
 /* Link Override */
+
+.active {
+  background-color: #dcdcdc;
+  border-radius: 0.25rem;
+}
+
+a {
+  color: #40b884;
+}
+
+.active > h2 {
+  color: #fff;
+  border-bottom: 1px solid;
+}
 
 .link {
   padding: 0 1rem;
 }
 
-@media only screen and (max-width: 640px) {
-}
 </style>

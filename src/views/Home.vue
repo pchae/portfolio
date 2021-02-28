@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NavBar id="navigation" />
+    <Nav id="navigation" />
     <IntroBlock
       id="headline"
       class="pad5 b4"
@@ -22,7 +22,7 @@
 <script>
 // @ is an alias to /src
 
-import NavBar from '@/components/navigation/NavBar.vue';
+import Nav from '@/components/navigation/Navigation.vue';
 import IntroBlock from '@/components/layouts/IntroBlock.vue';
 import ImageGrid from '@/components/layouts/ImageGrid.vue';
 import Footer from '@/components/navigation/Footer.vue';
@@ -30,7 +30,7 @@ import Footer from '@/components/navigation/Footer.vue';
 export default {
   name: 'Home',
   components: {
-    NavBar,
+    Nav,
     IntroBlock,
     ImageGrid,
     Footer,
