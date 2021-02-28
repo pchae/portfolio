@@ -4,9 +4,10 @@
     :class="[padding, bgColor]"
   >
     <div class="container-lg">
-      <div class="temp1">
-        <hr class="temp" />
-        <h4 class="section-headline">
+      <div class="fcol">
+        <hr class="divider-style-class" />
+
+        <h4 class="section-headline pb4">
           {{ title }}
         </h4>
       </div>
@@ -43,16 +44,14 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-.temp1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
 .section-headline {
   font-weight: 400;
 }
 hr {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.divider-style-class {
 }
 
 @media only screen and (max-width: 640px) {
