@@ -5,7 +5,7 @@
   >
     <div class="container-lg">
       <div class="grid">
-        <div class="1col pb6">
+        <div class="1col pt5">
           <div class="row1">
             <h2 class="title">
               {{ headline }}
@@ -21,14 +21,14 @@
             class="pb1"
           >
             <h5 class="social">
-              Don't like forms? You can <a href="mailto:hola@saturdays.io">email us</a>.
+              Don't like forms? Send an <a href="mailto:hola@saturdays.io">email</a>.
             </h5>
           </div>
         </div>
-        <div class="1col">
+        <div class="1col pt5">
           <Form
-            class="b1"
-            form-title="Tell us about your project"
+            class="b4"
+            form-title="Get in touch"
           />
         </div>
       </div>
@@ -80,7 +80,6 @@ export default {
 }
 
 a {
-  color: #fff;
   text-decoration: underline 2px;
 }
 

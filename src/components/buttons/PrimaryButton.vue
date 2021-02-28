@@ -1,5 +1,5 @@
 <template>
-  <button><h4>{{ buttonName }}</h4></button>
+  <button><h5>{{ buttonName }}</h5></button>
 </template>
 
 <script>

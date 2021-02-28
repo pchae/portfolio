@@ -32,6 +32,11 @@
                 <h2>Info</h2>
               </router-link>
             </div>
+            <div class="nav-link">
+              <router-link to="/contact" active-class="active" exact>
+                <h2>Contact</h2>
+              </router-link>
+            </div>
           </div>
       </div>
 
@@ -78,8 +83,8 @@ header {
   margin-bottom: 4rem;
 }
 
-.nav-link:nth-child(2n) {
-  margin-bottom: 0rem;
+.nav-link:nth-child(even) {
+  margin-bottom: 4rem;
 }
 
 
@@ -142,7 +147,12 @@ header {
   border-radius: 0.25rem;
 }
 
+a {
+  color: #40b884;
+}
+
 .active > h2 {
+  color: #fff;
   border-bottom: 1px solid;
 }
 

@@ -86,13 +86,13 @@ export default {
 .form .field textarea {
   padding-bottom: 2px;
   resize: none;
-  line-height: 1.6rem;
+  line-height: 1.4rem;
 }
 
 .submitButton {
   text-align: center;
   color: #fff;
-  background-color: #564090;
+  background-color: #40b884;
 }
 
 /* Mobile Media Queries */

@@ -2,8 +2,8 @@
   <div>
     <Navbar />
     <TwoColumn
-      class="pad6"
-      headline="Don’t be shy"
+      class="pad5"
+      headline="Lorem ipsum dolor sit"
       desc="Say hello."
     />
   </div>
