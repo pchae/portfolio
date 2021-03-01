@@ -113,6 +113,7 @@ export default {
 
   .list-container {
     width: calc(50% - 1rem);
+    margin-bottom: 2rem;
   }
 
 @media only screen and (max-width: 800px) {
