@@ -3,7 +3,7 @@
   <footer
     :id="[sectionID]"
     :class="[padding, bgColor] ">
-    <div class="container-lg fcontain">
+    <div class="container-lg frow">
       <div class="copyright">
         <h6>{{ legal }}</h6>
       </div>
@@ -58,17 +58,8 @@ export default {
     text-align: right;
   }
 
-  .fcontain {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    justify-content: space-between;
-  }
-
   .frow {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
+    justify-content: space-between;
   }
 
 /* Link Override */
@@ -84,18 +75,6 @@ export default {
 }
 
 @media only screen and (max-width: 640px) {
-  .fcontain {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .frow {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
 
   .copyright {
     text-align: center;
