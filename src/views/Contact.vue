@@ -3,8 +3,8 @@
     <Nav id="navigation" />
     <TwoColumn
       class="pad5"
-      headline="Lorem ipsum dolor sit"
-      desc="Say hello."
+      headline="Got a project in mind?"
+      desc="Let's talk."
     />
   </div>
 </template>

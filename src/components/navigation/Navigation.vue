@@ -10,14 +10,14 @@
         </div>
 
         <div role="button" class="button toggle" @click='toggle = !toggle' aria-expanded="false">
-          <img src="@/assets/icons/menu.svg">
+          <img src="@/assets/icons/menu.svg" alt="menu icon">
         </div>
       </div>
 
       <div id="menu" class="overlay" v-show="toggle">
         <div class="container-lg fcontain overnav pad1">
           <div role="button" class="button toggle" @click='toggle = !toggle' aria-expanded="true">
-            <img src="@/assets/icons/close.svg">
+            <img src="@/assets/icons/close.svg" alt="close icon">
           </div>
         </div>
 
