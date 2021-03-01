@@ -14,8 +14,7 @@
           </p>
         </div>
         <div class="frow">
-          <p class="subtext">
-            {{ paragraph }}
+          <p class="subtext" v-html="para">
           </p>
         </div>
         <div class="frow">
@@ -40,7 +39,7 @@ export default {
       type: String,
       default: '',
     },
-    paragraph: {
+    para: {
       type: String,
       default: '',
     },
@@ -73,7 +72,6 @@ export default {
 }
 
 .subtext {
-  display: inherit;
   color: #000;
   font-weight: 400;
   width: 50%;
