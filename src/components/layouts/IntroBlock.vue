@@ -5,9 +5,7 @@
         <h2 class="section-headline">
           {{ headline }}
         </h2>
-        <h3 class="subtext">
-          Founder and principle designer at
-          <a href="https://saturdays.io" rel="noreferrer" target="_blank">Saturdays.io</a>
+        <h3 class="subtext" v-html="job">
         </h3>
       </div>
     </div>
@@ -22,7 +20,7 @@ export default {
       type: String,
       default: "",
     },
-    desc: {
+    job: {
       type: String,
       default: "",
     },
