@@ -8,9 +8,21 @@
         <h2 class="section-headline">
           {{ headline }}
         </h2>
-        <h4 class="subtext">
-          {{ desc }}
-        </h4>
+        <div class="frow">
+          <p class="subtext">
+            {{ desc }}
+          </p>
+        </div>
+        <div class="frow">
+          <p class="subtext">
+            {{ paragraph }}
+          </p>
+        </div>
+        <div class="frow">
+          <p class="subtext">
+            {{ platform }}
+          </p>
+        </div>
       </div>
     </div>
   </section>
@@ -25,6 +37,14 @@ export default {
       default: '',
     },
     desc: {
+      type: String,
+      default: '',
+    },
+    paragraph: {
+      type: String,
+      default: '',
+    },
+    platform: {
       type: String,
       default: '',
     },
@@ -48,18 +68,29 @@ export default {
   margin-bottom: 2rem;
 }
 
+.frow {
+  justify-content: flex-end;
+}
+
 .subtext {
-  display: flex;
+  display: inherit;
   color: #000;
   font-weight: 400;
-  width: 66%;
-  justify-content: flex-end;
+  width: 50%;
 }
 
 .quote {
   min-height: 10rem;
-  justify-content: flex-end;
 }
+
+.frow:nth-child(1n) {
+  margin-bottom: 1rem;
+}
+
+.subtext {
+  font-size: 1.125rem;
+}
+
 @media only screen and (max-width: 980px) {
   .subtext {
     width: 100%;
