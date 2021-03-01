@@ -74,16 +74,4 @@ export default {
   padding-left: 0rem;
 }
 
-@media only screen and (max-width: 640px) {
-
-  .copyright {
-    text-align: center;
-    margin: 1rem;
-  }
-  .nav {
-    display: block;
-    text-align: center;
-    margin: 1rem;
-  }
-}
 </style>
