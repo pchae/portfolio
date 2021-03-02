@@ -96,9 +96,9 @@ header {
 .overlay {
   display: inherit;
   flex-direction: column;
-  position: absolute;
+  position: fixed;
   top: 0;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background-color: #000;
   overflow: visible;
