@@ -23,10 +23,6 @@ export default {
       type: String,
       default: '',
     },
-    desc: {
-      type: String,
-      default: '',
-    },
     sectionID: {
       type: String,
       default: '',

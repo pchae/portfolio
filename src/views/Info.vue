@@ -42,13 +42,7 @@
       class="pad1 b4"
       title="Experience"
     />
-    <MediaBlock
-      id="process-img"
-      class="pb5 b4"
-      subline=""
-      img-src="thumbs/blank2.png"
-      img-alt="Development process diagram"
-    />
+    <ServiceList />
 
     <SectionTitle
       id="section-reading"
@@ -60,14 +54,9 @@
       class="pb5 b4"
     />
 
-    <SectionTitle
-      id="section-clients"
-      class="pad1 b4"
-      title="Clients"
-    />
     <Clientlist
       id="clientlist"
-      class="pb5 b4"
+      class="pt5 b1"
     />
 
     <Footer
@@ -84,6 +73,7 @@ import Nav from '@/components/navigation/Navigation.vue';
 import TextBlock from '@/components/layouts/TextBlock.vue';
 import MediaBlock from '@/components/layouts/MediaBlock.vue';
 import BookGrid from '@/components/layouts/BookGrid.vue';
+import ServiceList from '@/components/cards/Service.vue';
 import Clientlist from '@/components/clients/Clientlist.vue';
 import SectionTitle from '@/components/layouts/SectionTitle.vue';
 import Footer from '@/components/navigation/Footer.vue';
@@ -96,14 +86,20 @@ export default {
     MediaBlock,
     BookGrid,
     Clientlist,
+    ServiceList,
     SectionTitle,
     Footer,
+  },
+  computed: {
+    service() {
+      return this.$store.getters.services;
+    }
   },
   metaInfo: {
     // if no subcomponents specify a metaInfo.title, this title will be used
     title: 'Phil Choi',
     // all titles will be injected into this template
-    titleTemplate: '%s | Info'
+    titleTemplate: '%s - Info'
   },
 };
 </script>

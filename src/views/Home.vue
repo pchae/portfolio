@@ -5,7 +5,7 @@
       id="headline"
       class="pad5 b4"
       headline="I'm a product designer who creates impactful digital solutions that delight, surprise, and inspire."
-      job="Founder and principle designer at <a href='https://saturdays.io' rel='noreferrer' target='_blank'>Saturdays.io</a>"
+      status="Founder and principle designer at <a href='https://saturdays.io' rel='noreferrer' target='_blank'>Saturdays.io</a>"
     />
     <ImageGrid
       id="projects"
@@ -39,7 +39,7 @@ export default {
     // if no subcomponents specify a metaInfo.title, this title will be used
     title: 'Phil Choi',
     // all titles will be injected into this template
-    titleTemplate: '%s | Product Design'
+    titleTemplate: '%s - Product Design'
   }
 };
 </script>
