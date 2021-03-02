@@ -5,7 +5,7 @@
         <h2 class="section-headline">
           {{ headline }}
         </h2>
-        <h3 class="subtext" v-html="job">
+        <h3 class="subtext" v-html="status">
         </h3>
       </div>
     </div>
@@ -20,7 +20,7 @@ export default {
       type: String,
       default: "",
     },
-    job: {
+    status: {
       type: String,
       default: "",
     },
