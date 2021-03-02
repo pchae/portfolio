@@ -1,0 +1,24 @@
+{
+  "skills": [
+    {
+      "id": 0,
+      "title": "Research + Strategy",
+      "desc": "We don't make apps just because it's fun. We're always testing and validating market fit plus adjusting alignment to maximize value."
+    },
+    {
+      "id": 1,
+      "title": "Product Design",
+      "desc": "We're design driven technologists, and our commitment to a flawless user experience means we're always iterating and innovating our work."
+    },
+    {
+      "id": 2,
+      "title": "Development",
+      "desc": "We use agile methodologies and proven tech to create complex Web and Native Apps that are sophisticated yet easy to use."
+    },
+    {
+      "id": 4,
+      "title": "Scalable Software",
+      "desc": "Regardless of where you are in the world, we have servers deployed across every continent to ensure a consistent, seamless experience."
+    }
+  ]
+}
