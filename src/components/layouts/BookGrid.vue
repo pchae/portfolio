@@ -96,6 +96,11 @@ export default {
 
   .list-container {
     width: calc(20% - 1rem);
+    padding-bottom: 1rem;
+  }
+
+  .list-container:nth-child(5n) {
+    padding-bottom: 0rem;
   }
 
 @media only screen and (max-width: 800px) {
