@@ -1,13 +1,18 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
+import servicelist from '@/json/services.json';
 
 Vue.use(Vuex);
 
 export default new Vuex.Store({
-  store: {}
-  ,
+  state: {
+    services: servicelist,
+  },
 
   getters: {
+    getService (state) {
+      return state.services
+    }
   },
 
   mutations: {
