@@ -147,7 +147,7 @@ export default {
 
 hr {
   color: #fff;
-  width: 200px;
+  width: 12rem;
 }
 
 .section-title {
@@ -193,10 +193,14 @@ hr {
     margin-top: 5rem;
   }
 
+  hr {
+    color: #fff;
+    width: 10rem;
+  }
+
   .item-container {
     width: 33.33%;
   }
-
 }
 
 @media only screen and (max-width: 640px) {
