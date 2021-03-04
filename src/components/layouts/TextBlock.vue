@@ -82,7 +82,11 @@ export default {
 }
 
 .frow:nth-child(1n) {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.frow:last-child {
+  margin-bottom: 0rem;
 }
 
 .subtext {
