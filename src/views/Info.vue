@@ -33,7 +33,7 @@
       id="clientlist"
       sectiontitle="section-title-lt"
       title="Select clients"
-      class="pt5 b1"
+      class="pad5 b1"
       DynamicComponent="Clientgrid"
     />
 
