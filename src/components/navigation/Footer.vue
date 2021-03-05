@@ -62,6 +62,9 @@ export default {
     justify-content: space-between;
   }
 
+.copyright {
+  color: #fff;
+}
 /* Link Override */
 
 .nav-link:nth-child(1n) {

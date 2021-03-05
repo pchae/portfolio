@@ -1,25 +1,28 @@
 <template>
   <div class="card">
-    <h3 class="card-title" v-for="services in services" :key="services.id">
-      {{ services.title }}
+    <h3 class="card-title">
+      {{ title }}
     </h3>
     <ul class="desc">
-      <li>{{ services.list }}</li>
+      <li>{{ list }}</li>
     </ul>
   </div>
 </template>
 
 <script>
-import { mapGetters } from "vuex";
 
 export default {
   name: "ServiceList",
-  computed: {
-    services() {
-      return this.$store.state.services;
+  props: {
+    title: {
+      type: String,
+      default: '',
     },
-    ...mapGetters(["services"]),
-  },
+    list: {
+      type: String,
+      default: '',
+    }
+  }
 };
 </script>
 
@@ -36,11 +39,11 @@ export default {
 .card-title {
   font-weight: 700;
   line-height: 1.5;
-  color: #fff;
+  color: #000;
 }
 
 .desc {
   font-weight: 400;
-  color: #d0d0d0;
+  color: #181818;
 }
 </style>

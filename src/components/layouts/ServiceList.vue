@@ -104,41 +104,22 @@ export default {
     width: 25%;
   }
 
-  .list-container:nth-child(odd) {
+  .list-container {
     padding: 0 2rem;
-  }
-
-  .list-container:nth-child(2n) {
-      padding: 0 2rem;
   }
 
   @media only screen and (max-width: 1000px) {
     .list-container {
       width: 50%;
     }
-    .list-container:nth-child(odd) {
-      padding-right: 1rem;
-      padding-left: 0rem;
+    .list-container {
+      padding: 0 1rem;
     }
-
-    .list-container:nth-child(2n) {
-      padding-right: 0rem;
-      padding-left: 1rem;
-  }
-
   }
 
   @media only screen and (max-width: 540px) {
     .list-container {
       width: 100%;
-    }
-
-    .list-container:nth-child(odd) {
-      padding-right: 0;
-    }
-
-    .list-container:nth-child(2n) {
-      padding-left: 0;
     }
   }
 </style>

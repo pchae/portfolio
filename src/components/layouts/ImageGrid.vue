@@ -3,13 +3,15 @@
     <div class="container-lg content-wrapper">
       <div class="flex">
         <div class="list-container">
-          <ImgCard
-            :index="1"
-            img-src="blank.png"
-            img-alt="Starz Play apps"
-            title="Starz Play"
-            desc="Roku, Amazon, Samsung"
-          />
+          <router-link to="/starz" exact>
+            <ImgCard
+              :index="1"
+              img-src="blank.png"
+              img-alt="Starz Play apps"
+              title="Starz Play"
+              desc="Roku, Amazon, Samsung"
+            />
+          </router-link>
         </div>
         <div class="list-container">
           <ImgCard
@@ -62,26 +64,26 @@
 </template>
 
 <script>
-import ImgCard from '@/components/cards/imgCard.vue';
+import ImgCard from "@/components/cards/imgCard.vue";
 
 export default {
-  name: 'ImageGrid',
+  name: "ImageGrid",
   props: {
     imgSrc: {
       type: String,
-      default: '',
+      default: "",
     },
     imgAlt: {
       type: String,
-      default: '',
+      default: "",
     },
     vidSrc: {
       type: String,
-      default: '',
+      default: "",
     },
     vidAlt: {
       type: String,
-      default: '',
+      default: "",
     },
     sectionID: {
       type: String,
@@ -91,8 +93,8 @@ export default {
 
   data() {
     return {
-      padding: '',
-      bgColor: '',
+      padding: "",
+      bgColor: "",
     };
   },
 
@@ -104,23 +106,20 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.flex {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2rem;
+}
 
-  .flex {
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 2rem;
-  }
-
-  .list-container {
-    width: calc(50% - 1rem);
-    margin-bottom: 2rem;
-  }
+.list-container {
+  width: calc(50% - 1rem);
+  margin-bottom: 2rem;
+}
 
 @media only screen and (max-width: 800px) {
-
   .list-container {
     width: 100%;
   }
 }
-
 </style>
