@@ -10,14 +10,50 @@
     <MediaBlock
       id="process-img"
       class="pb5 b4"
-      subline="1. Title Hero image"
-      img-src="thumbs/blank2.png"
+      img-src="project/starz/display.jpg"
       img-alt="Development process diagram"
     />
-    <ImageGrid
-      id="projects"
-      class="b4"
+
+    <MediaBlock
+      id="process-img"
+      class="pb5 b4"
+      subline="1. Title Hero image"
+      img-src="project/starz/home.jpg"
+      img-alt="Development process diagram"
     />
+
+    <MediaBlock
+      id="process-img"
+      class="pb5 b4"
+      subline="4. Show Details"
+      img-src="project/starz/show.jpg"
+      img-alt="Development process diagram"
+    />
+
+    <MediaBlock
+      id="process-img"
+      class="pb5 b4"
+      subline="5. Resume Episode"
+      img-src="project/starz/resume2.jpg"
+      img-alt="Development process diagram"
+    />
+
+    <MediaBlock
+      id="process-img"
+      class="pb5 b4"
+      subline="6. Recently Watched"
+      img-src="project/starz/playlist.jpg"
+      img-alt="Development process diagram"
+    />
+
+    <MediaBlock
+      id="process-img"
+      class="pb5 b4"
+      subline="7. Return Welcome Message"
+      img-src="project/starz/landscape2.jpg"
+      img-alt="Development process diagram"
+    />
+
     <Footer
       id="footer"
       class="b4"
@@ -32,7 +68,6 @@
 import Nav from '@/components/navigation/Navigation.vue';
 import IntroBlock from '@/components/layouts/IntroBlock.vue';
 import MediaBlock from '@/components/layouts/MediaBlock.vue';
-import ImageGrid from '@/components/layouts/ImageGrid.vue';
 import Footer from '@/components/navigation/Footer.vue';
 
 export default {
@@ -41,7 +76,6 @@ export default {
     Nav,
     IntroBlock,
     MediaBlock,
-    ImageGrid,
     Footer,
   },
   metaInfo: {
