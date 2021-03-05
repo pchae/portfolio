@@ -69,7 +69,9 @@ export default {
   flex-direction: column;
   justify-content: center;
 }
-
+.bg {
+  background-image: 
+}
 .cover .bg picture img,
 .cover .bg picture source {
   display: block;

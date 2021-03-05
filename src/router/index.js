@@ -6,6 +6,8 @@ import Home from '../views/Home.vue';
 import Info from '../views/Info.vue';
 import Contact from '../views/Contact.vue';
 
+import Starz from '../views/Starz.vue';
+
 Vue.use(VueRouter);
 Vue.use(Meta);
 
@@ -69,6 +71,29 @@ const routes = [
         {
           property: 'og:description',
           content: 'Phil Choi contact page',
+        },
+      ],
+    },
+  },
+  // Starz Project Page
+  {
+    path: '/starz',
+    name: 'starz',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: Starz,
+    meta: {
+      auth: true,
+      title: 'Phil Choi - Starz Play',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'Phil Choi Starz Play case study',
+        },
+        {
+          property: 'og:description',
+          content: 'Phil Choi Starz Play case study',
         },
       ],
     },

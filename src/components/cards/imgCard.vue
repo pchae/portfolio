@@ -4,9 +4,9 @@
       <img :src="require('@/assets/thumbs/' + imgSrc)" :alt="imgAlt" />
     </div>
     <div class="text-box">
-      <h4 class="card-title">
+      <h5 class="card-title">
         {{ title }}
-      </h4>
+      </h5>
       <p class="desc">
         {{ desc }}
       </p>
@@ -50,5 +50,6 @@ export default {
 }
 
 .desc {
+  color: #000;
 }
 </style>

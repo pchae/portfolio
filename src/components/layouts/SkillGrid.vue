@@ -4,9 +4,6 @@
     :class="[padding, bgColor]"
   >
     <div class="container-lg content-wrapper">
-      <h2 class="section-heading">
-        {{ headline }}
-      </h2>
       <div class="capabilities">
         <div class="skill-container">
           <SkillCard2
@@ -25,10 +22,6 @@ import SkillCard2 from '@/components/cards/SkillCard2.vue';
 export default {
   name: 'SkillGrid',
   props: {
-    headline: {
-      type: String,
-      default: '',
-    },
     padding: {
       type: String,
       default: '',
