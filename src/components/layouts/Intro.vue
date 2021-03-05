@@ -15,7 +15,7 @@
           </p>
         </div>
         <div class="frow">
-          <p class="subtext" v-html="para">Over the past decade I've designed and built solutions for North American digital agencies, brands, startups, FinTech and Software as a Service platforms. My Design process incorporates <a href='https://www.ted.com/talks/david_kelley_human_centered_design' rel='noreferrer' target='_blank'>Human-centered design principles</a>, the <a href='https://agilemanifesto.org/' rel='noreferrer' target='_blank'>Agile Manifesto</a>, scalable Design systems, and <a href='https://www.forbes.com/sites/victorlipman/2014/10/15/phil-jackson-brings-ny-knicks-mindful-management/' rel='noreferrer' target='_blank'>Mindful management</a>.
+          <p class="subtext">Over the past decade I've designed and built solutions for North American digital agencies, brands, startups, FinTech and Software as a Service platforms. My Design process incorporates <a href='https://www.ted.com/talks/david_kelley_human_centered_design' rel='noreferrer' target='_blank'>Human-centered design principles</a>, the <a href='https://agilemanifesto.org/' rel='noreferrer' target='_blank'>Agile Manifesto</a>, scalable Design systems, and <a href='https://www.forbes.com/sites/victorlipman/2014/10/15/phil-jackson-brings-ny-knicks-mindful-management/' rel='noreferrer' target='_blank'>Mindful management</a>.
           </p>
         </div>
         <div class="frow">
