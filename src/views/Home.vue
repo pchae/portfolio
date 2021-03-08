@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Nav id="navigation" />
+    <Nav id="navigation" tColor="bk"/>
     <IntroBlock
       id="headline"
       class="pad5 b4"

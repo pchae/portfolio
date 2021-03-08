@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Nav id="navigation" />
+    <Nav id="navigation" tColor="bk" />
     <TwoColumn
       class="pad5"
       headline="Got a project in mind?"
