@@ -20,16 +20,14 @@
     <Twocolthirds
       id="process"
       sectiontitle="section-title-lt"
-      title="Methodology"
-      class="pd120 b2"
+      title="Skills"
+      class="pt6 b2"
       DynamicComponent=""
-      subline="Lorem ipsum does this work"
-      src="process.svg"
     />
 
     <ServiceList
       id="skillset"
-      class="pd120 b2"
+      class="pt4 pb6 b2"
     />
 
     <Twocolthirds
