@@ -68,6 +68,9 @@ html {
   padding: 6rem 0;
 }
 
+.pd120 {
+  padding: 7.5rem 0;
+}
 
 /* Padding Bottom */
 
@@ -251,7 +254,7 @@ html {
 /* Links */
 
 a {
-  color: #40b884;
+  color: #5020E0;
 }
 
 a, button, svg, svg path {
@@ -360,8 +363,13 @@ li {
   background-color: #fff;
 }
 
+.wt {
+  color: #fff;
+}
 
-
+.bk {
+  color: #000;
+}
 
 /* Scrollbar Colour */
 ::-webkit-scrollbar {
