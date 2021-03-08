@@ -10,11 +10,10 @@ export default new Vuex.Store({
   },
 
   getters: {
-    getService (state) {
+    getServices (state) {
       return state.services
     }
   },
-
   mutations: {
   },
 
