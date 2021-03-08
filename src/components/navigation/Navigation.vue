@@ -5,7 +5,7 @@
       <div class="container-lg fcontain">
         <div class="logo">
           <router-link to="/" exact>
-            <h5>Phil Choi</h5>
+            <h5 :class="[tColor]">Phil Choi</h5>
           </router-link>
         </div>
 
@@ -56,6 +56,10 @@ export default {
       type: String,
       default: "",
     },
+    tColor: {
+      type: String,
+      default: "",
+    }
   },
   data: function() {
     return {
@@ -129,10 +133,6 @@ header {
 
 
 /* Link Style Override */
-
-a {
-  color: #40b884;
-}
 
 .active {
   background-color: #dcdcdc;

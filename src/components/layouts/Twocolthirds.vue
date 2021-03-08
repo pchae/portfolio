@@ -18,19 +18,15 @@
 
 <script>
 import Intro from '@/components/layouts/Intro.vue';
-import Clientgrid from '@/components/clients/Clientlist.vue';
-import BookGrid from '@/components/layouts/BookGrid.vue';
-import MediaBlock from '@/components/layouts/MediaBlock.vue';
 import Infolist from '@/components/Infolist.vue';
+import Clientgrid from '@/components/clients/Clientlist.vue';
 
 export default {
   name: "Twocolthirds",
   components: {
     Intro,
-    Clientgrid,
-    BookGrid,
-    MediaBlock,
     Infolist,
+    Clientgrid,
   },
   props: {
     sectionID: {
@@ -49,15 +45,15 @@ export default {
       type: String,
       default: "",
     },
+    subline: {
+      type: String,
+      default: "",
+    },
     desc: {
       type: String,
       default: "",
     },
     para: {
-      type: String,
-      default: "",
-    },
-    imgSrc: {
       type: String,
       default: "",
     },
