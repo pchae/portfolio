@@ -42,6 +42,7 @@ export default {
 <style scoped>
 .subtext {
   color: #000;
+  font-weight: 400;
 }
 
 .intro {
