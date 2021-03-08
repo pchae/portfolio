@@ -1,12 +1,6 @@
 <template>
-  <section
-    :id="[sectionID]"
-    :class="[padding, bgColor]"
-  >
+  <section :id="[sectionID]" :class="[padding, bgColor]">
     <div class="container-lg content-wrapper">
-      <h2 class="section-heading">
-        {{ headline }}
-      </h2>
       <div class="services">
         <div class="list-container">
           <ListCard
@@ -25,27 +19,27 @@
             desc1="Product Strategy"
             desc2="Feature roadmap"
             desc3="Systems Design"
-            desc4="Anaylsis &amp; Measurement"
+            desc4="Analytics &amp; Measurement"
           />
         </div>
         <div class="list-container">
           <ListCard
             :index="3"
-            title="Design"
+            title="UX Design"
             desc1="Information Architecture"
             desc2="Wireframing"
             desc3="Web &amp; Native App design"
-            desc4="Design Systems"
+            desc4="User Experience Design"
           />
         </div>
         <div class="list-container">
           <ListCard
             :index="4"
-            title="Develop"
-            desc1="Systems Architecture"
-            desc2="Web Development"
-            desc3="Native Mobile Apps"
-            desc4="Automation Testing"
+            title="UI Design"
+            desc1="Motion Design"
+            desc2="Interaction Design"
+            desc3="Visual Design"
+            desc4="Design Systems"
           />
         </div>
       </div>
@@ -54,33 +48,29 @@
 </template>
 
 <script>
-import ListCard from '@/components/cards/ListCard.vue';
+import ListCard from "@/components/cards/ListCard.vue";
 
 export default {
-  name: 'ServiceList',
+  name: "ServiceList",
   props: {
     index: {
       type: Number,
       default: 0,
     },
-    headline: {
-      type: String,
-      default: '',
-    },
     title: {
       type: String,
-      default: '',
+      default: "",
     },
     sectionID: {
       type: String,
-      default: '',
+      default: "",
     },
   },
 
   data() {
     return {
-      padding: '',
-      bgColor: '',
+      padding: "",
+      bgColor: "",
     };
   },
 
@@ -92,34 +82,33 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0rem;
+  margin-top: 0rem;
+}
 
-  .services {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0rem;
-    margin-top: 4rem;
-  }
+.list-container {
+  width: 25%;
+}
 
+.list-container {
+  padding: 0 2rem;
+}
+
+@media only screen and (max-width: 1000px) {
   .list-container {
-    width: 25%;
+    width: 50%;
   }
-
   .list-container {
-    padding: 0 2rem;
+    padding: 0 1rem;
   }
+}
 
-  @media only screen and (max-width: 1000px) {
-    .list-container {
-      width: 50%;
-    }
-    .list-container {
-      padding: 0 1rem;
-    }
+@media only screen and (max-width: 540px) {
+  .list-container {
+    width: 100%;
   }
-
-  @media only screen and (max-width: 540px) {
-    .list-container {
-      width: 100%;
-    }
-  }
+}
 </style>
