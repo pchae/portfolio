@@ -4,8 +4,8 @@
     <IntroBlock
       id="headline"
       class="pad5 b4"
-      headline="Starz Play/Encore"
-      status="Redefining streaming experiences for <a href='https://starz.com' rel='noreferrer' target='_blank'>Starz.com</a>"
+      headline="Redefining the way we watch TV"
+      status="Starz is an American premium cable TV network competing with Netflix, HBO and Showtime. In an attempt to keep up with their rivals, Starz had previously launched streaming apps but struggled with activations and growth. It was clear they needed a fresh perspective and business model, one that would resonate with consumers by catering to diverse lifestyles and needs."
     />
     <MediaBlock
       id="process-img"
@@ -25,16 +25,8 @@
     <MediaBlock
       id="process-img"
       class="pb5 b4"
-      subline="4. Show Details"
-      img-src="project/starz/show.jpg"
-      img-alt="Development process diagram"
-    />
-
-    <MediaBlock
-      id="process-img"
-      class="pb5 b4"
-      subline="5. Resume Episode"
-      img-src="project/starz/resume2.jpg"
+      subline="1. Title Hero image"
+      img-src="project/starz/movie.jpg"
       img-alt="Development process diagram"
     />
 
@@ -49,8 +41,32 @@
     <MediaBlock
       id="process-img"
       class="pb5 b4"
+      subline="4. Show Details"
+      img-src="project/starz/show.jpg"
+      img-alt="Development process diagram"
+    />
+
+    <MediaBlock
+      id="process-img"
+      class="pb5 b4"
       subline="7. Return Welcome Message"
-      img-src="project/starz/landscape2.jpg"
+      img-src="project/starz/resume.jpg"
+      img-alt="Development process diagram"
+    />
+
+    <MediaBlock
+      id="process-img"
+      class="pb5 b4"
+      subline="5. Resume Episode"
+      img-src="project/starz/resume2.jpg"
+      img-alt="Development process diagram"
+    />
+
+    <MediaBlock
+      id="process-img"
+      class="pb5 b4"
+      subline="7. Return Welcome Message"
+      img-src="project/starz/player.jpg"
       img-alt="Development process diagram"
     />
 

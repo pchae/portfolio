@@ -12,8 +12,10 @@
 </template>
 
 <script>
+import { mapState } from "vuex";
+
 export default {
-  name: 'SkillCard',
+  name: "SkillCard",
   props: {
     index: {
       type: Number,
@@ -21,48 +23,43 @@ export default {
     },
     title: {
       type: String,
-      default: '',
+      default: "",
     },
     desc: {
       type: String,
-      default: '',
+      default: "",
     },
-    imgSrc: {
-      type: String,
-      default: '',
-    },
-    imgAlt: {
-      type: String,
-      default: '',
-    },
+  },
+  computed: {
+    ...mapState(["title", "desc"]),
   },
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.card {
+  align-items: flex-start;
+}
+
+.titleheadline {
+  margin: 0;
+}
+
+.cardtitle {
+  font-weight: 700;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.desc {
+  font-weight: 400;
+  color: #d0d0d0;
+}
+
+@media only screen and (max-width: 640px) {
   .card {
-    align-items: flex-start;
+    padding: 0rem;
   }
-
-  .titleheadline {
-    margin: 0;
-  }
-
-  .cardtitle {
-    font-weight: 700;
-    line-height: 1.5;
-    color: #fff;
-  }
-
-  .desc {
-    font-weight: 400;
-    color: #D0D0D0;
-  }
-
-  @media only screen and (max-width: 640px) {
-    .card {
-      padding: 0rem;
-    }
-  }
+}
 </style>
