@@ -11,7 +11,7 @@
     </div>
     <div class="container-lg media-block">
       <img
-        :src="require('@/assets/' + imgSrc)"
+        v-lazy="require('@/assets/' + imgSrc)"
         :alt="imgAlt"
       >
     </div>
