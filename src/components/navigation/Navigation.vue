@@ -4,9 +4,6 @@
     <div>
       <div class="container-lg fcontain">
         <div class="logo">
-          <router-link to="/" exact>
-            <h5 :class="[tColor]">Phil Choi</h5>
-          </router-link>
         </div>
 
         <div role="button" class="button toggle" @click='toggle = !toggle' aria-expanded="false">
@@ -73,7 +70,7 @@ export default {
 <style scoped>
 header {
   display: block;
-  position: absolute;
+  position: fixed;
   width: 100%;
   background-color: transparent;
   background: none;
@@ -106,7 +103,7 @@ header {
   width: 100%;
   background-color: #000;
   overflow: visible;
-  opacity: 1;
+  opacity: 0.95;
   z-index: 1000;
 }
 
@@ -117,7 +114,7 @@ header {
 
 .menu-links {
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   height: 100%;
   width: 100%;
