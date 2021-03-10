@@ -4,39 +4,51 @@
     <div>
       <div class="container-lg fcontain">
         <div class="logo">
+          <router-link to="/" active-class="active" exact>
+            <h5>Phil Choi</h5>
+          </router-link>
         </div>
 
-        <div role="button" class="button toggle" @click='toggle = !toggle' aria-expanded="false">
-          <img src="@/assets/icons/menu.svg" alt="menu icon">
+        <div
+          role="button"
+          class="button toggle"
+          @click="toggle = !toggle"
+          aria-expanded="false"
+        >
+          <img src="@/assets/icons/menu.svg" alt="menu icon" />
         </div>
       </div>
 
       <div id="menu" class="overlay" v-show="toggle">
         <div class="container-lg fcontain overnav pad1">
-          <div role="button" class="button toggle" @click='toggle = !toggle' aria-expanded="true">
-            <img src="@/assets/icons/close.svg" alt="close icon">
+          <div
+            role="button"
+            class="button toggle"
+            @click="toggle = !toggle"
+            aria-expanded="true"
+          >
+            <img src="@/assets/icons/close.svg" alt="close icon" />
           </div>
         </div>
 
-          <div id="nav" class="container-lg fcol menu-links">
-            <div class="nav-link">
-              <router-link to="/" active-class="active" exact>
-                <h2>Work</h2>
-              </router-link>
-            </div>
-            <div class="nav-link">
-              <router-link to="/info" active-class="active" exact>
-                <h2>Info</h2>
-              </router-link>
-            </div>
-            <div class="nav-link">
-              <router-link to="/contact" active-class="active" exact>
-                <h2>Contact</h2>
-              </router-link>
-            </div>
+        <div id="nav" class="container-lg fcol menu-links">
+          <div class="nav-link">
+            <router-link to="/" active-class="active" exact>
+              <h2>Work</h2>
+            </router-link>
           </div>
+          <div class="nav-link">
+            <router-link to="/info" active-class="active" exact>
+              <h2>Info</h2>
+            </router-link>
+          </div>
+          <div class="nav-link">
+            <router-link to="/contact" active-class="active" exact>
+              <h2>Contact</h2>
+            </router-link>
+          </div>
+        </div>
       </div>
-
     </div>
   </header>
 </template>
@@ -47,7 +59,7 @@ export default {
   props: {
     sectionID: {
       type: String,
-      default: '',
+      default: "",
     },
     bgColor: {
       type: String,
@@ -56,11 +68,11 @@ export default {
     tColor: {
       type: String,
       default: "",
-    }
+    },
   },
   data: function() {
     return {
-      toggle: false
+      toggle: false,
     };
   },
 };
@@ -74,12 +86,12 @@ header {
   width: 100%;
   background-color: transparent;
   background: none;
+  z-index: 1000;
 }
 
 .fcontain {
   justify-content: space-between;
 }
-
 
 /* Overlay Menu */
 
@@ -103,7 +115,7 @@ header {
   width: 100%;
   background-color: #000;
   overflow: visible;
-  opacity: 0.95;
+  opacity: 0.96;
   z-index: 1000;
 }
 
@@ -128,7 +140,6 @@ header {
   margin-bottom: 4rem;
 }
 
-
 /* Link Style Override */
 
 .active {
@@ -144,5 +155,4 @@ header {
 .link {
   padding: 0 1rem;
 }
-
 </style>
