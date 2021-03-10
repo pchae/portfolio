@@ -63,7 +63,7 @@ export default {
   }
 
 .copyright {
-  color: #fff;
+  color: #000;
 }
 /* Link Override */
 
