@@ -40,7 +40,7 @@
 
     <Footer
       id="footer"
-      class="b1"
+      class="b4"
       legal="© 2014-2021"
     />
   </div>
