@@ -75,7 +75,7 @@ export default {
   position: absolute;
   width: 100%;
   padding: 0;
-  z-index: 100;
+  z-index: 10;
 }
 
 .headline {
