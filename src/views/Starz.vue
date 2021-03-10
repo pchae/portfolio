@@ -17,7 +17,39 @@
     <MediaBlock
       id="process-img"
       class="pb5 b4"
-      subline="1. Title Hero image"
+      subline="Project Timeline"
+      img-src="project/starz/schedule.png"
+      img-alt="Authentication flow diagram"
+    />
+
+    <MediaBlock
+      id="process-img"
+      class="pb5 b4"
+      subline="Design process"
+      img-src="project/starz/process.jpg"
+      img-alt="Product Design process"
+    />
+
+    <MediaBlock
+      id="process-img"
+      class="pb5 b4"
+      subline="4. New authentication flow"
+      img-src="project/starz/auth.jpg"
+      img-alt="Authentication flow diagram"
+    />
+
+    <MediaBlock
+      id="process-img"
+      class="pb5 b4"
+      subline="4. New authentication flow"
+      img-src="project/starz/auth.jpg"
+      img-alt="Authentication code screen"
+    />
+
+    <MediaBlock
+      id="process-img"
+      class="pb5 b4"
+      subline="1. Home screen - Featured tab"
       img-src="project/starz/home.jpg"
       img-alt="Development process diagram"
     />
@@ -25,15 +57,15 @@
     <MediaBlock
       id="process-img"
       class="pb5 b4"
-      subline="1. Title Hero image"
+      subline="2. Home screen - Movies tab"
       img-src="project/starz/movie.jpg"
-      img-alt="Development process diagram"
+      img-alt="Curated movies list"
     />
 
     <MediaBlock
       id="process-img"
       class="pb5 b4"
-      subline="6. Recently Watched"
+      subline="3. Playlist - Recently Watched stream"
       img-src="project/starz/playlist.jpg"
       img-alt="Development process diagram"
     />
@@ -41,7 +73,23 @@
     <MediaBlock
       id="process-img"
       class="pb5 b4"
-      subline="4. Show Details"
+      subline="X. Show Details - Samsung Smart TV"
+      img-src="project/starz/wire-smarttv.jpg"
+      img-alt="Development process diagram"
+    />
+
+    <MediaBlock
+      id="process-img"
+      class="pb5 b4"
+      subline="X. Show Details - Amazon Fire TV"
+      img-src="project/starz/wire-firetv.jpg"
+      img-alt="Development process diagram"
+    />
+
+    <MediaBlock
+      id="process-img"
+      class="pb5 b4"
+      subline="5. Show Details - Episode guide"
       img-src="project/starz/show.jpg"
       img-alt="Development process diagram"
     />
@@ -49,15 +97,7 @@
     <MediaBlock
       id="process-img"
       class="pb5 b4"
-      subline="7. Return Welcome Message"
-      img-src="project/starz/resume.jpg"
-      img-alt="Development process diagram"
-    />
-
-    <MediaBlock
-      id="process-img"
-      class="pb5 b4"
-      subline="5. Resume Episode"
+      subline="6. Series Details - Resume episode"
       img-src="project/starz/resume2.jpg"
       img-alt="Development process diagram"
     />
@@ -65,7 +105,15 @@
     <MediaBlock
       id="process-img"
       class="pb5 b4"
-      subline="7. Return Welcome Message"
+      subline="7. Returning User interstitial"
+      img-src="project/starz/resume.jpg"
+      img-alt="Development process diagram"
+    />
+
+    <MediaBlock
+      id="process-img"
+      class="pb5 b4"
+      subline="8. Video player mockup"
       img-src="project/starz/player.jpg"
       img-alt="Development process diagram"
     />
