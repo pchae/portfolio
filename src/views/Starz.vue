@@ -23,6 +23,14 @@
       desc="Starz is an American premium cable TV network competing with Netflix, HBO and Showtime. In an attempt to keep up with their rivals, Starz had previously launched streaming apps but struggled with activations and growth. It was clear they needed a fresh perspective and business model, one that would resonate with consumers by catering to diverse lifestyles and needs."
     />
 
+    <text_block
+      id="caption-challenge-one"
+      class="b4"
+      intro="Challenge: Timeline"
+      desc="The goals of the team were to design, build, and deploy 3 versions of the app in near simultaneous launch windows. The design time spanned 3 months for Roku, Amazong Fire TV and Samsung Smart TVs which were all new platforms for the Digiflare team.
+      Design only had a short runway ahead of the Development which was performed almost simultaneously with quick iteration cycles."
+    />
+
     <MediaBlock
       id="process-img"
       class="pb5 b4"
@@ -40,7 +48,7 @@
     />
 
     <text_block
-      id="caption-challenge-one"
+      id="caption-challenge-two"
       class="b4"
       intro="Challenge: Authentication"
       desc="The client’s earlier attempts at online streaming utilized a TV Everywhere model. This meant that users had to authenticate themselves with account credentials from cable providers in order to access the service. This process was cumbersome and created a high barrier to entry which resulted in low completion rates."
@@ -58,7 +66,7 @@
       id="process-img"
       class="pb5 b4"
       subline="4b. Authentication Designs"
-      img-src="project/starz/auth.jpg"
+      img-src="project/starz/authenticate.png"
       img-alt="Lorem ipsum"
     />
 
@@ -145,15 +153,7 @@
       id="caption-challenge-three"
       class="b4"
       intro="Challenge: Design Handoff"
-      desc="Design Handoff: This meant that users had to authenticate themselves with account credentials from cable providers in order to access the service. This process was cumbersome and created a high barrier to entry which resulted in low completion rates."
-    />
-
-    <MediaBlock
-      id="process-img"
-      class="pb5 b4"
-      subline="7. Returning User interstitial"
-      img-src="project/starz/resume.jpg"
-      img-alt="Development process diagram"
+      desc="Automating design to development hand-off was new at the time, but we took a calculated risk and added Zeplin.io to our stack. It freed up multiple sprints that would have been spent creating measurement specifications and removed a costly bottleneck for development. We reallocated this time to fine-tune the user interactions and draft a design system."
     />
 
     <MediaBlock
@@ -161,6 +161,21 @@
       class="pb5 b4"
       subline="X. Design System"
       img-src="project/starz/typography.jpg"
+      img-alt="Development process diagram"
+    />
+
+    <text_block
+      id="caption-extras"
+      class="b4"
+      intro="Extras"
+      desc="We were able to use the remaining time to add quality of life features and flourishes throughout the applications to curate and personalize the experience."
+    />
+
+    <MediaBlock
+      id="process-img"
+      class="pb5 b4"
+      subline="7. Returning User interstitial"
+      img-src="project/starz/resume.jpg"
       img-alt="Development process diagram"
     />
 

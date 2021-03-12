@@ -5,9 +5,9 @@
         <h2 class="project-headline">
           {{ project }}
         </h2>
-        <h4 class="details">
+        <p class="details">
           {{ role }} • {{ date }}
-        </h4>
+        </p>
       </div>
     </div>
   </section>
@@ -46,7 +46,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .details {
-  color: #000;
+  color: #444;
+  font-size: 1.125rem;
   font-weight: 400;
 }
 
