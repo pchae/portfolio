@@ -102,8 +102,8 @@ header {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  height: 2rem;
-  width: 2rem;
+  height: 3rem;
+  width: 3rem;
 }
 
 .overlay {
@@ -130,6 +130,12 @@ header {
   justify-content: center;
   height: 100%;
   width: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-link:nth-child(odd) {
