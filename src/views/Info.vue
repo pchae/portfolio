@@ -40,8 +40,7 @@
 
     <Footer
       id="footer"
-      class="b1"
-      legal="© 2014-2021"
+      class="b4"
     />
   </div>
 </template>

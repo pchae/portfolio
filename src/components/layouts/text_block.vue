@@ -3,23 +3,14 @@
     :id="[sectionID]"
     :class="[padding, bgColor]"
   >
-    <div class="container-lg">
-      <div class="fcol quote pt5">
-        <h2 class="section-headline">
-          {{ headline }}
-        </h2>
+    <div class="container">
+      <div class="fcol pad1">
+        <h3 class="section-headline">
+          {{ intro }}
+        </h3>
         <div class="frow">
           <p class="subtext">
             {{ desc }}
-          </p>
-        </div>
-        <div class="frow">
-          <p class="subtext" v-html="para">
-          </p>
-        </div>
-        <div class="frow">
-          <p class="subtext">
-            {{ platform }}
           </p>
         </div>
       </div>
@@ -29,21 +20,13 @@
 
 <script>
 export default {
-  name: 'TextBlock',
+  name: 'text_block',
   props: {
-    headline: {
+    intro: {
       type: String,
       default: '',
     },
     desc: {
-      type: String,
-      default: '',
-    },
-    para: {
-      type: String,
-      default: '',
-    },
-    platform: {
       type: String,
       default: '',
     },
@@ -64,22 +47,16 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .section-headline {
-  margin-bottom: 2rem;
 }
 
 .frow {
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .subtext {
   color: #000;
   font-size: 1.125rem;
   font-weight: 400;
-  width: 50%;
-}
-
-.quote {
-  min-height: 10rem;
 }
 
 .frow:nth-child(1n) {
@@ -90,11 +67,8 @@ export default {
   margin-bottom: 0rem;
 }
 
-
 @media only screen and (max-width: 980px) {
-  .subtext {
-    width: 100%;
-  }
+
 }
 
 </style>

@@ -1,20 +1,25 @@
 <template>
   <div>
-    <Nav id="navigation" tColor="bk"/>
+    <Nav
+      id="navigation"
+      tColor="bk"
+    />
+
     <IntroBlock
       id="headline"
       class="pad5 b4"
       headline="I'm a product designer who creates impactful digital solutions that delight, surprise, and inspire."
       status="Founder and principle designer at <a href='https://saturdays.io' rel='noreferrer' target='_blank'>Saturdays.io</a>"
     />
+
     <ImageGrid
       id="projects"
-      class="b4"
+      class="pb5 b4"
     />
+
     <Footer
       id="footer"
-      class="b1"
-      legal="© 2014-2021"
+      class="b4"
     />
   </div>
 </template>
