@@ -10,7 +10,7 @@
       date="2015"
     />
     <MediaBlock
-      id="process-img"
+      id="header-mockup"
       class="pad2 b4"
       img-src="project/starz/display.jpg"
       img-alt="Starz Play header image"
@@ -32,7 +32,7 @@
     />
 
     <MediaBlock
-      id="process-img"
+      id="diagram-timeline"
       class="pb5 b4"
       subline="Project Timeline"
       img-src="project/starz/schedule.png"
@@ -40,7 +40,7 @@
     />
 
     <MediaBlock
-      id="process-img"
+      id="diagram-process"
       class="pb5 b4"
       subline="Design process"
       img-src="project/starz/process.jpg"
@@ -55,7 +55,7 @@
     />
 
     <MediaBlock
-      id="process-img"
+      id="diagram-auth-flow"
       class="pb5 b4"
       subline="4a. New authentication flow"
       img-src="project/starz/auth.jpg"
@@ -63,7 +63,7 @@
     />
 
     <MediaBlock
-      id="process-img"
+      id="ui-authenticate"
       class="pb5 b4"
       subline="4b. Authentication Designs"
       img-src="project/starz/authenticate.png"
@@ -102,7 +102,7 @@
     />
 
     <MediaBlock
-      id="process-img"
+      id="ui-show-details"
       class="pb5 b4"
       subline="5. Show Details - Episode guide"
       img-src="project/starz/show.jpg"
@@ -110,7 +110,7 @@
     />
 
     <MediaBlock
-      id="process-img"
+      id="ui-show-details-resume"
       class="pb5 b4"
       subline="6. Series Details - Resume episode"
       img-src="project/starz/resume2.jpg"
@@ -125,7 +125,7 @@
     />
 
     <MediaBlock
-      id="process-img"
+      id="ui-home-featured"
       class="pb5 b4"
       subline="1. Home screen - Featured tab"
       img-src="project/starz/home.jpg"
@@ -133,7 +133,7 @@
     />
 
     <MediaBlock
-      id="process-img"
+      id="ui-home-movies"
       class="pb5 b4"
       subline="2. Home screen - Movies tab"
       img-src="project/starz/movie.jpg"
@@ -141,7 +141,7 @@
     />
 
     <MediaBlock
-      id="process-img"
+      id="ui-home-playlist"
       class="pb5 b4"
       subline="3. Playlist - Recently Watched stream"
       img-src="project/starz/playlist.jpg"
@@ -157,7 +157,7 @@
     />
 
     <MediaBlock
-      id="process-img"
+      id="design-system-type"
       class="pb5 b4"
       subline="X. Design System"
       img-src="project/starz/typography.jpg"
@@ -172,7 +172,7 @@
     />
 
     <MediaBlock
-      id="process-img"
+      id="ui-welcome-back"
       class="pb5 b4"
       subline="7. Returning User interstitial"
       img-src="project/starz/resume.jpg"
@@ -180,7 +180,7 @@
     />
 
     <MediaBlock
-      id="process-img"
+      id="video-player-mockup"
       class="pb5 b4"
       subline="8. Video player mockup"
       img-src="project/starz/player.jpg"
