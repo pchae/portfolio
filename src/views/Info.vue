@@ -41,7 +41,6 @@
     <Footer
       id="footer"
       class="b4"
-      legal="© 2014-2021"
     />
   </div>
 </template>
