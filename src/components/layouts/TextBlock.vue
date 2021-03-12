@@ -73,6 +73,7 @@ export default {
 
 .subtext {
   color: #000;
+  font-size: 1.125rem;
   font-weight: 400;
   width: 50%;
 }
@@ -89,9 +90,6 @@ export default {
   margin-bottom: 0rem;
 }
 
-.subtext {
-  font-size: 1.125rem;
-}
 
 @media only screen and (max-width: 980px) {
   .subtext {
