@@ -2,18 +2,16 @@
   <section
     :id="[sectionID]"
     :class="[padding, bgColor]">
-    <div class="container-lg">
-      <h2 class="section-heading">
-      </h2>
-      <p class="subtext">
-        {{ subline }}
-      </p>
-    </div>
     <div class="container-lg media-block">
       <img
         v-lazy="require('@/assets/' + imgSrc)"
         :alt="imgAlt"
       >
+    </div>
+    <div class="container pt1">
+      <p class="subtext">
+        Above image: {{ subline }}
+      </p>
     </div>
   </section>
 </template>
