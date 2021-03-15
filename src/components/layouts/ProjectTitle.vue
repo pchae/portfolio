@@ -5,9 +5,9 @@
         <h2 class="project-headline">
           {{ title }}
         </h2>
-        <p class="tagline">
+        <h3 class="tagline">
           {{ subhead }}
-        </p>
+        </h3>
       </div>
     </div>
   </div>
@@ -43,7 +43,7 @@ export default {
 <style scoped>
 .tagline {
   color: #444;
-  font-size: 1.125rem;
+  font-size: 2rem;
   font-weight: 400;
 }
 
@@ -59,6 +59,9 @@ export default {
 @media only screen and (max-width: 800px) {
   .project-headline {
     font-size: 2.5rem;
+  }
+  .tagline {
+    font-size: 1.5rem;
   }
 }
 </style>
