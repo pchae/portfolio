@@ -5,13 +5,21 @@
     <ProjectTitle
       id="headline"
       class="pt5 b4"
-      project="Starz Play"
-      role="Senior UX/UI Designer @ Digiflare"
-      date="2015"
+      title="Starz Play"
+      subhead="Redefining the way we watch TV"
     />
+
+    <ProjectDetails
+      id="detail"
+      class="pad2 b4"
+      client="Starz, Digiflare"
+      role="Senior UX/UI Designer"
+      year="2015"
+    />
+
     <MediaBlock
       id="header-mockup"
-      class="pad2 b4"
+      class="pb2 b4"
       img-src="project/starz/display.jpg"
       img-alt="Starz Play header image"
     />
@@ -58,7 +66,7 @@
       id="diagram-auth-flow"
       class="pb5 b4"
       subline="4a. New authentication flow"
-      img-src="project/starz/auth.jpg"
+      img-src="project/starz/authdiagram.png"
       img-alt="Authentication flow diagram"
     />
 
@@ -81,7 +89,7 @@
       id="wireframe-roku"
       class="pb5 b4"
       subline="X. Show Details - Roku Gen 1"
-      img-src="project/starz/wire-roku.jpg"
+      img-src="project/starz/wireframe-show-details-roku.jpg"
       img-alt="Wireframe Show details"
     />
 
@@ -89,7 +97,7 @@
       id="wireframe-samsung"
       class="pb5 b4"
       subline="X. Show Details - Samsung Smart TV"
-      img-src="project/starz/wire-smarttv.jpg"
+      img-src="project/starz/wireframe-show-details-samsung.jpg"
       img-alt="Wireframe Show details"
     />
 
@@ -97,7 +105,7 @@
       id="wireframe-amazon"
       class="pb5 b4"
       subline="X. Show Details - Amazon Fire TV"
-      img-src="project/starz/wire-firetv.jpg"
+      img-src="project/starz/wireframe-show-details-firetv.jpg"
       img-alt="Wireframe Show details"
     />
 
@@ -206,6 +214,7 @@
 
 import Nav from '@/components/navigation/Navigation.vue';
 import ProjectTitle from '@/components/layouts/ProjectTitle.vue';
+import ProjectDetails from '@/components/layouts/ProjectDetails.vue';
 import MediaBlock from '@/components/layouts/MediaBlock.vue';
 import text_block from '@/components/layouts/text_block.vue';
 import Footer from '@/components/navigation/Footer.vue';
@@ -215,6 +224,7 @@ export default {
   components: {
     Nav,
     ProjectTitle,
+    ProjectDetails,
     MediaBlock,
     text_block,
     Footer,
