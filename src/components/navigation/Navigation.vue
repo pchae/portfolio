@@ -42,11 +42,6 @@
               <h2>Info</h2>
             </router-link>
           </div>
-          <div class="nav-link">
-            <router-link to="/contact" active-class="active" exact>
-              <h2>Contact</h2>
-            </router-link>
-          </div>
         </div>
       </div>
     </div>
