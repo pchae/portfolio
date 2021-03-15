@@ -18,7 +18,7 @@
             :index="2"
             img-src="blank.png"
             img-alt="Engage whitelabel components"
-            title="Engage Whitelabel"
+            title="Engage"
             desc="PWA, SaaS"
           />
         </div>
