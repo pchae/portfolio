@@ -14,6 +14,7 @@
       class="pad3 b4"
       client="Starz, Digiflare"
       role="Senior UX/UI Designer"
+      result="$25.7MM revenue in 2016, 2MM users in 12 months"
       year="2015"
     />
 
