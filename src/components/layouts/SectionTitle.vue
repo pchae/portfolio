@@ -1,5 +1,5 @@
 <template>
-  <section
+  <div
     :id="[sectionID]"
     :class="[padding, bgColor]"
   >
@@ -12,7 +12,7 @@
         </h4>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
