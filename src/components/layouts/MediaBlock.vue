@@ -1,5 +1,5 @@
 <template>
-  <section
+  <div
     :id="[sectionID]"
     :class="[padding, bgColor]">
     <div class="container-lg media-block">
@@ -13,7 +13,7 @@
         Above image: {{ subline }}
       </p>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>

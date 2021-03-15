@@ -1,16 +1,16 @@
 <template>
-  <section :id="[sectionID]" :class="[padding, bgColor]">
+  <div :id="[sectionID]" :class="[padding, bgColor]">
     <div class="container">
       <div class="fcol intro pt5">
         <h2 class="project-headline">
-          {{ project }}
+          {{ title }}
         </h2>
-        <p class="details">
-          {{ role }} • {{ date }}
+        <p class="tagline">
+          {{ subhead }}
         </p>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
@@ -21,15 +21,11 @@ export default {
       type: String,
       default: "",
     },
-    project: {
+    title: {
       type: String,
       default: "",
     },
-    role: {
-      type: String,
-      default: "",
-    },
-    date: {
+    subhead: {
       type: String,
       default: "",
     },
@@ -45,7 +41,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.details {
+.tagline {
   color: #444;
   font-size: 1.125rem;
   font-weight: 400;
