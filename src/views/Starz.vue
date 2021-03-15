@@ -11,7 +11,7 @@
 
     <ProjectDetails
       id="detail"
-      class="pad2 b4"
+      class="pad3 b4"
       client="Starz, Digiflare"
       role="Senior UX/UI Designer"
       year="2015"
