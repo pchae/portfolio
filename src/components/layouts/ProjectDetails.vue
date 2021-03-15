@@ -7,10 +7,20 @@
             <li class="detail-heading">CLIENT</li>
             <li class="">{{ client }}</li>
           </ul>
+        </div>
+        <div class="list-container">
           <ul>
             <li class="detail-heading">ROLE</li>
             <li class="">{{ role }}</li>
           </ul>
+        </div>
+        <div class="list-container">
+          <ul>
+            <li class="detail-heading">RESULTS</li>
+            <li class="">{{ result }}</li>
+          </ul>
+        </div>
+        <div class="list-container">
           <ul>
             <li class="detail-heading">YEAR</li>
             <li class="">{{ year }}</li>
@@ -37,6 +47,10 @@ export default {
       type: String,
       default: "",
     },
+    result: {
+      type: String,
+      default: "",
+    },
     year: {
       type: String,
       default: "",
@@ -59,21 +73,28 @@ export default {
 .list-container {
   display: flex;
   flex-direction: row;
-  align-items: space-between;
-  justify-content: space-between;
-  width: 100%;
+  justify-content: flex-start;
+  width:24%;
   cursor: default;
 }
 
 .flex-name1 {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  gap: 0rem;
+  gap: 0.5rem;
+  width: 100%;
 }
+
 li {
   font-size: 1rem;
   line-height: 1.25rem;
 }
+
+li:nth-child(1) {
+  padding-bottom: 0.25rem;
+}
+
 .detail-heading {
   font-weight: 700;
 }
@@ -81,22 +102,15 @@ li {
 @media only screen and (max-width: 800px) {
   .list-container {
     display: flex;
-    flex-direction: column;
-    align-items: space-between;
-    justify-content: space-between;
     width: 100%;
     cursor: default;
   }
 
-  li:nth-child(1n) {
-    padding-bottom: 0.5rem;
+  .list-container:nth-child(n) {
+    padding-bottom: 1.5rem;
   }
 
-  ul:nth-child(n) {
-    padding-bottom: 2rem;
-  }
-
-  ul:last-child {
+  .list-container:last-child {
     padding-bottom: 0;
   }
 }
