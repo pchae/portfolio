@@ -144,7 +144,7 @@ header {
 /* Link Style Override */
 
 .active {
-  background-color: none;;
+  background-color: none;
 }
 
 .active > h2 {
