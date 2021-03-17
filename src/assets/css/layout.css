@@ -249,7 +249,13 @@ html {
 }
 
 
+.outlander {
+  background-image: url("~@/assets/project/starz/landscape_outlander.jpg");
+}
 
+.blacksail {
+  background-image: url("~@/assets/project/starz/blacksail.jpg");
+}
 
 /* Links */
 

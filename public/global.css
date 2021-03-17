@@ -37,6 +37,14 @@ body {
 
 /* Padding */
 
+.pad1 {
+  padding: 1rem 0;
+}
+
+.pad2 {
+  padding: 2rem 0;
+}
+
 .pad3 {
   padding: 3rem 0;
 }

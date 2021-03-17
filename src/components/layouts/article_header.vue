@@ -15,7 +15,7 @@
 
 <script>
 export default {
-  name: "ProjectTitle",
+  name: "ArticleHeader",
   props: {
     sectionID: {
       type: String,
@@ -58,10 +58,10 @@ export default {
 
 @media only screen and (max-width: 800px) {
   .project-headline {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
   .tagline {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
 </style>

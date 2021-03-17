@@ -15,6 +15,15 @@
         </div>
         <div class="list-container">
           <ImgCard
+            :index="4"
+            img-src="blank.png"
+            img-alt="Pizza Pizza native apps"
+            title="Pizza Pizza"
+            desc="Android, iOS"
+          />
+        </div>
+        <div class="list-container">
+          <ImgCard
             :index="2"
             img-src="blank.png"
             img-alt="Engage whitelabel components"
@@ -33,19 +42,10 @@
         </div>
         <div class="list-container">
           <ImgCard
-            :index="4"
-            img-src="blank.png"
-            img-alt="Pizza Pizza native apps"
-            title="Pizza Pizza"
-            desc="Android, iOS"
-          />
-        </div>
-        <div class="list-container">
-          <ImgCard
             :index="5"
             img-src="blank.png"
             img-alt="C51"
-            title="C51"
+            title="MMA API"
             desc="React Native, SaaS"
           />
         </div>
