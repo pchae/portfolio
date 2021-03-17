@@ -51,10 +51,6 @@ export default {
   background-image: url("~@/assets/project/starz/landscape_outlander.jpg");
 }
 
-.design_system {
-  background-image: url("~@/assets/project/starz/design_system.jpg");
-}
-
 .blacksail {
   background-image: url("~@/assets/project/starz/blacksail.jpg");
 }
