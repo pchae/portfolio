@@ -103,9 +103,6 @@
       img-alt="Lorem ipsum"
     />
 
-    <ParallaxImage
-      class="outlander"
-    />
 
     <textblock
       id="caption-wireframes"
@@ -169,9 +166,6 @@
       img-alt="Wireframe Show details"
     />
 
-    <ParallaxImage
-      class="blacksail"
-    />
 
     <textblock
       id="caption-visual-design"
@@ -233,10 +227,6 @@
       subline="6. FireTV - Show Details: Episodes"
       img-src="project/starz/ui-movie_detail-firetv2.jpg"
       img-alt="Development process diagram"
-    />
-
-    <ParallaxImage
-      class="ag2"
     />
 
     <textblock
@@ -328,7 +318,6 @@ import ArticleHeader from "@/components/layouts/article_header.vue";
 import ArticleDetails from "@/components/layouts/article_details.vue";
 import ImageBlock from "@/components/layouts/image_block.vue";
 import MediaBlock from "@/components/layouts/MediaBlock.vue";
-import ParallaxImage from "@/components/layouts/parallax_image.vue";
 import textblock from "@/components/layouts/article_text_block.vue";
 import Footer from "@/components/navigation/Footer.vue";
 
@@ -341,7 +330,6 @@ export default {
     ArticleDetails,
     ImageBlock,
     MediaBlock,
-    ParallaxImage,
     textblock,
     Footer,
   },
