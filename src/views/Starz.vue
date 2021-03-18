@@ -91,7 +91,7 @@
       id="ui-authenticate"
       class="pb5 b4"
       subline="4b. Authentication Designs - Rather than require usernames, email addresses and long passwords, the new authentication allowed signup to be done in the browser while only requiring a 4 digit access code."
-      img-src="project/starz/wire-welcome.png"
+      img-src="project/starz/wire-welcome.jpg"
       img-alt="Lorem ipsum"
     />
 
