@@ -14,10 +14,6 @@
     <ArticleDetails
       id="detail"
       class="pad3 b4"
-      client="Starz, Digiflare"
-      role="Senior UX/UI Designer"
-      result="$25.7MM USD in revenue for 2016. 200M signups in first 3 months -> 2MM users after 12 months."
-      year="2015"
     />
 
     <ImageBlock
@@ -49,7 +45,6 @@
       desc="The goals of the team were to design, build, and deploy 3 versions of the app in near simultaneous launch windows. The design time spanned 3 months for Roku, Amazong Fire TV and Samsung Smart TVs which were all new platforms for the Digiflare team.
       Design only had a short runway ahead of the Development which was performed almost simultaneously with quick iteration cycles."
     />
-
 
     <textblock
       id="solution-challenge-two"
@@ -102,7 +97,6 @@
       img-src="project/starz/wire-activate.jpg"
       img-alt="Lorem ipsum"
     />
-
 
     <textblock
       id="caption-wireframes"
@@ -166,7 +160,6 @@
       img-alt="Wireframe Show details"
     />
 
-
     <textblock
       id="caption-visual-design"
       class="pt4 b4"
@@ -208,7 +201,7 @@
     <MediaBlock
       id="ui-movie_details-resume"
       class="pb5 b4"
-      subline="4. Roku - Movie Details"
+      subline="4. Roku - Movie Details **Note** Most basic hardware with 10MB buffer. Approach had to scale down the experience in favour of usability and performance. Could not do fullscreen background images or motion."
       img-src="project/starz/ui-movie_detail-roku.jpg"
       img-alt="Development process diagram"
     />
@@ -216,7 +209,7 @@
     <MediaBlock
       id="ui-home-playlist"
       class="pb5 b4"
-      subline="5. Samsung - Movie Details"
+      subline="5. Samsung - Movie Details **Note** Middleground platform locked at 720p, software based on basic web technologies: HTML5, CSS3, JavaScript."
       img-src="project/starz/ui-movie_detail-samsung.jpg"
       img-alt="Development process diagram"
     />
@@ -224,7 +217,7 @@
     <MediaBlock
       id="ui-show-details"
       class="pb5 b4"
-      subline="6. FireTV - Show Details: Episodes"
+      subline="6. FireTV - Show Details: Episodes **Note** Best hardware specs of all 3 platforms, able to create immersive pages with fullscreen motion backgrounds and previews."
       img-src="project/starz/ui-movie_detail-firetv2.jpg"
       img-alt="Development process diagram"
     />
@@ -246,7 +239,7 @@
     <MediaBlock
       id="design-system-type"
       class="pb5 b4"
-      subline="X. Design System - Typography"
+      subline="X. Design System - Typography **Note** Redo to show brand colours and typography."
       img-src="project/starz/design-system-type.jpg"
       img-alt="Design System Typography / Colors"
     />
@@ -254,7 +247,7 @@
     <MediaBlock
       id="design-system-type"
       class="pb5 b4"
-      subline="X. Design System - Tiles"
+      subline="X. Design System - Tiles **Note** split into 3 columns, mobile breakdown into 1 column."
       img-src="project/starz/design-system-tiles.jpg"
       img-alt="Design System Tiles & Swimlanes"
     />
@@ -274,18 +267,18 @@
       img-alt="Development process diagram"
     />
 
-  <MediaBlock
+    <MediaBlock
       id="ui-video_player"
       class="pb5 b4"
-      subline="X. Video Player - FireTV"
+      subline="X. Video Player - FireTV timeline scrubbing feature with PiP (Picture in Picture) thumbnail."
       img-src="project/starz/ui-video_player-firetv.jpg"
       img-alt="Search Results interface"
     />
 
-  <MediaBlock
+    <MediaBlock
       id="ui-search-results"
       class="pb5 b4"
-      subline="X. SmartTV Search Results"
+      subline="X. Samsung SmartTV Are you still there? feature set to 2.5 episode length based on user inactivity. We spent a lot of time fine-tuning this feature to strike a balance between being unintrusive and helpful."
       img-src="project/starz/ui-still_watch-samsung.jpg"
       img-alt="Search Results interface"
     />
@@ -338,6 +331,21 @@ export default {
     title: "Phil Choi",
     // all titles will be injected into this template
     titleTemplate: "%s - Starz Play",
+  },
+  provide() {
+    return {
+      workInfo: {
+        name: "light",
+        client: "STARZ, Digiflare",
+        year: "2015",
+        role: "Sr. UX/UI Designer",
+        result: [
+          "$25.7MM revenue in 2016.",
+          "200M users in first 3 months.",
+          "2MM users in 12 months."
+        ]
+      }
+    };
   },
 };
 </script>
