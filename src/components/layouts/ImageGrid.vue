@@ -9,7 +9,7 @@
               img-src="blank.png"
               img-alt="Starz Play apps"
               title="Starz Play"
-              desc="Roku, Amazon, Samsung"
+              desc="Amazon FireTV, Samsung SmartTV, Roku"
             />
           </router-link>
         </div>
