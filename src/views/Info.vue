@@ -5,10 +5,6 @@
       tColor="wt"
     />
 
-    <CoverFixed
-      statement="Based in Toronto"
-    />
-
     <Twocolthirds
       id="about"
       sectiontitle="section-title-dk"
@@ -48,7 +44,6 @@
 <script>
 // @ is an alias to /src
 import Nav from "@/components/navigation/Navigation.vue";
-import CoverFixed from "@/components/CoverFixed.vue";
 import ServiceList from "@/components/layouts/ServiceList.vue";
 import Twocolthirds from "@/components/layouts/Twocolthirds.vue";
 import Footer from "@/components/navigation/Footer.vue";
@@ -57,7 +52,6 @@ export default {
   name: "Info",
   components: {
     Nav,
-    CoverFixed,
     ServiceList,
     Twocolthirds,
     Footer,
