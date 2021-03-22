@@ -2,7 +2,8 @@
   <div>
     <Nav 
       d="navigation"
-      tColor="wt"
+      tColor="bk"
+      bgColor="b4"
     />
 
     <Twocolthirds

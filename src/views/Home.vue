@@ -3,6 +3,7 @@
     <Nav
       id="navigation"
       tColor="bk"
+      bgColor="b4"
     />
 
     <IntroBlock
