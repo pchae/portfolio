@@ -79,8 +79,6 @@ header {
   display: block;
   position: fixed;
   width: 100%;
-  background-color: transparent;
-  background: none;
   z-index: 1000;
 }
 
