@@ -14,13 +14,15 @@
           </router-link>
         </div>
         <div class="list-container">
-          <ImgCard
-            :index="4"
-            img-src="blank.png"
-            img-alt="Pizza Pizza native apps"
-            title="Pizza Pizza"
-            desc="Android, iOS"
-          />
+          <router-link to="/pizza" exact>
+            <ImgCard
+              :index="4"
+              img-src="blank.png"
+              img-alt="Pizza Pizza native apps"
+              title="Pizza Pizza"
+              desc="Android, iOS"
+            />
+          </router-link>
         </div>
         <div class="list-container">
           <ImgCard
