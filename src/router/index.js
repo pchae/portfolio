@@ -7,6 +7,7 @@ import Info from '../views/Info.vue';
 import Contact from '../views/Contact.vue';
 
 import Starz from '../views/Starz.vue';
+import Pizza from '../views/Pizza.vue';
 
 Vue.use(VueRouter);
 Vue.use(Meta);
@@ -94,6 +95,29 @@ const routes = [
         {
           property: 'og:description',
           content: 'Phil Choi Starz Play case study',
+        },
+      ],
+    },
+  },
+  // Starz Project Page
+  {
+    path: '/pizza',
+    name: 'pizza',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: Pizza,
+    meta: {
+      auth: true,
+      title: 'Phil Choi - Pizza Pizza',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'Phil Choi Pizza Pizza',
+        },
+        {
+          property: 'og:description',
+          content: 'Phil Choi Pizza Pizza',
         },
       ],
     },
