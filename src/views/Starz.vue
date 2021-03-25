@@ -1,14 +1,16 @@
 <template>
   <div>
-    <Nav id="navigation" />
-
-    <Logo />
+    <Nav
+      id="navigation"
+      tColor="bk"
+      bgColor="b4"
+    />
 
     <ArticleHeader
       id="headline"
       class="pt5 b4"
-      title="Starz Play"
-      subhead="Redefining the way we watch TV"
+      title="Redefining the way we watch TV"
+      subhead="Starz is an American premium cable TV network competing with Netflix, HBO and Showtime."
     />
 
     <ArticleDetails
@@ -26,7 +28,7 @@
     <textblock
       id="caption-intro"
       class="pad2 b4"
-      intro="Overview"
+      intro="Overview/Challenge"
       desc="Starz is an American premium cable TV network competing with Netflix, HBO and Showtime. In an attempt to keep up with their rivals, Starz had previously launched streaming apps but struggled with activations and growth. It was clear they needed a fresh perspective and business model, one that would resonate with consumers by catering to diverse lifestyles and needs."
     />
 
@@ -41,7 +43,7 @@
     <textblock
       id="caption-challenge-one"
       class="pad2 b4"
-      intro="Challenge: Timeline"
+      intro="Obstacles: Timeline"
       desc="The goals of the team were to design, build, and deploy 3 versions of the app in near simultaneous launch windows. The design time spanned 3 months for Roku, Amazong Fire TV and Samsung Smart TVs which were all new platforms for the Digiflare team.
       Design only had a short runway ahead of the Development which was performed almost simultaneously with quick iteration cycles."
     />
@@ -115,7 +117,7 @@
     <MediaBlock
       id="wireframe-roku"
       class="pb5 b4"
-      subline="X. Feature - Roku Gen 1"
+      subline="X. Feature - Roku Gen 1. Modest hardware capabilities and 10mb buffer limit didn't allow for expected features like carousels, fullscreen animated backgrounds. Each screen and subsequent sections required precaching to decrease slideshow style navigation."
       img-src="project/starz/wire-feature-roku.jpg"
       img-alt="Wireframe Show details"
     />
@@ -175,26 +177,26 @@
     />
 
     <MediaBlock
-      id="ui-featured-roku"
+      id="ui-feature-roku"
       class="pb5 b4"
-      subline="1. Roku - Featured Home"
-      img-src="project/starz/ui-featured-roku.jpg"
+      subline="1. Roku - Feature Home"
+      img-src="project/starz/ui-feature-roku.jpg"
       img-alt="Development process diagram"
     />
 
     <MediaBlock
-      id="ui-featured-samsung"
+      id="ui-feature-samsung"
       class="pb5 b4"
-      subline="1. Samsung SmartTV - Featured Home"
-      img-src="project/starz/ui-featured-samsung.jpg"
+      subline="1. Samsung SmartTV - Feature Home"
+      img-src="project/starz/ui-feature-samsung.jpg"
       img-alt="Development process diagram"
     />
 
     <MediaBlock
-      id="ui-featured-firetv"
+      id="ui-feature-firetv"
       class="pb5 b4"
-      subline="2. Amazon FireTV - Featured Home"
-      img-src="project/starz/ui-featured-firetv.jpg"
+      subline="2. Amazon FireTV - Feature Home"
+      img-src="project/starz/ui-feature-firetv.jpg"
       img-alt="Curated movies list"
     />
 
@@ -263,7 +265,7 @@
       id="ui-welcome-back"
       class="pb5 b4"
       subline="X. Returning User interstitial. Added personalization aspects to enhance the experience. Lorem ipsum dolor sit amet."
-      img-src="project/starz/resume.jpg"
+      img-src="project/starz/ui-welcome_back-samsung.jpg"
       img-alt="Development process diagram"
     />
 
@@ -271,7 +273,7 @@
       id="ui-video_player"
       class="pb5 b4"
       subline="X. Video Player - FireTV timeline scrubbing feature with PiP (Picture in Picture) thumbnail."
-      img-src="project/starz/ui-video_player-firetv.jpg"
+      img-src="project/starz/ui-video_player.jpg"
       img-alt="Search Results interface"
     />
 
@@ -305,8 +307,7 @@
 <script>
 // @ is an alias to /src
 
-import Logo from "@/components/navigation/logo.vue";
-import Nav from "@/components/navigation/overlay_menu.vue";
+import Nav from "@/components/navigation/Navigation.vue";
 import ArticleHeader from "@/components/layouts/article_header.vue";
 import ArticleDetails from "@/components/layouts/article_details.vue";
 import ImageBlock from "@/components/layouts/image_block.vue";
@@ -317,7 +318,6 @@ import Footer from "@/components/navigation/Footer.vue";
 export default {
   name: "Starz",
   components: {
-    Logo,
     Nav,
     ArticleHeader,
     ArticleDetails,
@@ -340,9 +340,10 @@ export default {
         year: "2015",
         role: "Sr. UX/UI Designer",
         result: [
-          "$25.7MM revenue in 2016.",
-          "200M users in first 3 months.",
-          "2MM users in 12 months."
+          "Generated $25.7 Million USD revenue in 2016.",
+          "200 thousand active subscribers in the first 3 months.",
+          "2 million active subscribers after 12 months.",
+          "Developed new apps for Amazon FireTV, Samsung SmartTV, and Roku."
         ]
       }
     };
