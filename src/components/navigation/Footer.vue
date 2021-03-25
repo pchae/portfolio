@@ -12,9 +12,6 @@
         class="frow"
       >
         <div class="nav-link">
-          <a href="https://www.linkedin.com/in/pchoi1/" rel="noreferrer" target="_blank">
-            <h6>LinkedIn</h6>
-          </a>
         </div>
       </div>
     </div>
