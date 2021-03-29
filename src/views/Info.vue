@@ -6,33 +6,24 @@
       bgColor="b4"
     />
 
-    <Twocolthirds
-      id="about"
-      sectiontitle="section-title-dk"
-      title="About"
-      class="pd120 b4"
-      DynamicComponent="Intro"
+    <IntroBlock
+      id="headline"
+      class="pad5 b4"
+      headline="My focus is on art, design, and technology as well as when, where, and how they affect everyday life."
     />
 
-    <Twocolthirds
-      id="process"
-      sectiontitle="section-title-lt"
-      title="Skills"
-      class="pt6 b2"
-      DynamicComponent=""
-    />
+    <Intro />
 
     <ServiceList
       id="skillset"
-      class="pt4 pb6 b2"
+      class="pad5 b4"
     />
 
-    <Twocolthirds
+    <Clientgrid
       id="clientlist"
       sectiontitle="section-title-lt"
       title="Select clients"
-      class="pd120 b1"
-      DynamicComponent="Clientgrid"
+      class=" b4"
     />
 
     <Footer
@@ -45,16 +36,20 @@
 <script>
 // @ is an alias to /src
 import Nav from "@/components/navigation/Navigation.vue";
+import IntroBlock from "@/components/layouts/IntroBlock.vue";
+import Intro from "@/components/layouts/Intro.vue";
 import ServiceList from "@/components/layouts/ServiceList.vue";
-import Twocolthirds from "@/components/layouts/Twocolthirds.vue";
+import Clientgrid from "@/components/clients/Clientlist.vue";
 import Footer from "@/components/navigation/Footer.vue";
 
 export default {
   name: "Info",
   components: {
     Nav,
+    IntroBlock,
+    Intro,
     ServiceList,
-    Twocolthirds,
+    Clientgrid,
     Footer,
   },
 

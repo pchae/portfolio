@@ -58,12 +58,12 @@ export default {
   .card-title {
     font-weight: 700;
     line-height: 1.5;
-    color: #fff;
+    color: #000;
   }
 
   .desc {
     font-weight: 400;
-    color: #D0D0D0;
+    color: #202020;
   }
 
 </style>

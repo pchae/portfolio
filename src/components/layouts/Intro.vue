@@ -3,11 +3,8 @@
     :id="[sectionID]"
     :class="[padding, bgColor]"
   >
-    <div class="text-container">
+    <div class="text-container container-lg">
       <div class="fcol">
-        <h3 class="section-headline">
-          My focus is on art, design, and technology as well as when, where, and how they affect everyday life.
-        </h3>
         <div class="frow">
           <p class="subtext">
             As an 80s kid, I hold a unique perspective due to maturing in parallel with the shift from analog to digital technologies.
@@ -74,8 +71,9 @@ export default {
 }
 
 .subtext {
-  color: #000;
+  font-size: 1.25rem;
   font-weight: 400;
+  color: #000;
   width: 100%;
 }
 
@@ -87,9 +85,6 @@ export default {
   margin-bottom: 0rem;
 }
 
-.subtext {
-  font-size: 1.125rem;
-}
 
 @media only screen and (max-width: 980px) {
   .subtext {
