@@ -73,7 +73,7 @@ export default {
 
 .subtext {
   color: #000;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   font-weight: 400;
   width: 50%;
 }

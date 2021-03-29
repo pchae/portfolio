@@ -1,5 +1,5 @@
 <template>
-  <div class="client-partners">
+  <div class="client-partners container-lg">
     <!-- Row 1 -->
     <div class="item-container">
       <Logo :index="1" img-src="cbc.svg" img-alt="Canadian Broadcasting Company logo" />
