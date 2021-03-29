@@ -52,7 +52,7 @@
     <MediaBlock
       id="diagram-misc"
       class="pb5 b4"
-      subline="Diagram of demographics and user needs"
+      subline="X. Lorem ipsum dolor sit amet."
       img-src="project/engage/stream.jpg"
       img-alt="Venn Diagram of user demographics and wants"
     />
@@ -139,7 +139,7 @@
     <MediaBlock
       id="social-cards-mockup"
       class="pb5 b4"
-      subline="X. Video player mockup"
+      subline="X. Social Media card specs."
       img-src="project/engage/card_spec2.jpg"
       img-alt="Development process diagram"
     />
@@ -147,7 +147,7 @@
     <MediaBlock
       id="social-cards-mockup"
       class="pb5 b4"
-      subline="X. Video player mockup"
+      subline="X. Social Media card specs."
       img-src="project/engage/card_spec3.jpg"
       img-alt="Development process diagram"
     />
