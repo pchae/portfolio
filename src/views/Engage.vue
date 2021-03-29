@@ -52,7 +52,7 @@
     <MediaBlock
       id="diagram-misc"
       class="pb5 b4"
-      subline="Diagram of demographics and user needs"
+      subline="X. Lorem ipsum dolor sit amet."
       img-src="project/engage/stream.jpg"
       img-alt="Venn Diagram of user demographics and wants"
     />
