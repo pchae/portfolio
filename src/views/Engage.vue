@@ -139,7 +139,7 @@
     <MediaBlock
       id="social-cards-mockup"
       class="pb5 b4"
-      subline="X. Video player mockup"
+      subline="X. Social Media card specs."
       img-src="project/engage/card_spec2.jpg"
       img-alt="Development process diagram"
     />
@@ -147,7 +147,7 @@
     <MediaBlock
       id="social-cards-mockup"
       class="pb5 b4"
-      subline="X. Video player mockup"
+      subline="X. Social Media card specs."
       img-src="project/engage/card_spec3.jpg"
       img-alt="Development process diagram"
     />
