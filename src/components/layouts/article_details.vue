@@ -1,30 +1,28 @@
 <template>
   <div :id="[sectionID]" :class="[padding, bgColor]">
-    <div class="container">
-      <div class="flex-name1">
-        <div class="list-container">
-          <ul>
-            <li class="detail-heading">CLIENT</li>
-            <li class="">{{ workInfo.client }}</li>
-          </ul>
+    <div class="container-lg">
+      <div class="flex-list">
+        <div class="list-group">
+          <div class="list-container">
+            <ul>
+              <li class="detail-heading">CLIENT</li>
+              <li class="">{{ workInfo.client }}</li>
+            </ul>
+          </div>
+          <div class="list-container">
+            <ul>
+              <li class="detail-heading">ROLE</li>
+              <li class="">{{ workInfo.role }}</li>
+            </ul>
+          </div>
         </div>
-        <div class="list-container">
-          <ul>
-            <li class="detail-heading">ROLE</li>
-            <li class="">{{ workInfo.role }}</li>
-          </ul>
-        </div>
-        <div class="list-container">
-          <ul>
-            <li class="detail-heading">YEAR</li>
-            <li class="">{{ workInfo.year }}</li>
-          </ul>
-        </div>
-        <div class="results">
-          <div class="list-container-long">
+        <div class="list-group">
+          <div class="list-container-full">
             <ul>
               <li class="detail-heading">RESULTS</li>
-              <li v-for="item in workInfo.result" :key="item" class="resultlist">{{ item }}</li>
+              <li v-for="item in workInfo.result" :key="item" class="lilist">
+                {{ item }}
+              </li>
             </ul>
           </div>
         </div>
@@ -49,9 +47,9 @@ export default {
       bgColor: "",
     };
   },
-  inject: ['workInfo'],
-  created () {
-    console.log(this.workInfo)
+  inject: ["workInfo"],
+  created() {
+    console.log(this.workInfo);
   },
 };
 </script>
@@ -66,20 +64,37 @@ export default {
   cursor: default;
 }
 
-.flex-name1 {
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  cursor: default;
+}
+
+.list-group {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  gap: 2rem;
+  gap: 0rem;
   width: 100%;
 }
 
-.results {
-  padding-top: 2rem;
+.flex-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
-.resultlist {
-  padding-bottom: 0.5rem;
+.list-container:nth-child(1) {
+  padding-bottom: 2rem;
+}
+
+.list-group:nth-child(1) {
+  padding-bottom: 2rem;
+}
+
+.lilist {
+  padding-bottom: 1rem;
 }
 
 li {
@@ -96,6 +111,11 @@ li:nth-child(1) {
 }
 
 @media only screen and (max-width: 800px) {
+
+.flex-list {
+  flex-direction: column;
+}
+
   .list-container {
     display: flex;
     width: 100%;
@@ -103,7 +123,7 @@ li:nth-child(1) {
   }
 
   .list-container:nth-child(n) {
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
   }
 
   .list-container:last-child {
