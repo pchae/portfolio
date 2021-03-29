@@ -37,21 +37,20 @@
       class="pb5 b4"
       subline="Diagram of demographics and user needs"
       img-src="project/pizza/3phone2.jpg"
-      img-alt="Venn Diagram of user demographics and wants"
+      img-alt="X. Lorem ipsum dolor sit amet. Contactless payment options."
     />
 
     <textblock
       id="caption-challenge-one"
       class="pad2 b4"
       intro="Challenges"
-      desc="The goals of the team were to design, build, and deploy 3 versions of the app in near simultaneous launch windows. The design time spanned 3 months for Roku, Amazong Fire TV and Samsung Smart TVs which were all new platforms for the Digiflare team.
-      Design only had a short runway ahead of the Development which was performed almost simultaneously with quick iteration cycles."
+      desc="The goals of the team were to design, build, and deploy new updates to coincide with iOS 8. Annual refresh of the product. Increase conversions and create habits based on ordering pizza. Needed to work with difficult stakeholders and refine and guide their design sensibilities."
     />
 
     <MediaBlock
       id="ui-authenticate"
       class="pb5 b4"
-      subline="4b. Authentication Designs - Rather than require usernames, email addresses and long passwords, the new authentication allowed signup to be done in the browser while only requiring a 4 digit access code."
+      subline="X. Lorem ipsum dolor sit amet."
       img-src="project/pizza/wires_ios.jpg"
       img-alt="Lorem ipsum"
     />
@@ -59,7 +58,7 @@
     <MediaBlock
       id="ui-authenticate"
       class="pb5 b4"
-      subline="4b. Authentication Designs - Rather than require usernames, email addresses and long passwords, the new authentication allowed signup to be done in the browser while only requiring a 4 digit access code."
+      subline="X. Lorem ipsum dolor sit amet."
       img-src="project/pizza/wires_android.jpg"
       img-alt="Lorem ipsum"
     />
@@ -69,7 +68,7 @@
       id="caption-visual-design"
       class="pt4 b4"
       intro="Visual Design"
-      desc="We created a dark, minimalist user interface with high contrast ratios to place emphasis on the poster art and reduce eye strain. It was also essential that we tried to capture the essence of going to a movie theatre while incorporating Starz branding."
+      desc="The client wanted to maintain creative direction control over the app look and feel. Had to work on slowly upgrading their design sensibilities and continuously homogonize experience to bring Android up to spec."
     />
 
     <MediaBlock
@@ -90,71 +89,64 @@
 
 
     <textblock
-      id="caption-wireframes"
+      id="caption-redemption"
       class="pt4 b4"
       intro="Redemption"
       desc="Main reason I was brought onto the team was to produce new features and value ads. Came up with pizza redemption similar to 10th purchase is free done by other QSRs. Also integrate more closely with Club 11-11 loyalty plans."
     />
 
     <MediaBlock
-      id="wireframe-amazon"
-      class="pb5 b4"
-      subline="X. Lorem ipsum dolor sit amet."
-      img-src="project/pizza/pp_ipad_ios7_account_settings-history.png"
-      img-alt="Wireframe Show details"
-    />
-
-    <MediaBlock
-      id="wireframe-roku"
+      id="wireframe-redemption"
       class="pb5 b4"
       subline="X. Lorem ipsum dolor sit amet."
       img-src="project/pizza/pp_ipad_ios7_account_settings-validate.png"
       img-alt="Wireframe Show details"
     />
 
+    <MediaBlock
+      id="wireframe-redemption2"
+      class="pb5 b4"
+      subline="X. Lorem ipsum dolor sit amet."
+      img-src="project/pizza/pp_ipad_ios7_account_settings-history.png"
+      img-alt="Wireframe Show details"
+    />
+
 
     <textblock
-      id="caption-extras"
+      id="caption-gps"
       class="pb2 b4"
       intro="GPS & Maps"
       desc="Added a store locator feature for pick-up and takeout orders to serve larger demographics and open up purchasing options facilitated through the app."
     />
 
     <MediaBlock
-      id="ui-welcome-back"
+      id="ui-mobile"
       class="pb5 b4"
-      subline="X. Returning User interstitial. Added personalization aspects to enhance the experience. Lorem ipsum dolor sit amet."
+      subline="X. Lorem ipsum dolor sit amet."
       img-src="project/pizza/3phone3.jpg"
       img-alt="Development process diagram"
     />
 
-    <MediaBlock
-      id="ui-video_player"
-      class="pb5 b4"
-      subline="X. Video Player - FireTV timeline scrubbing feature with PiP (Picture in Picture) thumbnail."
-      img-src="project/pizza/phone_comps.jpg"
-      img-alt="Search Results interface"
-    />
 
     <textblock
-      id="caption-extras"
+      id="caption-french"
       class="pb2 b4"
       intro="French localization"
       desc="We needed to make significant changes to the old UI in order to facilitate French language translation as the average phrase and statement were 1.5 to 2x the length of English."
     />
 
     <MediaBlock
-      id="ui-search-results"
+      id="ui-mobile"
       class="pb5 b4"
-      subline="X. Samsung SmartTV Are you still there? feature set to 2.5 episode length based on user inactivity. We spent a lot of time fine-tuning this feature to strike a balance between being unintrusive and helpful."
+      subline="X. Lorem ipsum."
       img-src="project/pizza/phone_comps.jpg"
       img-alt="Search Results interface"
     />
 
     <MediaBlock
-      id="video-player-mockup"
+      id="ui-mobile2"
       class="pb5 b4"
-      subline="8. Video player mockup"
+      subline="X. Lorem ipsum."
       img-src="project/pizza/phone_comps.jpg"
       img-alt="Development process diagram"
     />
