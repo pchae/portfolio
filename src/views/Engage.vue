@@ -32,13 +32,15 @@
       desc="Upon joining as Design Lead, I made it a priority to establish a close relationship with Customer Support Managers and their clients. By taking the time to address outstanding issues and expected timelines, we were able to successfully create a buffer that allowed us to meet the business demands of simultaneously overhauling the frontend and backend user experiences."
     />
 
+
     <MediaBlock
-      id="diagram-misc"
+      id="ui-mobile-apps"
       class="pb5 b4"
-      subline="Diagram of demographics and user needs"
-      img-src="project/engage/stream.jpg"
-      img-alt="Venn Diagram of user demographics and wants"
+      subline="4a. Old design with multiple versions of Bootstrap and wildly differing design patterns across the application."
+      img-src="project/engage/engage-old_stream.png"
+      img-alt="Lorem ipsum"
     />
+
 
     <textblock
       id="caption-challenge-one"
@@ -48,11 +50,11 @@
     />
 
     <MediaBlock
-      id="ui-mobile-apps"
+      id="diagram-misc"
       class="pb5 b4"
-      subline="4a. Old design with multiple versions of Bootstrap and wildly differing design patterns across the application."
-      img-src="project/engage/engage-old_stream.png"
-      img-alt="Lorem ipsum"
+      subline="Diagram of demographics and user needs"
+      img-src="project/engage/stream.jpg"
+      img-alt="Venn Diagram of user demographics and wants"
     />
 
     <MediaBlock
