@@ -30,13 +30,11 @@ html {
 /* Selection */
 
 ::-moz-selection { /* Code for Firefox */
-  background: #3044CC;
-  color: #fff;
+  background: #C0E4FE;
 }
 
 ::selection {
-  background: #3044CC;
-  color: #fff;
+  background: #C0E4FE;
 }
 
 
