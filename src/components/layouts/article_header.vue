@@ -62,7 +62,7 @@ export default {
 
 @media only screen and (max-width: 800px) {
   .project-headline {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .tagline {
     font-size: 1.5rem;
