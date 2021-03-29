@@ -22,7 +22,7 @@
       id="header-mockup"
       class="pb2 b4"
       img-src="project/pizza/3phone1.jpg"
-      img-alt="Starz header image"
+      img-alt="Pizza Pizza header image"
     />
 
     <textblock
@@ -35,9 +35,9 @@
     <MediaBlock
       id="diagram-misc"
       class="pb5 b4"
-      subline="Diagram of demographics and user needs"
+      subline="X. Lorem ipsum dolor sit amet. Contactless payment options."
       img-src="project/pizza/3phone2.jpg"
-      img-alt="X. Lorem ipsum dolor sit amet. Contactless payment options."
+      img-alt="Lorem ipsum."
     />
 
     <textblock
