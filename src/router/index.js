@@ -8,6 +8,7 @@ import Contact from '../views/Contact.vue';
 
 import Starz from '../views/Starz.vue';
 import Pizza from '../views/Pizza.vue';
+import Engage from '../views/Engage.vue';
 
 Vue.use(VueRouter);
 Vue.use(Meta);
@@ -76,7 +77,7 @@ const routes = [
       ],
     },
   },
-  // Starz Project Page
+  // Project: Starz Play
   {
     path: '/starz',
     name: 'starz',
@@ -99,7 +100,7 @@ const routes = [
       ],
     },
   },
-  // Starz Project Page
+  // Project: Pizza Pizza
   {
     path: '/pizza',
     name: 'pizza',
@@ -122,6 +123,30 @@ const routes = [
       ],
     },
   },
+  // Project: Engage
+  {
+    path: '/engage',
+    name: 'Engage',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: Engage,
+    meta: {
+      auth: true,
+      title: 'Phil Choi - Engage',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'Phil Choi Engage',
+        },
+        {
+          property: 'og:description',
+          content: 'Phil Choi Engage',
+        },
+      ],
+    },
+  },
+
 ];
 
 const router = new VueRouter({

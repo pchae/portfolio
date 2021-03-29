@@ -25,13 +25,15 @@
           </router-link>
         </div>
         <div class="list-container">
-          <ImgCard
-            :index="2"
-            img-src="blank.png"
-            img-alt="Engage whitelabel components"
-            title="Engage"
-            desc="PWA, SaaS"
-          />
+          <router-link to="/engage" exact>
+            <ImgCard
+              :index="2"
+              img-src="blank.png"
+              img-alt="Engage whitelabel components"
+              title="Engage"
+              desc="PWA, SaaS"
+            />
+          </router-link>
         </div>
         <div class="list-container">
           <ImgCard
