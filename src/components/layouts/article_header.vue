@@ -2,7 +2,7 @@
   <div :id="[sectionID]" :class="[padding, bgColor]">
     <div class="container-lg">
         <div class="rowleft">
-      <div class="fcol intro pad5">
+      <div class="fcol intro pt5">
           <h2 class="project-headline">
             {{ title }}
           </h2>
@@ -43,6 +43,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+.project-headline {
+  font-size: 4rem;
+}
+
 .tagline {
   color: #444;
   font-size: 2rem;
@@ -55,16 +60,12 @@ export default {
   justify-content: flex-start;
 }
 
-.project-headline {
-  font-size: 4rem;
-}
-
 @media only screen and (max-width: 800px) {
   .project-headline {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
   .tagline {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 </style>
