@@ -9,7 +9,7 @@
     <ArticleHeader
       id="headline"
       class="pt5 b4"
-      title="Refining online ordering ux"
+      title="Refining the online ordering experience"
       subhead="Pizza Pizza is an Canadian QSR with one of the first online ordering apps."
     />
 
