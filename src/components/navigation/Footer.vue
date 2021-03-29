@@ -12,9 +12,6 @@
         class="frow"
       >
         <div class="nav-link">
-          <a href="https://www.linkedin.com/in/pchoi1/" rel="noreferrer" target="_blank">
-            <h6>LinkedIn</h6>
-          </a>
         </div>
       </div>
     </div>
@@ -25,11 +22,6 @@
 export default {
   name: 'Footer',
   props: {
-    legal: {
-      type: String,
-      required: true,
-      default: '© 2016-2021 Phil Choi',
-    },
     padding: {
       type: String,
       default: '',

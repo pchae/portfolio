@@ -1,13 +1,15 @@
 <template>
   <div :id="[sectionID]" :class="[padding, bgColor]">
-    <div class="container">
-      <div class="fcol intro pt5">
-        <h2 class="project-headline">
-          {{ title }}
-        </h2>
-        <h3 class="tagline">
-          {{ subhead }}
-        </h3>
+    <div class="container-lg">
+        <div class="rowleft">
+      <div class="fcol intro pad5">
+          <h2 class="project-headline">
+            {{ title }}
+          </h2>
+          <h3 class="tagline">
+            {{ subhead }}
+          </h3>
+        </div>
       </div>
     </div>
   </div>
@@ -49,7 +51,8 @@ export default {
 
 .intro {
   min-height: 10rem;
-  justify-content: flex-end;
+  width: 100%;
+  justify-content: flex-start;
 }
 
 .project-headline {

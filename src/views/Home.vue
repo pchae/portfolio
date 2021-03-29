@@ -3,13 +3,14 @@
     <Nav
       id="navigation"
       tColor="bk"
+      bgColor="b4"
     />
 
     <IntroBlock
       id="headline"
       class="pad5 b4"
       headline="I'm a product designer who creates impactful digital solutions that delight, surprise, and inspire."
-      status="Founder and principle designer at <a href='https://saturdays.io' rel='noreferrer' target='_blank'>Saturdays.io</a>"
+      status=""
     />
 
     <ImageGrid

@@ -1,23 +1,21 @@
 <template>
   <div>
-    <Nav id="navigation" />
-
-    <Logo />
+    <Nav
+      id="navigation"
+      tColor="bk"
+      bgColor="b4"
+    />
 
     <ArticleHeader
       id="headline"
       class="pt5 b4"
-      title="Starz Play"
-      subhead="Redefining the way we watch TV"
+      title="Redefining the way we watch TV"
+      subhead="Starz is an American premium cable TV network competing with Netflix, HBO and Showtime."
     />
 
     <ArticleDetails
       id="detail"
       class="pad3 b4"
-      client="Starz, Digiflare"
-      role="Senior UX/UI Designer"
-      result="$25.7MM USD in revenue for 2016. 200M signups in first 3 months -> 2MM users after 12 months."
-      year="2015"
     />
 
     <ImageBlock
@@ -30,7 +28,7 @@
     <textblock
       id="caption-intro"
       class="pad2 b4"
-      intro="Overview"
+      intro="Overview/Challenge"
       desc="Starz is an American premium cable TV network competing with Netflix, HBO and Showtime. In an attempt to keep up with their rivals, Starz had previously launched streaming apps but struggled with activations and growth. It was clear they needed a fresh perspective and business model, one that would resonate with consumers by catering to diverse lifestyles and needs."
     />
 
@@ -45,11 +43,10 @@
     <textblock
       id="caption-challenge-one"
       class="pad2 b4"
-      intro="Challenge: Timeline"
+      intro="Obstacles: Timeline"
       desc="The goals of the team were to design, build, and deploy 3 versions of the app in near simultaneous launch windows. The design time spanned 3 months for Roku, Amazong Fire TV and Samsung Smart TVs which were all new platforms for the Digiflare team.
       Design only had a short runway ahead of the Development which was performed almost simultaneously with quick iteration cycles."
     />
-
 
     <textblock
       id="solution-challenge-two"
@@ -103,7 +100,6 @@
       img-alt="Lorem ipsum"
     />
 
-
     <textblock
       id="caption-wireframes"
       class="pt4 b4"
@@ -121,7 +117,7 @@
     <MediaBlock
       id="wireframe-roku"
       class="pb5 b4"
-      subline="X. Feature - Roku Gen 1"
+      subline="X. Feature - Roku Gen 1. Modest hardware capabilities and 10mb buffer limit didn't allow for expected features like carousels, fullscreen animated backgrounds. Each screen and subsequent sections required precaching to decrease slideshow style navigation."
       img-src="project/starz/wire-feature-roku.jpg"
       img-alt="Wireframe Show details"
     />
@@ -166,7 +162,6 @@
       img-alt="Wireframe Show details"
     />
 
-
     <textblock
       id="caption-visual-design"
       class="pt4 b4"
@@ -182,33 +177,33 @@
     />
 
     <MediaBlock
-      id="ui-featured-roku"
+      id="ui-feature-roku"
       class="pb5 b4"
-      subline="1. Roku - Featured Home"
-      img-src="project/starz/ui-featured-roku.jpg"
+      subline="1. Roku - Feature Home"
+      img-src="project/starz/ui-feature-roku.jpg"
       img-alt="Development process diagram"
     />
 
     <MediaBlock
-      id="ui-featured-samsung"
+      id="ui-feature-samsung"
       class="pb5 b4"
-      subline="1. Samsung SmartTV - Featured Home"
-      img-src="project/starz/ui-featured-samsung.jpg"
+      subline="1. Samsung SmartTV - Feature Home"
+      img-src="project/starz/ui-feature-samsung.jpg"
       img-alt="Development process diagram"
     />
 
     <MediaBlock
-      id="ui-featured-firetv"
+      id="ui-feature-firetv"
       class="pb5 b4"
-      subline="2. Amazon FireTV - Featured Home"
-      img-src="project/starz/ui-featured-firetv.jpg"
+      subline="2. Amazon FireTV - Feature Home"
+      img-src="project/starz/ui-feature-firetv.jpg"
       img-alt="Curated movies list"
     />
 
     <MediaBlock
       id="ui-movie_details-resume"
       class="pb5 b4"
-      subline="4. Roku - Movie Details"
+      subline="4. Roku - Movie Details **Note** Most basic hardware with 10MB buffer. Approach had to scale down the experience in favour of usability and performance. Could not do fullscreen background images or motion."
       img-src="project/starz/ui-movie_detail-roku.jpg"
       img-alt="Development process diagram"
     />
@@ -216,7 +211,7 @@
     <MediaBlock
       id="ui-home-playlist"
       class="pb5 b4"
-      subline="5. Samsung - Movie Details"
+      subline="5. Samsung - Movie Details **Note** Middleground platform locked at 720p, software based on basic web technologies: HTML5, CSS3, JavaScript."
       img-src="project/starz/ui-movie_detail-samsung.jpg"
       img-alt="Development process diagram"
     />
@@ -224,7 +219,7 @@
     <MediaBlock
       id="ui-show-details"
       class="pb5 b4"
-      subline="6. FireTV - Show Details: Episodes"
+      subline="6. FireTV - Show Details: Episodes **Note** Best hardware specs of all 3 platforms, able to create immersive pages with fullscreen motion backgrounds and previews."
       img-src="project/starz/ui-movie_detail-firetv2.jpg"
       img-alt="Development process diagram"
     />
@@ -246,7 +241,7 @@
     <MediaBlock
       id="design-system-type"
       class="pb5 b4"
-      subline="X. Design System - Typography"
+      subline="X. Design System - Typography **Note** Redo to show brand colours and typography."
       img-src="project/starz/design-system-type.jpg"
       img-alt="Design System Typography / Colors"
     />
@@ -254,7 +249,7 @@
     <MediaBlock
       id="design-system-type"
       class="pb5 b4"
-      subline="X. Design System - Tiles"
+      subline="X. Design System - Tiles **Note** split into 3 columns, mobile breakdown into 1 column."
       img-src="project/starz/design-system-tiles.jpg"
       img-alt="Design System Tiles & Swimlanes"
     />
@@ -270,22 +265,22 @@
       id="ui-welcome-back"
       class="pb5 b4"
       subline="X. Returning User interstitial. Added personalization aspects to enhance the experience. Lorem ipsum dolor sit amet."
-      img-src="project/starz/resume.jpg"
+      img-src="project/starz/ui-welcome_back-samsung.jpg"
       img-alt="Development process diagram"
     />
 
-  <MediaBlock
+    <MediaBlock
       id="ui-video_player"
       class="pb5 b4"
-      subline="X. Video Player - FireTV"
-      img-src="project/starz/ui-video_player-firetv.jpg"
+      subline="X. Video Player - FireTV timeline scrubbing feature with PiP (Picture in Picture) thumbnail."
+      img-src="project/starz/ui-video_player.jpg"
       img-alt="Search Results interface"
     />
 
-  <MediaBlock
+    <MediaBlock
       id="ui-search-results"
       class="pb5 b4"
-      subline="X. SmartTV Search Results"
+      subline="X. Samsung SmartTV Are you still there? feature set to 2.5 episode length based on user inactivity. We spent a lot of time fine-tuning this feature to strike a balance between being unintrusive and helpful."
       img-src="project/starz/ui-still_watch-samsung.jpg"
       img-alt="Search Results interface"
     />
@@ -312,8 +307,7 @@
 <script>
 // @ is an alias to /src
 
-import Logo from "@/components/navigation/logo.vue";
-import Nav from "@/components/navigation/overlay_menu.vue";
+import Nav from "@/components/navigation/Navigation.vue";
 import ArticleHeader from "@/components/layouts/article_header.vue";
 import ArticleDetails from "@/components/layouts/article_details.vue";
 import ImageBlock from "@/components/layouts/image_block.vue";
@@ -324,7 +318,6 @@ import Footer from "@/components/navigation/Footer.vue";
 export default {
   name: "Starz",
   components: {
-    Logo,
     Nav,
     ArticleHeader,
     ArticleDetails,
@@ -338,6 +331,22 @@ export default {
     title: "Phil Choi",
     // all titles will be injected into this template
     titleTemplate: "%s - Starz Play",
+  },
+  provide() {
+    return {
+      workInfo: {
+        name: "light",
+        client: "STARZ, Digiflare",
+        year: "2015",
+        role: "Sr. UX/UI Designer",
+        result: [
+          "Generated $25.7 Million USD revenue in 2016.",
+          "200 thousand active subscribers in the first 3 months.",
+          "2 million active subscribers after 12 months.",
+          "Developed new apps for Amazon FireTV, Samsung SmartTV, and Roku."
+        ]
+      }
+    };
   },
 };
 </script>
