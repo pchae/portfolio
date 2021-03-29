@@ -9,7 +9,7 @@
     <ArticleHeader
       id="headline"
       class="pt5 b4"
-      title="Pizza Pizza"
+      title="Refining the online ordering experience"
       subhead="Pizza Pizza is an Canadian QSR with the first online ordering app."
     />
 
@@ -28,8 +28,8 @@
     <textblock
       id="caption-intro"
       class="pad2 b4"
-      intro="Overview/Challenge"
-      desc="Starz is an American premium cable TV network competing with Netflix, HBO and Showtime. In an attempt to keep up with their rivals, Starz had previously launched streaming apps but struggled with activations and growth. It was clear they needed a fresh perspective and business model, one that would resonate with consumers by catering to diverse lifestyles and needs."
+      intro="Overview"
+      desc="Pizza Pizza is one of Canada’s largest Quick Service Restaurant (QSR) chains and first to launch a pizza ordering iPhone app worldwide. During my time at Plastic Mobile I designed and delivered new features like the digital wallet, coupon redemption, native French support, and a UI refresh to coincide with iOS 8."
     />
 
     <MediaBlock
@@ -64,18 +64,12 @@
       img-alt="Lorem ipsum"
     />
 
-    <textblock
-      id="caption-wireframes"
-      class="pt4 b4"
-      intro="Wireframes x3"
-      desc="To save time and minimize errors, I built a set of responsive grids and reusable components based on Starz's CDN and each platform’s SDK. This accounted for predefined asset dimensions, Action & Title Safe zones, and unique platform requirements."
-    />
 
     <textblock
-      id="caption-wireframes"
-      class="pb2 b4"
-      intro=""
-      desc="The components allowed us to work at a high fidelity and sped up the production of consistent, accurate layouts. Since measurements were baked in, it also facilitated a quick turn-around time for creating production-ready UI elements."
+      id="caption-visual-design"
+      class="pt4 b4"
+      intro="Visual Design"
+      desc="We created a dark, minimalist user interface with high contrast ratios to place emphasis on the poster art and reduce eye strain. It was also essential that we tried to capture the essence of going to a movie theatre while incorporating Starz branding."
     />
 
     <MediaBlock
@@ -94,6 +88,14 @@
       img-alt="Wireframe Show details"
     />
 
+
+    <textblock
+      id="caption-wireframes"
+      class="pt4 b4"
+      intro="Redemption"
+      desc="Main reason I was brought onto the team was to produce new features and value ads. Came up with pizza redemption similar to 10th purchase is free done by other QSRs. Also integrate more closely with Club 11-11 loyalty plans."
+    />
+
     <MediaBlock
       id="wireframe-amazon"
       class="pb5 b4"
@@ -110,18 +112,12 @@
       img-alt="Wireframe Show details"
     />
 
-    <textblock
-      id="caption-visual-design"
-      class="pt4 b4"
-      intro="Visual Design"
-      desc="We created a dark, minimalist user interface with high contrast ratios to place emphasis on the poster art and reduce eye strain. It was also essential that we tried to capture the essence of going to a movie theatre while incorporating Starz branding."
-    />
 
     <textblock
       id="caption-extras"
       class="pb2 b4"
-      intro="Personalization"
-      desc="We were able to use the remaining time to add quality of life features and flourishes throughout the applications to curate and personalize the experience."
+      intro="GPS & Maps"
+      desc="Added a store locator feature for pick-up and takeout orders to serve larger demographics and open up purchasing options facilitated through the app."
     />
 
     <MediaBlock
@@ -211,8 +207,8 @@ export default {
         role: "Digital Designer",
         result: [
           "Increased revenue from $60 Million to $80 Million for 2015.",
-          "50% of all sales to digital platforms.",
-          "Refactored UI and worked on development of French localization."
+          "50% of all sales shifted to digital platforms.",
+          "Refactored UI, added Redemption, GPS, & French localization."
         ]
       }
     };
