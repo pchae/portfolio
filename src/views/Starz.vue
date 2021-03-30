@@ -28,7 +28,7 @@
     <textblock
       id="caption-intro"
       class="pad2 b4"
-      intro="Overview/Challenge"
+      intro="Overview"
       desc="Starz is an American premium cable TV network competing with Netflix, HBO and Showtime. In an attempt to keep up with their rivals, Starz had previously launched streaming apps but struggled with activations and growth. It was clear they needed a fresh perspective and business model, one that would resonate with consumers by catering to diverse lifestyles and needs."
     />
 

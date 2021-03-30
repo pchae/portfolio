@@ -9,7 +9,7 @@
     <IntroBlock
       id="headline"
       class="pad5 b4"
-      headline="I'm a product designer who creates impactful digital solutions that delight, surprise, and inspire."
+      headline="I'm a product designer who creates impactful digital solutions that delight and inspire."
       status=""
     />
 
