@@ -83,6 +83,7 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  gap: 2.5rem;
 }
 
 .list-container:nth-child(1) {
@@ -111,10 +112,10 @@ li:nth-child(1) {
 }
 
 @media only screen and (max-width: 800px) {
-
-.flex-list {
-  flex-direction: column;
-}
+  .flex-list {
+    flex-direction: column;
+    gap: 1.25rem;
+  }
 
   .list-container {
     display: flex;
