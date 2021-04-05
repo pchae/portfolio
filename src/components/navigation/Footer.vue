@@ -1,72 +1,116 @@
 <template>
   <!-- Footer -->
-  <footer
-    :id="[sectionID]"
-    :class="[padding, bgColor] ">
-    <div class="container-lg frow">
-      <div class="copyright">
-        <h6>© Phil Choi 2021</h6>
+  <footer :id="[sectionID]" :class="[padding, bgColor]">
+    <div class="container-sm fcol">
+      <div class="title">
+        <h2>Get in touch</h2>
       </div>
-      <div
-        id="nav-links"
-        class="frow"
-      >
-        <div class="nav-link">
-        </div>
+
+      <div class="desc">
+        <p>
+          If you have a website or mobile app idea in mind or you need some
+          advice about product design, feel free to contact me.
+        </p>
+      </div>
+
+      <PrimaryButton
+        buttonName="contact@philchoi.ca"
+        url="mailto:contact@philchoi.ca"
+        class="email"
+        type="email"
+      />
+
+      <div id="nav-links" class="frow">
+        <div class="nav-link"><a href="https://linkedin.com/in/pchoi1/"><img src="@/assets/icons/icon-linkedin.svg" alt="linkedin icon" /></a></div>
+        <div class="nav-link"><a href="https://github.com/"><img src="@/assets/icons/icon-github.png" alt="mail icon" /></a></div>
+      </div>
+
+      <div class="copyright">
+        <h6>© Phil Choi 2021 - All rights reserved.</h6>
       </div>
     </div>
   </footer>
 </template>
 
 <script>
+import PrimaryButton from "@/components/buttons/PrimaryButton.vue";
+
 export default {
-  name: 'Footer',
+  name: "Footer",
   props: {
     padding: {
       type: String,
-      default: '',
+      default: "",
     },
     bgColor: {
       type: String,
-      default: '',
+      default: "",
     },
     sectionID: {
       type: String,
-      default: '',
+      default: "",
     },
+  },
+  components: {
+    PrimaryButton,
   },
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+footer {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
 
-  footer {
-    padding-top: 4rem;
-    padding-bottom: 2rem;
-  }
+.fcol {
+  justify-content: center;
+}
 
-  .nav {
-    text-align: right;
-  }
+.frow {
+  justify-content: center;
+}
 
-  .frow {
-    justify-content: space-between;
-  }
+.title {
+  color: #fff;
+}
+
+.desc {
+  color: #787878;
+  margin-bottom: 3rem;
+}
+
+.email {
+  background-color: #2430f8;
+  margin-bottom: 3rem;
+}
+
+a {
+  color: #fff;
+}
 
 .copyright {
-  color: #000;
+  margin-top: 2rem;
+  color: #fff;
 }
+
 /* Link Override */
 
+.nav-link {
+  color: #fff;
+}
+
 .nav-link:nth-child(1n) {
+  padding-right: 3rem;
 }
 
 .nav-link:nth-child(2n) {
+  padding-right: 0rem;
 }
 
 .nav-link:nth-child(3n) {
-  padding-left: 0rem;
 }
 
 </style>
