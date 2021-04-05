@@ -1,15 +1,13 @@
 <template>
   <div :id="[sectionID]" :class="[padding, bgColor]">
-    <div class="container-lg">
-        <div class="rowleft">
-      <div class="fcol intro pt5">
-          <h2 class="project-headline">
-            {{ title }}
-          </h2>
-          <h3 class="tagline">
-            {{ subhead }}
-          </h3>
-        </div>
+    <div class="container">
+      <div class="fcol intro">
+        <h2 class="project-headline">
+          {{ title }}
+        </h2>
+        <h4 class="tagline">
+          {{ subhead }}
+        </h4>
       </div>
     </div>
   </div>
@@ -43,29 +41,21 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
 .project-headline {
-  font-size: 3rem;
+  padding-bottom: 1rem;
 }
 
 .tagline {
   color: #444;
-  font-size: 2rem;
   font-weight: 400;
 }
 
 .intro {
-  min-height: 10rem;
   width: 100%;
   justify-content: flex-start;
+  margin-bottom: 1rem;
 }
 
 @media only screen and (max-width: 800px) {
-  .project-headline {
-    font-size: 2rem;
-  }
-  .tagline {
-    font-size: 1.5rem;
-  }
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <button><h5>{{ buttonName }}</h5></button>
+  <button><a v-bind:href="url"><h5>{{ buttonName }}</h5></a></button>
 </template>
 
 <script>
@@ -11,6 +11,11 @@ export default {
       default: '',
       required: true,
     },
+    url: {
+      type: String,
+      default: '',
+      required: true,
+    }
   },
 };
 </script>
@@ -30,4 +35,7 @@ export default {
     cursor: pointer;
   }
 
+  a {
+    color: #fff;
+  }
 </style>

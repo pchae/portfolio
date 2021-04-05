@@ -37,6 +37,10 @@ body {
 
 /* Padding */
 
+.pad05 {
+  padding: 0.5rem 0;
+}
+
 .pad1 {
   padding: 1rem 0;
 }
@@ -121,17 +125,17 @@ a:hover, button:hover {
   
 h1 {
   font-size: 4rem;
-  line-height: 1.5;
+  line-height: 1.4;
 }
   
 h2 {
   font-size: 3rem;
-  line-height: 1.5;
+  line-height: 1.4;
 }
   
 h3 {
   font-size: 2rem;
-  line-height: 1.5;
+  line-height: 1.4;
 }
   
 h4 {

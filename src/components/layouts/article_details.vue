@@ -1,6 +1,6 @@
 <template>
   <div :id="[sectionID]" :class="[padding, bgColor]">
-    <div class="container-lg">
+    <div class="container">
       <div class="flex-list">
         <div class="list-group">
           <div class="list-container">

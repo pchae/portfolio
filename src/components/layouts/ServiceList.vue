@@ -1,6 +1,6 @@
 <template>
   <section :id="[sectionID]" :class="[padding, bgColor]">
-    <div class="container-lg content-wrapper">
+    <div class="container content-wrapper">
       <div class="services">
         <div class="list-container">
           <ListCard

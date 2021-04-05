@@ -8,9 +8,16 @@
 
     <ArticleHeader
       id="headline"
-      class="pt5 b4"
+      class="pt120 b4"
       title="Redefining the way we watch TV"
-      subhead="Starz is an American premium cable TV network competing with Netflix, HBO and Showtime."
+      subhead="Starz is an American premium cable TV network known for shows such as Outlander, Black Sails, Power, and American Gods."
+    />
+
+    <ImageBlock
+      id="header-mockup"
+      class=" b4"
+      img-src="project/starz/mock-movie-firetv.jpg"
+      img-alt="Starz header image"
     />
 
     <ArticleDetails
@@ -18,12 +25,6 @@
       class="pad3 b4"
     />
 
-    <ImageBlock
-      id="header-mockup"
-      class="pb2 b4"
-      img-src="project/starz/mock-movie-firetv.jpg"
-      img-alt="Starz header image"
-    />
 
     <textblock
       id="caption-intro"
@@ -285,22 +286,15 @@
       img-alt="Search Results interface"
     />
 
-    <MediaBlock
-      id="video-player-mockup"
-      class="pb5 b4"
-      subline="8. Video player mockup"
-      img-src="project/starz/mock-player.jpg"
-      img-alt="Development process diagram"
-    />
 
     <textblock
       id="caption-outcome"
-      class="b4"
+      class="pb5 b4"
       intro="Outcome"
       desc="Successfully launched across 3 platforms in Q3 2016 with over 200,000 active subscriptions within the first 3 months. 2 Million active subscriptions after 12 months generating $25.7M in revenue for 2016."
     />
 
-    <Footer id="footer" class="b4" />
+    <Footer id="footer" class="b1" />
   </div>
 </template>
 

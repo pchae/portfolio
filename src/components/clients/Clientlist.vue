@@ -1,5 +1,5 @@
 <template>
-  <div class="client-partners container-lg">
+  <div class="client-partners container">
     <!-- Row 1 -->
     <div class="item-container">
       <Logo :index="1" img-src="cbc.svg" img-alt="Canadian Broadcasting Company logo" />
@@ -13,6 +13,7 @@
     <div class="item-container">
       <Logo :index="4" img-src="rbc.svg" img-alt="Royal Bank of Canada logo" />
     </div>
+
     <!-- Row 2 -->
     <div class="item-container">
       <Logo :index="5" img-src="mashable.svg" img-alt="Mashable logo" />

@@ -4,7 +4,6 @@ import VueRouter from 'vue-router';
 import Meta from 'vue-meta'
 import Home from '../views/Home.vue';
 import Info from '../views/Info.vue';
-import Contact from '../views/Contact.vue';
 
 import Starz from '../views/Starz.vue';
 import Pizza from '../views/Pizza.vue';
@@ -55,28 +54,7 @@ const routes = [
       ],
     },
   },
-  {
-    path: '/contact',
-    name: 'contact',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: Contact,
-    meta: {
-      auth: true,
-      title: 'Phil Choi - Contact',
-      metaTags: [
-        {
-          name: 'description',
-          content: 'Phil Choi Contact page',
-        },
-        {
-          property: 'og:description',
-          content: 'Phil Choi contact page',
-        },
-      ],
-    },
-  },
+
   // Project: Starz Play
   {
     path: '/starz',

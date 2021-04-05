@@ -8,9 +8,16 @@
 
     <ArticleHeader
       id="headline"
-      class="pt5 b4"
-      title="Modernizing social content for Enterprise"
+      class="pt120 b4"
+      title="Modernizing social content for Enterprise SaaS"
       subhead="Engage is a multi-channel social media engagement tool used by news media, sports teams and brands to promote live dynamic content and drive audience participation."
+    />
+
+    <ImageBlock
+      id="header-mockup"
+      class=" b4"
+      img-src="project/engage/landscape.jpg"
+      img-alt="Starz header image"
     />
 
     <ArticleDetails
@@ -18,12 +25,6 @@
       class="pad3 b4"
     />
 
-    <ImageBlock
-      id="header-mockup"
-      class="pb2 b4"
-      img-src="project/engage/landscape.jpg"
-      img-alt="Starz header image"
-    />
 
     <textblock
       id="caption-intro"
@@ -154,12 +155,12 @@
 
     <textblock
       id="caption-outcome"
-      class="b4"
+      class="pb5 b4"
       intro="Outcome"
       desc="$96,000 USD reduction in Product Design stack & Engineering expenses by auditing and consolidating licenses and tools. Design System increased front-end development velocity by 20%. The redesign beta for Engage's mobile experience led to an 11% increase in client contract renewals."
     />
 
-    <Footer id="footer" class="b4" />
+    <Footer id="footer" class="b1" />
   </div>
 </template>
 
