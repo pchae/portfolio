@@ -8,21 +8,21 @@
 
     <ArticleHeader
       id="headline"
-      class="pt5 b4"
-      title="Refining the online ordering experience"
-      subhead="Pizza Pizza is an Canadian QSR with one of the first online ordering apps."
+      class="pt120 b4"
+      title="Refining North America’s first pizza ordering app."
+      subhead="Pizza Pizza is Canada's largest Quick Service Restaurant (QSR) chain with over 700 locations across the country."
+    />
+
+    <ImageBlock
+      id="header-mockup"
+      class=" b4"
+      img-src="project/pizza/3phone1.jpg"
+      img-alt="Pizza Pizza header image"
     />
 
     <ArticleDetails
       id="detail"
       class="pad3 b4"
-    />
-
-    <ImageBlock
-      id="header-mockup"
-      class="pb2 b4"
-      img-src="project/pizza/3phone1.jpg"
-      img-alt="Pizza Pizza header image"
     />
 
     <textblock
@@ -153,12 +153,12 @@
 
     <textblock
       id="caption-outcome"
-      class="b4"
+      class="pb5 b4"
       intro="Outcome"
       desc="Successfully launched across 3 platforms in Q3 2016 with over 200,000 active subscriptions within the first 3 months. 2 Million active subscriptions after 12 months generating $25.7M in revenue for 2016."
     />
 
-    <Footer id="footer" class="b4" />
+    <Footer id="footer" class="b1" />
   </div>
 </template>
 
