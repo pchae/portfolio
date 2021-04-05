@@ -375,7 +375,7 @@ li {
   }
 
   h6 {
-    font-size: 1.25rem;
+    font-size: 0.875rem;
     line-height: 1.5;
   }
 
@@ -471,6 +471,7 @@ li {
 .bk {
   color: #000;
 }
+
 
 /* Scrollbar Colour */
 ::-webkit-scrollbar {
