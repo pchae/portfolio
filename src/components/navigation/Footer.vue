@@ -8,21 +8,31 @@
 
       <div class="desc">
         <p>
-          If you have a website or mobile app idea in mind or you need some
-          advice about product design, feel free to contact me.
+          If you have a website or mobile app idea in mind or need some product
+          advice, feel free to contact me.
         </p>
       </div>
 
-      <PrimaryButton
-        buttonName="contact@philchoi.ca"
-        url="mailto:contact@philchoi.ca"
-        class="email"
-        type="email"
-      />
+      <div class="frow">
+        <PrimaryButton
+          buttonName="contact@philchoi.ca"
+          url="mailto:contact@philchoi.ca"
+          class="email"
+          type="email"
+        />
+      </div>
 
       <div id="nav-links" class="frow">
-        <div class="nav-link"><a href="https://linkedin.com/in/pchoi1/"><img src="@/assets/icons/icon-linkedin.svg" alt="linkedin icon" /></a></div>
-        <div class="nav-link"><a href="https://github.com/pchae/"><img src="@/assets/icons/icon-github.png" alt="mail icon" /></a></div>
+        <div class="nav-link">
+          <a href="https://linkedin.com/in/pchoi1/"
+            ><img src="@/assets/icons/icon-linkedin.svg" alt="linkedin icon"
+          /></a>
+        </div>
+        <div class="nav-link">
+          <a href="https://github.com/pchae/"
+            ><img src="@/assets/icons/icon-github.png" alt="mail icon"
+          /></a>
+        </div>
       </div>
 
       <div class="copyright">
@@ -112,5 +122,4 @@ a {
 
 .nav-link:nth-child(3n) {
 }
-
 </style>
