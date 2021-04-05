@@ -3,7 +3,7 @@
     :id="[sectionID]"
     :class="[padding, bgColor]"
   >
-    <div class="text-container container-lg">
+    <div class="text-container container">
       <div class="fcol">
         <div class="frow">
           <p class="subtext">
