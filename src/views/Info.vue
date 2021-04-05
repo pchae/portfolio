@@ -1,18 +1,21 @@
 <template>
   <div>
     <Nav 
-      d="navigation"
+      id="navigation"
       tColor="bk"
       bgColor="b4"
     />
 
     <IntroBlock
       id="headline"
-      class="pad5 b4"
+      class="pt120 b4"
       headline="My focus is on art, design, and technology as well as when, where, and how they affect everyday life."
     />
 
-    <Intro />
+    <Intro
+      id="about"
+      class="pt1 b4"
+    />
 
     <ServiceList
       id="skillset"
@@ -21,14 +24,12 @@
 
     <Clientgrid
       id="clientlist"
-      sectiontitle="section-title-lt"
-      title="Select clients"
       class=" b4"
     />
 
     <Footer
       id="footer"
-      class="b4"
+      class="b1"
     />
   </div>
 </template>
