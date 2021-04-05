@@ -1,6 +1,6 @@
 <template>
   <!-- Header -->
-  <header :id="[sectionID]" :class="[bgColor]" class="pad1">
+  <header :id="[sectionID]" :class="[bgColor]" class="pad05">
     <div>
       <div class="container-lg fcontain">
         <div class="logo">
