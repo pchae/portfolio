@@ -4,7 +4,7 @@
     :class="[padding, bgColor]"
   >
     <div class="container">
-      <div class="fcol pad1">
+      <div class="fcol ">
         <h3 class="section-headline">
           {{ intro }}
         </h3>
