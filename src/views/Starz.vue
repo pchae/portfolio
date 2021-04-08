@@ -239,13 +239,6 @@
       desc="Automating design to development hand-off was new at the time, but we took a calculated risk and added Zeplin.io to our stack. It freed up multiple sprints that would have been spent creating measurement specifications and removed a costly bottleneck for development. We reallocated this time to fine-tune the user interactions and draft a design system."
     />
 
-    <MediaBlock
-      id="design-system-type"
-      class="pb5 b4"
-      subline="X. Design System - Typography **Note** Redo to show brand colours and typography."
-      img-src="project/starz/design-system-type.jpg"
-      img-alt="Design System Typography / Colors"
-    />
 
     <MediaBlock
       id="design-system-type"
