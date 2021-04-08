@@ -1,7 +1,7 @@
 <template>
   <section :id="[sectionID]" :class="[padding, bgColor]">
     <div class="container-lg content-wrapper">
-      <div class="flex">
+      <div class="flex pb5">
         <div class="list-container">
           <router-link to="/starz" exact>
             <ImgCard
@@ -44,24 +44,7 @@
             desc="Microsoft Lumia & Surface"
           />
         </div>
-        <div class="list-container">
-          <ImgCard
-            :index="5"
-            img-src="blank.png"
-            img-alt="C51"
-            title="MMA API"
-            desc="React Native, SaaS"
-          />
-        </div>
-        <div class="list-container">
-          <ImgCard
-            :index="6"
-            img-src="blank.png"
-            img-alt="Fintech Design Systems"
-            title="Fintech Design Systems"
-            desc="Android, iOS"
-          />
-        </div>
+  
       </div>
     </div>
   </section>
