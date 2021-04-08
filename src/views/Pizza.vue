@@ -55,14 +55,6 @@
       img-alt="Lorem ipsum"
     />
 
-    <MediaBlock
-      id="ui-authenticate"
-      class="pb5 b4"
-      subline="X. Lorem ipsum dolor sit amet."
-      img-src="project/pizza/wires_android.jpg"
-      img-alt="Lorem ipsum"
-    />
-
 
     <textblock
       id="caption-visual-design"

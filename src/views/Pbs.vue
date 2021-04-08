@@ -9,8 +9,8 @@
     <ArticleHeader
       id="headline"
       class="pt120 b4"
-      title="Headline about PBS."
-      subhead="PBS is a non-profit broadcaster known for Sherlock, Mind of a Chef and Showtitle."
+      title="Introducing an iconic public broadcaster to Windows"
+      subhead="The Digiflare team invited me to help shape the user experience and visual design of a new responsive streaming app for PBS. Unlike typical responsive design projects, this needed to be future-ready in order to scale across Microsoft's current and unreleased devices."
     />
 
     <ImageBlock
@@ -29,7 +29,7 @@
       id="caption-intro"
       class="pad2 b4"
       intro="Overview"
-      desc="Pizza Pizza is one of Canada’s largest Quick Service Restaurant (QSR) chains and first to launch a pizza ordering iPhone app worldwide. During my time at Plastic Mobile I designed and delivered new features like the digital wallet, coupon redemption, native French support, and a UI refresh to coincide with iOS 8."
+      desc="PBS is a non-profit American public broadcaster and a prominent provider of educational shows including Sesame Street, Downton Abbey and Mind of a Chef. However, even with 80% household viewership in the United States, they needed a digital presence to maintain relevance."
     />
 
     <MediaBlock
@@ -45,7 +45,7 @@
       id="caption-challenge-one"
       class="pad2 b4"
       intro="Challenges"
-      desc="The goals of the team were to design, build, and deploy new updates to coincide with iOS 8. Annual refresh of the product. Increase conversions and create habits based on ordering pizza. Needed to work with difficult stakeholders and refine and guide their design sensibilities."
+      desc="The Digiflare team invited me to help shape the user experience and visual design of a new responsive streaming app for PBS. Unlike typical responsive design projects, this needed to be future-ready in order to scale across Microsoft's current and unreleased Surface tablet devices."
     />
 
     <MediaBlock
