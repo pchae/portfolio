@@ -143,14 +143,6 @@
       img-alt="Search Results interface"
     />
 
-    <MediaBlock
-      id="ui-mobile2"
-      class="pb5 b4"
-      subline="X. Lorem ipsum."
-      img-src="project/pizza/phone_comps.jpg"
-      img-alt="Development process diagram"
-    />
-
     <textblock
       id="caption-outcome"
       class="pb5 b4"
@@ -193,7 +185,6 @@ export default {
   provide() {
     return {
       workInfo: {
-        name: "light",
         client: "Pizza Pizza, Plastic Mobile",
         year: "2014",
         role: "Digital Designer",
