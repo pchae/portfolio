@@ -8,6 +8,7 @@ import Info from '../views/Info.vue';
 import Starz from '../views/Starz.vue';
 import Pizza from '../views/Pizza.vue';
 import Engage from '../views/Engage.vue';
+import PBS from '../views/Pbs.vue';
 
 Vue.use(VueRouter);
 Vue.use(Meta);
@@ -124,7 +125,29 @@ const routes = [
       ],
     },
   },
-
+  // Project: PBS
+  {
+    path: '/pbs',
+    name: 'PBS',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: PBS,
+    meta: {
+      auth: true,
+      title: 'Phil Choi - Public Broadcasting Service',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'Phil Choi PBS',
+        },
+        {
+          property: 'og:description',
+          content: 'Phil Choi PBS',
+        },
+      ],
+    },
+  },
 ];
 
 const router = new VueRouter({
