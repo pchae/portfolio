@@ -6,7 +6,7 @@
           <router-link to="/starz" exact>
             <ImgCard
               :index="1"
-              img-src="blank.png"
+              img-src="starz.jpg"
               img-alt="Starz Play apps"
               title="Starz Play"
               desc="Amazon FireTV, Samsung SmartTV, Roku"
@@ -36,15 +36,16 @@
           </router-link>
         </div>
         <div class="list-container">
-          <ImgCard
-            :index="3"
-            img-src="mobile3.webp"
-            img-alt="PBS"
-            title="PBS"
-            desc="Microsoft Lumia & Surface"
-          />
+          <router-link to="/pbs" exact>
+            <ImgCard
+              :index="3"
+              img-src="pbs.jpg"
+              img-alt="PBS"
+              title="PBS"
+              desc="Microsoft Lumia & Surface"
+            />
+          </router-link>
         </div>
-  
       </div>
     </div>
   </section>
