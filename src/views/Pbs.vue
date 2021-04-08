@@ -9,15 +9,15 @@
     <ArticleHeader
       id="headline"
       class="pt120 b4"
-      title="Refining North America’s first pizza ordering app."
-      subhead="Pizza Pizza is Canada's largest Quick Service Restaurant (QSR) chain with over 700 locations across the country."
+      title="Headline about PBS."
+      subhead="PBS is a non-profit broadcaster known for Sherlock, Mind of a Chef and Showtitle."
     />
 
     <ImageBlock
       id="header-mockup"
       class=" b4"
-      img-src="project/pizza/3phone1.jpg"
-      img-alt="Pizza Pizza header image"
+      img-src="project/pbs/mockup.jpg"
+      img-alt="PBS header image"
     />
 
     <ArticleDetails
@@ -36,9 +36,10 @@
       id="diagram-misc"
       class="pb5 b4"
       subline="X. Lorem ipsum dolor sit amet. Contactless payment options."
-      img-src="project/pizza/3phone2.jpg"
+      img-src="project/pbs/featured.jpg"
       img-alt="Lorem ipsum."
     />
+
 
     <textblock
       id="caption-challenge-one"
@@ -51,16 +52,8 @@
       id="ui-authenticate"
       class="pb5 b4"
       subline="X. Lorem ipsum dolor sit amet."
-      img-src="project/pizza/wires_ios.jpg"
-      img-alt="Lorem ipsum"
-    />
-
-    <MediaBlock
-      id="ui-authenticate"
-      class="pb5 b4"
-      subline="X. Lorem ipsum dolor sit amet."
-      img-src="project/pizza/wires_android.jpg"
-      img-alt="Lorem ipsum"
+      img-src="project/pbs/lumia_light.jpg"
+      img-alt="Show Microsoft Surface documentation"
     />
 
 
@@ -75,7 +68,7 @@
       id="wireframe-roku"
       class="pb5 b4"
       subline="X. Lorem ipsum dolor sit amet."
-      img-src="project/pizza/pp_ipad_ios7_account_settings-Balance_Transfer.jpg"
+      img-src="project/pbs/home_hub.jpg"
       img-alt="Wireframe Show details"
     />
 
@@ -83,7 +76,7 @@
       id="wireframe-samsung"
       class="pb5 b4"
       subline="X. Lorem ipsum dolor sit amet."
-      img-src="project/pizza/pp_ipad_ios7_account_settings-registered.png"
+      img-src="project/pbs/history.jpg"
       img-alt="Wireframe Show details"
     />
 
@@ -91,15 +84,15 @@
     <textblock
       id="caption-redemption"
       class="pt4 b4"
-      intro="Redemption"
-      desc="Main reason I was brought onto the team was to produce new features and value ads. Came up with pizza redemption similar to 10th purchase is free done by other QSRs. Also integrate more closely with Club 11-11 loyalty plans."
+      intro="Show Details"
+      desc="Main reason I was brought onto the team was to produce new features and value ads. Came up with pizza redemption similar to 10th purchase is free done by other QSRs."
     />
 
     <MediaBlock
       id="wireframe-redemption"
       class="pb5 b4"
       subline="X. Lorem ipsum dolor sit amet."
-      img-src="project/pizza/pp_ipad_ios7_account_settings-validate.png"
+      img-src="project/pbs/show_detail.jpg"
       img-alt="Wireframe Show details"
     />
 
@@ -107,7 +100,7 @@
       id="wireframe-redemption2"
       class="pb5 b4"
       subline="X. Lorem ipsum dolor sit amet."
-      img-src="project/pizza/pp_ipad_ios7_account_settings-history.png"
+      img-src="project/pbs/playback.jpg"
       img-alt="Wireframe Show details"
     />
 
@@ -115,7 +108,7 @@
     <textblock
       id="caption-gps"
       class="pb2 b4"
-      intro="GPS & Maps"
+      intro="Lumia Phones"
       desc="Added a store locator feature for pick-up and takeout orders to serve larger demographics and open up purchasing options facilitated through the app."
     />
 
@@ -123,15 +116,15 @@
       id="ui-mobile"
       class="pb5 b4"
       subline="X. Lorem ipsum dolor sit amet."
-      img-src="project/pizza/3phone3.jpg"
+      img-src="project/pbs/lumia_light.jpg"
       img-alt="Development process diagram"
     />
 
 
     <textblock
-      id="caption-french"
+      id="caption-ds"
       class="pb2 b4"
-      intro="French localization"
+      intro="Design Title 3 - Design System"
       desc="We needed to make significant changes to the old UI in order to facilitate French language translation as the average phrase and statement were 1.5 to 2x the length of English."
     />
 
@@ -139,8 +132,8 @@
       id="ui-mobile"
       class="pb5 b4"
       subline="X. Lorem ipsum."
-      img-src="project/pizza/phone_comps.jpg"
-      img-alt="Search Results interface"
+      img-src="project/pbs/zeplin.jpg"
+      img-alt="Zeplin Design System"
     />
 
     <textblock
@@ -166,7 +159,7 @@ import textblock from "@/components/layouts/article_text_block.vue";
 import Footer from "@/components/navigation/Footer.vue";
 
 export default {
-  name: "Pizza",
+  name: "PBS",
   components: {
     Nav,
     ArticleHeader,
@@ -185,13 +178,13 @@ export default {
   provide() {
     return {
       workInfo: {
-        client: "Pizza Pizza, Plastic Mobile",
+        client: "Public Broadcasting Service, Digiflare",
         year: "2014",
-        role: "Digital Designer",
+        role: "Sr. UX/UI Designer",
         result: [
-          "Increased revenue from $60 Million to $80 Million for 2015.",
-          "50% of all sales shifted to digital platforms.",
-          "Refactored UI, added Redemption, GPS, & French localization."
+          "Featured on Microsoft's Windows Experience Blog.",
+          "Achieved a future-ready scaleable Design System.",
+          "Launched in 2016."
         ]
       }
     };

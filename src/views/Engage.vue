@@ -195,7 +195,6 @@ export default {
   provide() {
     return {
       workInfo: {
-        name: "light",
         client: "Dell EMC, Redbull, USA Today, Agence France-Presse, MLB, NFL",
         year: "2018-2019",
         role: "User Experience, Prototyping, UI Design, Manager",

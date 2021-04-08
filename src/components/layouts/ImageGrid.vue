@@ -6,7 +6,7 @@
           <router-link to="/starz" exact>
             <ImgCard
               :index="1"
-              img-src="blank.png"
+              img-src="starz.jpg"
               img-alt="Starz Play apps"
               title="Starz Play"
               desc="Amazon FireTV, Samsung SmartTV, Roku"
@@ -17,7 +17,7 @@
           <router-link to="/pizza" exact>
             <ImgCard
               :index="4"
-              img-src="blank.png"
+              img-src="mobile2.webp"
               img-alt="Pizza Pizza native apps"
               title="Pizza Pizza"
               desc="Android, iOS"
@@ -28,23 +28,24 @@
           <router-link to="/engage" exact>
             <ImgCard
               :index="2"
-              img-src="blank.png"
-              img-alt="Engage whitelabel components"
+              img-src="mosaic.jpg"
+              img-alt="Engage whitelabel"
               title="Engage"
               desc="PWA, SaaS"
             />
           </router-link>
         </div>
         <div class="list-container">
-          <ImgCard
-            :index="3"
-            img-src="blank.png"
-            img-alt="PBS"
-            title="PBS"
-            desc="Microsoft Lumia & Surface"
-          />
+          <router-link to="/pbs" exact>
+            <ImgCard
+              :index="3"
+              img-src="pbs.jpg"
+              img-alt="PBS"
+              title="PBS"
+              desc="Microsoft Lumia & Surface"
+            />
+          </router-link>
         </div>
-  
       </div>
     </div>
   </section>

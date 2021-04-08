@@ -81,7 +81,7 @@
     <ImageBlock
       id="diagram-auth-flow"
       class="pb5 b4"
-      img-src="project/starz/authdiagram.png"
+      img-src="project/starz/authdiagram.jpg"
       img-alt="Authentication flow diagram"
     />
 
@@ -205,7 +205,7 @@
       id="ui-movie_details-resume"
       class="pb5 b4"
       subline="4. Roku - Movie Details **Note** Most basic hardware with 10MB buffer. Approach had to scale down the experience in favour of usability and performance. Could not do fullscreen background images or motion."
-      img-src="project/starz/ui-movie_detail-roku.jpg"
+      img-src="project/starz/ui-movie-roku.jpg"
       img-alt="Development process diagram"
     />
 
@@ -213,7 +213,7 @@
       id="ui-home-playlist"
       class="pb5 b4"
       subline="5. Samsung - Movie Details **Note** Middleground platform locked at 720p, software based on basic web technologies: HTML5, CSS3, JavaScript."
-      img-src="project/starz/ui-movie_detail-samsung.jpg"
+      img-src="project/starz/ui-movie-samsung.jpg"
       img-alt="Development process diagram"
     />
 
@@ -221,7 +221,7 @@
       id="ui-show-details"
       class="pb5 b4"
       subline="6. FireTV - Show Details: Episodes **Note** Best hardware specs of all 3 platforms, able to create immersive pages with fullscreen motion backgrounds and previews."
-      img-src="project/starz/ui-movie_detail-firetv2.jpg"
+      img-src="project/starz/ui-show-firetv.jpg"
       img-alt="Development process diagram"
     />
 
@@ -329,7 +329,6 @@ export default {
   provide() {
     return {
       workInfo: {
-        name: "light",
         client: "STARZ, Digiflare",
         year: "2015",
         role: "Sr. UX/UI Designer",
