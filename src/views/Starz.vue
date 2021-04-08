@@ -329,7 +329,6 @@ export default {
   provide() {
     return {
       workInfo: {
-        name: "light",
         client: "STARZ, Digiflare",
         year: "2015",
         role: "Sr. UX/UI Designer",
