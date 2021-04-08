@@ -16,7 +16,7 @@
     <ImageBlock
       id="header-mockup"
       class=" b4"
-      img-src="project/starz/mock-movie-firetv.jpg"
+      img-src="project/starz/movie.jpg"
       img-alt="Starz header image"
     />
 
