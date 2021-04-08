@@ -14,7 +14,7 @@
 
     <Intro
       id="about"
-      class="pt1 b4"
+      class="pb5 b4"
     />
 
     <ServiceList
@@ -24,7 +24,7 @@
 
     <Clientgrid
       id="clientlist"
-      class=" b4"
+      class="pb5 b4"
     />
 
     <Footer

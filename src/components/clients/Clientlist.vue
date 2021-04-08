@@ -1,5 +1,9 @@
 <template>
-  <div class="client-partners container">
+  <div class=" container">
+    <div class="section-title pb2">
+      <h3 class="">Clients & Partners</h3>
+    </div>
+  <div class="client-partners">
     <!-- Row 1 -->
     <div class="item-container">
       <Logo :index="1" img-src="cbc.svg" img-alt="Canadian Broadcasting Company logo" />
@@ -56,6 +60,7 @@
       <Logo :index="16" img-src="samsung.svg" img-alt="Samsung Electronics logo" />
     </div>
   </div>
+  </div>
 </template>
 
 <script>
@@ -85,6 +90,9 @@ export default {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+}
+
+.section-title {
 }
 
 .item-container {

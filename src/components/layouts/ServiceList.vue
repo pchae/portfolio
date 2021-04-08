@@ -1,6 +1,9 @@
 <template>
   <section :id="[sectionID]" :class="[padding, bgColor]">
     <div class="container content-wrapper">
+      <div class="section-title pb2">
+        <h3 class="">Skills</h3>
+      </div>
       <div class="services">
         <div class="list-container">
           <ListCard
@@ -90,7 +93,7 @@ export default {
 }
 
 .list-container {
-  width: 25%;
+  width: 50%;
 }
 
 .list-container {

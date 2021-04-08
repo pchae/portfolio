@@ -1,8 +1,8 @@
 <template>
   <div class="card">
-    <h3 class="card-title">
+    <h4 class="card-title">
       {{ title }}
-    </h3>
+    </h4>
     <ul class="desc">
       <li>{{ desc1 }}</li>
       <li>{{ desc2 }}</li>

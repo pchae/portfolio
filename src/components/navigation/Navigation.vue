@@ -20,7 +20,7 @@
       </div>
 
       <div id="menu" class="overlay" v-show="toggle">
-        <div class="container-lg fcontain overnav pad1">
+        <div class="container-lg fcontain overnav pad05">
           <div
             role="button"
             class="button toggle"
