@@ -17,7 +17,7 @@
           <router-link to="/pizza" exact>
             <ImgCard
               :index="4"
-              img-src="blank.png"
+              img-src="mobile2.webp"
               img-alt="Pizza Pizza native apps"
               title="Pizza Pizza"
               desc="Android, iOS"
@@ -28,8 +28,8 @@
           <router-link to="/engage" exact>
             <ImgCard
               :index="2"
-              img-src="blank.png"
-              img-alt="Engage whitelabel components"
+              img-src="mosaic.jpg"
+              img-alt="Engage whitelabel"
               title="Engage"
               desc="PWA, SaaS"
             />
@@ -38,7 +38,7 @@
         <div class="list-container">
           <ImgCard
             :index="3"
-            img-src="blank.png"
+            img-src="mobile3.webp"
             img-alt="PBS"
             title="PBS"
             desc="Microsoft Lumia & Surface"
