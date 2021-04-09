@@ -221,7 +221,7 @@
       id="ui-show-details"
       class="pb5 b4"
       subline="6. FireTV - Show Details: Episodes **Note** Best hardware specs of all 3 platforms, able to create immersive pages with fullscreen motion backgrounds and previews."
-      img-src="project/starz/ui-show-firetv.jpg"
+      img-src="project/starz/ui-movie-firetv.jpg"
       img-alt="Development process diagram"
     />
 
