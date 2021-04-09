@@ -60,7 +60,7 @@
 
     <MediaBlock
       id="ui-mobile-apps-new"
-      class="pb5 b4"
+      class="pad5 b4"
       subline="4b. Progressive Web App using React to replace outdated native applications."
       img-src="project/engage/post.jpg"
       img-alt="Lorem ipsum"
@@ -69,7 +69,7 @@
 
     <textblock
       id="caption-analytics"
-      class="pt4 b4"
+      class="pad2 b4"
       intro="Analytics & Measurement"
       desc="I worked with Product owners to introduce and configure Pendo.ai as our primary measurement tool so that we could accurately validate high traffic areas, pain points, track progress, and unused features to sunset."
     />
@@ -85,7 +85,7 @@
 
     <textblock
       id="caption-visual-design"
-      class="pt4 b4"
+      class="pad2 b4"
       intro="Design Process"
       desc="A separate audit was performed to identify common elements between the SaaS platforms as well as documenting their usage. A series of sketches were produced and recreated as a set of mid-fidelity wireframes based upon Apple's Human Interface Guidelines, Google's Material Design, and 8pt Grid Systems. This was used to map out each Web App's primary experiences, add responsiveness, identify reusable patterns, and define subtle aspects such as element spacing, dimensions, and typographic scales."
     />
@@ -100,7 +100,7 @@
 
     <MediaBlock
       id="wireframe-samsung"
-      class="pb5 b4"
+      class="pad5 b4"
       subline="X. Lorem ipsum dolor sit amet."
       img-src="project/engage/post.jpg"
       img-alt="Wireframe Show details"
@@ -124,7 +124,7 @@
 
     <textblock
       id="caption-extras"
-      class="pb2 b4"
+      class="pad2 b4"
       intro="Design System"
       desc="I collaborated with the Frontend development leads to introduce a Design-to-Dev process involving early technical consultations, design walkthroughs, living documentation in Confluence, and a standardized asset delivery process. We distributed pixel perfect designs from Sketch to Zeplin which were built into reusable, shared React components. This fostered synergy between teams and led to a net reduction in development time, QA testing, and bugs produced each sprint."
     />
@@ -139,7 +139,7 @@
 
     <MediaBlock
       id="social-cards-mockup"
-      class="pb5 b4"
+      class="pad5 b4"
       subline="X. Social Media card specs."
       img-src="project/engage/card_spec2.jpg"
       img-alt="Development process diagram"
@@ -147,7 +147,7 @@
 
     <MediaBlock
       id="social-cards-mockup"
-      class="pb5 b4"
+      class="pad5 b4"
       subline="X. Social Media card specs."
       img-src="project/engage/card_spec3.jpg"
       img-alt="Development process diagram"
