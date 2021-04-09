@@ -43,7 +43,7 @@
 
     <textblock
       id="caption-challenge-one"
-      class="pad2 b4"
+      class="pt2 b4"
       intro="Objectives"
       desc="The goals of the team were to design, build, and deploy 3 versions of the app in near simultaneous launch windows. The design time spanned 3 months for Roku, Amazong Fire TV and Samsung Smart TVs which were all new platforms for the Digiflare team.
       Design only had a short runway ahead of the Development which was performed almost simultaneously with quick iteration cycles."
@@ -52,7 +52,7 @@
     <textblock
       id="solution-challenge-two"
       class="pad2 b4"
-      intro="Solution"
+      intro=""
       desc="Started with Roku project. Created high fidelity specs based off SDKs to quickly vet code templates into proof of concept. Allowed team to stagger approach of user interface design across platforms. Prototyping allowed the team to identify any pain points in the experience and fill in additional screens or smooth out user flows. ** REWRITE **"
     />
 
@@ -66,7 +66,7 @@
 
     <textblock
       id="caption-challenge-two"
-      class="pad2 b4"
+      class="pt2 b4"
       intro="Authentication"
       desc="The client’s earlier attempts at online streaming utilized a TV Everywhere model. This meant that users had to authenticate themselves with account credentials from cable providers in order to access the service. This process was cumbersome and created a high barrier to entry which resulted in low completion rates."
     />
@@ -74,7 +74,7 @@
     <textblock
       id="solution-challenge-two"
       class="pad2 b4"
-      intro="Solution"
+      intro=""
       desc="We proposed an open model that welcomed non-cable subscribers, simplified user flows, and offered complete access to the Starz catalog. This was supported by our team's market research and focus groups which indicated that linear cable TV experiences were falling out of favour with audiences due to busy, unpredictable schedules and inflexible program packages."
     />
 
@@ -228,17 +228,9 @@
     <textblock
       id="caption-challenge-three"
       class="pt2 b4"
-      intro="Design Handoff"
-      desc="Automating design to development hand-off was new at the time, but we took a calculated risk and added Zeplin.io to our stack. It freed up multiple sprints that would have been spent creating measurement specifications and removed a costly bottleneck for development. We reallocated this time to fine-tune the user interactions and draft a design system."
+      intro="Design to Dev Handoff"
+      desc="Automating design to development hand-off was a new concept at the time, but we took a calculated risk to get ahead of the deadlines by adding Zeplin.io to our design stack. Multiple sprints worth of time were saved on creating measurement specifications and removed a costly bottleneck for development. The reallocated time was used to polish interactions, work on Starz Blue layouts, and draft a design system."
     />
-
-    <textblock
-      id="solution-challenge-three"
-      class="pad2 b4"
-      intro="Solution"
-      desc="Automating design to development hand-off was new at the time, but we took a calculated risk and added Zeplin.io to our stack. It freed up multiple sprints that would have been spent creating measurement specifications and removed a costly bottleneck for development. We reallocated this time to fine-tune the user interactions and draft a design system."
-    />
-
 
     <MediaBlock
       id="design-system-type"
@@ -247,6 +239,7 @@
       img-src="project/starz/design-system-tiles.jpg"
       img-alt="Design System Tiles & Swimlanes"
     />
+
 
     <textblock
       id="caption-extras"
@@ -263,28 +256,12 @@
       img-alt="Development process diagram"
     />
 
-
-    <textblock
-      id="caption-extras"
-      class="pad2 b4"
-      intro="Video Player"
-      desc=""
-    />
-
     <MediaBlock
       id="ui-video_player"
       class="pb5 b4"
       subline="X. Video Player - FireTV timeline scrubbing feature with PiP (Picture in Picture) thumbnail."
       img-src="project/starz/ui-video_player.jpg"
       img-alt="Search Results interface"
-    />
-
-
-    <textblock
-      id="caption-extras"
-      class="pad2 b4"
-      intro="Idle check"
-      desc=""
     />
 
     <MediaBlock
