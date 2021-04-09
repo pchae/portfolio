@@ -59,7 +59,7 @@
 
     <textblock
       id="caption-visual-design"
-      class="pt4 b4"
+      class="pad2 b4"
       intro="Visual Design"
       desc="The client wanted to maintain creative direction control over the app look and feel. Had to work on slowly upgrading their design sensibilities and continuously homogonize experience to bring Android up to spec."
     />
@@ -74,7 +74,7 @@
 
     <MediaBlock
       id="wireframe-samsung"
-      class="pb5 b4"
+      class="pad5 b4"
       subline="X. Lorem ipsum dolor sit amet."
       img-src="project/pbs/history.jpg"
       img-alt="Wireframe Show details"
@@ -83,7 +83,7 @@
 
     <textblock
       id="caption-redemption"
-      class="pt4 b4"
+      class="pad2 b4"
       intro="Show Details"
       desc="Main reason I was brought onto the team was to produce new features and value ads. Came up with pizza redemption similar to 10th purchase is free done by other QSRs."
     />
@@ -98,7 +98,7 @@
 
     <MediaBlock
       id="wireframe-redemption2"
-      class="pb5 b4"
+      class="pad5 b4"
       subline="X. Lorem ipsum dolor sit amet."
       img-src="project/pbs/playback.jpg"
       img-alt="Wireframe Show details"
@@ -107,7 +107,7 @@
 
     <textblock
       id="caption-gps"
-      class="pb2 b4"
+      class="pad2 b4"
       intro="Lumia Phones"
       desc="Added a store locator feature for pick-up and takeout orders to serve larger demographics and open up purchasing options facilitated through the app."
     />
@@ -123,7 +123,7 @@
 
     <textblock
       id="caption-ds"
-      class="pb2 b4"
+      class="pad2 b4"
       intro="Design Title 3 - Design System"
       desc="We needed to make significant changes to the old UI in order to facilitate French language translation as the average phrase and statement were 1.5 to 2x the length of English."
     />
@@ -138,7 +138,7 @@
 
     <textblock
       id="caption-outcome"
-      class="pb5 b4"
+      class="pad5 b4"
       intro="Outcome"
       desc="Successfully launched across 3 platforms in Q3 2016 with over 200,000 active subscriptions within the first 3 months. 2 Million active subscriptions after 12 months generating $25.7M in revenue for 2016."
     />
