@@ -43,16 +43,16 @@
 
     <textblock
       id="caption-challenge-one"
-      class="pad2 b4"
-      intro="Obstacles: Timeline"
+      class="pt2 b4"
+      intro="Objectives"
       desc="The goals of the team were to design, build, and deploy 3 versions of the app in near simultaneous launch windows. The design time spanned 3 months for Roku, Amazong Fire TV and Samsung Smart TVs which were all new platforms for the Digiflare team.
       Design only had a short runway ahead of the Development which was performed almost simultaneously with quick iteration cycles."
     />
 
     <textblock
       id="solution-challenge-two"
-      class="b4"
-      intro="Solution"
+      class="pad2 b4"
+      intro=""
       desc="Started with Roku project. Created high fidelity specs based off SDKs to quickly vet code templates into proof of concept. Allowed team to stagger approach of user interface design across platforms. Prototyping allowed the team to identify any pain points in the experience and fill in additional screens or smooth out user flows. ** REWRITE **"
     />
 
@@ -66,15 +66,15 @@
 
     <textblock
       id="caption-challenge-two"
-      class="b4"
-      intro="Challenge: Authentication"
+      class="pt2 b4"
+      intro="Authentication"
       desc="The client’s earlier attempts at online streaming utilized a TV Everywhere model. This meant that users had to authenticate themselves with account credentials from cable providers in order to access the service. This process was cumbersome and created a high barrier to entry which resulted in low completion rates."
     />
 
     <textblock
       id="solution-challenge-two"
-      class="b4"
-      intro="Solution"
+      class="pad2 b4"
+      intro=""
       desc="We proposed an open model that welcomed non-cable subscribers, simplified user flows, and offered complete access to the Starz catalog. This was supported by our team's market research and focus groups which indicated that linear cable TV experiences were falling out of favour with audiences due to busy, unpredictable schedules and inflexible program packages."
     />
 
@@ -87,7 +87,7 @@
 
     <MediaBlock
       id="ui-authenticate"
-      class="pb5 b4"
+      class="pad5 b4"
       subline="4b. Authentication Designs - Rather than require usernames, email addresses and long passwords, the new authentication allowed signup to be done in the browser while only requiring a 4 digit access code."
       img-src="project/starz/wire-welcome.jpg"
       img-alt="Lorem ipsum"
@@ -95,7 +95,7 @@
 
     <MediaBlock
       id="ui-authenticate"
-      class="pb5 b4"
+      class="pad5 b4"
       subline="4b. Authentication Designs - Rather than require usernames, email addresses and long passwords, the new authentication allowed signup to be done in the browser while only requiring a 4 digit access code."
       img-src="project/starz/wire-activate.jpg"
       img-alt="Lorem ipsum"
@@ -103,14 +103,14 @@
 
     <textblock
       id="caption-wireframes"
-      class="pt4 b4"
-      intro="Wireframes x3"
+      class="pt2 b4"
+      intro="High fidelity wireframes"
       desc="To save time and minimize errors, I built a set of responsive grids and reusable components based on Starz's CDN and each platform’s SDK. This accounted for predefined asset dimensions, Action & Title Safe zones, and unique platform requirements."
     />
 
     <textblock
       id="caption-wireframes"
-      class="pb2 b4"
+      class="pad2 b4"
       intro=""
       desc="The components allowed us to work at a high fidelity and sped up the production of consistent, accurate layouts. Since measurements were baked in, it also facilitated a quick turn-around time for creating production-ready UI elements."
     />
@@ -125,7 +125,7 @@
 
     <MediaBlock
       id="wireframe-samsung"
-      class="pb5 b4"
+      class="pad5 b4"
       subline="X. Feature - Samsung Smart TV"
       img-src="project/starz/wire-feature-samsung.jpg"
       img-alt="Wireframe Show details"
@@ -133,7 +133,7 @@
 
     <MediaBlock
       id="wireframe-amazon"
-      class="pb5 b4"
+      class="pad5 b4"
       subline="X. Feature - Amazon Fire TV"
       img-src="project/starz/wire-feature-firetv.jpg"
       img-alt="Wireframe Show details"
@@ -141,7 +141,7 @@
 
     <MediaBlock
       id="wireframe-roku"
-      class="pb5 b4"
+      class="pad5 b4"
       subline="X. Show Details - Roku Gen 1"
       img-src="project/starz/wire-show-roku.jpg"
       img-alt="Wireframe Show details"
@@ -149,7 +149,7 @@
 
     <MediaBlock
       id="wireframe-samsung"
-      class="pb5 b4"
+      class="pad5 b4"
       subline="X. Show Details - Samsung Smart TV"
       img-src="project/starz/wire-show-samsung.jpg"
       img-alt="Wireframe Show details"
@@ -157,7 +157,7 @@
 
     <MediaBlock
       id="wireframe-amazon"
-      class="pb5 b4"
+      class="pad5 b4"
       subline="X. Show Details - Amazon Fire TV"
       img-src="project/starz/wire-show-firetv.jpg"
       img-alt="Wireframe Show details"
@@ -165,14 +165,14 @@
 
     <textblock
       id="caption-visual-design"
-      class="pt4 b4"
+      class="pt2 b4"
       intro="Visual Design"
       desc="We created a dark, minimalist user interface with high contrast ratios to place emphasis on the poster art and reduce eye strain. It was also essential that we tried to capture the essence of going to a movie theatre while incorporating Starz branding."
     />
 
     <textblock
       id="caption-visual-design2"
-      class="pb2 b4"
+      class="pad2 b4"
       intro=""
       desc="An often overlooked detail was our inclusion of developer input during the early design solutioning sessions. We created a feedback loop that enabled us to quickly iterate on design patterns and build a MVP ahead of schedule. This also meant our team could make informed technical decisions from the start and avoid creating experiences that could negatively affect performance."
     />
@@ -187,7 +187,7 @@
 
     <MediaBlock
       id="ui-feature-samsung"
-      class="pb5 b4"
+      class="pad5 b4"
       subline="1. Samsung SmartTV - Feature Home"
       img-src="project/starz/ui-feature-samsung.jpg"
       img-alt="Development process diagram"
@@ -195,7 +195,7 @@
 
     <MediaBlock
       id="ui-feature-firetv"
-      class="pb5 b4"
+      class="pad5 b4"
       subline="2. Amazon FireTV - Feature Home"
       img-src="project/starz/ui-feature-firetv.jpg"
       img-alt="Curated movies list"
@@ -203,7 +203,7 @@
 
     <MediaBlock
       id="ui-movie_details-resume"
-      class="pb5 b4"
+      class="pad5 b4"
       subline="4. Roku - Movie Details **Note** Most basic hardware with 10MB buffer. Approach had to scale down the experience in favour of usability and performance. Could not do fullscreen background images or motion."
       img-src="project/starz/ui-movie-roku.jpg"
       img-alt="Development process diagram"
@@ -211,7 +211,7 @@
 
     <MediaBlock
       id="ui-home-playlist"
-      class="pb5 b4"
+      class="pad5 b4"
       subline="5. Samsung - Movie Details **Note** Middleground platform locked at 720p, software based on basic web technologies: HTML5, CSS3, JavaScript."
       img-src="project/starz/ui-movie-samsung.jpg"
       img-alt="Development process diagram"
@@ -219,7 +219,7 @@
 
     <MediaBlock
       id="ui-show-details"
-      class="pb5 b4"
+      class="pad5 b4"
       subline="6. FireTV - Show Details: Episodes **Note** Best hardware specs of all 3 platforms, able to create immersive pages with fullscreen motion backgrounds and previews."
       img-src="project/starz/ui-movie-firetv.jpg"
       img-alt="Development process diagram"
@@ -227,18 +227,10 @@
 
     <textblock
       id="caption-challenge-three"
-      class="pt4 b4"
-      intro="Challenge: Design Handoff"
-      desc="Automating design to development hand-off was new at the time, but we took a calculated risk and added Zeplin.io to our stack. It freed up multiple sprints that would have been spent creating measurement specifications and removed a costly bottleneck for development. We reallocated this time to fine-tune the user interactions and draft a design system."
+      class="pt2 b4"
+      intro="Design to Dev Handoff"
+      desc="Automating design to development hand-off was a new concept at the time, but we took a calculated risk to get ahead of the deadlines by adding Zeplin.io to our design stack. Multiple sprints worth of time were saved on creating measurement specifications and removed a costly bottleneck for development. The reallocated time was used to polish interactions, work on Starz Blue layouts, and draft a design system."
     />
-
-    <textblock
-      id="solution-challenge-three"
-      class="pb2 b4"
-      intro="Solution"
-      desc="Automating design to development hand-off was new at the time, but we took a calculated risk and added Zeplin.io to our stack. It freed up multiple sprints that would have been spent creating measurement specifications and removed a costly bottleneck for development. We reallocated this time to fine-tune the user interactions and draft a design system."
-    />
-
 
     <MediaBlock
       id="design-system-type"
@@ -248,9 +240,10 @@
       img-alt="Design System Tiles & Swimlanes"
     />
 
+
     <textblock
       id="caption-extras"
-      class="pb2 b4"
+      class="pad2 b4"
       intro="Extras"
       desc="We were able to use the remaining time to add quality of life features and flourishes throughout the applications to curate and personalize the experience."
     />
@@ -282,7 +275,7 @@
 
     <textblock
       id="caption-outcome"
-      class="pb5 b4"
+      class="pad5 b4"
       intro="Outcome"
       desc="Successfully launched across 3 platforms in Q3 2016 with over 200,000 active subscriptions within the first 3 months. 2 Million active subscriptions after 12 months generating $25.7M in revenue for 2016."
     />
