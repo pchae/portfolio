@@ -17,7 +17,7 @@
           <router-link to="/pizza" exact>
             <ImgCard
               :index="4"
-              img-src="mobile2.webp"
+              img-src="pizza.jpg"
               img-alt="Pizza Pizza native apps"
               title="Pizza Pizza"
               desc="Android, iOS"
@@ -28,7 +28,7 @@
           <router-link to="/engage" exact>
             <ImgCard
               :index="2"
-              img-src="mosaic.jpg"
+              img-src="engage.jpg"
               img-alt="Engage whitelabel"
               title="Engage"
               desc="PWA, SaaS"
