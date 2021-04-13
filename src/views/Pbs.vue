@@ -14,7 +14,7 @@
     />
 
     <ImageBlock
-      id="header-mockup"
+      id="header"
       class=" b4"
       img-src="project/pbs/mockup.jpg"
       img-alt="PBS header image"
@@ -26,115 +26,100 @@
     />
 
     <textblock
-      id="caption-intro"
+      id="intro"
       class="pad2 b4"
       intro="Overview"
       desc="PBS is a non-profit American public broadcaster and a prominent provider of educational shows including Sesame Street, Downton Abbey and Mind of a Chef. However, even with 80% household viewership in the United States, they needed a digital presence to maintain relevance."
     />
 
     <MediaBlock
-      id="diagram-misc"
+      id="featured-show"
       class="pb5 b4"
-      subline="X. Lorem ipsum dolor sit amet. Contactless payment options."
+      subline=""
       img-src="project/pbs/featured.jpg"
-      img-alt="Lorem ipsum."
+      img-alt="Featured Shows layout for PBS on Surface tablets."
     />
 
 
     <textblock
-      id="caption-challenge-one"
+      id="challenge"
       class="pad2 b4"
       intro="Challenges"
       desc="The Digiflare team invited me to help shape the user experience and visual design of a new responsive streaming app for PBS. Unlike typical responsive design projects, this needed to be future-ready in order to scale across Microsoft's current and unreleased Surface tablet devices."
     />
 
     <MediaBlock
-      id="ui-authenticate"
+      id="design-guide"
       class="pb5 b4"
-      subline="X. Lorem ipsum dolor sit amet."
+      subline=""
       img-src="project/pbs/lumia_light.jpg"
-      img-alt="Show Microsoft Surface documentation"
+      img-alt="Microsoft Metro and Surface documentation"
     />
 
 
     <textblock
-      id="caption-visual-design"
+      id="visual-design"
       class="pad2 b4"
       intro="Visual Design"
       desc="The client wanted to maintain creative direction control over the app look and feel. Had to work on slowly upgrading their design sensibilities and continuously homogonize experience to bring Android up to spec."
     />
 
     <MediaBlock
-      id="wireframe-roku"
-      class="pb5 b4"
-      subline="X. Lorem ipsum dolor sit amet."
+      id="surface-home-hub"
+      class="pb2 b4"
+      subline=""
       img-src="project/pbs/home_hub.jpg"
       img-alt="Wireframe Show details"
     />
 
     <MediaBlock
-      id="wireframe-samsung"
-      class="pad5 b4"
-      subline="X. Lorem ipsum dolor sit amet."
+      id="surface-resume"
+      class="pb5 b4"
+      subline=""
       img-src="project/pbs/history.jpg"
-      img-alt="Wireframe Show details"
+      img-alt="Previously watched: Resume layout for Surface tablets."
     />
 
 
     <textblock
-      id="caption-redemption"
+      id="caption-shows"
       class="pad2 b4"
       intro="Show Details"
       desc="Main reason I was brought onto the team was to produce new features and value ads. Came up with pizza redemption similar to 10th purchase is free done by other QSRs."
     />
 
     <MediaBlock
-      id="wireframe-redemption"
-      class="pb5 b4"
-      subline="X. Lorem ipsum dolor sit amet."
+      id="surface-show-detail"
+      class="pb2 b4"
+      subline=""
       img-src="project/pbs/show_detail.jpg"
       img-alt="Wireframe Show details"
     />
 
     <MediaBlock
-      id="wireframe-redemption2"
-      class="pad5 b4"
-      subline="X. Lorem ipsum dolor sit amet."
+      id="surface-playback"
+      class="pb5 b4"
+      subline=""
       img-src="project/pbs/playback.jpg"
       img-alt="Wireframe Show details"
     />
 
 
     <textblock
-      id="caption-gps"
+      id="caption-phone"
       class="pad2 b4"
       intro="Lumia Phones"
-      desc="Added a store locator feature for pick-up and takeout orders to serve larger demographics and open up purchasing options facilitated through the app."
+      desc="The apps were required to have responsive designs that dynamically scaled from Lumia phone resolutions all the way up to 2K on Surface tablets and Windows PCs. We achieved this by using a Base-2 grid system which enabled us to maintain a consistent look while scaling across devices."
     />
 
     <MediaBlock
-      id="ui-mobile"
+      id="ui-lumia"
       class="pb5 b4"
-      subline="X. Lorem ipsum dolor sit amet."
+      subline=""
       img-src="project/pbs/lumia_light.jpg"
-      img-alt="Development process diagram"
+      img-alt="Various layouts for Lumia phones."
     />
 
-
-    <textblock
-      id="caption-ds"
-      class="pad2 b4"
-      intro="Design Title 3 - Design System"
-      desc="We needed to make significant changes to the old UI in order to facilitate French language translation as the average phrase and statement were 1.5 to 2x the length of English."
-    />
-
-    <MediaBlock
-      id="ui-mobile"
-      class="pb5 b4"
-      subline="X. Lorem ipsum."
-      img-src="project/pbs/zeplin.jpg"
-      img-alt="Zeplin Design System"
-    />
 
     <textblock
       id="caption-outcome"

@@ -65,15 +65,15 @@
 
     <MediaBlock
       id="wireframe-roku"
-      class="pb5 b4"
-      subline="X. Lorem ipsum dolor sit amet."
+      class="pb2 b4"
+      subline=""
       img-src="project/pizza/pp_ipad_ios7_account_settings-Balance_Transfer.jpg"
       img-alt="Wireframe Show details"
     />
 
     <MediaBlock
       id="wireframe-samsung"
-      class="pad5 b4"
+      class="pb5 b4"
       subline="X. Lorem ipsum dolor sit amet."
       img-src="project/pizza/pp_ipad_ios7_account_settings-registered.png"
       img-alt="Wireframe Show details"
@@ -89,15 +89,15 @@
 
     <MediaBlock
       id="wireframe-redemption"
-      class="pb5 b4"
-      subline="X. Lorem ipsum dolor sit amet."
+      class="pb1 b4"
+      subline=""
       img-src="project/pizza/pp_ipad_ios7_account_settings-validate.png"
       img-alt="Wireframe Show details"
     />
 
     <MediaBlock
       id="wireframe-redemption2"
-      class="pad5 b4"
+      class="pb5 b4"
       subline="X. Lorem ipsum dolor sit amet."
       img-src="project/pizza/pp_ipad_ios7_account_settings-history.png"
       img-alt="Wireframe Show details"
@@ -114,9 +114,9 @@
     <MediaBlock
       id="ui-mobile"
       class="pb5 b4"
-      subline="X. Lorem ipsum dolor sit amet."
+      subline=""
       img-src="project/pizza/3phone3.jpg"
-      img-alt="Development process diagram"
+      img-alt="Find a location GPS designs"
     />
 
 
