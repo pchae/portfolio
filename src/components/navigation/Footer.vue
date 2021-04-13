@@ -3,13 +3,12 @@
   <footer :id="[sectionID]" :class="[padding, bgColor]">
     <div class="container-sm fcol">
       <div class="title">
-        <h2>Get in touch</h2>
+        <h2>Have a project in mind?</h2>
       </div>
 
       <div class="desc">
         <p>
-          If you have a website or mobile app idea in mind or need some product
-          advice, feel free to contact me.
+          If you have a website or mobile app project in mind or need some product advice, feel free to send an email.
         </p>
       </div>
 
