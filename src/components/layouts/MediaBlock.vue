@@ -10,7 +10,7 @@
     </div>
     <div class="container pt1">
       <p class="subtext">
-        Above image: {{ subline }}
+        {{ subline }}
       </p>
     </div>
   </div>
@@ -54,6 +54,7 @@ export default {
 <style scoped>
 .subtext {
   font-weight: 400;
+  font-size: 0.875rem;
   color: #181818;
 }
 

@@ -37,7 +37,7 @@
     <MediaBlock
       id="ui-mobile-apps"
       class="pb5 b4"
-      subline="4a. Old design with multiple versions of Bootstrap and wildly differing design patterns across the application."
+      subline="ABOVE: Original version of Engage's Content Studio web app which suffered from divergent design patterns and outdated technology. Since the source code of the Android and iOS apps had been lost, we opted to save time and costs by rebuilding the experience as a React Native Progressive Web App (PWA)."
       img-src="project/engage/engage-old_stream.png"
       img-alt="Lorem ipsum"
     />
@@ -60,7 +60,7 @@
 
     <MediaBlock
       id="ui-mobile-apps-new"
-      class="pad5 b4"
+      class="pb5 b4"
       subline="4b. Progressive Web App using React to replace outdated native applications."
       img-src="project/engage/post.jpg"
       img-alt="Lorem ipsum"
@@ -77,7 +77,7 @@
     <MediaBlock
       id="analytics-pendo"
       class="pb5 b4"
-      subline="X. Lorem ipsum dolor sit amet."
+      subline="ABOVE: The reporting tools from Pendo allowed us to better understand user workflows and isolate painpoints within Engage's experience that we were previously unaware of. This new knowledge led to a reprioritization of the roadmap."
       img-src="project/engage/pendo.jpg"
       img-alt="Wireframe Show details"
     />
@@ -93,14 +93,14 @@
     <MediaBlock
       id="wireframe-roku"
       class="pb5 b4"
-      subline="X. Lorem ipsum dolor sit amet."
+      subline="ABOVE: One of the challenges was to juggle the redesign of the whitelabel tools and any unique feature requests for clients like DELL EMC and Redbull. We were tasked with creating a new modular and embeddable experience containing multi-source live streams and Engage's social media integrations."
       img-src="project/engage/engage-new_ui.jpg"
       img-alt="Wireframe Show details"
     />
 
     <MediaBlock
       id="wireframe-samsung"
-      class="pad5 b4"
+      class="pb5 b4"
       subline="X. Lorem ipsum dolor sit amet."
       img-src="project/engage/post.jpg"
       img-alt="Wireframe Show details"
@@ -111,13 +111,13 @@
       id="caption-extras"
       class="pb2 b4"
       intro="Usability Testing"
-      desc="To validate each user story, I created a series of user flows to document conditional logic, complex micro-interactions, and simulate Engage's dynamic workflows. These were translated into interactive prototypes which were validated in-house with users and via remote user testing tools."
+      desc="To validate each user story, I created a series of user flows and interactive prototypes to document and test conditional logic, complex micro-interactions, and dynamic workflows. Validation was done in-house with clients and with remote tools like usertesting.com."
     />
 
     <MediaBlock
       id="ui-welcome-back"
       class="pb5 b4"
-      subline="X. Usability Testing session to simulate a typical Social Media Moderation workflow done by clients events."
+      subline="ABOVE: Usability testing session of the Progressive Web App (PWA) for Content Studio. We simulated the streamlined features and workflows with the goal of simplifying how clients moderated fan engagement across Social Media streams for live events."
       img-src="project/engage/prototype.jpg"
       img-alt="Usability Testing session"
     />
@@ -131,23 +131,23 @@
 
     <MediaBlock
       id="social-cards-mockup"
-      class="pb5 b4"
-      subline="X. Social Media card specs."
+      class="pb1 b4"
+      subline=""
       img-src="project/engage/card_spec1.jpg"
       img-alt="Search Results interface"
     />
 
     <MediaBlock
       id="social-cards-mockup"
-      class="pad5 b4"
-      subline="X. Social Media card specs."
+      class="pb1 b4"
+      subline=""
       img-src="project/engage/card_spec2.jpg"
       img-alt="Development process diagram"
     />
 
     <MediaBlock
       id="social-cards-mockup"
-      class="pad5 b4"
+      class="pb5 b4"
       subline="X. Social Media card specs."
       img-src="project/engage/card_spec3.jpg"
       img-alt="Development process diagram"
