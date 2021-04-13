@@ -129,8 +129,8 @@
 
     <MediaBlock
       id="ui-mobile"
-      class="pb5 b4"
-      subline="X. Lorem ipsum."
+      class=" b4"
+      subline="Many of the layouts had to be redesigned in order to be more modular and scale with French language support due to minimum 1.5x extra length for text."
       img-src="project/pizza/phone_comps.jpg"
       img-alt="Search Results interface"
     />
@@ -139,7 +139,7 @@
       id="caption-outcome"
       class="pad5 b4"
       intro="Outcome"
-      desc="Successfully launched across 3 platforms in Q3 2016 with over 200,000 active subscriptions within the first 3 months. 2 Million active subscriptions after 12 months generating $25.7M in revenue for 2016."
+      desc="The UI refresh and personalization features increased revenue by $20MM to a total of $80MM in 2015. Successfully transferred 50% of all sales to the digital platforms and maintained a 4.5 average rating across app stores."
     />
 
     <Footer id="footer" class="b1" />
@@ -183,7 +183,7 @@ export default {
         result: [
           "Increased revenue from $60 Million to $80 Million for 2015.",
           "50% of all sales shifted to digital platforms.",
-          "Refactored UI, added Redemption, GPS, & French localization."
+          "4.5 avg. rating across app stores."
         ]
       }
     };
