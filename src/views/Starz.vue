@@ -232,14 +232,6 @@
       desc="Automating design to development hand-off was a new concept at the time, but we took a calculated risk to get ahead of the deadlines by adding Zeplin.io to our design stack. Multiple sprints worth of time were saved on creating measurement specifications and removed a costly bottleneck for development. The reallocated time was used to polish interactions, work on Starz Blue layouts, and draft a design system."
     />
 
-    <MediaBlock
-      id="design-system-type"
-      class="pb5 b4"
-      subline="X. Design System - Tiles **Note** split into 3 columns, mobile breakdown into 1 column."
-      img-src="project/starz/design-system-tiles.jpg"
-      img-alt="Design System Tiles & Swimlanes"
-    />
-
 
     <textblock
       id="caption-extras"
