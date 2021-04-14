@@ -28,7 +28,7 @@
           /></a>
         </div>
         <div class="nav-link">
-          <a href="https://github.com/pchae/"
+          <a href="https://github.com/username/"
             ><img src="@/assets/icons/icon-github.png" alt="mail icon"
           /></a>
         </div>
