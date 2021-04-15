@@ -7,6 +7,8 @@
     />
 
     <NavMobile
+      tColor="bk"
+      bgColor="b4"
       v-if="mobileView"
     />
 
