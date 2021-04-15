@@ -148,9 +148,17 @@
       img-alt="Wireframe Show details"
     />
 
+
+    <textblock
+      id="caption-show-detail"
+      class="pad2 b4"
+      intro="Show Details"
+      desc="Similar to the Show Detail pages, the Movie Details had similar requirements for bandwidth. It was also essential that we tried to capture the essence of going to a movie theatre."
+    />
+
     <MediaBlock
       id="wireframe-roku"
-      class="pad5 b4"
+      class="pb5 b4"
       subline="X. Show Details - Roku Gen 1"
       img-src="project/starz/wire-show-roku.jpg"
       img-alt="Wireframe Show details"
@@ -210,9 +218,16 @@
       img-alt="Curated movies list"
     />
 
+    <textblock
+      id="caption-movie-detail"
+      class="pad2 b4"
+      intro="Movie Details"
+      desc="Similar to the Show Detail pages, the Movie Details had similar requirements for bandwidth. It was also essential that we tried to capture the essence of going to a movie theatre."
+    />
+
     <MediaBlock
       id="ui-movie_details-resume"
-      class="pad5 b4"
+      class="pb5 b4"
       subline="4. Roku - Movie Details **Note** Most basic hardware with 10MB buffer. Approach had to scale down the experience in favour of usability and performance. Could not do fullscreen background images or motion."
       img-src="project/starz/ui-movie-roku.jpg"
       img-alt="Development process diagram"
