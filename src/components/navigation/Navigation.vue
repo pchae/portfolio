@@ -79,11 +79,11 @@ header {
 }
 
 .nav-link:nth-child(odd) {
-  margin-right: 2rem;
+  margin-right: 3rem;
 }
 
 .nav-link:nth-child(even) {
-  margin-left: 2rem;
+  margin-left: 0rem;
 }
 
 /* Link Style Override */
