@@ -1,8 +1,14 @@
 <template>
   <!-- Header -->
-  <header :id="[sectionID]" :class="[bgColor]" class="pad1">
+  <header :id="[sectionID]" :class="[bgColor]" class="pad05">
     <div>
-      <div class="container-lg fcontain overnav">
+      <div class="container-lg fcontain">
+        <div class="logo">
+          <router-link to="/" active-class="active" exact>
+            <h5>Phil Choi</h5>
+          </router-link>
+        </div>
+
         <div
           role="button"
           class="button toggle"
@@ -14,7 +20,7 @@
       </div>
 
       <div id="menu" class="overlay" v-show="toggle">
-        <div class="container-lg fcontain overnav pad1">
+        <div class="container-lg fcontain overnav pad05">
           <div
             role="button"
             class="button toggle"
@@ -44,7 +50,7 @@
 
 <script>
 export default {
-  name: "Nav",
+  name: "NavMobile",
   props: {
     sectionID: {
       type: String,
@@ -70,10 +76,10 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 header {
+  display: block;
   position: fixed;
   width: 100%;
-  background-color: transparent;
-  background: none;
+  z-index: 1000;
 }
 
 .fcontain {
@@ -103,7 +109,7 @@ header {
   background-color: #000;
   overflow: visible;
   opacity: 0.96;
-  z-index: 10;
+  z-index: 1000;
 }
 
 .overnav {
@@ -123,6 +129,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 3rem;
 }
 
 .nav-link:nth-child(odd) {

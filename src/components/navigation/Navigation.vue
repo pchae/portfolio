@@ -1,47 +1,23 @@
 <template>
   <!-- Header -->
   <header :id="[sectionID]" :class="[bgColor]" class="pad05">
-    <div>
-      <div class="container-lg fcontain">
-        <div class="logo">
-          <router-link to="/" active-class="active" exact>
-            <h5>Phil Choi</h5>
-          </router-link>
-        </div>
-
-        <div
-          role="button"
-          class="button toggle"
-          @click="toggle = !toggle"
-          aria-expanded="false"
-        >
-          <img src="@/assets/icons/menu.svg" alt="menu icon" />
-        </div>
+    <div class="container-lg fcontain">
+      <div class="logo">
+        <router-link to="/" active-class="active" exact>
+          <h5>Phil Choi</h5>
+        </router-link>
       </div>
 
-      <div id="menu" class="overlay" v-show="toggle">
-        <div class="container-lg fcontain overnav pad05">
-          <div
-            role="button"
-            class="button toggle"
-            @click="toggle = !toggle"
-            aria-expanded="true"
-          >
-            <img src="@/assets/icons/close.svg" alt="close icon" />
-          </div>
+      <div id="nav" class="fcontain menu-links">
+        <div class="nav-link">
+          <router-link to="/" active-class="active" exact>
+            <h6>Work</h6>
+          </router-link>
         </div>
-
-        <div id="nav" class="container-lg fcol menu-links">
-          <div class="nav-link">
-            <router-link to="/" active-class="active" exact>
-              <h2>Work</h2>
-            </router-link>
-          </div>
-          <div class="nav-link">
-            <router-link to="/info" active-class="active" exact>
-              <h2>Info</h2>
-            </router-link>
-          </div>
+        <div class="nav-link">
+          <router-link to="/info" active-class="active" exact>
+            <h6>Info</h6>
+          </router-link>
         </div>
       </div>
     </div>
@@ -65,11 +41,6 @@ export default {
       default: "",
     },
   },
-  data: function() {
-    return {
-      toggle: false,
-    };
-  },
 };
 </script>
 
@@ -82,61 +53,37 @@ header {
   z-index: 1000;
 }
 
+/* Rename This */
+
 .fcontain {
-  justify-content: space-between;
-}
-
-/* Overlay Menu */
-
-.button {
-  /* show hand cursor */
   display: flex;
-  margin: 0;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  height: 3rem;
-  width: 3rem;
-}
-
-.overlay {
-  display: inherit;
-  flex-direction: column;
-  position: fixed;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background-color: #000;
-  overflow: visible;
-  opacity: 0.96;
-  z-index: 1000;
-}
-
-.overnav {
-  justify-content: end;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 .menu-links {
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
+  justify-content: flex-end;
+  height: 3rem;
 }
 
 .logo {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 3rem;
+}
+
+.nav-link {
+  align-items: center;
 }
 
 .nav-link:nth-child(odd) {
-  margin-bottom: 4rem;
+  margin-right: 2rem;
 }
 
 .nav-link:nth-child(even) {
-  margin-bottom: 4rem;
+  margin-left: 2rem;
 }
 
 /* Link Style Override */
@@ -145,8 +92,7 @@ header {
   background-color: none;
 }
 
-.active > h2 {
-  color: #fff;
+.active > h6 {
   border-bottom: 1px solid;
 }
 
