@@ -1,9 +1,18 @@
 <template>
   <div>
+
     <Nav
-      id="navigation"
+      id="Nav"
       tColor="bk"
       bgColor="b4"
+      v-if="!mobileView"
+    />
+
+    <NavMobile
+      id="NavMobile"
+      tColor="bk"
+      bgColor="b4"
+      v-if="mobileView"
     />
 
     <ArticleHeader
@@ -150,6 +159,7 @@
 // @ is an alias to /src
 
 import Nav from "@/components/navigation/Navigation.vue";
+import NavMobile from "@/components/navigation/NavigationMobile.vue";
 import ArticleHeader from "@/components/layouts/article_header.vue";
 import ArticleDetails from "@/components/layouts/article_details.vue";
 import ImageBlock from "@/components/layouts/image_block.vue";
@@ -158,9 +168,21 @@ import textblock from "@/components/layouts/article_text_block.vue";
 import Footer from "@/components/navigation/Footer.vue";
 
 export default {
+  data: () => {
+    return {
+      mobileView: false
+    };
+  },
+  methods: {
+    handleView() {
+      this.mobileView = window.innerWidth <= 800;
+    },
+  },
+
   name: "Pizza",
   components: {
     Nav,
+    NavMobile,
     ArticleHeader,
     ArticleDetails,
     ImageBlock,
@@ -187,6 +209,11 @@ export default {
         ]
       }
     };
+  },
+
+  created() {
+    this.handleView();
+    window.addEventListener('resize', this.handleView);
   },
 };
 </script>
