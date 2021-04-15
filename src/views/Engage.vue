@@ -1,7 +1,7 @@
 <template>
   <div>
     <Nav
-      id="navigation"
+      id="NavMobile"
       tColor="bk"
       bgColor="b4"
     />
