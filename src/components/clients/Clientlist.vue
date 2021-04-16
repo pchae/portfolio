@@ -1,7 +1,7 @@
 <template>
   <div class=" container">
-    <div class="section-title pb2">
-      <h3 class="">Clients & Partners</h3>
+    <div class="section-title pb4">
+      <h3 class="section-headline">Select clients</h3>
     </div>
   <div class="client-partners">
     <!-- Row 1 -->

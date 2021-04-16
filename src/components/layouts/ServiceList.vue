@@ -1,8 +1,8 @@
 <template>
   <section :id="[sectionID]" :class="[padding, bgColor]">
     <div class="container content-wrapper">
-      <div class="section-title pb2">
-        <h3 class="">Skills</h3>
+      <div class="section-title pb4">
+        <h3 class="section-headline">Skills</h3>
       </div>
       <div class="services">
         <div class="list-container">
