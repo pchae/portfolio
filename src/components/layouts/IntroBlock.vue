@@ -2,7 +2,7 @@
   <section :id="[sectionID]" :class="[padding, bgColor]">
     <div class="container">
       <div class="fcol intro ">
-        <h2 class="section-headline">
+        <h2 class="section-headline pb2">
           {{ headline }}
         </h2>
         <h3 class="subtext" v-html="status">
