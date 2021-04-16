@@ -46,8 +46,9 @@ export default {
 }
 
 .tagline {
-  color: #444;
+  font-size: 1.5rem;
   font-weight: 400;
+  color: #444;
 }
 
 .intro {
