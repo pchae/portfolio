@@ -4,9 +4,9 @@
       <img :src="require('@/assets/thumbs/' + imgSrc)" :alt="imgAlt" />
     </div>
     <div class="text-box">
-      <h5 class="card-title">
+      <h4 class="card-title">
         {{ title }}
-      </h5>
+      </h4>
       <p class="desc">
         {{ desc }}
       </p>
