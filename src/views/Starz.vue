@@ -251,17 +251,9 @@
 
     <textblock
       id="caption-challenge-three"
-      class="pt2 b4"
-      intro="Design to Dev Handoff"
-      desc="Automating design to development hand-off was a new concept at the time, but we took a calculated risk to get ahead of the deadlines by adding Zeplin.io to our design stack. Multiple sprints worth of time were saved on creating measurement specifications and removed a costly bottleneck for development. The reallocated time was used to polish interactions, work on Starz Blue layouts, and draft a design system."
-    />
-
-
-    <textblock
-      id="caption-extras"
       class="pad2 b4"
-      intro="Extras"
-      desc="We were able to use the remaining time to add quality of life features and flourishes throughout the applications to curate and personalize the experience."
+      intro="Design Handoff & Extras"
+      desc="Automating design to development hand-off was a new concept at the time, but we took a calculated risk to get ahead of the deadlines by adding Zeplin.io to our design stack. Multiple sprints worth of time were saved on creating measurement specifications and removed a costly bottleneck for development. We were able to use the remaining time to add quality of life features and flourishes throughout the applications to curate and personalize the experience."
     />
 
     <MediaBlock
