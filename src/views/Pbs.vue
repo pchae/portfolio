@@ -19,7 +19,7 @@
       id="headline"
       class="pt120 b4"
       title="Introducing an iconic public broadcaster to Windows"
-      subhead="The Digiflare team invited me to help shape the user experience and visual design of a new responsive streaming app for PBS. Unlike typical responsive design projects, this needed to be future-ready in order to scale across Microsoft's current and unreleased devices."
+      subhead="The Digiflare team invited me to help shape the user experience and visual design of a new responsive streaming app for PBS."
     />
 
     <ImageBlock
@@ -103,6 +103,14 @@
       subline=""
       img-src="project/pbs/show_detail.jpg"
       img-alt="Wireframe Show details"
+    />
+
+
+    <textblock
+      id="caption-shows"
+      class="pad2 b4"
+      intro="Video Player"
+      desc="Prioritize unintrusive, easy to understand iconography. Uses Microsoft's native controls."
     />
 
     <MediaBlock
