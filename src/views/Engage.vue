@@ -79,7 +79,7 @@
     <textblock
       id="caption-analytics"
       class="pad2 b4"
-      intro="Analytics & Measurement"
+      intro="Analytics"
       desc="I worked with Product owners to introduce and configure Pendo.ai as our primary measurement tool so that we could accurately validate high traffic areas, pain points, track progress, and unused features to sunset."
     />
 

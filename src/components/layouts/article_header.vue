@@ -1,14 +1,12 @@
 <template>
-  <div :id="[sectionID]" :class="[padding, bgColor]">
-    <div class="container">
-      <div class="fcol intro">
-        <h2 class="project-headline">
-          {{ title }}
-        </h2>
-        <h4 class="tagline">
-          {{ subhead }}
-        </h4>
-      </div>
+  <div :id="[sectionID]" :class="[padding, bgColor]" class="container">
+    <div class="fcol intro">
+      <h1 class="project-headline">
+        {{ title }}
+      </h1>
+      <h4 class="tagline">
+        {{ subhead }}
+      </h4>
     </div>
   </div>
 </template>
