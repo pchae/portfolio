@@ -18,7 +18,7 @@
     <ArticleHeader
       id="headline"
       class="pt120 b4"
-      title="Refining North America’s first pizza ordering app."
+      title="Optimizing North America’s first pizza ordering app."
       subhead="Pizza Pizza is Canada's largest Quick Service Restaurant (QSR) chain with over 700 locations across the country."
     />
 
