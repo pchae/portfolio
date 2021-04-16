@@ -274,7 +274,7 @@
 
     <MediaBlock
       id="ui-search-results"
-      class="pb5 b4"
+      class=" b4"
       subline="X. Samsung SmartTV Are you still there? feature set to 2.5 episode length based on user inactivity. We spent a lot of time fine-tuning this feature to strike a balance between being unintrusive and helpful."
       img-src="project/starz/ui-still_watch-samsung.jpg"
       img-alt="Search Results interface"
