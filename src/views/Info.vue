@@ -33,7 +33,7 @@
 
     <Clientgrid
       id="clientlist"
-      class="pb5 b4"
+      class="pad5 b4"
     />
 
     <Footer
