@@ -99,7 +99,7 @@
 
     <MediaBlock
       id="surface-show-detail"
-      class="pb2 b4"
+      class="pb5 b4"
       subline=""
       img-src="project/pbs/show_detail.jpg"
       img-alt="Wireframe Show details"
