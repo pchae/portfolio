@@ -89,14 +89,14 @@
 
     <ImageBlock
       id="diagram-auth-flow"
-      class="pb5 b4"
+      class=" b4"
       img-src="project/starz/authdiagram.jpg"
       img-alt="Authentication flow diagram"
     />
 
     <MediaBlock
       id="ui-authenticate"
-      class="pad5 b4"
+      class="pad2 b4"
       subline="4b. Authentication Designs - Rather than require usernames, email addresses and long passwords, the new authentication allowed signup to be done in the browser while only requiring a 4 digit access code."
       img-src="project/starz/wire-welcome.jpg"
       img-alt="Lorem ipsum"
@@ -104,7 +104,7 @@
 
     <MediaBlock
       id="ui-authenticate"
-      class="pad5 b4"
+      class="pb5 b4"
       subline="4b. Authentication Designs - Rather than require usernames, email addresses and long passwords, the new authentication allowed signup to be done in the browser while only requiring a 4 digit access code."
       img-src="project/starz/wire-activate.jpg"
       img-alt="Lorem ipsum"
@@ -126,7 +126,7 @@
 
     <MediaBlock
       id="wireframe-roku"
-      class="pb5 b4"
+      class="pb2 b4"
       subline="X. Feature - Roku Gen 1. Modest hardware capabilities and 10mb buffer limit didn't allow for expected features like carousels, fullscreen animated backgrounds. Each screen and subsequent sections required precaching to decrease slideshow style navigation."
       img-src="project/starz/wire-feature-roku.jpg"
       img-alt="Wireframe Show details"
@@ -134,7 +134,7 @@
 
     <MediaBlock
       id="wireframe-samsung"
-      class="pad5 b4"
+      class="pb2 b4"
       subline="X. Feature - Samsung Smart TV"
       img-src="project/starz/wire-feature-samsung.jpg"
       img-alt="Wireframe Show details"
@@ -142,7 +142,7 @@
 
     <MediaBlock
       id="wireframe-amazon"
-      class="pad5 b4"
+      class="pb5 b4"
       subline="X. Feature - Amazon Fire TV"
       img-src="project/starz/wire-feature-firetv.jpg"
       img-alt="Wireframe Show details"
@@ -158,7 +158,7 @@
 
     <MediaBlock
       id="wireframe-roku"
-      class="pb5 b4"
+      class="pb2 b4"
       subline="X. Show Details - Roku Gen 1"
       img-src="project/starz/wire-show-roku.jpg"
       img-alt="Wireframe Show details"
@@ -166,7 +166,7 @@
 
     <MediaBlock
       id="wireframe-samsung"
-      class="pad5 b4"
+      class="pb2 b4"
       subline="X. Show Details - Samsung Smart TV"
       img-src="project/starz/wire-show-samsung.jpg"
       img-alt="Wireframe Show details"
@@ -174,7 +174,7 @@
 
     <MediaBlock
       id="wireframe-amazon"
-      class="pad5 b4"
+      class="pb5 b4"
       subline="X. Show Details - Amazon Fire TV"
       img-src="project/starz/wire-show-firetv.jpg"
       img-alt="Wireframe Show details"
@@ -196,7 +196,7 @@
 
     <MediaBlock
       id="ui-feature-roku"
-      class="pb5 b4"
+      class="pb2 b4"
       subline="1. Roku - Feature Home"
       img-src="project/starz/ui-feature-roku.jpg"
       img-alt="Development process diagram"
@@ -204,7 +204,7 @@
 
     <MediaBlock
       id="ui-feature-samsung"
-      class="pad5 b4"
+      class="pb2 b4"
       subline="1. Samsung SmartTV - Feature Home"
       img-src="project/starz/ui-feature-samsung.jpg"
       img-alt="Development process diagram"
@@ -212,7 +212,7 @@
 
     <MediaBlock
       id="ui-feature-firetv"
-      class="pad5 b4"
+      class="pb5 b4"
       subline="2. Amazon FireTV - Feature Home"
       img-src="project/starz/ui-feature-firetv.jpg"
       img-alt="Curated movies list"
@@ -227,7 +227,7 @@
 
     <MediaBlock
       id="ui-movie_details-resume"
-      class="pb5 b4"
+      class="pb2 b4"
       subline="4. Roku - Movie Details **Note** Most basic hardware with 10MB buffer. Approach had to scale down the experience in favour of usability and performance. Could not do fullscreen background images or motion."
       img-src="project/starz/ui-movie-roku.jpg"
       img-alt="Development process diagram"
@@ -235,7 +235,7 @@
 
     <MediaBlock
       id="ui-home-playlist"
-      class="pad5 b4"
+      class="pb2 b4"
       subline="5. Samsung - Movie Details **Note** Middleground platform locked at 720p, software based on basic web technologies: HTML5, CSS3, JavaScript."
       img-src="project/starz/ui-movie-samsung.jpg"
       img-alt="Development process diagram"
@@ -243,7 +243,7 @@
 
     <MediaBlock
       id="ui-show-details"
-      class="pad5 b4"
+      class="pb5 b4"
       subline="6. FireTV - Show Details: Episodes **Note** Best hardware specs of all 3 platforms, able to create immersive pages with fullscreen motion backgrounds and previews."
       img-src="project/starz/ui-movie-firetv.jpg"
       img-alt="Development process diagram"

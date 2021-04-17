@@ -100,18 +100,26 @@
     />
 
     <MediaBlock
+      id="wireframe-samsung"
+      class="pb5 b4"
+      subline=""
+      img-src="project/engage/responsive.jpg"
+      img-alt="Wireframe Show details"
+    />
+
+
+    <textblock
+      id="caption-visual-design"
+      class="pad2 b4"
+      intro="Client Requests"
+      desc="One of the challenges was to juggle the redesign of the whitelabel tools and any unique feature requests for clients like DELL EMC and Redbull. Often pushed out roadmap and backlog. We were tasked with creating a new modular and embeddable experience containing multi-source live streams and Engage's social media integrations."
+    />
+
+    <MediaBlock
       id="wireframe-roku"
       class="pb5 b4"
       subline="ABOVE: One of the challenges was to juggle the redesign of the whitelabel tools and any unique feature requests for clients like DELL EMC and Redbull. We were tasked with creating a new modular and embeddable experience containing multi-source live streams and Engage's social media integrations."
       img-src="project/engage/engage-new_ui.jpg"
-      img-alt="Wireframe Show details"
-    />
-
-    <MediaBlock
-      id="wireframe-samsung"
-      class="pb5 b4"
-      subline="X. Lorem ipsum dolor sit amet."
-      img-src="project/engage/post.jpg"
       img-alt="Wireframe Show details"
     />
 
