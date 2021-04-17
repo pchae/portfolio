@@ -1,5 +1,5 @@
 <template>
-  <div class=" container">
+  <div class="container">
     <div class="section-title pb4">
       <h3 class="section-headline">Select clients</h3>
     </div>
@@ -74,6 +74,10 @@ export default {
       default: 1,
     },
     imgSrc: {
+      type: String,
+      default: "",
+    },
+    bgColor: {
       type: String,
       default: "",
     },
