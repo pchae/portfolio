@@ -63,7 +63,7 @@
       id="diagram-misc"
       class="pb5 b4"
       subline="X. Lorem ipsum dolor sit amet."
-      img-src="project/engage/stream.jpg"
+      img-src="project/engage/stream.png"
       img-alt="Venn Diagram of user demographics and wants"
     />
 
@@ -71,7 +71,7 @@
       id="ui-mobile-apps-new"
       class="pb5 b4"
       subline="4b. Progressive Web App using React to replace outdated native applications."
-      img-src="project/engage/post.jpg"
+      img-src="project/engage/post.png"
       img-alt="Lorem ipsum"
     />
 
