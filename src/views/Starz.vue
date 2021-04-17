@@ -69,7 +69,7 @@
       id="diagram-process"
       class="pb5 b4"
       subline=""
-      img-src="project/starz/process.jpg"
+      img-src="project/starz/process.png"
       img-alt="Product Design process"
     />
 
@@ -90,7 +90,7 @@
     <ImageBlock
       id="diagram-auth-flow"
       class=" b4"
-      img-src="project/starz/authdiagram.jpg"
+      img-src="project/starz/diagram.jpg"
       img-alt="Authentication flow diagram"
     />
 
