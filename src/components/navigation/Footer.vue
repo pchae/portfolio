@@ -3,7 +3,7 @@
   <footer :id="[sectionID]" :class="[padding, bgColor]">
     <div class="container-sm fcol">
       <div class="title">
-        <h2>Have a project in mind?</h2>
+        <h2>Let's talk</h2>
       </div>
 
       <div class="desc">

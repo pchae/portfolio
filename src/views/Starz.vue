@@ -68,7 +68,7 @@
     <MediaBlock
       id="diagram-process"
       class="pb5 b4"
-      subline="Design process (optional maybe remove)"
+      subline=""
       img-src="project/starz/process.jpg"
       img-alt="Product Design process"
     />
