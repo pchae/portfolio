@@ -126,7 +126,7 @@
 
     <textblock
       id="caption-extras"
-      class="pb2 b4"
+      class="pad2 b4"
       intro="Usability Testing"
       desc="To validate each user story, I created a series of user flows and interactive prototypes to document and test conditional logic, complex micro-interactions, and dynamic workflows. Validation was done in-house with clients and with remote tools like usertesting.com."
     />
@@ -148,7 +148,7 @@
 
     <MediaBlock
       id="social-cards-mockup"
-      class="pb1 b4"
+      class="pb2 b4"
       subline=""
       img-src="project/engage/card_spec1.jpg"
       img-alt="Search Results interface"
@@ -156,7 +156,7 @@
 
     <MediaBlock
       id="social-cards-mockup"
-      class="pb1 b4"
+      class="pb2 b4"
       subline=""
       img-src="project/engage/card_spec2.jpg"
       img-alt="Development process diagram"
@@ -164,7 +164,7 @@
 
     <MediaBlock
       id="social-cards-mockup"
-      class="pb5 b4"
+      class=" b4"
       subline="X. Social Media card specs."
       img-src="project/engage/card_spec3.jpg"
       img-alt="Development process diagram"
@@ -172,7 +172,7 @@
 
     <textblock
       id="caption-outcome"
-      class="pb5 b4"
+      class="pad5 b4"
       intro="Outcome"
       desc="$96,000 USD reduction in Product Design stack & Engineering expenses by auditing and consolidating licenses and tools. Design System increased front-end development velocity by 20%. The redesign beta for Engage's mobile experience led to an 11% increase in client contract renewals."
     />
