@@ -100,7 +100,7 @@
       id="wireframe-redemption"
       class="pb1 b4"
       subline=""
-      img-src="project/pizza/history.png"
+      img-src="project/pizza/club.png"
       img-alt="Wireframe Show details"
     />
 
@@ -108,7 +108,7 @@
       id="wireframe-redemption2"
       class="pb5 b4"
       subline="X. Lorem ipsum dolor sit amet."
-      img-src="project/pizza/pp_ipad_ios7_account_settings-history.png"
+      img-src="project/pizza/history.png"
       img-alt="Wireframe Show details"
     />
 
