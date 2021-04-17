@@ -25,7 +25,7 @@
     <ImageBlock
       id="header"
       class=" b4"
-      img-src="project/pbs/mockup.jpg"
+      img-src="project/pbs/mockup.png"
       img-alt="PBS header image"
     />
 
