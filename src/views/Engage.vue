@@ -111,7 +111,7 @@
       id="wireframe-samsung"
       class="pb5 b4"
       subline="X. Lorem ipsum dolor sit amet."
-      img-src="project/engage/post.jpg"
+      img-src="project/engage/post.png"
       img-alt="Wireframe Show details"
     />
 
