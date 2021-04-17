@@ -25,7 +25,7 @@
     <ImageBlock
       id="header-mockup"
       class=" b4"
-      img-src="project/pizza/3phone1.jpg"
+      img-src="project/pizza/hero.png"
       img-alt="Pizza Pizza header image"
     />
 
@@ -45,7 +45,7 @@
       id="diagram-misc"
       class="pb5 b4"
       subline="X. Lorem ipsum dolor sit amet. Contactless payment options."
-      img-src="project/pizza/3phone2.jpg"
+      img-src="project/pizza/payment.png"
       img-alt="Lorem ipsum."
     />
 
@@ -76,7 +76,7 @@
       id="wireframe-roku"
       class="pb2 b4"
       subline=""
-      img-src="project/pizza/pp_ipad_ios7_account_settings-Balance_Transfer.jpg"
+      img-src="project/pizza/transfer.jpg"
       img-alt="Wireframe Show details"
     />
 
@@ -84,7 +84,7 @@
       id="wireframe-samsung"
       class="pb5 b4"
       subline="X. Lorem ipsum dolor sit amet."
-      img-src="project/pizza/pp_ipad_ios7_account_settings-registered.png"
+      img-src="project/pizza/transfer.jpg"
       img-alt="Wireframe Show details"
     />
 
@@ -100,7 +100,7 @@
       id="wireframe-redemption"
       class="pb1 b4"
       subline=""
-      img-src="project/pizza/pp_ipad_ios7_account_settings-validate.png"
+      img-src="project/pizza/club.png"
       img-alt="Wireframe Show details"
     />
 
@@ -108,7 +108,7 @@
       id="wireframe-redemption2"
       class="pb5 b4"
       subline="X. Lorem ipsum dolor sit amet."
-      img-src="project/pizza/pp_ipad_ios7_account_settings-history.png"
+      img-src="project/pizza/history.png"
       img-alt="Wireframe Show details"
     />
 
@@ -124,7 +124,7 @@
       id="ui-mobile"
       class="pb5 b4"
       subline=""
-      img-src="project/pizza/3phone3.jpg"
+      img-src="project/pizza/maps.png"
       img-alt="Find a location GPS designs"
     />
 
