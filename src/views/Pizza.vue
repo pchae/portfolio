@@ -59,7 +59,7 @@
     <MediaBlock
       id="ui-authenticate"
       class="pb5 b4"
-      subline="X. Lorem ipsum dolor sit amet."
+      subline=""
       img-src="project/pizza/wire.png"
       img-alt="Lorem ipsum"
     />
@@ -76,7 +76,7 @@
       id="wireframe-roku"
       class="pb2 b4"
       subline=""
-      img-src="project/pizza/transfer.jpg"
+      img-src="project/pizza/payment.png"
       img-alt="Wireframe Show details"
     />
 
