@@ -60,7 +60,7 @@
       id="ui-authenticate"
       class="pb5 b4"
       subline="X. Lorem ipsum dolor sit amet."
-      img-src="project/pizza/wires_ios.jpg"
+      img-src="project/pizza/wire.png"
       img-alt="Lorem ipsum"
     />
 
