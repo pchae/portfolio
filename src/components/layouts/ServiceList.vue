@@ -97,15 +97,12 @@ export default {
 }
 
 .list-container {
-  padding: 0 2rem;
+  padding-right: 2rem;
 }
 
 @media only screen and (max-width: 1000px) {
   .list-container {
     width: 50%;
-  }
-  .list-container {
-    padding: 0 1rem;
   }
 }
 
