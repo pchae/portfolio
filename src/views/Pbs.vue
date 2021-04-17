@@ -131,7 +131,7 @@
 
     <MediaBlock
       id="ui-lumia"
-      class="pb5 b4"
+      class=" b4"
       subline=""
       img-src="project/pbs/lumia_light.jpg"
       img-alt="Various layouts for Lumia phones."
