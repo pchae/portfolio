@@ -88,11 +88,15 @@ header {
 
 /* Link Style Override */
 
+.nav-link a {
+  color: #080C14;
+}
 .active {
   background-color: none;
 }
 
 .active > h6 {
+  color: #000;
   border-bottom: 1px solid;
 }
 
