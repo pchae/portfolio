@@ -142,7 +142,7 @@
       id="caption-outcome"
       class="pad5 b4"
       intro="Outcome"
-      desc="Successfully launched across 3 platforms in Q3 2016 with over 200,000 active subscriptions within the first 3 months. 2 Million active subscriptions after 12 months generating $25.7M in revenue for 2016."
+      desc="Successfully launched in 2016. Featured on Microsoft Experience Blog?"
     />
 
     <Footer id="footer" class="b1" />
