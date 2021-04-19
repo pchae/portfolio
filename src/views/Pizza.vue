@@ -44,48 +44,24 @@
     <MediaBlock
       id="diagram-misc"
       class="pb5 b4"
-      subline="X. Lorem ipsum dolor sit amet. Contactless payment options."
+      subline=""
       img-src="project/pizza/payment.png"
-      img-alt="Lorem ipsum."
+      img-alt="REPLACE ME"
     />
 
     <textblock
       id="caption-challenge-one"
       class="pad2 b4"
       intro="Challenges"
-      desc="The goals of the team were to design, build, and deploy new updates to coincide with iOS 8. Annual refresh of the product. Increase conversions and create habits based on ordering pizza. Needed to work with difficult stakeholders and refine and guide their design sensibilities."
+      desc="The goals of the team were to design, build, and deploy new updates to coincide with iOS 8. Annual refresh of the product. Increase conversions and create habits based on ordering pizza. Needed to work with difficult stakeholders and refine and guide their design sensibilities. Had to upscale from iPhone 4 specs to more modern resolutions that reflected userbase. Add a number of features tying in loyalty campaigns and personalization."
     />
 
     <MediaBlock
-      id="ui-authenticate"
+      id="wires-pizza"
       class="pb5 b4"
       subline=""
       img-src="project/pizza/wire.png"
-      img-alt="Lorem ipsum"
-    />
-
-
-    <textblock
-      id="caption-visual-design"
-      class="pad2 b4"
-      intro="Visual Design"
-      desc="The client wanted to maintain creative direction control over the app look and feel. Had to work on slowly upgrading their design sensibilities and continuously homogonize experience to bring Android up to spec."
-    />
-
-    <MediaBlock
-      id="wireframe-roku"
-      class="pb2 b4"
-      subline=""
-      img-src="project/pizza/payment.png"
-      img-alt="Wireframe Show details"
-    />
-
-    <MediaBlock
-      id="wireframe-samsung"
-      class="pb5 b4"
-      subline=""
-      img-src="project/pizza/ipad.jpg"
-      img-alt="Wireframe Show details"
+      img-alt="REPLACE ME"
     />
 
 
@@ -97,11 +73,11 @@
     />
 
     <MediaBlock
-      id="wireframe-redemption"
+      id="wireframe-redemption1"
       class="pb1 b4"
       subline=""
       img-src="project/pizza/club.png"
-      img-alt="Wireframe Show details"
+      img-alt="REPLACE ME"
     />
 
     <MediaBlock
@@ -109,7 +85,7 @@
       class="pb5 b4"
       subline="X. Lorem ipsum dolor sit amet."
       img-src="project/pizza/history.png"
-      img-alt="Wireframe Show details"
+      img-alt="REPLACE ME"
     />
 
 
@@ -121,11 +97,11 @@
     />
 
     <MediaBlock
-      id="ui-mobile"
+      id="ui-maps"
       class="pb5 b4"
       subline=""
       img-src="project/pizza/maps.png"
-      img-alt="Find a location GPS designs"
+      img-alt="REPLACE ME"
     />
 
 
@@ -137,12 +113,37 @@
     />
 
     <MediaBlock
-      id="ui-mobile"
-      class=" b4"
+      id="ui-french"
+      class="pb5 b4"
       subline="Many of the layouts had to be redesigned in order to be more modular and scale with French language support due to minimum 1.5x extra length for text."
       img-src="project/pizza/phone_comps.jpg"
-      img-alt="Search Results interface"
+      img-alt="REPLACE ME"
     />
+
+
+    <textblock
+      id="caption-visual-design"
+      class="pad2 b4"
+      intro="Visual Design"
+      desc="The client wanted to maintain creative direction control over the app look and feel. Had to work on slowly upgrading their design sensibilities and continuously homogonize experience to bring Android up to spec."
+    />
+
+    <MediaBlock
+      id="ui-misc"
+      class="pb2 b4"
+      subline=""
+      img-src="project/pizza/payment.png"
+      img-alt="REPLACE ME"
+    />
+
+    <MediaBlock
+      id="ui-ipad"
+      class=" b4"
+      subline=""
+      img-src="project/pizza/ipad.jpg"
+      img-alt="REPLACE ME"
+    />
+
 
     <textblock
       id="caption-outcome"
