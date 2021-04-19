@@ -83,8 +83,8 @@
     <MediaBlock
       id="wireframe-samsung"
       class="pb5 b4"
-      subline="X. Lorem ipsum dolor sit amet."
-      img-src="project/pizza/transfer.jpg"
+      subline=""
+      img-src="project/pizza/ipad.jpg"
       img-alt="Wireframe Show details"
     />
 

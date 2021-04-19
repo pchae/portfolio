@@ -60,19 +60,19 @@
     />
 
     <MediaBlock
-      id="diagram-misc"
+      id="ui-pwa1"
       class="pb5 b4"
-      subline="X. Lorem ipsum dolor sit amet."
+      subline="4a. Progressive Web App using React to replace outdated native applications. Reusable components across Scribblelive's ecosystem of SaaS products."
       img-src="project/engage/stream.png"
-      img-alt="Venn Diagram of user demographics and wants"
+      img-alt="Engage Content Studio PWA screens"
     />
 
     <MediaBlock
-      id="ui-mobile-apps-new"
+      id="ui-pwa2"
       class="pb5 b4"
-      subline="4b. Progressive Web App using React to replace outdated native applications."
+      subline="4b. PWA allows smart caching to prevent loss of work in areas with low or unreliable connectivity."
       img-src="project/engage/post.png"
-      img-alt="Lorem ipsum"
+      img-alt="Engage Content Studio PWA screens"
     />
 
 
@@ -80,13 +80,13 @@
       id="caption-analytics"
       class="pad2 b4"
       intro="Analytics"
-      desc="I worked with Product owners to introduce and configure Pendo.ai as our primary measurement tool so that we could accurately validate high traffic areas, pain points, track progress, and unused features to sunset."
+      desc="I worked with Product owners to introduce and configure Pendo.ai as our primary measurement tool across the organization. This allowed us to accurately validate high traffic features, identify pain points, and isolate unused features to sunset. New initiatives such as client outreach with CSMs allowed us to uncover new issues which led to a reprioritization and optimization of the roadmap."
     />
 
     <MediaBlock
       id="analytics-pendo"
       class="pb5 b4"
-      subline="ABOVE: The reporting tools from Pendo allowed us to better understand user workflows and isolate painpoints within Engage's experience that we were previously unaware of. This new knowledge led to a reprioritization of the roadmap."
+      subline=""
       img-src="project/engage/pendo.jpg"
       img-alt="Wireframe Show details"
     />
@@ -147,27 +147,27 @@
     />
 
     <MediaBlock
-      id="social-cards-mockup"
+      id="social-cards1"
       class="pb2 b4"
       subline=""
       img-src="project/engage/card_spec1.jpg"
-      img-alt="Search Results interface"
+      img-alt="Design system Social media components"
     />
 
     <MediaBlock
-      id="social-cards-mockup"
+      id="social-cards2"
       class="pb2 b4"
       subline=""
       img-src="project/engage/card_spec2.jpg"
-      img-alt="Development process diagram"
+      img-alt="Design system Social media components"
     />
 
     <MediaBlock
-      id="social-cards-mockup"
+      id="social-cards3"
       class=" b4"
-      subline="X. Social Media card specs."
+      subline=""
       img-src="project/engage/card_spec3.jpg"
-      img-alt="Development process diagram"
+      img-alt="Design system Social media components"
     />
 
     <textblock
