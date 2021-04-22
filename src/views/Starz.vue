@@ -19,7 +19,7 @@
       id="headline"
       class="pt120 b4"
       title="Redefining the way we watch TV"
-      subhead="Starz is an American premium cable TV network known for shows such as Outlander, Black Sails, Power, and American Gods."
+      subhead=""
     />
 
     <ImageBlock
@@ -43,26 +43,25 @@
     />
 
     <MediaBlock
-      id="diagram-misc"
+      id="ui-promo-image"
       class="pb5 b4"
-      subline="Diagram of demographics and user needs"
+      subline=""
       img-src="project/starz/mock-display.jpg"
-      img-alt="Venn Diagram of user demographics and wants"
+      img-alt="Starz TV product mockup"
     />
 
     <textblock
       id="caption-challenge-one"
       class="pt2 b4"
       intro="Objectives"
-      desc="The goals of the team were to design, build, and deploy 3 versions of the app in near simultaneous launch windows. The design time spanned 3 months for Roku, Amazong Fire TV and Samsung Smart TVs which were all new platforms for the Digiflare team.
-      Design only had a short runway ahead of the Development which was performed almost simultaneously with quick iteration cycles."
+      desc="The goals of the team were to design, build, and deploy 3 versions of the app in near simultaneous launch windows. The end to end design was alloted 3 months to produce Roku, Amazon FireTV and Samsung SmartTVs experiences which were all new platforms for the Digiflare team."
     />
 
     <textblock
       id="solution-challenge-two"
       class="pad2 b4"
       intro=""
-      desc="Started with Roku project. Created high fidelity specs based off SDKs to quickly vet code templates into proof of concept. Allowed team to stagger approach of user interface design across platforms. Prototyping allowed the team to identify any pain points in the experience and fill in additional screens or smooth out user flows. ** REWRITE **"
+      desc="We started with the Roku due to its hardware limitations and created high fidelity specs based off the SDKs to quickly validate functional layouts with our development team. These early iterative cycles helped us understand what was and wasn't possible on each platform and minimized wasted effort."
     />
 
     <MediaBlock
@@ -153,31 +152,31 @@
       id="caption-show-detail"
       class="pad2 b4"
       intro="Show Details"
-      desc="Similar to the Show Detail pages, the Movie Details had similar requirements for bandwidth. It was also essential that we tried to capture the essence of going to a movie theatre."
+      desc=""
     />
 
     <MediaBlock
       id="wireframe-roku"
       class="pb2 b4"
-      subline="X. Show Details - Roku Gen 1"
+      subline="Roku version of the Show Details wireframe"
       img-src="project/starz/wire-show-roku.jpg"
-      img-alt="Wireframe Show details"
+      img-alt="Above: Roku Show Details UI wireframe"
     />
 
     <MediaBlock
       id="wireframe-samsung"
       class="pb2 b4"
-      subline="X. Show Details - Samsung Smart TV"
+      subline="Samsung SmartTV version of the Show Details wireframe"
       img-src="project/starz/wire-show-samsung.jpg"
-      img-alt="Wireframe Show details"
+      img-alt="Above: Samsung SmartTV Show Details UI wireframe"
     />
 
     <MediaBlock
       id="wireframe-amazon"
       class="pb5 b4"
-      subline="X. Show Details - Amazon Fire TV"
+      subline="Amazon FireTV version of the Show Details wireframe"
       img-src="project/starz/wire-show-firetv.jpg"
-      img-alt="Wireframe Show details"
+      img-alt="Above: Amazon FireTV Show Details UI wireframe"
     />
 
     <textblock
@@ -197,87 +196,87 @@
     <MediaBlock
       id="ui-feature-roku"
       class="pb2 b4"
-      subline="1. Roku - Feature Home"
+      subline="Roku version of the Home screen."
       img-src="project/starz/ui-feature-roku.jpg"
-      img-alt="Development process diagram"
+      img-alt="Roku - Feature Home UI mockup"
     />
 
     <MediaBlock
       id="ui-feature-samsung"
       class="pb2 b4"
-      subline="1. Samsung SmartTV - Feature Home"
+      subline="Samsung SmartTV version of the Home screen."
       img-src="project/starz/ui-feature-samsung.jpg"
-      img-alt="Development process diagram"
+      img-alt="Samsung SmartTV - Feature Home UI mockup"
     />
 
     <MediaBlock
-      id="ui-feature-firetv"
+      id="ui-feature-amazon"
       class="pb5 b4"
-      subline="2. Amazon FireTV - Feature Home"
+      subline="Amazon FireTV version of the Home screen."
       img-src="project/starz/ui-feature-firetv.jpg"
-      img-alt="Curated movies list"
+      img-alt="Amazon FireTV - Feature Home UI mockup"
     />
 
     <textblock
       id="caption-movie-detail"
       class="pad2 b4"
       intro="Movie Details"
-      desc="Similar to the Show Detail pages, the Movie Details had similar requirements for bandwidth. It was also essential that we tried to capture the essence of going to a movie theatre."
+      desc="The Movie Details layouts had similar bandwidth requirements for the Show Details. It was also essential that we tried to capture the essence of going to a movie theatre."
     />
 
     <MediaBlock
-      id="ui-movie_details-resume"
+      id="ui-movie-details-roku"
       class="pb2 b4"
-      subline="4. Roku - Movie Details **Note** Most basic hardware with 10MB buffer. Approach had to scale down the experience in favour of usability and performance. Could not do fullscreen background images or motion."
+      subline="Roku verison of the Movie Details UI. The 1st gen. hardware was relatively weak and provided us with a 10MB buffer to work with. Fullscreen images and animated backgrounds were out of the question, so our approach was to scale down the experience in favour of usability and performance."
       img-src="project/starz/ui-movie-roku.jpg"
-      img-alt="Development process diagram"
+      img-alt="Roku - Movie Details UI mockup"
     />
 
     <MediaBlock
-      id="ui-home-playlist"
+      id="ui-movie-details-samsung"
       class="pb2 b4"
-      subline="5. Samsung - Movie Details **Note** Middleground platform locked at 720p, software based on basic web technologies: HTML5, CSS3, JavaScript."
+      subline="Samsung SmartTV version of the Movie Details UI. The SmartTV had an upscaled 720p (1280x720) resolution and its software comprised of web applications primarily built with HTML5, CSS, and JavaScript."
       img-src="project/starz/ui-movie-samsung.jpg"
-      img-alt="Development process diagram"
+      img-alt="Samsung SmartTV - Movie Details UI mockup"
     />
 
     <MediaBlock
-      id="ui-show-details"
+      id="ui-movie-details-amazon"
       class="pb5 b4"
-      subline="6. FireTV - Show Details: Episodes **Note** Best hardware specs of all 3 platforms, able to create immersive pages with fullscreen motion backgrounds and previews."
+      subline="Amazon FireTV version of the Movie Details UI. The FireTV had the best hardware out of the 3 platforms, allowing us to create immersive pages with fullscreen animated backgrounds and previews."
       img-src="project/starz/ui-movie-firetv.jpg"
-      img-alt="Development process diagram"
+      img-alt="Amazon FireTV - Movie Details UI mockup"
     />
 
     <textblock
-      id="caption-challenge-three"
+      id="caption-design-handoff"
       class="pad2 b4"
       intro="Design Handoff & Extras"
-      desc="Automating design to development hand-off was a new concept at the time, but we took a calculated risk to get ahead of the deadlines by adding Zeplin.io to our design stack. Multiple sprints worth of time were saved on creating measurement specifications and removed a costly bottleneck for development. We were able to use the remaining time to add quality of life features and flourishes throughout the applications to curate and personalize the experience."
+      desc="Automating design to development hand-off was a new concept at the time, but we took a calculated risk to get ahead of the deadlines by adding Zeplin.io to our design stack. This saved multiple sprints worth of time by automating measurement specifications and removed what would have been a costly bottleneck for development. The remaining time was used to create reusable components, add quality of life enhancements and personalization elements."
     />
 
     <MediaBlock
       id="ui-welcome-back"
       class="pb5 b4"
-      subline="X. Returning User interstitial. Added personalization aspects to enhance the experience. Lorem ipsum dolor sit amet."
+      subline="Amazon FireTV version of the Returning user interstitial screen which doubled as a hub to highlight new content on Starz."
       img-src="project/starz/ui-welcome_back-samsung.jpg"
-      img-alt="Development process diagram"
+      img-alt="Returning user interstitional UI mockup"
     />
 
     <MediaBlock
       id="ui-video_player"
       class="pb5 b4"
-      subline="X. Video Player - FireTV timeline scrubbing feature with PiP (Picture in Picture) thumbnail."
+      subline="Amazon FireTV version of the video player UI and timeline scrubbing with animated Picture-in-Picture (PiP) previews."
       img-src="project/starz/ui-video_player.jpg"
-      img-alt="Search Results interface"
+      img-alt="Video player UI mockup"
     />
 
     <MediaBlock
       id="ui-search-results"
       class=" b4"
-      subline="X. Samsung SmartTV Are you still there? feature set to 2.5 episode length based on user inactivity. We spent a lot of time fine-tuning this feature to strike a balance between being unintrusive and helpful."
+      subline="Samsung SmartTV version of the 'Are you still there?' feature. We spent a lot of time fine-tuning and usability testing the underlying mechanics and initiation time (2.5 hours) in order to create a balance of being useful while remaining unintrusive."
       img-src="project/starz/ui-still_watch-samsung.jpg"
-      img-alt="Search Results interface"
+      img-alt="Are you still watching? interstitial mockup"
     />
 
 
@@ -285,7 +284,7 @@
       id="caption-outcome"
       class="pad5 b4"
       intro="Outcome"
-      desc="Successfully launched across 3 platforms in Q3 2016 with over 200,000 active subscriptions within the first 3 months. 2 Million active subscriptions after 12 months generating $25.7M in revenue for 2016."
+      desc="Successfully launched across 3 platforms in Q3 2016 with over 200,000 active subscriptions within the first 3 months. Active subscriptions increased to 2 Million in 12 months and generated $25.7 Million ARR."
     />
 
     <Footer id="footer" class="b1" />

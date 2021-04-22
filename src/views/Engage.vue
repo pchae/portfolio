@@ -62,7 +62,7 @@
     <MediaBlock
       id="ui-pwa1"
       class="pb5 b4"
-      subline="4a. Progressive Web App using React to replace outdated native applications. Reusable components across Scribblelive's ecosystem of SaaS products."
+      subline="Progressive Web App using React to replace outdated native applications. Reusable components across Scribblelive's ecosystem of SaaS products."
       img-src="project/engage/stream.png"
       img-alt="Engage Content Studio PWA screens"
     />
@@ -70,7 +70,7 @@
     <MediaBlock
       id="ui-pwa2"
       class="pb5 b4"
-      subline="4b. PWA allows smart caching to prevent loss of work in areas with low or unreliable connectivity."
+      subline="PWA allows smart caching to prevent loss of work in areas with low or unreliable connectivity."
       img-src="project/engage/post.png"
       img-alt="Engage Content Studio PWA screens"
     />
@@ -94,17 +94,9 @@
 
     <textblock
       id="caption-visual-design"
-      class="pad2 b4"
+      class="pb5 b4"
       intro="Design Process"
       desc="A separate audit was performed to identify common elements between the SaaS platforms as well as documenting their usage. A series of sketches were produced and recreated as a set of mid-fidelity wireframes based upon Apple's Human Interface Guidelines, Google's Material Design, and 8pt Grid Systems. This was used to map out each Web App's primary experiences, add responsiveness, identify reusable patterns, and define subtle aspects such as element spacing, dimensions, and typographic scales."
-    />
-
-    <MediaBlock
-      id="wireframe-samsung"
-      class="pb5 b4"
-      subline=""
-      img-src="project/engage/responsive.jpg"
-      img-alt="Wireframe Show details"
     />
 
 
