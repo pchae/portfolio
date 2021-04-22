@@ -19,7 +19,7 @@
       id="headline"
       class="pt120 b4"
       title="Introducing an iconic public broadcaster to Windows"
-      subhead="The Digiflare team invited me to help shape the user experience and visual design of a new responsive streaming app for PBS."
+      subhead=""
     />
 
     <ImageBlock
@@ -51,27 +51,12 @@
 
 
     <textblock
-      id="challenge"
+      id="Objectives"
       class="pad2 b4"
-      intro="Challenges"
-      desc="The Digiflare team invited me to help shape the user experience and visual design of a new responsive streaming app for PBS. Unlike typical responsive design projects, this needed to be future-ready in order to scale across Microsoft's current and unreleased Surface tablet devices."
+      intro="Objectives"
+      desc="The Digiflare team invited me to help shape the user experience and visual design of a new responsive streaming app for PBS. Unlike typical responsive design projects, this needed to be future-ready in order to scale across Microsoft's current and unreleased Surface tablet devices while combining the PBS brand with Microsoft's Metro design language."
     />
 
-    <MediaBlock
-      id="design-guide"
-      class="pb5 b4"
-      subline=""
-      img-src="project/pbs/lumia_light.jpg"
-      img-alt="Microsoft Metro and Surface documentation"
-    />
-
-
-    <textblock
-      id="visual-design"
-      class="pad2 b4"
-      intro="Visual Design"
-      desc="The client wanted to maintain creative direction control over the app look and feel. Had to work on slowly upgrading their design sensibilities and continuously homogonize experience to bring Android up to spec."
-    />
 
     <MediaBlock
       id="surface-home-hub"
@@ -90,13 +75,6 @@
     />
 
 
-    <textblock
-      id="caption-shows"
-      class="pad2 b4"
-      intro="Show Details"
-      desc="Main reason I was brought onto the team was to produce new features and value ads. Came up with pizza redemption similar to 10th purchase is free done by other QSRs."
-    />
-
     <MediaBlock
       id="surface-show-detail"
       class="pb5 b4"
@@ -105,13 +83,6 @@
       img-alt="Wireframe Show details"
     />
 
-
-    <textblock
-      id="caption-shows"
-      class="pad2 b4"
-      intro="Video Player"
-      desc="Prioritize unintrusive, easy to understand iconography. Uses Microsoft's native controls."
-    />
 
     <MediaBlock
       id="surface-playback"
@@ -142,7 +113,7 @@
       id="caption-outcome"
       class="pad5 b4"
       intro="Outcome"
-      desc="Successfully launched in 2016. Featured on Microsoft Experience Blog?"
+      desc="The app was successfully launched in 2016 and was featured on Microsoft's Windows Experience Blog."
     />
 
     <Footer id="footer" class="b1" />

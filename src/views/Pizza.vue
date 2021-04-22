@@ -19,7 +19,7 @@
       id="headline"
       class="pt120 b4"
       title="Optimizing North America’s first pizza ordering app."
-      subhead="Pizza Pizza is Canada's largest Quick Service Restaurant (QSR) chain with over 700 locations across the country."
+      subhead=""
     />
 
     <ImageBlock
@@ -38,7 +38,7 @@
       id="caption-intro"
       class="pad2 b4"
       intro="Overview"
-      desc="Pizza Pizza is one of Canada’s largest Quick Service Restaurant (QSR) chains and first to launch a pizza ordering iPhone app worldwide. During my time at Plastic Mobile I designed and delivered new features like the digital wallet, coupon redemption, native French support, and a UI refresh to coincide with iOS 8."
+      desc="Pizza Pizza is one of Canada’s largest Quick Service Restaurant (QSR) chains and first to launch a pizza ordering iPhone app worldwide. While consulting at Plastic Mobile, I was the design lead for new features including the digital wallet, GPS location mapping, coupon redemptions, native French support, and a UI refresh to coincide with iOS 8."
     />
 
     <MediaBlock
@@ -53,7 +53,7 @@
       id="caption-challenge-one"
       class="pad2 b4"
       intro="Objective"
-      desc="The goals were to design, build, and deploy new updates to coincide with iOS 8. Annual refresh of the product. Increase conversions and create habits based on ordering pizza. Needed to work with difficult stakeholders and refine and guide their design sensibilities. Had to upscale from iPhone 4 specs to more modern resolutions that reflected userbase. Add a number of features tying in loyalty campaigns and personalization."
+      desc="The goals were to design, build, and deploy new features that would increase conversion rates, create repeatable purchasing habits, and introduce quality of life improvements that would refine the core experience."
     />
 
     <MediaBlock
@@ -69,7 +69,7 @@
       id="caption-redemption"
       class="pad2 b4"
       intro="Redemption"
-      desc="Main reason I was brought onto the team was to produce new features and value ads. Came up with pizza redemption similar to 10th purchase is free done by other QSRs. Also integrate more closely with Club 11-11 loyalty plans."
+      desc="Before joining the team, Pizza Pizza's Club 11-11 memberships were limited to physical cards that could only be used in-store. By allowing customers to use their membership cards for online orders and redeem free menu items after every eleventh purchase, we increased annual revenue by $20 Million in 2015 and drove 50% of all sales to the digital platforms."
     />
 
     <MediaBlock
@@ -101,7 +101,7 @@
       id="caption-gps"
       class="pad2 b4"
       intro="GPS & Maps"
-      desc="Added a store locator feature for pick-up and takeout orders to serve larger demographics and open up purchasing options facilitated through the app."
+      desc="Another key feature was the Store locator for pick-up and takeout orders which opened up the app to larger underserved demographics and open up purchasing options facilitated through the app."
     />
 
     <MediaBlock
