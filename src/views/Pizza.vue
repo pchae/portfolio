@@ -19,13 +19,13 @@
       id="headline"
       class="pt120 b4"
       title="Optimizing North America’s first pizza ordering app."
-      subhead="Pizza Pizza is Canada's largest Quick Service Restaurant (QSR) chain with over 700 locations across the country."
+      subhead=""
     />
 
     <ImageBlock
       id="header-mockup"
       class=" b4"
-      img-src="project/pizza/hero.png"
+      img-src="project/pizza/hero.jpg"
       img-alt="Pizza Pizza header image"
     />
 
@@ -38,54 +38,30 @@
       id="caption-intro"
       class="pad2 b4"
       intro="Overview"
-      desc="Pizza Pizza is one of Canada’s largest Quick Service Restaurant (QSR) chains and first to launch a pizza ordering iPhone app worldwide. During my time at Plastic Mobile I designed and delivered new features like the digital wallet, coupon redemption, native French support, and a UI refresh to coincide with iOS 8."
+      desc="Pizza Pizza is one of Canada’s largest Quick Service Restaurant (QSR) chains and first to launch a pizza ordering iPhone app worldwide. While consulting at Plastic Mobile, I was the design lead for new features including the digital wallet, GPS location mapping, coupon redemptions, native French support, and a UI refresh to coincide with iOS 8."
     />
 
     <MediaBlock
       id="diagram-misc"
       class="pb5 b4"
-      subline="X. Lorem ipsum dolor sit amet. Contactless payment options."
-      img-src="project/pizza/payment.png"
-      img-alt="Lorem ipsum."
+      subline=""
+      img-src="project/pizza/payment.jpg"
+      img-alt="REPLACE ME"
     />
 
     <textblock
       id="caption-challenge-one"
       class="pad2 b4"
-      intro="Challenges"
-      desc="The goals of the team were to design, build, and deploy new updates to coincide with iOS 8. Annual refresh of the product. Increase conversions and create habits based on ordering pizza. Needed to work with difficult stakeholders and refine and guide their design sensibilities."
+      intro="Objective"
+      desc="The goals were to design, build, and deploy new features that would increase conversion rates, create repeatable purchasing habits, and introduce quality of life improvements that would refine the core experience."
     />
 
     <MediaBlock
-      id="ui-authenticate"
+      id="wires-pizza"
       class="pb5 b4"
       subline=""
       img-src="project/pizza/wire.png"
-      img-alt="Lorem ipsum"
-    />
-
-
-    <textblock
-      id="caption-visual-design"
-      class="pad2 b4"
-      intro="Visual Design"
-      desc="The client wanted to maintain creative direction control over the app look and feel. Had to work on slowly upgrading their design sensibilities and continuously homogonize experience to bring Android up to spec."
-    />
-
-    <MediaBlock
-      id="wireframe-roku"
-      class="pb2 b4"
-      subline=""
-      img-src="project/pizza/payment.png"
-      img-alt="Wireframe Show details"
-    />
-
-    <MediaBlock
-      id="wireframe-samsung"
-      class="pb5 b4"
-      subline=""
-      img-src="project/pizza/ipad.jpg"
-      img-alt="Wireframe Show details"
+      img-alt="REPLACE ME"
     />
 
 
@@ -93,23 +69,31 @@
       id="caption-redemption"
       class="pad2 b4"
       intro="Redemption"
-      desc="Main reason I was brought onto the team was to produce new features and value ads. Came up with pizza redemption similar to 10th purchase is free done by other QSRs. Also integrate more closely with Club 11-11 loyalty plans."
+      desc="Before joining the team, Pizza Pizza's Club 11-11 memberships were limited to physical cards that could only be used in-store. By allowing customers to use their membership cards for online orders and redeem free menu items after every eleventh purchase, we increased annual revenue by $20 Million in 2015 and drove 50% of all sales to the digital platforms."
     />
 
     <MediaBlock
-      id="wireframe-redemption"
+      id="wireframe-redemption1"
       class="pb1 b4"
       subline=""
-      img-src="project/pizza/club.png"
-      img-alt="Wireframe Show details"
+      img-src="project/pizza/club.jpg"
+      img-alt="REPLACE ME"
+    />
+
+    <MediaBlock
+      id="wireframe-redemption2"
+      class="pb1 b4"
+      subline=""
+      img-src="project/pizza/history.jpg"
+      img-alt="REPLACE ME"
     />
 
     <MediaBlock
       id="wireframe-redemption2"
       class="pb5 b4"
-      subline="X. Lorem ipsum dolor sit amet."
-      img-src="project/pizza/history.png"
-      img-alt="Wireframe Show details"
+      subline=""
+      img-src="project/pizza/transfer.jpg"
+      img-alt="REPLACE ME"
     />
 
 
@@ -117,15 +101,15 @@
       id="caption-gps"
       class="pad2 b4"
       intro="GPS & Maps"
-      desc="Added a store locator feature for pick-up and takeout orders to serve larger demographics and open up purchasing options facilitated through the app."
+      desc="Another key feature was the Store locator for pick-up and takeout orders which opened up the app to larger underserved demographics and open up purchasing options facilitated through the app."
     />
 
     <MediaBlock
-      id="ui-mobile"
+      id="ui-maps"
       class="pb5 b4"
       subline=""
-      img-src="project/pizza/maps.png"
-      img-alt="Find a location GPS designs"
+      img-src="project/pizza/maps.jpg"
+      img-alt="REPLACE ME"
     />
 
 
@@ -137,12 +121,13 @@
     />
 
     <MediaBlock
-      id="ui-mobile"
+      id="ui-french"
       class=" b4"
-      subline="Many of the layouts had to be redesigned in order to be more modular and scale with French language support due to minimum 1.5x extra length for text."
+      subline=""
       img-src="project/pizza/phone_comps.jpg"
-      img-alt="Search Results interface"
+      img-alt="REPLACE ME"
     />
+
 
     <textblock
       id="caption-outcome"

@@ -20,7 +20,7 @@
           type="email"
         />
       </div>
-
+<!--
       <div id="nav-links" class="frow">
         <div class="nav-link">
           <a href="https://linkedin.com/in/pchoi1/"
@@ -33,7 +33,7 @@
           /></a>
         </div>
       </div>
-
+-->
       <div class="copyright">
         <h6>© Phil Choi 2021 - All rights reserved.</h6>
       </div>
