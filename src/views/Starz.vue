@@ -43,10 +43,9 @@
       desc="Starz is an American premium cable TV network competing with Netflix, HBO and Showtime. In an attempt to keep up with their rivals, Starz had previously launched streaming apps but struggled with activations and growth. It was clear they needed a fresh perspective and business model, one that would resonate with consumers by catering to diverse lifestyles and needs."
     />
 
-    <MediaBlock
+    <ImageBlock
       id="ui-promo-image"
       class="pb5 b4"
-      subline=""
       img-src="project/starz/mock-display.jpg"
       img-alt="Starz TV product mockup"
     />
@@ -65,10 +64,9 @@
       desc="We started with the Roku due to its hardware limitations and created high fidelity specs based off the SDKs to quickly validate functional layouts with our development team. These early iterative cycles helped us understand what was and wasn't possible on each platform and minimized wasted effort."
     />
 
-    <MediaBlock
+    <ImageBlock
       id="diagram-process"
       class="pb5 b4"
-      subline=""
       img-src="project/starz/process.png"
       img-alt="Product Design process"
     />
@@ -94,10 +92,9 @@
       img-alt="User authentication flow diagram"
     />
 
-    <MediaBlock
+    <ImageBlock
       id="ui-authenticate"
       class="pad2 b4"
-      subline=""
       img-src="project/starz/wire-welcome.jpg"
       img-alt="Lorem ipsum"
     />

@@ -41,10 +41,9 @@
       desc="Pizza Pizza is one of Canada’s largest Quick Service Restaurant (QSR) chains and first to launch a pizza ordering iPhone app worldwide. While consulting at Plastic Mobile, I was the design lead for new features including the digital wallet, GPS location mapping, coupon redemptions, native French support, and a UI refresh to coincide with iOS 8."
     />
 
-    <MediaBlock
+    <ImageBlock
       id="diagram-misc"
       class="pb5 b4"
-      subline=""
       img-src="project/pizza/payment.jpg"
       img-alt="REPLACE ME"
     />
@@ -56,10 +55,9 @@
       desc="The goals were to design, build, and deploy new features that would increase conversion rates, create repeatable purchasing habits, and introduce quality of life improvements that would refine the core experience."
     />
 
-    <MediaBlock
+    <ImageBlock
       id="wires-pizza"
       class="pb5 b4"
-      subline=""
       img-src="project/pizza/wire.png"
       img-alt="REPLACE ME"
     />
@@ -72,26 +70,23 @@
       desc="Before joining the team, Pizza Pizza's Club 11-11 memberships were limited to physical cards that could only be used in-store. By allowing customers to use their membership cards for online orders and redeem free menu items after every eleventh purchase, we increased annual revenue by $20 Million in 2015 and drove 50% of all sales to the digital platforms."
     />
 
-    <MediaBlock
+    <ImageBlock
       id="wireframe-redemption1"
-      class="pb1 b4"
-      subline=""
+      class="pb2 b4"
       img-src="project/pizza/club.jpg"
       img-alt="REPLACE ME"
     />
 
-    <MediaBlock
+    <ImageBlock
       id="wireframe-redemption2"
-      class="pb1 b4"
-      subline=""
+      class="pb2 b4"
       img-src="project/pizza/history.jpg"
       img-alt="REPLACE ME"
     />
 
-    <MediaBlock
+    <ImageBlock
       id="wireframe-redemption2"
       class="pb5 b4"
-      subline=""
       img-src="project/pizza/transfer.jpg"
       img-alt="REPLACE ME"
     />
@@ -104,10 +99,9 @@
       desc="Another key feature was the Store locator for pick-up and takeout orders which opened up the app to larger underserved demographics and open up purchasing options facilitated through the app."
     />
 
-    <MediaBlock
+    <ImageBlock
       id="ui-maps"
       class="pb5 b4"
-      subline=""
       img-src="project/pizza/maps.jpg"
       img-alt="REPLACE ME"
     />
@@ -132,7 +126,6 @@ import NavMobile from "@/components/navigation/NavigationMobile.vue";
 import ArticleHeader from "@/components/layouts/article_header.vue";
 import ArticleDetails from "@/components/layouts/article_details.vue";
 import ImageBlock from "@/components/layouts/image_block.vue";
-import MediaBlock from "@/components/layouts/MediaBlock.vue";
 import textblock from "@/components/layouts/article_text_block.vue";
 import Footer from "@/components/navigation/Footer.vue";
 
@@ -155,7 +148,6 @@ export default {
     ArticleHeader,
     ArticleDetails,
     ImageBlock,
-    MediaBlock,
     textblock,
     Footer,
   },
