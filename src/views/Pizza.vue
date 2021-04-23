@@ -133,7 +133,7 @@
       id="caption-outcome"
       class="pad5 b4"
       intro="Outcome"
-      desc="The UI refresh and personalization features increased revenue by $20MM to a total of $80MM in 2015. Successfully transferred 50% of all sales to the digital platforms and maintained a 4.5 average rating across app stores."
+      desc="The new features and UI refresh increased revenue by $20 Million to a total of $80 Million in 2015. It also successfully shifted 50% of all sales to the digital platforms and maintained a 4.5 average rating across app stores."
     />
 
     <Footer id="footer" class="b1" />

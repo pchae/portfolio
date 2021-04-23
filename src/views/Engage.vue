@@ -104,7 +104,7 @@
       id="caption-client-requests"
       class="pad2 b4"
       intro="Client Requests"
-      desc="One of the challenges was to juggle the redesign of the whitelabel tools and any unique feature requests for clients like DELL EMC and Redbull. Often pushed out roadmap and backlog. We were tasked with creating a new modular and embeddable experience containing multi-source live streams and Engage's social media integrations."
+      desc="The sales-focused nature of the company created a continuous stream of unique feature requests from clients like DELL EMC and Redbull. The example shown below was a new modular and embeddable experience containing multi-source live streams and Engage's social media integrations."
     />
 
     <MediaBlock
@@ -120,7 +120,7 @@
       id="caption-testing"
       class="pad2 b4"
       intro="Usability Testing"
-      desc="To validate each user story, I created a series of user flows and interactive prototypes to document and test conditional logic, complex micro-interactions, and dynamic workflows. Validation was done in-house with clients and with remote tools like usertesting.com."
+      desc="To validate each user story, I created a series of user flows and interactive prototypes to document and test conditional logic, complex micro-interactions, and dynamic workflows. Validation was done in-house with clients and via remote tools like usertesting.com."
     />
 
     <MediaBlock
@@ -166,7 +166,7 @@
       id="caption-outcome"
       class="pad5 b4"
       intro="Outcome"
-      desc="$96,000 USD reduction in Product Design stack & Engineering expenses by auditing and consolidating licenses and tools. Design System increased front-end development velocity by 20%. The redesign beta for Engage's mobile experience led to an 11% increase in client contract renewals."
+      desc="Implementing DesignOps led to a $96,000 USD reduction in Product Design stack & Engineering expenses across the organization. The inclusion of the Design System increased front-end development velocity by 20% and the redesign beta for Engage's mobile experience (Content Studio) led to an 11% increase in client contract renewals."
     />
 
     <Footer id="footer" class="b1" />
