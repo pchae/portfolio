@@ -53,16 +53,16 @@
 
 
     <textblock
-      id="caption-challenge-one"
+      id="caption-tech-debt"
       class="pad2 b4"
       intro="Challenges"
-      desc="Old design work was half-implemented features and no documentation. lots of tech debt. Source code to the Engage native apps had been lost. Tech lead decision was to create a PWA experience to leverage existing developer expertise in Web and have shared code base for both mobile platforms. Had to refactor feature level without impacting entire experience or breaking for clients."
+      desc="Over the years, the web app went through several redesigns that had not been fully implemented and lacked supporting documentation. Also, the source code to the native mobile apps had been lost. The Engineering team recommended building a Progressive Web App (PWA) to leverage the team's expertise and have a shared codebase for both mobile platforms. This would also allow us to refactor the app at the feature level without negatively impacting the experience for clients."
     />
 
     <MediaBlock
       id="ui-pwa1"
       class="pb5 b4"
-      subline="Progressive Web App using React to replace outdated native applications. Reusable components across Scribblelive's ecosystem of SaaS products."
+      subline=""
       img-src="project/engage/stream.png"
       img-alt="Engage Content Studio PWA screens"
     />
@@ -70,7 +70,7 @@
     <MediaBlock
       id="ui-pwa2"
       class="pb5 b4"
-      subline="PWA allows smart caching to prevent loss of work in areas with low or unreliable connectivity."
+      subline=""
       img-src="project/engage/post.png"
       img-alt="Engage Content Studio PWA screens"
     />
@@ -96,35 +96,35 @@
       id="caption-visual-design"
       class="pb5 b4"
       intro="Design Process"
-      desc="A separate audit was performed to identify common elements between the SaaS platforms as well as documenting their usage. A series of sketches were produced and recreated as a set of mid-fidelity wireframes based upon Apple's Human Interface Guidelines, Google's Material Design, and 8pt Grid Systems. This was used to map out each Web App's primary experiences, add responsiveness, identify reusable patterns, and define subtle aspects such as element spacing, dimensions, and typographic scales."
+      desc="A separate audit was performed to identify common elements between the SaaS platforms as well as documenting their usage. A series of sketches were produced and recreated as a set of mid-fidelity wireframes based upon Apple's Human Interface Guidelines, Google's Material Design, and 8pt Grid Systems. This was used to map out each Web App's primary experiences, add responsiveness, identify reusable patterns, and define subtle aspects such as element spacing, dimensions, and typography scales."
     />
 
 
     <textblock
-      id="caption-visual-design"
+      id="caption-client-requests"
       class="pad2 b4"
       intro="Client Requests"
       desc="One of the challenges was to juggle the redesign of the whitelabel tools and any unique feature requests for clients like DELL EMC and Redbull. Often pushed out roadmap and backlog. We were tasked with creating a new modular and embeddable experience containing multi-source live streams and Engage's social media integrations."
     />
 
     <MediaBlock
-      id="wireframe-roku"
+      id="ui-dellemc"
       class="pb5 b4"
-      subline="ABOVE: One of the challenges was to juggle the redesign of the whitelabel tools and any unique feature requests for clients like DELL EMC and Redbull. We were tasked with creating a new modular and embeddable experience containing multi-source live streams and Engage's social media integrations."
+      subline=""
       img-src="project/engage/engage-new_ui.jpg"
       img-alt="Wireframe Show details"
     />
 
 
     <textblock
-      id="caption-extras"
+      id="caption-testing"
       class="pad2 b4"
       intro="Usability Testing"
       desc="To validate each user story, I created a series of user flows and interactive prototypes to document and test conditional logic, complex micro-interactions, and dynamic workflows. Validation was done in-house with clients and with remote tools like usertesting.com."
     />
 
     <MediaBlock
-      id="ui-welcome-back"
+      id="ui-invision"
       class="pb5 b4"
       subline="ABOVE: Usability testing session of the Progressive Web App (PWA) for Content Studio. We simulated the streamlined features and workflows with the goal of simplifying how clients moderated fan engagement across Social Media streams for live events."
       img-src="project/engage/prototype.jpg"
