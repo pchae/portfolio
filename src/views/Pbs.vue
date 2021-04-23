@@ -25,6 +25,7 @@
     <ImageBlock
       id="header"
       class=" b4"
+      webp-src="project/pbs/responsive.webp"
       img-src="project/pbs/mockup.png"
       img-alt="PBS header image"
     />

@@ -25,6 +25,7 @@
     <ImageBlock
       id="header-mockup"
       class=" b4"
+      webp-src="project/engage/landscape.webp"
       img-src="project/engage/landscape.jpg"
       img-alt="Starz header image"
     />
@@ -80,7 +81,7 @@
       class="pb5 b4"
       subline=""
       img-src="project/engage/pendo.jpg"
-      img-alt="Wireframe Show details"
+      img-alt="Pendo analytics dashboard"
     />
 
 
