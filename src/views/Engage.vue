@@ -56,7 +56,7 @@
       id="caption-tech-debt"
       class="pad2 b4"
       intro="Challenges"
-      desc="Over the years, the web app went through several redesigns that had not been fully implemented and lacked supporting documentation. Also, the source code to the native mobile apps had been lost. The Engineering team recommended building a Progressive Web App (PWA) to leverage the team's expertise and have a shared codebase for both mobile platforms. This would also allow us to refactor the app at the feature level without negatively impacting the experience for clients."
+      desc="Over the years, the web app went through several redesigns that had not been fully implemented and the source code to the native mobile apps had been lost. The Engineering team recommended building a Progressive Web App (PWA) to replace the mobile apps, leverage the team's expertise, and have a shared codebase for both mobile platforms. This would also allow us to refactor the web application at the feature level without negatively impacting the experience for clients."
     />
 
     <MediaBlock
