@@ -25,8 +25,8 @@
     <ImageBlock
       id="header-mockup"
       class=" b4"
-      webp-src="project/pizza/hero.webp"
-      img-src="project/pizza/hero.jpg"
+      webp-src="project/pizza/header.webp"
+      img-src="project/pizza/header.jpg"
       img-alt="Pizza Pizza header image"
     />
 
