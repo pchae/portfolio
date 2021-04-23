@@ -114,22 +114,6 @@
 
 
     <textblock
-      id="caption-french"
-      class="pad2 b4"
-      intro="French localization"
-      desc="We needed to make significant changes to the old UI in order to facilitate French language translation as the average phrase and statement were 1.5 to 2x the length of English."
-    />
-
-    <MediaBlock
-      id="ui-french"
-      class=" b4"
-      subline=""
-      img-src="project/pizza/phone_comps.jpg"
-      img-alt="REPLACE ME"
-    />
-
-
-    <textblock
       id="caption-outcome"
       class="pad5 b4"
       intro="Outcome"
