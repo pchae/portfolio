@@ -25,6 +25,7 @@
     <ImageBlock
       id="header-mockup"
       class=" b4"
+      webp-src="project/starz/movie.webp"
       img-src="project/starz/movie.jpg"
       img-alt="Starz header image"
     />
