@@ -80,7 +80,7 @@
       class="pb5 b4"
       subline=""
       img-src="project/engage/pendo.jpg"
-      img-alt="Wireframe Show details"
+      img-alt="Pendo analytics dashboard"
     />
 
 
