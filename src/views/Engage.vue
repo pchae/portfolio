@@ -166,7 +166,7 @@
       id="caption-outcome"
       class="pad5 b4"
       intro="Outcome"
-      desc="$96,000 USD reduction in Product Design stack & Engineering expenses by auditing and consolidating licenses and tools. Design System increased front-end development velocity by 20%. The redesign beta for Engage's mobile experience led to an 11% increase in client contract renewals."
+      desc="Implementing DesignOps led to a $96,000 USD reduction in Product Design stack & Engineering expenses across the organization. The inclusion of the Design System increased front-end development velocity by 20% and the redesign beta for Engage's mobile experience (Content Studio) led to an 11% increase in client contract renewals."
     />
 
     <Footer id="footer" class="b1" />
