@@ -90,7 +90,7 @@
     <ImageBlock
       id="diagram-authenticate"
       class=" b4"
-      img-src="project/starz/auth.png"
+      img-src="project/starz/auth.jpg"
       img-alt="User authentication flow diagram"
     />
 

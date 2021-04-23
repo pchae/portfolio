@@ -4,11 +4,9 @@
     class="[padding, bgColor]">
     <div class="container-lg media">
       <picture>
-        <source :srcset="require('@/assets/' + webpSrc)" type="image/webp">
         <img
         :src="require('@/assets/' + imgSrc)"
         :alt="imgAlt"
-        type="image/jpg"
         >
       </picture>
     </div>
