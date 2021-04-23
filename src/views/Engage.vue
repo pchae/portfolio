@@ -25,6 +25,7 @@
     <ImageBlock
       id="header-mockup"
       class=" b4"
+      webp-src="project/engage/landscape.webp"
       img-src="project/engage/landscape.jpg"
       img-alt="Starz header image"
     />

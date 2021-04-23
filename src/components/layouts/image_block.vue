@@ -1,12 +1,15 @@
 <template>
   <div
-    :id="[sectionID]"
-    :class="[padding, bgColor]">
+    id="[sectionID]"
+    class="[padding, bgColor]">
     <div class="container-lg media">
-      <img
+      <picture>
+        <source :srcset="require('@/assets/' + webpSrc)">
+        <img
         v-lazy="require('@/assets/' + imgSrc)"
         :alt="imgAlt"
-      >
+        >
+      </picture>
     </div>
   </div>
 </template>
@@ -15,6 +18,10 @@
 export default {
   name: 'ImageBlock',
   props: {
+    webpSrc: {
+      type: String,
+      default: '',
+    },
     imgSrc: {
       type: String,
       default: '',
