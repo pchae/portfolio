@@ -87,10 +87,10 @@
     />
 
     <ImageBlock
-      id="diagram-auth-flow"
+      id="diagram-authenticate"
       class=" b4"
-      img-src="project/starz/diagram.jpg"
-      img-alt="Authentication flow diagram"
+      img-src="project/starz/auth.png"
+      img-alt="User authentication flow diagram"
     />
 
     <MediaBlock
@@ -104,7 +104,7 @@
     <MediaBlock
       id="ui-authenticate"
       class="pb5 b4"
-      subline="Authentication - Rather than require usernames, email addresses and long passwords, the new authentication allowed signup to be done in the browser while only requiring a 6 digit access code to pair the device."
+      subline="Our solution removed the need for usernames, email addresses, and cable provider account info by allowing signups to be done in the browser while only requiring a 6 digit access code to pair the device."
       img-src="project/starz/wire-activate.jpg"
       img-alt="Lorem ipsum"
     />
