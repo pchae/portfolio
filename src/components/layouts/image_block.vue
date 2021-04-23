@@ -5,8 +5,8 @@
     <div class="container-lg media">
       <picture>
         <img
-        :src="require('@/assets/' + imgSrc)"
-        :alt="imgAlt"
+          v-lazy="require('@/assets/' + imgSrc)"
+          :alt="imgAlt"
         >
       </picture>
     </div>
