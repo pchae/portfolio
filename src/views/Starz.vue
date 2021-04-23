@@ -73,14 +73,14 @@
     />
 
     <textblock
-      id="caption-challenge-two"
+      id="caption-auth1"
       class="pt2 b4"
       intro="Authentication"
       desc="The client’s earlier attempts at online streaming utilized a TV Everywhere model. This meant that users had to authenticate themselves with account credentials from cable providers in order to access the service. This process was cumbersome and created a high barrier to entry which resulted in low completion rates."
     />
 
     <textblock
-      id="solution-challenge-two"
+      id="caption-auth2"
       class="pad2 b4"
       intro=""
       desc="We proposed an open model that welcomed non-cable subscribers, simplified user flows, and offered complete access to the Starz catalog. This was supported by our team's market research and focus groups which indicated that linear cable TV experiences were falling out of favour with audiences due to busy, unpredictable schedules and inflexible program packages."
@@ -96,7 +96,7 @@
     <MediaBlock
       id="ui-authenticate"
       class="pad2 b4"
-      subline="4b. Authentication Designs - Rather than require usernames, email addresses and long passwords, the new authentication allowed signup to be done in the browser while only requiring a 4 digit access code."
+      subline=""
       img-src="project/starz/wire-welcome.jpg"
       img-alt="Lorem ipsum"
     />
@@ -104,47 +104,47 @@
     <MediaBlock
       id="ui-authenticate"
       class="pb5 b4"
-      subline="4b. Authentication Designs - Rather than require usernames, email addresses and long passwords, the new authentication allowed signup to be done in the browser while only requiring a 4 digit access code."
+      subline="Authentication - Rather than require usernames, email addresses and long passwords, the new authentication allowed signup to be done in the browser while only requiring a 6 digit access code to pair the device."
       img-src="project/starz/wire-activate.jpg"
       img-alt="Lorem ipsum"
     />
 
     <textblock
-      id="caption-wireframes"
+      id="caption-wf1"
       class="pt2 b4"
       intro="High fidelity wireframes"
       desc="To save time and minimize errors, I built a set of responsive grids and reusable components based on Starz's CDN and each platform’s SDK. This accounted for predefined asset dimensions, Action & Title Safe zones, and unique platform requirements."
     />
 
     <textblock
-      id="caption-wireframes"
+      id="caption-wf2"
       class="pad2 b4"
       intro=""
       desc="The components allowed us to work at a high fidelity and sped up the production of consistent, accurate layouts. Since measurements were baked in, it also facilitated a quick turn-around time for creating production-ready UI elements."
     />
 
     <MediaBlock
-      id="wireframe-roku"
+      id="wf-home-roku"
       class="pb2 b4"
-      subline="X. Feature - Roku Gen 1. Modest hardware capabilities and 10mb buffer limit didn't allow for expected features like carousels, fullscreen animated backgrounds. Each screen and subsequent sections required precaching to decrease slideshow style navigation."
+      subline="Roku - Home Hub wireframe"
       img-src="project/starz/wire-feature-roku.jpg"
-      img-alt="Wireframe Show details"
+      img-alt="Roku - Home user interface wireframe"
     />
 
     <MediaBlock
-      id="wireframe-samsung"
+      id="wf-home-samsung"
       class="pb2 b4"
-      subline="X. Feature - Samsung Smart TV"
+      subline="Samsung SmartTV - Home Hub wireframe"
       img-src="project/starz/wire-feature-samsung.jpg"
-      img-alt="Wireframe Show details"
+      img-alt="SmartTV - Home user interface wireframe"
     />
 
     <MediaBlock
-      id="wireframe-amazon"
+      id="wf-home-amazon"
       class="pb5 b4"
-      subline="X. Feature - Amazon Fire TV"
+      subline="Amazon FireTV - Home Hub wireframe"
       img-src="project/starz/wire-feature-firetv.jpg"
-      img-alt="Wireframe Show details"
+      img-alt="FireTV - Home user interface wireframe"
     />
 
 
@@ -156,27 +156,27 @@
     />
 
     <MediaBlock
-      id="wireframe-roku"
+      id="wf-show-roku"
       class="pb2 b4"
-      subline="Roku version of the Show Details wireframe"
+      subline="Roku - Show Details wireframe"
       img-src="project/starz/wire-show-roku.jpg"
-      img-alt="Above: Roku Show Details UI wireframe"
+      img-alt="Roku - Show Details UI wireframe"
     />
 
     <MediaBlock
-      id="wireframe-samsung"
+      id="wf-show-samsung"
       class="pb2 b4"
-      subline="Samsung SmartTV version of the Show Details wireframe"
+      subline="Samsung SmartTV - Show Details wireframe"
       img-src="project/starz/wire-show-samsung.jpg"
-      img-alt="Above: Samsung SmartTV Show Details UI wireframe"
+      img-alt="Samsung SmartTV - Show Details UI wireframe"
     />
 
     <MediaBlock
-      id="wireframe-amazon"
+      id="wf-show-amazon"
       class="pb5 b4"
-      subline="Amazon FireTV version of the Show Details wireframe"
+      subline="Amazon FireTV - Show Details wireframe"
       img-src="project/starz/wire-show-firetv.jpg"
-      img-alt="Above: Amazon FireTV Show Details UI wireframe"
+      img-alt="Amazon FireTV - Show Details UI wireframe"
     />
 
     <textblock
@@ -196,7 +196,7 @@
     <MediaBlock
       id="ui-feature-roku"
       class="pb2 b4"
-      subline="Roku version of the Home screen."
+      subline="Roku - Home Hub"
       img-src="project/starz/ui-feature-roku.jpg"
       img-alt="Roku - Feature Home UI mockup"
     />
@@ -204,7 +204,7 @@
     <MediaBlock
       id="ui-feature-samsung"
       class="pb2 b4"
-      subline="Samsung SmartTV version of the Home screen."
+      subline="Samsung SmartTV - Home Hub"
       img-src="project/starz/ui-feature-samsung.jpg"
       img-alt="Samsung SmartTV - Feature Home UI mockup"
     />
@@ -212,7 +212,7 @@
     <MediaBlock
       id="ui-feature-amazon"
       class="pb5 b4"
-      subline="Amazon FireTV version of the Home screen."
+      subline="Amazon FireTV - Home Hub"
       img-src="project/starz/ui-feature-firetv.jpg"
       img-alt="Amazon FireTV - Feature Home UI mockup"
     />
@@ -225,25 +225,25 @@
     />
 
     <MediaBlock
-      id="ui-movie-details-roku"
+      id="ui-movie-roku"
       class="pb2 b4"
-      subline="Roku verison of the Movie Details UI. The 1st gen. hardware was relatively weak and provided us with a 10MB buffer to work with. Fullscreen images and animated backgrounds were out of the question, so our approach was to scale down the experience in favour of usability and performance."
+      subline="Roku - Movie Details UI. The 1st gen. hardware was relatively weak and provided us with a 10MB buffer to work with. Fullscreen images and animated backgrounds were out of the question, so our approach was to scale down the experience in favour of usability and performance."
       img-src="project/starz/ui-movie-roku.jpg"
       img-alt="Roku - Movie Details UI mockup"
     />
 
     <MediaBlock
-      id="ui-movie-details-samsung"
+      id="ui-movie-samsung"
       class="pb2 b4"
-      subline="Samsung SmartTV version of the Movie Details UI. The SmartTV had an upscaled 720p (1280x720) resolution and its software comprised of web applications primarily built with HTML5, CSS, and JavaScript."
+      subline="Samsung SmartTV - Movie Details UI. The SmartTV had an upscaled 720p (1280x720) resolution and its software comprised of web applications primarily built with HTML5, CSS, and JavaScript."
       img-src="project/starz/ui-movie-samsung.jpg"
       img-alt="Samsung SmartTV - Movie Details UI mockup"
     />
 
     <MediaBlock
-      id="ui-movie-details-amazon"
+      id="ui-movie-amazon"
       class="pb5 b4"
-      subline="Amazon FireTV version of the Movie Details UI. The FireTV had the best hardware out of the 3 platforms, allowing us to create immersive pages with fullscreen animated backgrounds and previews."
+      subline="Amazon FireTV - Movie Details UI. The FireTV had the best hardware out of the 3 platforms, allowing us to create immersive pages with fullscreen animated backgrounds and previews."
       img-src="project/starz/ui-movie-firetv.jpg"
       img-alt="Amazon FireTV - Movie Details UI mockup"
     />
@@ -258,7 +258,7 @@
     <MediaBlock
       id="ui-welcome-back"
       class="pb5 b4"
-      subline="Amazon FireTV version of the Returning user interstitial screen which doubled as a hub to highlight new content on Starz."
+      subline="Amazon FireTV - Returning user interstitial screen which doubled as a hub to highlight new content on Starz."
       img-src="project/starz/ui-welcome_back-samsung.jpg"
       img-alt="Returning user interstitional UI mockup"
     />
@@ -266,7 +266,7 @@
     <MediaBlock
       id="ui-video_player"
       class="pb5 b4"
-      subline="Amazon FireTV version of the video player UI and timeline scrubbing with animated Picture-in-Picture (PiP) previews."
+      subline="Amazon FireTV - video player UI and timeline scrubbing with animated Picture-in-Picture (PiP) previews."
       img-src="project/starz/ui-video_player.jpg"
       img-alt="Video player UI mockup"
     />
@@ -274,7 +274,7 @@
     <MediaBlock
       id="ui-search-results"
       class=" b4"
-      subline="Samsung SmartTV version of the 'Are you still there?' feature. We spent a lot of time fine-tuning and usability testing the underlying mechanics and initiation time (2.5 hours) in order to create a balance of being useful while remaining unintrusive."
+      subline="Samsung SmartTV - 'Are you still there?' feature. We spent a lot of time fine-tuning and usability testing the underlying mechanics and initiation time (2.5 hours) in order to create a balance of being useful while remaining unintrusive."
       img-src="project/starz/ui-still_watch-samsung.jpg"
       img-alt="Are you still watching? interstitial mockup"
     />
