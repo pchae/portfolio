@@ -63,15 +63,7 @@
       id="ui-pwa1"
       class="pb5 b4"
       subline=""
-      img-src="project/engage/stream.png"
-      img-alt="Engage Content Studio PWA screens"
-    />
-
-    <MediaBlock
-      id="ui-pwa2"
-      class="pb5 b4"
-      subline=""
-      img-src="project/engage/post.png"
+      img-src="project/engage/stream.jpg"
       img-alt="Engage Content Studio PWA screens"
     />
 
