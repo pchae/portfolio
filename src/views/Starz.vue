@@ -67,7 +67,7 @@
     <ImageBlock
       id="diagram-process"
       class="pb5 b4"
-      img-src="project/starz/process.png"
+      img-src="project/starz/process.jpg"
       img-alt="Product Design process"
     />
 
