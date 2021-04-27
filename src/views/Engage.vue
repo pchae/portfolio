@@ -39,14 +39,14 @@
       id="caption-intro"
       class="pad2 b4"
       intro="Overview"
-      desc="Upon joining as Design Lead, I made it a priority to establish a close relationship with Customer Support Managers and their clients. By taking the time to address outstanding issues and expected timelines, we were able to successfully create a buffer that allowed us to meet the business demands of simultaneously overhauling the frontend and backend user experiences."
+      desc="Upon joining as Design Lead, I made it a priority to establish a close relationship with Customer Support Managers and their clients. By taking the time to address outstanding issues and expected timelines, we were able to create a buffer that allowed us to meet the business demands of simultaneously overhauling the user experiences of multiple SaaS products while continuing to add value to their legacy versions."
     />
 
 
     <MediaBlock
       id="ui-mobile-apps"
       class="pb5 b4"
-      subline="ABOVE: Original version of Engage's Content Studio web app which suffered from divergent design patterns and outdated technology. Since the source code of the Android and iOS apps had been lost, we opted to save time and costs by rebuilding the experience as a React Native Progressive Web App (PWA)."
+      subline="ABOVE: Original version of Engage's Content Studio web app."
       img-src="project/engage/engage-old_stream.png"
       img-alt="Lorem ipsum"
     />
@@ -88,32 +88,9 @@
       id="caption-visual-design"
       class="pad2 b4"
       intro="Design Process"
-      desc="A separate audit was performed to identify common elements between the SaaS platforms as well as document their usage. This included identifying where responsiveness was needed, reusable patterns and common atomic elements. Once the core user flows were defined, sketches and mid-fidelity wireframes were produced which incorporated best practices from Apple's Human Interface Guidelines, Google's Material Design, and 8pt Grid Systems. The core components were used as the foundation of the Design System with the intention of aligning the company's products."
+      desc="A separate audit was performed to identify common elements between the SaaS platforms as well as document their usage. This included identifying where responsiveness was needed, reusable patterns and common atomic elements. Once the core user flows were defined, sketches and mid-fidelity wireframes were produced which incorporated best practices from Apple's Human Interface Guidelines, Google's Material Design, and 8pt Grid Systems. The core components formed the foundation of the Design System that would be used to align the company's products."
     />
 
-   <MediaBlock
-      id="ui-responsive"
-      class="pb5 b4"
-      subline=""
-      img-src="project/engage/responsive.jpg"
-      img-alt="Mobile and Desktop SaaS UIs"
-    />
-
-
-    <textblock
-      id="caption-client-requests"
-      class="pad2 b4"
-      intro="Client Requests"
-      desc="The sales-focused nature of the company created a continuous stream of unique feature requests from clients like DELL EMC and Redbull. One of Dell's requests (shown below) was to create a new modular and embeddable experience linking live streams with Engage's social media integrations."
-    />
-
-    <MediaBlock
-      id="ui-dellemc"
-      class="pb5 b4"
-      subline=""
-      img-src="project/engage/engage-new_ui.jpg"
-      img-alt="Wireframe Show details"
-    />
 
 
     <textblock
@@ -130,6 +107,23 @@
       img-src="project/engage/prototype.jpg"
       img-alt="Usability Testing session"
     />
+
+
+    <textblock
+      id="caption-client-requests"
+      class="pad2 b4"
+      intro="Client Requests"
+      desc="The sales-focused nature of the company created a continuous stream of unique feature requests from clients like DELL EMC and Redbull. One of Dell's requests (shown below) was to create a new modular and embeddable experience linking live streams with Engage's social media integrations."
+    />
+
+    <MediaBlock
+      id="ui-dellemc"
+      class="pb5 b4"
+      subline=""
+      img-src="project/engage/engage-new_ui.jpg"
+      img-alt="DELL EMC livestream UI"
+    />
+
 
     <textblock
       id="caption-extras"
