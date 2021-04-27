@@ -121,7 +121,7 @@
       id="caption-outcome"
       class="pad5 b4"
       intro="Outcome"
-      desc="The app was successfully launched in 2016 and was featured on Microsoft's Windows Experience Blog."
+      desc="The app was successfully launched in 2016 and featured on Microsoft's Windows Experience Blog."
     />
 
     <Footer id="footer" class="b1" />
@@ -177,7 +177,6 @@ export default {
         role: "Sr. UX/UI Designer",
         result: [
           "Featured on Microsoft's Windows Experience Blog.",
-          "Achieved a future-ready scaleable Design System.",
           "Launched in 2016."
         ]
       }
