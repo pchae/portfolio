@@ -108,14 +108,6 @@
       img-alt="Various layouts for Lumia phones."
     />
 
-    <MediaBlock
-      id="ui-lumia"
-      class=" b4"
-      subline=""
-      img-src="project/pbs/zeplin.jpg"
-      img-alt="Zeplin UI for design handoff."
-    />
-
 
     <textblock
       id="caption-outcome"
