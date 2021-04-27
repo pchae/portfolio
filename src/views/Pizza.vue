@@ -38,27 +38,36 @@
       id="caption-intro"
       class="pad2 b4"
       intro="Overview"
-      desc="Pizza Pizza is one of Canada’s largest Quick Service Restaurant (QSR) chains and first to launch a pizza ordering iPhone app worldwide. While consulting at Plastic Mobile, I was the design lead for new features including the digital wallet, GPS location mapping, coupon redemptions, native French support, and a UI refresh to coincide with iOS 8."
+      desc="Pizza Pizza is one of Canada’s largest Quick Service Restaurant (QSR) chains and first to launch a pizza ordering iPhone app worldwide. While consulting at Plastic Mobile, I was the design lead for new features including the digital wallet, Store locator, Contactless payments, Coupon redemptions, native French support, and a UI refresh to coincide with iOS 8."
+    />
+
+
+    <textblock
+      id="caption-challenge-one"
+      class="pad2 b4"
+      intro="Contactless Payments"
+      desc="We wanted to experiment with creating easier payment methods and took learnings from the usage of QR codes in East Asian countries like South Korea and Japan. This reduced a major source of friction by enabling users to complete every step of the ordering and payment process from within the app."
     />
 
     <ImageBlock
       id="diagram-misc"
       class="pb5 b4"
-      img-src="project/pizza/payment.jpg"
+      img-src="project/pizza/core.jpg"
       img-alt="REPLACE ME"
     />
+
 
     <textblock
       id="caption-challenge-one"
       class="pad2 b4"
-      intro="Objective"
-      desc="The goals were to design, build, and deploy new features that would increase conversion rates, create repeatable purchasing habits, and introduce quality of life improvements that would refine the core experience."
+      intro="Digital Wallet"
+      desc="The purpose of the wallet was to create a hub for personalized digital coupons, add value to the Club 11-11 features, and test new simplified formats of the checkout flow."
     />
 
     <ImageBlock
-      id="wires-pizza"
+      id="wf-wallet"
       class="pb5 b4"
-      img-src="project/pizza/wire.png"
+      img-src="project/pizza/wallet.jpg"
       img-alt="REPLACE ME"
     />
 
@@ -67,25 +76,25 @@
       id="caption-redemption"
       class="pad2 b4"
       intro="Redemption"
-      desc="Before joining the team, Pizza Pizza's Club 11-11 memberships were limited to physical cards that could only be used in-store. By allowing customers to use their membership cards for online orders and redeem free menu items after every eleventh purchase, we increased annual revenue by $20 Million in 2015 and drove 50% of all sales to the digital platforms."
+      desc="Before joining the team, Pizza Pizza's Club 11-11 memberships were limited to physical cards that could only be used in-store. We integrated the membership cards to equalize the value proposition between ordering online vs in-store and create an access point to track rewards."
     />
 
     <ImageBlock
-      id="wireframe-redemption1"
+      id="wf-redemption1"
       class="pb2 b4"
       img-src="project/pizza/club.jpg"
       img-alt="REPLACE ME"
     />
 
     <ImageBlock
-      id="wireframe-redemption2"
+      id="wf-redemption2"
       class="pb2 b4"
       img-src="project/pizza/history.jpg"
       img-alt="REPLACE ME"
     />
 
     <ImageBlock
-      id="wireframe-redemption2"
+      id="wf-redemption2"
       class="pb5 b4"
       img-src="project/pizza/transfer.jpg"
       img-alt="REPLACE ME"
@@ -95,8 +104,8 @@
     <textblock
       id="caption-gps"
       class="pad2 b4"
-      intro="GPS & Maps"
-      desc="Another key feature was the Store locator for pick-up and takeout orders which opened up the app to larger underserved demographics and open up purchasing options facilitated through the app."
+      intro="Store locator"
+      desc="Another key feature was the Store locator for pick-up and takeout orders which opened up the app to larger underserved demographics that prefered to visit locations in person and pay with cash."
     />
 
     <ImageBlock
