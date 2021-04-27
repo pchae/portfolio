@@ -38,7 +38,7 @@
       id="caption-intro"
       class="pad2 b4"
       intro="Overview"
-      desc="Pizza Pizza is one of Canada’s largest Quick Service Restaurant (QSR) chains and first to launch a pizza ordering iPhone app worldwide. While consulting at Plastic Mobile, I was the design lead for new features including the digital wallet, Store locator, Contactless payments, Coupon redemptions, native French support, and a UI refresh to coincide with iOS 8."
+      desc="Pizza Pizza is one of Canada’s largest Quick Service Restaurant (QSR) chains and first to launch a pizza ordering iPhone app worldwide. While consulting at Plastic Mobile, I was the design lead for new features including the digital wallet, store locator, contactless payments, coupon redemptions, native French support, and a UI refresh to coincide with iOS 8."
     />
 
 
