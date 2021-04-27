@@ -72,7 +72,7 @@
       id="caption-analytics"
       class="pad2 b4"
       intro="Analytics"
-      desc="I worked with Product owners to introduce and configure Pendo.ai as our primary measurement tool across the organization. This allowed us to accurately validate high traffic features, identify pain points, and isolate unused features to sunset. New initiatives such as client outreach with CSMs allowed us to uncover new issues which led to a reprioritization and optimization of the roadmap."
+      desc="I worked with Product owners to introduce and configure Pendo.ai as our primary measurement tool across the organization. This allowed us to accurately validate high traffic features, identify pain points, and isolate unused features to sunset. Meanwhile, new initiatives such as client outreach with CSMs allowed us to uncover new issues which led to a reprioritization and optimization of the roadmap."
     />
 
     <MediaBlock
@@ -86,9 +86,17 @@
 
     <textblock
       id="caption-visual-design"
-      class="pb5 b4"
+      class="pad2 b4"
       intro="Design Process"
-      desc="A separate audit was performed to identify common elements between the SaaS platforms as well as documenting their usage. A series of sketches were produced and recreated as a set of mid-fidelity wireframes based upon Apple's Human Interface Guidelines, Google's Material Design, and 8pt Grid Systems. This was used to map out each Web App's primary experiences, add responsiveness, identify reusable patterns, and define subtle aspects such as element spacing, dimensions, and typography scales."
+      desc="A separate audit was performed to identify common elements between the SaaS platforms as well as document their usage. This included identifying where responsiveness was needed, reusable patterns and common atomic elements. Once the core user flows were defined, sketches and mid-fidelity wireframes were produced which incorporated best practices from Apple's Human Interface Guidelines, Google's Material Design, and 8pt Grid Systems. The core components were used as the foundation of the Design System with the intention of aligning the company's products."
+    />
+
+   <MediaBlock
+      id="ui-responsive"
+      class="pb5 b4"
+      subline=""
+      img-src="project/engage/responsive.jpg"
+      img-alt="Mobile and Desktop SaaS UIs"
     />
 
 
@@ -96,7 +104,7 @@
       id="caption-client-requests"
       class="pad2 b4"
       intro="Client Requests"
-      desc="The sales-focused nature of the company created a continuous stream of unique feature requests from clients like DELL EMC and Redbull. The example shown below was a new modular and embeddable experience containing multi-source live streams and Engage's social media integrations."
+      desc="The sales-focused nature of the company created a continuous stream of unique feature requests from clients like DELL EMC and Redbull. One of Dell's requests (shown below) was to create a new modular and embeddable experience linking live streams with Engage's social media integrations."
     />
 
     <MediaBlock
@@ -127,7 +135,7 @@
       id="caption-extras"
       class="pad2 b4"
       intro="Design System"
-      desc="I collaborated with the Frontend development leads to introduce a Design-to-Dev process involving early technical consultations, design walkthroughs, living documentation in Confluence, and a standardized asset delivery process. We distributed pixel perfect designs from Sketch to Zeplin which were built into reusable, shared React components. This fostered synergy between teams and led to a net reduction in development time, QA testing, and bugs produced each sprint."
+      desc="I collaborated with the Frontend development leads to introduce a Design-to-Dev process involving early technical consultations, design walkthroughs, living documentation in Confluence, and a standardized asset delivery process. We distributed pixel perfect designs from Sketch to Zeplin which were recreated as a shared library of React components. This fostered synergy between teams and led to a net reduction in development time, QA testing, and bugs produced each sprint."
     />
 
     <MediaBlock
