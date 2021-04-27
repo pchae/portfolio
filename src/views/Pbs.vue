@@ -68,7 +68,7 @@
 
     <MediaBlock
       id="surface-resume"
-      class="pb5 b4"
+      class="pb2 b4"
       subline=""
       img-src="project/pbs/history.jpg"
       img-alt="Previously watched: Resume layout for Surface tablets."
@@ -77,7 +77,7 @@
 
     <MediaBlock
       id="surface-show-detail"
-      class="pb5 b4"
+      class="pb2 b4"
       subline=""
       img-src="project/pbs/show_detail.jpg"
       img-alt="Wireframe Show details"
