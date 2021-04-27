@@ -46,7 +46,7 @@
       id="caption-challenge-one"
       class="pad2 b4"
       intro="Contactless Payments"
-      desc="We wanted to experiment with creating easier payment methods and took learnings from the usage of QR codes in East Asian countries like South Korea and Japan. This reduced a major source of friction by enabling users to complete every step of the ordering and payment process from within the app."
+      desc="We wanted to experiment with creating easier payment methods and took learnings from the adoption of QR codes in South Korea and Japan. This reduced a major source of friction by enabling users to complete every step of the ordering and payment process from within the app."
     />
 
     <ImageBlock
@@ -61,7 +61,7 @@
       id="caption-challenge-one"
       class="pad2 b4"
       intro="Digital Wallet"
-      desc="The purpose of the wallet was to create a hub for personalized digital coupons, add value to the Club 11-11 features, and test new simplified formats of the checkout flow."
+      desc="The objective of the wallet was to create a hub for personalized digital coupons, add value to the Club 11-11 features, and test new simplified formats of the checkout flow."
     />
 
     <ImageBlock
@@ -120,7 +120,7 @@
       id="caption-outcome"
       class="pad5 b4"
       intro="Outcome"
-      desc="The new features and UI refresh increased revenue by $20 Million to a total of $80 Million in 2015. It also successfully shifted 50% of all sales to the digital platforms and maintained a 4.5 average rating across app stores."
+      desc="The new features and UI refresh successfully shifted 50% of all sales to the digital platforms and increased revenue by $20 Million to a total of $80 Million in 2015. It also increased the average app store ratings to 4.5/5."
     />
 
     <Footer id="footer" class="b1" />
