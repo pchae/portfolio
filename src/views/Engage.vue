@@ -39,14 +39,14 @@
       id="caption-intro"
       class="pad2 b4"
       intro="Overview"
-      desc="Upon joining as Design Lead, I made it a priority to establish a close relationship with Customer Support Managers and their clients. By taking the time to address outstanding issues and expected timelines, we were able to successfully create a buffer that allowed us to meet the business demands of simultaneously overhauling the frontend and backend user experiences."
+      desc="Upon joining as Design Lead, I made it a priority to establish a close relationship with Customer Support Managers and their clients. By taking the time to address outstanding issues and expected timelines, we were able to create a buffer that allowed us to meet the business demands of simultaneously overhauling the user experiences of multiple SaaS products while continuing to add value to their legacy versions."
     />
 
 
     <MediaBlock
       id="ui-mobile-apps"
       class="pb5 b4"
-      subline="ABOVE: Original version of Engage's Content Studio web app which suffered from divergent design patterns and outdated technology. Since the source code of the Android and iOS apps had been lost, we opted to save time and costs by rebuilding the experience as a React Native Progressive Web App (PWA)."
+      subline="ABOVE: Original version of Engage's Content Studio web app."
       img-src="project/engage/engage-old_stream.png"
       img-alt="Lorem ipsum"
     />
@@ -72,7 +72,7 @@
       id="caption-analytics"
       class="pad2 b4"
       intro="Analytics"
-      desc="I worked with Product owners to introduce and configure Pendo.ai as our primary measurement tool across the organization. This allowed us to accurately validate high traffic features, identify pain points, and isolate unused features to sunset. New initiatives such as client outreach with CSMs allowed us to uncover new issues which led to a reprioritization and optimization of the roadmap."
+      desc="I worked with Product owners to introduce and configure Pendo.ai as our primary measurement tool across the organization. This allowed us to accurately validate high traffic features, identify pain points, and isolate unused features to sunset. Meanwhile, new initiatives such as client outreach with CSMs allowed us to uncover new issues which led to a reprioritization and optimization of the roadmap."
     />
 
     <MediaBlock
@@ -86,26 +86,11 @@
 
     <textblock
       id="caption-visual-design"
-      class="pb5 b4"
-      intro="Design Process"
-      desc="A separate audit was performed to identify common elements between the SaaS platforms as well as documenting their usage. A series of sketches were produced and recreated as a set of mid-fidelity wireframes based upon Apple's Human Interface Guidelines, Google's Material Design, and 8pt Grid Systems. This was used to map out each Web App's primary experiences, add responsiveness, identify reusable patterns, and define subtle aspects such as element spacing, dimensions, and typography scales."
-    />
-
-
-    <textblock
-      id="caption-client-requests"
       class="pad2 b4"
-      intro="Client Requests"
-      desc="The sales-focused nature of the company created a continuous stream of unique feature requests from clients like DELL EMC and Redbull. The example shown below was a new modular and embeddable experience containing multi-source live streams and Engage's social media integrations."
+      intro="Design Process"
+      desc="A separate audit was performed to identify common elements between the SaaS platforms as well as document their usage. This included identifying where responsiveness was needed, reusable patterns and common atomic elements. Once the core user flows were defined, sketches and mid-fidelity wireframes were produced which incorporated best practices from Apple's Human Interface Guidelines, Google's Material Design, and 8pt Grid Systems. The core components formed the foundation of the Design System that would be used to align the company's products."
     />
 
-    <MediaBlock
-      id="ui-dellemc"
-      class="pb5 b4"
-      subline=""
-      img-src="project/engage/engage-new_ui.jpg"
-      img-alt="Wireframe Show details"
-    />
 
 
     <textblock
@@ -123,11 +108,28 @@
       img-alt="Usability Testing session"
     />
 
+
+    <textblock
+      id="caption-client-requests"
+      class="pad2 b4"
+      intro="Client Requests"
+      desc="The sales-focused nature of the company created a continuous stream of unique feature requests from clients like DELL EMC and Redbull. One of Dell's requests (shown below) was to create a new modular and embeddable experience linking live streams with Engage's social media integrations."
+    />
+
+    <MediaBlock
+      id="ui-dellemc"
+      class="pb5 b4"
+      subline=""
+      img-src="project/engage/engage-new_ui.jpg"
+      img-alt="DELL EMC livestream UI"
+    />
+
+
     <textblock
       id="caption-extras"
       class="pad2 b4"
       intro="Design System"
-      desc="I collaborated with the Frontend development leads to introduce a Design-to-Dev process involving early technical consultations, design walkthroughs, living documentation in Confluence, and a standardized asset delivery process. We distributed pixel perfect designs from Sketch to Zeplin which were built into reusable, shared React components. This fostered synergy between teams and led to a net reduction in development time, QA testing, and bugs produced each sprint."
+      desc="I collaborated with the Frontend development leads to introduce a Design-to-Dev process involving early technical consultations, design walkthroughs, living documentation in Confluence, and a standardized asset delivery process. We distributed pixel perfect designs from Sketch to Zeplin which were recreated as a shared library of React components. This fostered synergy between teams and led to a net reduction in development time, QA testing, and bugs produced each sprint."
     />
 
     <MediaBlock
