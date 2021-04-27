@@ -26,10 +26,6 @@
       class="pb5 b4"
     />
 
-    <ServiceList
-      id="skillset"
-      class="pad5 b4"
-    />
 
     <Clientgrid
       id="clientlist"
@@ -49,7 +45,6 @@ import Nav from "@/components/navigation/Navigation.vue";
 import NavMobile from "@/components/navigation/NavigationMobile.vue";
 import IntroBlock from "@/components/layouts/IntroBlock.vue";
 import Intro from "@/components/layouts/Intro.vue";
-import ServiceList from "@/components/layouts/ServiceList.vue";
 import Clientgrid from "@/components/clients/Clientlist.vue";
 import Footer from "@/components/navigation/Footer.vue";
 
@@ -71,7 +66,6 @@ export default {
     NavMobile,
     IntroBlock,
     Intro,
-    ServiceList,
     Clientgrid,
     Footer,
   },
