@@ -89,7 +89,7 @@ header {
 /* Link Style Override */
 
 .nav-link a {
-  color: ##1420f4;
+  color: #1420f4;
 }
 .active {
   background-color: none;
@@ -97,6 +97,7 @@ header {
 
 .active > h6 {
   color: #000;
+  border-bottom: 1px solid;
 }
 
 .link {
