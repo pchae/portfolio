@@ -1,7 +1,7 @@
 <template>
   <div class="thumb">
     <div class="">
-      <img :src="require('@/assets/thumbs/' + imgSrc)" :alt="imgAlt" />
+      <img :src="require('@/assets/' + imgSrc)" :alt="imgAlt" />
     </div>
     <div class="text-box">
       <h4 class="card-title">

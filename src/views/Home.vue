@@ -49,7 +49,7 @@ export default {
         {
           id: "0",
           to: "/starz",
-          imgSrc: "starz.jpg",
+          imgSrc: "thumbs/starz.jpg",
           imgAlt: "Starz Play",
           title: "Starz Play",
           desc: "Roku, Samsung SmartTV, Amazon FireTV",
@@ -57,7 +57,7 @@ export default {
         {
           id: "1",
           to: "/pizza",
-          imgSrc: "pizza.jpg",
+          imgSrc: "thumbs/pizza.jpg",
           imgAlt: "Pizza Pizza",
           title: "Pizza Pizza",
           desc: "iOS, Android",
@@ -65,7 +65,7 @@ export default {
         {
           id: "2",
           to: "/engage",
-          imgSrc: "engage.jpg",
+          imgSrc: "thumbs/engage.jpg",
           imgAlt: "Scribblelive Engage",
           title: "Engage",
           desc: "PWA, Responsive Web",
@@ -73,7 +73,7 @@ export default {
         {
           id: "3",
           to: "/pbs",
-          imgSrc: "pbs.jpg",
+          imgSrc: "thumbs/pbs.jpg",
           imgAlt: "Public Broadcasting Service",
           title: "PBS",
           desc: "Microsoft Lumia & Surface",
