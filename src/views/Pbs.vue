@@ -63,7 +63,7 @@
       class="pb2 b4"
       subline=""
       img-src="project/pbs/home_hub.jpg"
-      img-alt="Wireframe Show details"
+      img-alt="Home Hub showing expanded menu."
     />
 
     <MediaBlock
@@ -71,7 +71,7 @@
       class="pb2 b4"
       subline=""
       img-src="project/pbs/history.jpg"
-      img-alt="Previously watched: Resume layout for Surface tablets."
+      img-alt="Previously watched: Resume interface."
     />
 
 
@@ -80,7 +80,7 @@
       class="pb2 b4"
       subline=""
       img-src="project/pbs/show_detail.jpg"
-      img-alt="Wireframe Show details"
+      img-alt="Show Details interface."
     />
 
 
@@ -89,7 +89,7 @@
       class="pb5 b4"
       subline=""
       img-src="project/pbs/playback.jpg"
-      img-alt="Wireframe Show details"
+      img-alt="Video Player interface."
     />
 
 
@@ -105,7 +105,7 @@
       class=" b4"
       subline=""
       img-src="project/pbs/lumia.jpg"
-      img-alt="Various layouts for Lumia phones."
+      img-alt="Misc screens for Lumia phones."
     />
 
 
