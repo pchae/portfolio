@@ -1,5 +1,5 @@
 <template>
-  <div :id="[sectionID]" :class="[padding, bgColor]">
+  <div :id="[id]" :class="[padding, bgColor]">
     <div class="container">
       <div class="flex-list">
         <div class="list-group">
@@ -35,16 +35,13 @@
 export default {
   name: "ArticleDetails",
   props: {
-    sectionID: {
-      type: String,
-      default: "",
-    },
   },
 
   data() {
     return {
-      padding: "",
-      bgColor: "",
+      padding: '',
+      bgColor: '',
+      id: '',
     };
   },
   inject: ["workInfo"],

@@ -1,7 +1,7 @@
 <template>
   <div
-    id="[sectionID]"
-    class="[padding, bgColor]">
+    :id="[id]"
+    :class="[padding, bgColor]">
     <div class="container-lg media">
       <picture>
         <img
@@ -34,7 +34,7 @@ export default {
     return {
       padding: '',
       bgColor: '',
-      sectionID: '',
+      id: '',
     };
   },
 };

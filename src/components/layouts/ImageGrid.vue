@@ -1,51 +1,19 @@
 <template>
-  <section :id="[sectionID]" :class="[padding, bgColor]">
+  <section :id="[id]" :class="[padding, bgColor]">
     <div class="container-lg content-wrapper">
       <div class="flex pb5">
-        <div class="list-container">
-          <router-link to="/starz" exact>
+
+        <div class="list-container" v-for="item in projects" :key="item.id">
+          <router-link :to="item.to" exact>
             <ImgCard
-              :index="1"
-              img-src="starz.jpg"
-              img-alt="Starz Play apps"
-              title="Starz Play"
-              desc="Amazon FireTV, Samsung SmartTV, Roku"
+              :img-src="item.imgSrc"
+              :img-alt="item.imgAlt"
+              :title="item.title"
+              :desc="item.desc"
             />
           </router-link>
         </div>
-        <div class="list-container">
-          <router-link to="/pizza" exact>
-            <ImgCard
-              :index="4"
-              img-src="pizza.jpg"
-              img-alt="Pizza Pizza native apps"
-              title="Pizza Pizza"
-              desc="Android, iOS"
-            />
-          </router-link>
-        </div>
-        <div class="list-container">
-          <router-link to="/engage" exact>
-            <ImgCard
-              :index="2"
-              img-src="engage.jpg"
-              img-alt="Engage whitelabel"
-              title="Engage"
-              desc="PWA, SaaS"
-            />
-          </router-link>
-        </div>
-        <div class="list-container">
-          <router-link to="/pbs" exact>
-            <ImgCard
-              :index="3"
-              img-src="pbs.jpg"
-              img-alt="PBS"
-              title="PBS"
-              desc="Microsoft Lumia & Surface"
-            />
-          </router-link>
-        </div>
+
       </div>
     </div>
   </section>
@@ -57,37 +25,23 @@ import ImgCard from "@/components/cards/imgCard.vue";
 export default {
   name: "ImageGrid",
   props: {
-    imgSrc: {
-      type: String,
-      default: "",
-    },
-    imgAlt: {
-      type: String,
-      default: "",
-    },
-    vidSrc: {
-      type: String,
-      default: "",
-    },
-    vidAlt: {
-      type: String,
-      default: "",
-    },
-    sectionID: {
-      type: String,
-      default: "",
-    },
   },
 
   data() {
     return {
-      padding: "",
-      bgColor: "",
+      id: '',
+      padding: '',
+      bgColor: '',
     };
   },
 
   components: {
     ImgCard,
+  },
+
+  inject: ["projects"],
+  created() {
+    console.log(this.projects);
   },
 };
 </script>

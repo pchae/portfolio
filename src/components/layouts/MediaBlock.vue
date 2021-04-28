@@ -1,6 +1,6 @@
 <template>
   <div
-    :id="[sectionID]"
+    :id="[id]"
     :class="[padding, bgColor]">
     <div class="container-lg media-block">
       <img
@@ -36,15 +36,12 @@ export default {
       type: String,
       default: '',
     },
-    sectionID: {
-      type: String,
-      default: '',
-    },
   },
   data() {
     return {
       padding: '',
       bgColor: '',
+      id: '',
     };
   },
 };

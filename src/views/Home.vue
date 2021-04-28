@@ -1,16 +1,8 @@
 <template>
   <div>
-    <Nav
-      tColor="bk"
-      bgColor="b4"
-      v-if="!mobileView"
-    />
+    <Nav tColor="bk" bgColor="b4" v-if="!mobileView" />
 
-    <NavMobile
-      tColor="bk"
-      bgColor="b4"
-      v-if="mobileView"
-    />
+    <NavMobile tColor="bk" bgColor="b4" v-if="mobileView" />
 
     <ImageGrid id="projects" class="pt120 b4" />
 
@@ -29,7 +21,7 @@ import Footer from "@/components/navigation/Footer.vue";
 export default {
   data: () => {
     return {
-      mobileView: false
+      mobileView: false,
     };
   },
   methods: {
@@ -51,10 +43,48 @@ export default {
     // all titles will be injected into this template
     titleTemplate: "%s - Product Design",
   },
+  provide() {
+    return {
+      projects: [
+        {
+          id: "0",
+          to: "/starz",
+          imgSrc: "thumbs/starz.jpg",
+          imgAlt: "Starz Play",
+          title: "Starz Play",
+          desc: "Roku, Samsung SmartTV, Amazon FireTV",
+        },
+        {
+          id: "1",
+          to: "/pizza",
+          imgSrc: "thumbs/pizza.jpg",
+          imgAlt: "Pizza Pizza",
+          title: "Pizza Pizza",
+          desc: "iOS, Android",
+        },
+        {
+          id: "2",
+          to: "/engage",
+          imgSrc: "thumbs/engage.jpg",
+          imgAlt: "Scribblelive Engage",
+          title: "Engage",
+          desc: "PWA, Responsive Web",
+        },
+        {
+          id: "3",
+          to: "/pbs",
+          imgSrc: "thumbs/pbs.jpg",
+          imgAlt: "Public Broadcasting Service",
+          title: "PBS",
+          desc: "Microsoft Lumia & Surface",
+        },
+      ],
+    };
+  },
 
   created() {
     this.handleView();
-    window.addEventListener('resize', this.handleView);
+    window.addEventListener("resize", this.handleView);
   },
 };
 </script>

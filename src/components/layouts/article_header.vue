@@ -1,5 +1,5 @@
 <template>
-  <div :id="[sectionID]" :class="[padding, bgColor]" class="container">
+  <div :id="[id]" :class="[padding, bgColor]" class="container">
     <div class="fcol intro">
       <h1 class="project-headline">
         {{ title }}
@@ -15,10 +15,6 @@
 export default {
   name: "ArticleHeader",
   props: {
-    sectionID: {
-      type: String,
-      default: "",
-    },
     title: {
       type: String,
       default: "",
@@ -30,8 +26,9 @@ export default {
   },
   data() {
     return {
-      padding: "",
-      bgColor: "",
+      padding: '',
+      bgColor: '',
+      id: '',
     };
   },
 };

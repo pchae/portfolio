@@ -1,5 +1,5 @@
 <template>
-  <section :id="[sectionID]" :class="[padding, bgColor]">
+  <section :id="[id]" :class="[padding, bgColor]">
     <div class="container-lg content-wrapper">
       <div class="frow two-col">
         <div class="col-third">
@@ -29,10 +29,6 @@ export default {
     Clientgrid,
   },
   props: {
-    sectionID: {
-      type: String,
-      default: "",
-    },
     sectiontitle: {
       type: String,
       default: "",
@@ -64,8 +60,9 @@ export default {
   },
   data() {
     return {
-      padding: "",
-      bgColor: "",
+      padding: '',
+      bgColor: '',
+      id: '',
     };
   },
 };

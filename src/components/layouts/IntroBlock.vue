@@ -1,5 +1,5 @@
 <template>
-  <section :id="[sectionID]" :class="[padding, bgColor]">
+  <section :id="[id]" :class="[padding, bgColor]">
     <div class="container">
       <div class="fcol intro ">
         <h2 class="section-headline pb2">
@@ -24,15 +24,12 @@ export default {
       type: String,
       default: "",
     },
-    sectionID: {
-      type: String,
-      default: "",
-    },
   },
   data() {
     return {
       padding: "",
       bgColor: "",
+      id: '',
     };
   },
 };
