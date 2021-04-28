@@ -173,7 +173,7 @@ export default {
         year: "2014",
         role: "Digital Designer",
         result: [
-          "Increased revenue from $60 Million to $80 Million for 2015.",
+          "$20 Million increase in revenue for 2015.",
           "50% of all sales shifted to digital platforms.",
           "4.5 avg. rating across app stores."
         ]
