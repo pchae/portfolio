@@ -6,7 +6,7 @@
     <div class="text-container container">
 
       <div class="fcol">
-        <div class="frow" v-for="about in abouts" :key="about.id">
+        <div class="frow" v-for="about in txtSummary" :key="about.id">
           <p class="subtext" v-html="about.pg"></p>
         </div>
       </div>
@@ -26,6 +26,7 @@ export default {
     return {
       padding: '',
       bgColor: '',
+      id: '',
       txtSummary: Summary,
     };
   },

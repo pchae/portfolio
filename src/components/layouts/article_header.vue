@@ -26,8 +26,9 @@ export default {
   },
   data() {
     return {
-      padding: "",
-      bgColor: "",
+      padding: '',
+      bgColor: '',
+      id: '',
     };
   },
 };

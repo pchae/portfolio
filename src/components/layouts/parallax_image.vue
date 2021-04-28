@@ -19,7 +19,8 @@ export default {
   },
   data() {
     return {
-      cover: "",
+      cover: '',
+      id: '',
     };
   },
 };
