@@ -11,12 +11,12 @@
       <div id="nav" class="fcontain menu-links">
         <div class="nav-link">
           <router-link to="/" active-class="active" exact>
-            <h6>Work</h6>
+            <h6>WORK</h6>
           </router-link>
         </div>
         <div class="nav-link">
           <router-link to="/info" active-class="active" exact>
-            <h6>Info</h6>
+            <h6>INFO</h6>
           </router-link>
         </div>
       </div>
@@ -89,7 +89,7 @@ header {
 /* Link Style Override */
 
 .nav-link a {
-  color: #080C14;
+  color: ##1420f4;
 }
 .active {
   background-color: none;
@@ -97,7 +97,6 @@ header {
 
 .active > h6 {
   color: #000;
-  border-bottom: 1px solid;
 }
 
 .link {
