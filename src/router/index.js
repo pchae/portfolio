@@ -1,14 +1,8 @@
 /* eslint-disable no-unused-vars */
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Meta from 'vue-meta'
-import Home from '../views/Home.vue';
-import Info from '../views/Info.vue';
+import Meta from 'vue-meta';
 
-import Starz from '../views/Starz.vue';
-import Pizza from '../views/Pizza.vue';
-import Engage from '../views/Engage.vue';
-import PBS from '../views/Pbs.vue';
 
 Vue.use(VueRouter);
 Vue.use(Meta);
@@ -17,7 +11,7 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: () => import(/* webpackChunkName: "Home" */ '../views/Home.vue'),
+    component: () => import(/* webpackChunkName: "home" */ '../views/Home.vue'),
     meta: {
       auth: true,
       title: 'Phil Choi - Product Design',
@@ -39,7 +33,7 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "Info" */ '../views/Info.vue'),
+    component: () => import(/* webpackChunkName: "info" */ '../views/Info.vue'),
     meta: {
       auth: true,
       title: 'Phil Choi - Info',
@@ -63,7 +57,7 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "Starz" */ '../views/Starz.vue'),
+    component: () => import(/* webpackChunkName: "starz" */ '../views/Starz.vue'),
     meta: {
       auth: true,
       title: 'Phil Choi - Starz Play',
@@ -86,7 +80,7 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "Pizza" */ '../views/Pizza.vue'),
+    component: () => import(/* webpackChunkName: "pizza" */ '../views/Pizza.vue'),
     meta: {
       auth: true,
       title: 'Phil Choi - Pizza Pizza',
@@ -109,7 +103,7 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "Engage" */ '../views/Engage.vue'),
+    component: () => import(/* webpackChunkName: "engage" */ '../views/Engage.vue'),
     meta: {
       auth: true,
       title: 'Phil Choi - Engage',
@@ -132,7 +126,7 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "Pbs" */ '../views/Pbs.vue'),
+    component: () => import(/* webpackChunkName: "pbs" */ '../views/Pbs.vue'),
     meta: {
       auth: true,
       title: 'Phil Choi - Public Broadcasting Service',
