@@ -1,5 +1,5 @@
 <template>
-  <div :id="[sectionID]" class="container-xl parallax">
+  <div :id="[id]" class="container-xl parallax">
     <div :class="[cover]"></div>
   </div>
 </template>

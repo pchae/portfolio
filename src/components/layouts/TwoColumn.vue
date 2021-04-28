@@ -51,19 +51,6 @@ export default {
       default: '',
     },
   },
-  padding: {
-    type: String,
-    default: '',
-  },
-  bgColor: {
-    type: String,
-    default: '',
-  },
-  sectionID: {
-    type: String,
-    default: '',
-  },
-
   components: {
     Form,
   },

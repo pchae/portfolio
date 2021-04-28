@@ -1,5 +1,5 @@
 <template>
-  <section :id="[sectionID]" :class="[padding, bgColor]">
+  <section :id="[id]" :class="[padding, bgColor]">
     <div class="flex fwrap">
       <div class="list-container">
         <ImgCard

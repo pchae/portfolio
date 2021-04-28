@@ -1,6 +1,6 @@
 <template>
   <div
-    :id="[sectionID]"
+    :id="[id]"
     :class="[padding, bgColor]"
   >
     <div class="container-lg">
@@ -44,10 +44,6 @@ export default {
       default: '',
     },
     platform: {
-      type: String,
-      default: '',
-    },
-    sectionID: {
       type: String,
       default: '',
     },

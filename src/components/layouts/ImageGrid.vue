@@ -1,5 +1,5 @@
 <template>
-  <section :id="[sectionID]" :class="[padding, bgColor]">
+  <section :id="[id]" :class="[padding, bgColor]">
     <div class="container-lg content-wrapper">
       <div class="flex pb5">
         <div class="list-container">
@@ -70,10 +70,6 @@ export default {
       default: "",
     },
     vidAlt: {
-      type: String,
-      default: "",
-    },
-    sectionID: {
       type: String,
       default: "",
     },

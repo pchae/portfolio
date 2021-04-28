@@ -1,6 +1,6 @@
 <template>
   <section
-    :id="[sectionID]"
+    :id="[id]"
     :class="[padding, bgColor]"
   >
     <div class="container-lg">
@@ -61,10 +61,6 @@ export default {
       default: '',
     },
     desc: {
-      type: String,
-      default: '',
-    },
-    sectionID: {
       type: String,
       default: '',
     },

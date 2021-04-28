@@ -1,13 +1,8 @@
 <template>
-  <div
-    id="[sectionID]"
-    class="[padding, bgColor]">
+  <div :id="[id]" :class="[padding, bgColor]">
     <div class="container-lg media">
       <picture>
-        <img
-          v-lazy="require('@/assets/' + imgSrc)"
-          :alt="imgAlt"
-        >
+        <img v-lazy="require('@/assets/' + imgSrc)" :alt="imgAlt" />
       </picture>
     </div>
   </div>
@@ -15,26 +10,22 @@
 
 <script>
 export default {
-  name: 'ImageBlock',
+  name: "ImageBlock",
   props: {
-    webpSrc: {
-      type: String,
-      default: '',
-    },
     imgSrc: {
       type: String,
-      default: '',
+      default: "",
     },
     imgAlt: {
       type: String,
-      default: '',
+      default: "",
     },
   },
   data() {
     return {
-      padding: '',
-      bgColor: '',
-      sectionID: '',
+      padding: "",
+      bgColor: "",
+      sectionID: "",
     };
   },
 };
@@ -52,5 +43,4 @@ export default {
   width: 100%;
   margin: 0;
 }
-
 </style>

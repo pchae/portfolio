@@ -1,5 +1,5 @@
 <template>
-  <section :id="[sectionID]" :class="[padding, bgColor]">
+  <section :id="[id]" :class="[padding, bgColor]">
     <div class="container content-wrapper">
       <div class="section-title pb4">
         <h3 class="section-headline">What I do</h3>
@@ -61,10 +61,6 @@ export default {
       default: 0,
     },
     title: {
-      type: String,
-      default: "",
-    },
-    sectionID: {
       type: String,
       default: "",
     },
