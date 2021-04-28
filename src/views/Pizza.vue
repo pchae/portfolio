@@ -35,7 +35,7 @@
     />
 
     <textblock
-      id="caption-intro"
+      id="caption-overview"
       class="pad2 b4"
       intro="Overview"
       desc="Pizza Pizza is one of Canada’s largest Quick Service Restaurant (QSR) chains and first to launch a pizza ordering iPhone app worldwide. While consulting at Plastic Mobile, I was the design lead for new features including the digital wallet, store locator, contactless payments, coupon redemptions, native French support, and a UI refresh to coincide with iOS 8."
@@ -43,22 +43,22 @@
 
 
     <textblock
-      id="caption-challenge-one"
+      id="caption-payments"
       class="pad2 b4"
       intro="Contactless Payments"
       desc="We wanted to experiment with creating easier payment methods and took learnings from the adoption of QR codes in South Korea and Japan. This reduced a major source of friction by enabling users to complete every step of the ordering and payment process from within the app."
     />
 
     <ImageBlock
-      id="diagram-misc"
+      id="ui-payments"
       class="pb5 b4"
       img-src="project/pizza/core.jpg"
-      img-alt="REPLACE ME"
+      img-alt="qr code payments"
     />
 
 
     <textblock
-      id="caption-challenge-one"
+      id="caption-wallet"
       class="pad2 b4"
       intro="Digital Wallet"
       desc="The objective of the wallet was to create a hub for personalized digital coupons, add value to the Club 11-11 features, and test new simplified formats of the checkout flow."
@@ -68,7 +68,7 @@
       id="wf-wallet"
       class="pb5 b4"
       img-src="project/pizza/wallet.jpg"
-      img-alt="REPLACE ME"
+      img-alt="digital wallet wireframes"
     />
 
 
@@ -83,21 +83,21 @@
       id="wf-redemption1"
       class="pb2 b4"
       img-src="project/pizza/club.jpg"
-      img-alt="REPLACE ME"
+      img-alt="club 11-11 registration interface"
     />
 
     <ImageBlock
       id="wf-redemption2"
       class="pb2 b4"
       img-src="project/pizza/history.jpg"
-      img-alt="REPLACE ME"
+      img-alt="club 11-11 purchase history interface"
     />
 
     <ImageBlock
       id="wf-redemption2"
       class="pb5 b4"
       img-src="project/pizza/transfer.jpg"
-      img-alt="REPLACE ME"
+      img-alt="club 11-11 account transfer interface"
     />
 
 
@@ -112,7 +112,7 @@
       id="ui-maps"
       class="pb5 b4"
       img-src="project/pizza/maps.jpg"
-      img-alt="REPLACE ME"
+      img-alt="store locator interface"
     />
 
 
