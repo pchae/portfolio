@@ -17,7 +17,7 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: Home,
+    component: () => import(/* webpackChunkName: "Home" */ '../views/Home.vue'),
     meta: {
       auth: true,
       title: 'Phil Choi - Product Design',
@@ -39,7 +39,7 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: Info,
+    component: () => import(/* webpackChunkName: "Info" */ '../views/Info.vue'),
     meta: {
       auth: true,
       title: 'Phil Choi - Info',
@@ -63,7 +63,7 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: Starz,
+    component: () => import(/* webpackChunkName: "Starz" */ '../views/Starz.vue'),
     meta: {
       auth: true,
       title: 'Phil Choi - Starz Play',
@@ -86,7 +86,7 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: Pizza,
+    component: () => import(/* webpackChunkName: "Pizza" */ '../views/Pizza.vue'),
     meta: {
       auth: true,
       title: 'Phil Choi - Pizza Pizza',
@@ -109,7 +109,7 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: Engage,
+    component: () => import(/* webpackChunkName: "Engage" */ '../views/Engage.vue'),
     meta: {
       auth: true,
       title: 'Phil Choi - Engage',
@@ -132,7 +132,7 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: PBS,
+    component: () => import(/* webpackChunkName: "Pbs" */ '../views/Pbs.vue'),
     meta: {
       auth: true,
       title: 'Phil Choi - Public Broadcasting Service',
