@@ -1,22 +1,24 @@
-[
-  {
-    "id": 0,
-    "title": "Research",
-    "list": "Competitive analysis, User journey design, User research, Prototyping & Usability tests"
-  },
-  {
-    "id": 1,
-    "title": "Strategy",
-    "list": "Product Strategy, Feature roadmap, Systems Design, Anaylsis & Measurement"
-  },
-  {
-    "id": 2,
-    "title": "Design",
-    "list": "Information Architecture, Wireframing, Web & Native App design, Design Systems"
-  },
-  {
-    "id": 4,
-    "title": "Develop",
-    "list": "Systems Architecture, Web Development, Native Mobile Apps, Automation Testing"
-  }
-]
+{
+  "data": [
+    {
+      "id": 0,
+      "title": "Research",
+      "list": "Competitive analysis, User journey design, User research, Prototyping & Usability tests"
+    },
+    {
+      "id": 1,
+      "title": "Strategy",
+      "list": "Product Strategy, Feature roadmap, Systems Design, Anaylsis & Measurement"
+    },
+    {
+      "id": 2,
+      "title": "Design",
+      "list": "Information Architecture, Wireframing, Web & Native App design, Design Systems"
+    },
+    {
+      "id": 4,
+      "title": "Develop",
+      "list": "Systems Architecture, Web Development, Native Mobile Apps, Automation Testing"
+    }
+  ]
+}
