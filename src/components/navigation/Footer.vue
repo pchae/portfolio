@@ -35,7 +35,7 @@
       </div>
 -->
       <div class="copyright">
-        <h6>© Phil Choi 2021 - All rights reserved.</h6>
+        <h6>© Phil Choi 2021</h6>
       </div>
     </div>
   </footer>

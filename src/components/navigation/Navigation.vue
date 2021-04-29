@@ -11,12 +11,12 @@
       <div id="nav" class="fcontain menu-links">
         <div class="nav-link">
           <router-link to="/" active-class="active" exact>
-            <h6>WORK</h6>
+            <h6>Projects</h6>
           </router-link>
         </div>
         <div class="nav-link">
-          <router-link to="/info" active-class="active" exact>
-            <h6>INFO</h6>
+          <router-link to="/about" active-class="active" exact>
+            <h6>About</h6>
           </router-link>
         </div>
       </div>
