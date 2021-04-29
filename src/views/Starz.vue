@@ -293,7 +293,7 @@
 // @ is an alias to /src
 
 import Nav from "@/components/navigation/Navigation.vue";
-import NavMobile from "@/components/navigation/NavigationMobile.vue";
+import NavMobile from "@/components/navigation/nav_mobile.vue";
 import ArticleHeader from "@/components/layouts/article_header.vue";
 import ArticleDetails from "@/components/layouts/article_details.vue";
 import ImageBlock from "@/components/layouts/image_block.vue";

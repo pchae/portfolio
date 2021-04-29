@@ -107,13 +107,16 @@ export default {
       type: String,
       default: "",
     },
-    bgColor: {
-      type: String,
-      default: "",
-    },
   },
   components: {
     Logo,
+  },
+  data() {
+    return {
+      id: "",
+      padding: "",
+      bgColor: "",
+    };
   },
 };
 </script>

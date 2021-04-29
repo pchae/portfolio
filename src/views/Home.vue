@@ -14,8 +14,8 @@
 // @ is an alias to /src
 
 import Nav from "@/components/navigation/Navigation.vue";
-import NavMobile from "@/components/navigation/NavigationMobile.vue";
-import ImageGrid from "@/components/layouts/ImageGrid.vue";
+import NavMobile from "@/components/navigation/nav_mobile.vue";
+import ImageGrid from "@/components/layouts/image_grid.vue";
 import Footer from "@/components/navigation/Footer.vue";
 
 export default {
