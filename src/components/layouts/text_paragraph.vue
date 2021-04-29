@@ -16,9 +16,15 @@
 </template>
 
 <script>
+import {mapState} from 'vuex';
 
 export default {
   name: 'TextPG',
+  
+  computed: mapState({
+    about: state => state.about
+  }),
+
   props: {
   },
   data() {
@@ -27,11 +33,6 @@ export default {
       bgColor: '',
       id: '',
     };
-  },
-
-  inject: ["about"],
-  created() {
-    console.log(this.about);
   },
 
 };
