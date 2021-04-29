@@ -6,8 +6,8 @@
     <div class="text-container container">
 
       <div class="fcol">
-        <div class="frow" v-for="about in txtSummary" :key="about.id">
-          <p class="subtext" v-html="about.pg"></p>
+        <div class="frow" v-for="item in about" :key="item.id">
+          <p class="subtext" v-html="item.pg"></p>
         </div>
       </div>
 
@@ -16,7 +16,6 @@
 </template>
 
 <script>
-import Summary from "@/json/about.json";
 
 export default {
   name: 'TextPG',
@@ -27,9 +26,14 @@ export default {
       padding: '',
       bgColor: '',
       id: '',
-      txtSummary: Summary,
     };
   },
+
+  inject: ["about"],
+  created() {
+    console.log(this.about);
+  },
+
 };
 </script>
 
