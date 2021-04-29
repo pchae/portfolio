@@ -28,23 +28,23 @@ const routes = [
     },
   },
   {
-    path: '/info',
-    name: 'info',
+    path: '/about',
+    name: 'about',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "info" */ '../views/Info.vue'),
+    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
     meta: {
       auth: true,
-      title: 'Phil Choi - Info',
+      title: 'About - Phil Choi',
       metaTags: [
         {
           name: 'description',
-          content: 'Phil Choi Info',
+          content: 'About Phil Choi',
         },
         {
           property: 'og:description',
-          content: 'Phil Choi info page',
+          content: 'Phil Choi about page',
         },
       ],
     },

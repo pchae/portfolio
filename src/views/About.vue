@@ -60,7 +60,7 @@ export default {
     },
   },
 
-  name: "Info",
+  name: "About",
   components: {
     Nav,
     NavMobile,
@@ -77,7 +77,7 @@ export default {
     // if no subcomponents specify a metaInfo.title, this title will be used
     title: "Phil Choi",
     // all titles will be injected into this template
-    titleTemplate: "%s - Info",
+    titleTemplate: "About - %s",
   },
 
   created() {
