@@ -1,33 +1,40 @@
 <template>
-  <div :id="[id]" :class="[padding, bgColor]">
+  <div
+    :id="[id]"
+    :class="[padding, bgColor]"
+  >
     <div class="text-container container">
+
       <div class="fcol">
         <div class="frow" v-for="item in about" :key="item.id">
           <p class="subtext" v-html="item.pg"></p>
         </div>
       </div>
+
     </div>
   </div>
 </template>
 
 <script>
-import { mapState } from "vuex";
+import {mapState} from 'vuex';
 
 export default {
-  name: "TextPG",
-
+  name: 'TextPG',
+  
   computed: mapState({
-    about: (state) => state.about,
+    about: state => state.about
   }),
 
-  props: {},
+  props: {
+  },
   data() {
     return {
-      padding: "",
-      bgColor: "",
-      id: "",
+      padding: '',
+      bgColor: '',
+      id: '',
     };
   },
+
 };
 </script>
 
@@ -57,9 +64,11 @@ export default {
   margin-bottom: 0rem;
 }
 
+
 @media only screen and (max-width: 980px) {
   .subtext {
     width: 100%;
   }
 }
+
 </style>
