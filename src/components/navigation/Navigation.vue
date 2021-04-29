@@ -11,7 +11,7 @@
       <div id="nav" class="fcontain menu-links">
         <div class="nav-link">
           <router-link to="/" active-class="active" exact>
-            <h6>WORK</h6>
+            <h6>PROJECTS</h6>
           </router-link>
         </div>
         <div class="nav-link">

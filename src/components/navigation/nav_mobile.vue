@@ -34,12 +34,12 @@
         <div id="nav" class="container-lg fcol menu-links">
           <div class="nav-link">
             <router-link to="/" active-class="active" exact>
-              <h2>Work</h2>
+              <h2>PROJECTS</h2>
             </router-link>
           </div>
           <div class="nav-link">
             <router-link to="/info" active-class="active" exact>
-              <h2>Info</h2>
+              <h2>INFO</h2>
             </router-link>
           </div>
         </div>
