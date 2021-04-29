@@ -81,14 +81,14 @@
 
     <ImageBlock
       id="wf-redemption1"
-      class="pb2 b4"
+      class="pb5 b4"
       img-src="project/pizza/club.jpg"
       img-alt="club 11-11 registration interface"
     />
 
     <ImageBlock
       id="wf-redemption2"
-      class="pb2 b4"
+      class="pb5 b4"
       img-src="project/pizza/history.jpg"
       img-alt="club 11-11 purchase history interface"
     />

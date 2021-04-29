@@ -123,7 +123,7 @@
 
     <MediaBlock
       id="wf-home-roku"
-      class="pb2 b4"
+      class="pb5 b4"
       subline="Roku - Home Hub wireframe"
       img-src="project/starz/wire-feature-roku.jpg"
       img-alt="Roku - Home user interface wireframe"
@@ -131,7 +131,7 @@
 
     <MediaBlock
       id="wf-home-samsung"
-      class="pb2 b4"
+      class="pb5 b4"
       subline="Samsung SmartTV - Home Hub wireframe"
       img-src="project/starz/wire-feature-samsung.jpg"
       img-alt="SmartTV - Home user interface wireframe"
@@ -155,7 +155,7 @@
 
     <MediaBlock
       id="wf-show-roku"
-      class="pb2 b4"
+      class="pb5 b4"
       subline="Roku - Show Details wireframe"
       img-src="project/starz/wire-show-roku.jpg"
       img-alt="Roku - Show Details UI wireframe"
@@ -163,7 +163,7 @@
 
     <MediaBlock
       id="wf-show-samsung"
-      class="pb2 b4"
+      class="pb5 b4"
       subline="Samsung SmartTV - Show Details wireframe"
       img-src="project/starz/wire-show-samsung.jpg"
       img-alt="Samsung SmartTV - Show Details UI wireframe"
@@ -193,7 +193,7 @@
 
     <MediaBlock
       id="ui-feature-roku"
-      class="pb2 b4"
+      class="pb5 b4"
       subline="Roku - Home Hub"
       img-src="project/starz/ui-feature-roku.jpg"
       img-alt="Roku - Feature Home UI mockup"
@@ -201,7 +201,7 @@
 
     <MediaBlock
       id="ui-feature-samsung"
-      class="pb2 b4"
+      class="pb5 b4"
       subline="Samsung SmartTV - Home Hub"
       img-src="project/starz/ui-feature-samsung.jpg"
       img-alt="Samsung SmartTV - Feature Home UI mockup"
@@ -224,7 +224,7 @@
 
     <MediaBlock
       id="ui-movie-roku"
-      class="pb2 b4"
+      class="pb5 b4"
       subline="Roku - Movie Details UI. The 1st gen. hardware was relatively weak and provided us with a 10MB buffer to work with. Fullscreen images and animated backgrounds were out of the question, so our approach was to scale down the experience in favour of usability and performance."
       img-src="project/starz/ui-movie-roku.jpg"
       img-alt="Roku - Movie Details UI mockup"
@@ -232,7 +232,7 @@
 
     <MediaBlock
       id="ui-movie-samsung"
-      class="pb2 b4"
+      class="pb5 b4"
       subline="Samsung SmartTV - Movie Details UI. The SmartTV had an upscaled 720p (1280x720) resolution and its software comprised of web applications primarily built with HTML5, CSS, and JavaScript."
       img-src="project/starz/ui-movie-samsung.jpg"
       img-alt="Samsung SmartTV - Movie Details UI mockup"

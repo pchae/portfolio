@@ -60,7 +60,7 @@
 
     <MediaBlock
       id="surface-home-hub"
-      class="pb2 b4"
+      class="pb5 b4"
       subline=""
       img-src="project/pbs/home_hub.jpg"
       img-alt="Home Hub showing expanded menu."
@@ -68,7 +68,7 @@
 
     <MediaBlock
       id="surface-resume"
-      class="pb2 b4"
+      class="pb5 b4"
       subline=""
       img-src="project/pbs/history.jpg"
       img-alt="Previously watched: Resume interface."
@@ -77,7 +77,7 @@
 
     <MediaBlock
       id="surface-show-detail"
-      class="pb2 b4"
+      class="pb5 b4"
       subline=""
       img-src="project/pbs/show_detail.jpg"
       img-alt="Show Details interface."
