@@ -16,19 +16,16 @@
 </template>
 
 <script>
-import {mapState} from 'vuex';
+import { about } from "../../json/about.json";
 
 export default {
   name: 'TextPG',
-  
-  computed: mapState({
-    about: state => state.about
-  }),
 
   props: {
   },
   data() {
     return {
+      about,
       padding: '',
       bgColor: '',
       id: '',
