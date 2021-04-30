@@ -20,7 +20,7 @@
       headline="My focus is on art, design, and technology as well as when, where, and how they affect everyday life."
     />
 
-    <TextPG
+    <TextParagraph
       id="about"
       class="pb5 b4"
     />
@@ -43,7 +43,7 @@
 import Nav from "@/components/navigation/Navigation.vue";
 import NavMobile from "@/components/navigation/nav_mobile.vue";
 import IntroBlock from "@/components/layouts/IntroBlock.vue";
-import TextPG from "@/components/layouts/text_paragraph.vue";
+import TextParagraph from "@/components/layouts/text_paragraph.vue";
 import Clientgrid from "@/components/clients/Clientlist.vue";
 import Footer from "@/components/navigation/Footer.vue";
 
@@ -65,7 +65,7 @@ export default {
     Nav,
     NavMobile,
     IntroBlock,
-    TextPG,
+    TextParagraph,
     Clientgrid,
     Footer,
   },
