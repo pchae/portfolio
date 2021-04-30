@@ -65,7 +65,7 @@ export default {
     Nav,
     NavMobile,
     IntroBlock,
-    TextPG,
+    TextParagraph,
     Clientgrid,
     Footer,
   },
