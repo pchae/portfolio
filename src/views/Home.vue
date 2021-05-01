@@ -1,10 +1,10 @@
 <template>
   <div>
-    <Nav tColor="bk" bgColor="b4" v-if="!mobileView" />
+    <Nav tColor="bk" bgColor="b2" v-if="!mobileView" />
 
-    <NavMobile tColor="bk" bgColor="b4" v-if="mobileView" />
+    <NavMobile tColor="bk" bgColor="b2" v-if="mobileView" />
 
-    <ImageGrid id="projects" class="pt120 b4" />
+    <ImageGrid id="projects" class="pt120 b2" />
 
     <Footer id="footer" class="b1" />
   </div>

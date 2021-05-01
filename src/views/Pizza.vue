@@ -4,39 +4,39 @@
     <Nav
       id="Nav"
       tColor="bk"
-      bgColor="b4"
+      bgColor="b2"
       v-if="!mobileView"
     />
 
     <NavMobile
       id="NavMobile"
       tColor="bk"
-      bgColor="b4"
+      bgColor="b2"
       v-if="mobileView"
     />
 
     <ArticleHeader
       id="headline"
-      class="pt120 b4"
+      class="pt120 b2"
       title="Optimizing North America’s first pizza ordering app."
       subhead=""
     />
 
     <ImageBlock
       id="header-mockup"
-      class=" b4"
+      class=" b2"
       img-src="project/pizza/header.jpg"
       img-alt="Pizza Pizza header image"
     />
 
     <ArticleDetails
       id="detail"
-      class="pad3 b4"
+      class="pad3 b2"
     />
 
     <textblock
       id="caption-overview"
-      class="pad2 b4"
+      class="pad2 b2"
       intro="Overview"
       desc="Pizza Pizza is one of Canada’s largest Quick Service Restaurant (QSR) chains and first to launch a pizza ordering iPhone app worldwide. While consulting at Plastic Mobile, I was the design lead for new features including the digital wallet, store locator, contactless payments, coupon redemptions, native French support, and a UI refresh to coincide with iOS 8."
     />
@@ -44,14 +44,14 @@
 
     <textblock
       id="caption-payments"
-      class="pad2 b4"
+      class="pad2 b2"
       intro="Contactless Payments"
       desc="We wanted to experiment with creating easier payment methods and took learnings from the adoption of QR codes in South Korea and Japan. This reduced a major source of friction by enabling users to complete every step of the ordering and payment process from within the app."
     />
 
     <ImageBlock
       id="ui-payments"
-      class="pb5 b4"
+      class="pb5 b2"
       img-src="project/pizza/core.jpg"
       img-alt="qr code payments"
     />
@@ -59,14 +59,14 @@
 
     <textblock
       id="caption-wallet"
-      class="pad2 b4"
+      class="pad2 b2"
       intro="Digital Wallet"
       desc="The objective of the wallet was to create a hub for personalized digital coupons, add value to the Club 11-11 features, and test new simplified formats of the checkout flow."
     />
 
     <ImageBlock
       id="wf-wallet"
-      class="pb5 b4"
+      class="pb5 b2"
       img-src="project/pizza/wallet.jpg"
       img-alt="digital wallet wireframes"
     />
@@ -74,28 +74,28 @@
 
     <textblock
       id="caption-redemption"
-      class="pad2 b4"
+      class="pad2 b2"
       intro="Redemption"
       desc="Before joining the team, Pizza Pizza's Club 11-11 memberships were limited to physical cards that could only be used in-store. We integrated the membership cards to equalize the value proposition between ordering online vs in-store and create an access point to track rewards."
     />
 
     <ImageBlock
       id="wf-redemption1"
-      class="pb5 b4"
+      class="pb5 b2"
       img-src="project/pizza/club.jpg"
       img-alt="club 11-11 registration interface"
     />
 
     <ImageBlock
       id="wf-redemption2"
-      class="pb5 b4"
+      class="pb5 b2"
       img-src="project/pizza/history.jpg"
       img-alt="club 11-11 purchase history interface"
     />
 
     <ImageBlock
       id="wf-redemption2"
-      class="pb5 b4"
+      class="pb5 b2"
       img-src="project/pizza/transfer.jpg"
       img-alt="club 11-11 account transfer interface"
     />
@@ -103,14 +103,14 @@
 
     <textblock
       id="caption-gps"
-      class="pad2 b4"
+      class="pad2 b2"
       intro="Store locator"
       desc="Another key feature was the Store locator for pick-up and takeout orders which opened up the app to larger underserved demographics that prefered to visit locations in person and pay with cash."
     />
 
     <ImageBlock
       id="ui-maps"
-      class="pb5 b4"
+      class="pb5 b2"
       img-src="project/pizza/maps.jpg"
       img-alt="store locator interface"
     />
@@ -118,7 +118,7 @@
 
     <textblock
       id="caption-outcome"
-      class="pad5 b4"
+      class="pad5 b2"
       intro="Outcome"
       desc="The new features and UI refresh successfully shifted 50% of all sales to the digital platforms and increased revenue by $20 Million to a total of $80 Million in 2015. It also increased the average app store ratings to 4.5/5."
     />

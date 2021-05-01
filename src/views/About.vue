@@ -3,37 +3,37 @@
     <Nav
       id="Nav"
       tColor="bk"
-      bgColor="b4"
+      bgColor="b2"
       v-if="!mobileView"
     />
 
     <NavMobile
       id="NavMobile"
       tColor="bk"
-      bgColor="b4"
+      bgColor="b2"
       v-if="mobileView"
     />
 
     <IntroBlock
       id="title"
-      class="pt120 b4"
+      class="pt120 b2"
       headline="My focus is on art, design, and technology as well as when, where, and how they affect everyday life."
     />
 
     <TextParagraph
       id="about"
-      class="pb5 b4"
+      class="pb5 b2"
     />
 
 
     <Clientgrid
       id="clientlist"
-      class="pad5 b4"
+      class="pad5 b2"
     />
 
     <Footer
       id="footer"
-      class="b1"
+      class="b5"
     />
   </div>
 </template>
