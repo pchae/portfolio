@@ -1,7 +1,7 @@
 <template>
   <!-- Header -->
   <header :id="[sectionID]" :class="[bgColor]" class="pad05">
-    <div class="container-lg fcontain">
+    <div class="container fcontain">
       <div class="logo">
         <router-link to="/" active-class="active" exact>
           <h5>Phil Choi</h5>
