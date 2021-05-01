@@ -20,8 +20,8 @@ html {
   font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #000;
-  background-color: #fff;
+  color: #a4a4a4;
+  background-color: #000;
 }
 
 
@@ -265,7 +265,7 @@ html {
 /* Links */
 
 a {
-  color: #1420F4;
+  color: #049CFC;
 }
 
 a, button, svg, svg path {
@@ -425,8 +425,37 @@ li {
   margin-bottom: 0rem;
 }
 
+.section-headline {
+  color: #fff;
+}
+
+.project-headline {
+  color: #fff;
+}
+
+.tagline {
+  font-weight: 400;
+}
+
+.subtext {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
 .title {
   margin-bottom: 0rem;
+}
+
+.card-title {
+  color: #fff;
+}
+
+.desc {
+  color: #a4a4a4;
+}
+
+.detail-heading {
+  color: #fff;
 }
 
 
@@ -440,11 +469,11 @@ li {
 }
 
 .b1 {
-  background-color: #000018;
+  background-color: #0C0C0C;
 }
   
 .b2 {
-  background-color: #272949;
+  background-color: #202020;
 }
 
 .b3 {
@@ -454,6 +483,11 @@ li {
 .b4 {
   background-color: #fff;
 }
+
+.b5 {
+  background-color: #181818
+}
+
 
 .wt {
   color: #fff;
