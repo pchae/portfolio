@@ -26,8 +26,6 @@ export default {
     about: state => state.about
   }),
 
-  props: {},
-
   data() {
     return {
       about,
