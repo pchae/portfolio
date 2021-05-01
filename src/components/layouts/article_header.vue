@@ -1,12 +1,14 @@
 <template>
-  <div :id="[id]" :class="[padding, bgColor]" class="container">
-    <div class="fcol intro">
-      <h1 class="project-headline">
-        {{ title }}
-      </h1>
-      <h4 class="tagline">
-        {{ subhead }}
-      </h4>
+  <div :id="[id]" :class="[padding, bgColor]">
+    <div class="container">
+      <div class="fcol intro">
+        <h1 class="project-headline">
+          {{ title }}
+        </h1>
+        <h4 class="tagline">
+          {{ subhead }}
+        </h4>
+      </div>
     </div>
   </div>
 </template>
@@ -26,9 +28,9 @@ export default {
   },
   data() {
     return {
-      padding: '',
-      bgColor: '',
-      id: '',
+      padding: "",
+      bgColor: "",
+      id: "",
     };
   },
 };
@@ -40,16 +42,9 @@ export default {
   padding-bottom: 1rem;
 }
 
-.tagline {
-  font-size: 1.5rem;
-  font-weight: 400;
-  color: #444;
-}
-
 .intro {
   width: 100%;
   justify-content: flex-start;
-  margin-bottom: 1rem;
 }
 
 @media only screen and (max-width: 800px) {

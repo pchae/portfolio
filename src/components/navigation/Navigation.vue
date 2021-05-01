@@ -1,7 +1,7 @@
 <template>
   <!-- Header -->
   <header :id="[sectionID]" :class="[bgColor]" class="pad05">
-    <div class="container-lg fcontain">
+    <div class="container fcontain">
       <div class="logo">
         <router-link to="/" active-class="active" exact>
           <h5>Phil Choi</h5>
@@ -50,6 +50,7 @@ header {
   display: block;
   position: fixed;
   width: 100%;
+  border-bottom: 1px solid #303030;
   z-index: 1000;
 }
 
@@ -88,15 +89,16 @@ header {
 
 /* Link Style Override */
 
-.nav-link a {
-  color: #1420f4;
+nav-link a {
+  color: #049CFC;
 }
+
 .active {
   background-color: none;
 }
 
 .active > h6 {
-  color: #000;
+  color: #fff;
   border-bottom: 1px solid;
 }
 

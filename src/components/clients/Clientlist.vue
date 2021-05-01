@@ -7,10 +7,7 @@
       <div class="client-partners">
         <!-- Row 1 -->
         <div class="item-container">
-          <Logo
-            :index="1"
-            img-src="cbc.svg"
-            img-alt="Canadian Broadcasting Company logo"
+          <Logo :index="1" img-src="cbc.svg" img-alt="Canadian Broadcasting Company logo"
           />
         </div>
         <div class="item-container">
@@ -20,10 +17,7 @@
           <Logo :index="3" img-src="reuters.svg" img-alt="Reuters logo" />
         </div>
         <div class="item-container">
-          <Logo
-            :index="4"
-            img-src="rbc.svg"
-            img-alt="Royal Bank of Canada logo"
+          <Logo :index="4" img-src="rbc.svg" img-alt="Royal Bank of Canada logo"
           />
         </div>
 
@@ -35,10 +29,7 @@
           <Logo :index="6" img-src="starz.svg" img-alt="Starz logo" />
         </div>
         <div class="item-container">
-          <Logo
-            :index="7"
-            img-src="pbs.svg"
-            img-alt="Public Broadcasting Service logo"
+          <Logo :index="7" img-src="pbs.svg" img-alt="Public Broadcasting Service logo"
           />
         </div>
         <div class="item-container">
@@ -47,10 +38,7 @@
 
         <!-- Row 3 -->
         <div class="item-container">
-          <Logo
-            :index="9"
-            img-src="ufc.svg"
-            img-alt="Ultimate Fighting Championship logo"
+          <Logo :index="9" img-src="ufc.svg" img-alt="Ultimate Fighting Championship logo"
           />
         </div>
         <div class="item-container">
@@ -60,10 +48,7 @@
           <Logo :index="11" img-src="latam.svg" img-alt="LATAM Airlines logo" />
         </div>
         <div class="item-container">
-          <Logo
-            :index="12"
-            img-src="avianca.svg"
-            img-alt="Avianca Airlines logo"
+          <Logo :index="12" img-src="avianca.svg" img-alt="Avianca Airlines logo"
           />
         </div>
 
@@ -75,17 +60,11 @@
           <Logo :index="14" img-src="dell.svg" img-alt="Dell EMC logo" />
         </div>
         <div class="item-container">
-          <Logo
-            :index="15"
-            img-src="microsoft.svg"
-            img-alt="Microsoft Corporation logo"
+          <Logo :index="15" img-src="microsoft.svg" img-alt="Microsoft Corporation logo"
           />
         </div>
         <div class="item-container">
-          <Logo
-            :index="16"
-            img-src="samsung.svg"
-            img-alt="Samsung Electronics logo"
+          <Logo :index="16" img-src="samsung.svg" img-alt="Samsung Electronics logo"
           />
         </div>
       </div>
@@ -105,7 +84,7 @@ export default {
     },
     imgSrc: {
       type: String,
-      default: "",
+      default: '',
     },
   },
   components: {
@@ -113,9 +92,9 @@ export default {
   },
   data() {
     return {
-      id: "",
-      padding: "",
-      bgColor: "",
+      id: '',
+      padding: '',
+      bgColor: '',
     };
   },
 };

@@ -50,12 +50,6 @@ export default {
   justify-content: flex-start;
 }
 
-.subtext {
-  color: #000;
-  font-size: 1.125rem;
-  font-weight: 400;
-}
-
 .frow:nth-child(1n) {
   margin-bottom: 2rem;
 }

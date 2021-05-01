@@ -17,27 +17,18 @@
             </h2>
           </div>
           <div
-            id="social"
+            id=""
             class="pb1"
           >
-            <h5 class="social">
-              Don't like forms? Send an <a href="mailto:hola@saturdays.io">email</a>.
-            </h5>
           </div>
         </div>
-        <div class="1col pt5">
-          <Form
-            class="b4"
-            form-title="Get in touch"
-          />
-        </div>
+
       </div>
     </div>
   </section>
 </template>
 
 <script>
-import Form from '@/components/contact/Form.vue';
 
 export default {
   name: 'TwoColumn',
@@ -52,7 +43,6 @@ export default {
     },
   },
   components: {
-    Form,
   },
 };
 </script>

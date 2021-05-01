@@ -50,9 +50,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .subtext {
-  font-weight: 400;
   font-size: 0.875rem;
-  color: #181818;
 }
 
 .media-block img {
