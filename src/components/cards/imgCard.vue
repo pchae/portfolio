@@ -50,6 +50,5 @@ export default {
 }
 
 .desc {
-  color: #000;
 }
 </style>

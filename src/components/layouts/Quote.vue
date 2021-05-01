@@ -47,7 +47,6 @@ export default {
 
 .subtext {
   display: flex;
-  color: #000;
   font-weight: 400;
   width: 100%;
 }

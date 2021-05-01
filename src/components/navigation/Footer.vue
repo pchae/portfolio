@@ -87,7 +87,6 @@ footer {
 }
 
 .desc {
-  color: #787878;
   margin-bottom: 3rem;
 }
 
