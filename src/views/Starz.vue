@@ -22,17 +22,19 @@
       subhead=""
     />
 
+
+    <ArticleDetails
+      id="detail"
+      class="pad3 b2"
+    />
+
+
     <ImageBlock
       id="header-mockup"
       class=" b2"
       webp-src="project/starz/movie.webp"
       img-src="project/starz/movie.jpg"
       img-alt="Starz header image"
-    />
-
-    <ArticleDetails
-      id="detail"
-      class="pad3 b2"
     />
 
 

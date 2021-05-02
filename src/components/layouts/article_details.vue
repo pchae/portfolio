@@ -53,13 +53,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.list-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  width: 30%;
-  cursor: default;
-}
 
 .list-container {
   display: flex;
@@ -87,9 +80,6 @@ export default {
   padding-bottom: 2rem;
 }
 
-.list-group:nth-child(1) {
-  padding-bottom: 2rem;
-}
 
 .lilist {
   padding-bottom: 1rem;
@@ -111,7 +101,7 @@ li:nth-child(1) {
 @media only screen and (max-width: 800px) {
   .flex-list {
     flex-direction: column;
-    gap: 1.25rem;
+    gap: 2rem;
   }
 
   .list-container {

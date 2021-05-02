@@ -22,6 +22,12 @@
       subhead=""
     />
 
+    <ArticleDetails
+      id="detail"
+      class="pt3 b2"
+    />
+
+
     <ImageBlock
       id="header-mockup"
       class=" b2"
@@ -29,10 +35,6 @@
       img-alt="Pizza Pizza header image"
     />
 
-    <ArticleDetails
-      id="detail"
-      class="pad3 b2"
-    />
 
     <textblock
       id="caption-overview"
@@ -52,7 +54,7 @@
     <ImageBlock
       id="ui-payments"
       class="pb5 b2"
-      img-src="project/pizza/core.jpg"
+      img-src="project/pizza/payment.jpg"
       img-alt="qr code payments"
     />
 
