@@ -2,7 +2,7 @@
   <!-- Footer -->
   <footer :id="[sectionID]" :class="[padding, bgColor]">
     <div class="container-sm fcol">
-      <div class="title">
+      <div class="section-headline">
         <h2>Let's talk</h2>
       </div>
 
@@ -82,21 +82,14 @@ footer {
   justify-content: center;
 }
 
-.title {
-  color: #fff;
-}
-
-.desc {
+.desc p {
+  line-height: 1.6;
   margin-bottom: 3rem;
 }
 
 .email {
-  background-color: #2430f8;
+  background-color: #049cfc;
   margin-bottom: 3rem;
-}
-
-a {
-  color: #fff;
 }
 
 .copyright {
