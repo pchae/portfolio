@@ -22,6 +22,12 @@
       subhead=""
     />
 
+    <ArticleDetails
+      id="detail"
+      class="pad3 b2"
+    />
+
+
     <ImageBlock
       id="header"
       class=" b2"
@@ -29,10 +35,6 @@
       img-alt="PBS header image"
     />
 
-    <ArticleDetails
-      id="detail"
-      class="pad3 b2"
-    />
 
     <textblock
       id="intro"
