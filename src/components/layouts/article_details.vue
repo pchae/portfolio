@@ -73,7 +73,7 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  gap: 2.5rem;
+  gap: 2rem;
 }
 
 .list-container:nth-child(1) {
@@ -101,12 +101,11 @@ li:nth-child(1) {
 @media only screen and (max-width: 800px) {
   .flex-list {
     flex-direction: column;
-    gap: 2rem;
+    gap: 0;
   }
 
   .list-container {
     display: flex;
-    width: 100%;
     cursor: default;
   }
 
@@ -115,7 +114,7 @@ li:nth-child(1) {
   }
 
   .list-container:last-child {
-    padding-bottom: 0;
+    padding-bottom: 2rem;
   }
 }
 
