@@ -44,12 +44,12 @@
           </div>
           <div class="frow">
             <div class="social-link">
-              <a href="https://linkedin.com/in/pchoi1/"
+              <a href="https://linkedin.com/in/pchoi1/" target="_blank"
                 ><img src="@/assets/icons/linkedin-40.svg" alt="linkedin icon"
               /></a>
             </div>
             <div class="social-link">
-              <a href="mailto:contact@philchoi.ca"
+              <a href="mailto:contact@philchoi.ca" target="_blank"
                 ><img src="@/assets/icons/mail-40.svg" alt="email icon"
               /></a>
             </div>
