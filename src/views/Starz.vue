@@ -287,7 +287,10 @@
       desc="Successfully launched across 3 platforms in Q3 2016 with over 200,000 active subscriptions within the first 3 months. Active subscriptions increased to 2 Million in 12 months and generated $25.7 Million ARR."
     />
 
+    <contact id="contact" class="b2" />
+
     <Footer id="footer" class="b2" />
+
   </div>
 </template>
 
@@ -301,6 +304,7 @@ import ArticleDetails from "@/components/layouts/article_details.vue";
 import ImageBlock from "@/components/layouts/image_block.vue";
 import MediaBlock from "@/components/layouts/MediaBlock.vue";
 import textblock from "@/components/layouts/article_text_block.vue";
+import contact from "@/components/navigation/contact.vue";
 import Footer from "@/components/navigation/Footer.vue";
 
 export default {
@@ -324,6 +328,7 @@ export default {
     ImageBlock,
     MediaBlock,
     textblock,
+    contact,
     Footer,
   },
   metaInfo: {
