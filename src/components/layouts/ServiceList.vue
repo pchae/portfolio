@@ -62,7 +62,7 @@ export default {
     },
     title: {
       type: String,
-      default: "",
+      default: '',
     },
   },
 
@@ -70,7 +70,7 @@ export default {
     return {
       padding: '',
       bgColor: '',
-      id: '',
+      id: ''
     };
   },
 
@@ -100,6 +100,10 @@ export default {
 @media only screen and (max-width: 1000px) {
   .list-container {
     width: 50%;
+  }
+
+  .section-headline {
+    text-align: left;
   }
 }
 
