@@ -1,5 +1,4 @@
 <template>
-  <!-- Footer -->
   <footer :id="[sectionID]" :class="[padding, bgColor]">
     <div class="container fcol">
 
