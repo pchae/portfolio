@@ -34,13 +34,25 @@
         <div id="nav" class="container-lg fcol menu-links">
           <div class="nav-link">
             <router-link to="/" active-class="active" exact>
-              <h2>Projects</h2>
+              <h2>Work</h2>
             </router-link>
           </div>
           <div class="nav-link">
             <router-link to="/about" active-class="active" exact>
               <h2>About</h2>
             </router-link>
+          </div>
+          <div class="frow">
+            <div class="social-link">
+              <a href="https://linkedin.com/in/pchoi1/"
+                ><img src="@/assets/icons/linkedin-40.svg" alt="linkedin icon"
+              /></a>
+            </div>
+            <div class="social-link">
+              <a href="mailto:contact@philchoi.ca"
+                ><img src="@/assets/icons/mail-40.svg" alt="email icon"
+              /></a>
+            </div>
           </div>
         </div>
       </div>
@@ -54,15 +66,15 @@ export default {
   props: {
     sectionID: {
       type: String,
-      default: "",
+      default: '',
     },
     bgColor: {
       type: String,
-      default: "",
+      default: '',
     },
     tColor: {
       type: String,
-      default: "",
+      default: '',
     },
   },
   data: function() {
@@ -87,6 +99,8 @@ header {
   justify-content: space-between;
 }
 
+.frow {
+}
 /* Overlay Menu */
 
 .button {
@@ -141,6 +155,15 @@ header {
   margin-bottom: 4rem;
 }
 
+.social-link:nth-child(odd) {
+  margin-right: 2rem;
+}
+
+.social-link:nth-child(even) {
+  margin-left: 2rem;
+}
+
+
 /* Link Style Override */
 
 .active {
@@ -149,7 +172,7 @@ header {
 
 .active > h2 {
   color: #fff;
-  border-bottom: 1px solid;
+  border-bottom: 0px solid;
 }
 
 .link {
