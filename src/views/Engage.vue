@@ -140,7 +140,7 @@
       desc="Implementing DesignOps led to a $96,000 USD reduction in Product Design stack & Engineering expenses across the organization. The inclusion of the Design System increased front-end development velocity by 20% and the redesign beta for Engage's mobile experience (Content Studio) led to an 11% increase in client contract renewals."
     />
 
-    <contact id="contact" class="b2" />
+    <Contact id="contact" class="b2" />
 
     <Footer id="footer" class="b2" />
   </div>
@@ -156,7 +156,7 @@ import ArticleDetails from "@/components/layouts/article_details.vue";
 import ImageBlock from "@/components/layouts/image_block.vue";
 import MediaBlock from "@/components/layouts/MediaBlock.vue";
 import textblock from "@/components/layouts/article_text_block.vue";
-import contact from "@/components/navigation/contact.vue";
+import Contact from "@/components/navigation/contact.vue";
 import Footer from "@/components/navigation/footer.vue";
 
 export default {
@@ -180,7 +180,7 @@ export default {
     ImageBlock,
     MediaBlock,
     textblock,
-    contact,
+    Contact,
     Footer,
   },
   metaInfo: {
