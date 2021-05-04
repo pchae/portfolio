@@ -1,14 +1,14 @@
 <template>
   <div>
     <Nav
-      id="nav"
+      id="Nav"
       tColor="bk"
       bgColor="b2"
       v-if="!mobileView"
     />
 
     <NavMobile
-      id="nav_mobile"
+      id="NavMobile"
       tColor="bk"
       bgColor="b2"
       v-if="mobileView"
@@ -42,13 +42,13 @@
 
 <script>
 // @ is an alias to /src
-import Nav from "@/components/navigation/nav.vue";
+import Nav from "@/components/navigation/Navigation.vue";
 import NavMobile from "@/components/navigation/nav_mobile.vue";
 import IntroBlock from "@/components/layouts/IntroBlock.vue";
 import TextParagraph from "@/components/layouts/text_paragraph.vue";
 import Clientgrid from "@/components/clients/Clientlist.vue";
 import contact from "@/components/navigation/contact.vue";
-import Footer from "@/components/navigation/footer.vue";
+import Footer from "@/components/navigation/Footer.vue";
 
 export default {
   data: () => {
