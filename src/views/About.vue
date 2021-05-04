@@ -33,7 +33,7 @@
 
     <Footer
       id="footer"
-      class="b5"
+      class="b2"
     />
   </div>
 </template>

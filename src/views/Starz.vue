@@ -287,7 +287,7 @@
       desc="Successfully launched across 3 platforms in Q3 2016 with over 200,000 active subscriptions within the first 3 months. Active subscriptions increased to 2 Million in 12 months and generated $25.7 Million ARR."
     />
 
-    <Footer id="footer" class="b1" />
+    <Footer id="footer" class="b2" />
   </div>
 </template>
 

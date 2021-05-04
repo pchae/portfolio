@@ -6,7 +6,7 @@
 
     <ImageGrid id="projects" class="pt120 b2" />
 
-    <Footer id="footer" class="b1" />
+    <Footer id="footer" class="b2" />
   </div>
 </template>
 

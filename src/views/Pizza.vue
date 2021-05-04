@@ -125,7 +125,7 @@
       desc="The new features and UI refresh successfully shifted 50% of all sales to the digital platforms and increased revenue by $20 Million to a total of $80 Million in 2015. It also increased the average app store ratings to 4.5/5."
     />
 
-    <Footer id="footer" class="b1" />
+    <Footer id="footer" class="b2" />
   </div>
 </template>
 

@@ -1,48 +1,41 @@
 <template>
   <!-- Footer -->
   <footer :id="[sectionID]" :class="[padding, bgColor]">
-    <div class="container-sm fcol">
+    <div class="container fcol">
       <div class="section-headline">
-        <h2>Let's talk</h2>
+        <h2>Get in touch</h2>
       </div>
 
       <div class="desc">
         <p>
-          If you have a website or mobile app project in mind or need some product advice, feel free to send an email.
+          If you have a website or mobile app project in mind or need some
+          product advice, feel free to send an email.
         </p>
       </div>
 
-      <div class="frow">
-        <PrimaryButton
-          buttonName="contact@philchoi.ca"
-          url="mailto:contact@philchoi.ca"
-          class="email"
-          type="email"
-        />
-      </div>
-<!--
-      <div id="nav-links" class="frow">
-        <div class="nav-link">
-          <a href="https://linkedin.com/in/pchoi1/"
-            ><img src="@/assets/icons/icon-linkedin.svg" alt="linkedin icon"
-          /></a>
+      <div class="baseline-something frow">
+        <div id="nav-links" class="frow">
+          <div class="nav-link">
+            <a href="https://linkedin.com/in/pchoi1/"
+              ><img src="@/assets/icons/icon-linkedin.svg" alt="linkedin icon"
+            /></a>
+          </div>
+          <div class="nav-link">
+            <a href="mailto:contact@philchoi.ca"
+              ><img src="@/assets/icons/icon-mail2.svg" alt="email icon"
+            /></a>
+          </div>
         </div>
-        <div class="nav-link">
-          <a href="https://github.com/username/"
-            ><img src="@/assets/icons/icon-github.png" alt="mail icon"
-          /></a>
+
+        <div class="copyright">
+          <h6>© 2021 Phil Choi. All Rights Reserved.</h6>
         </div>
-      </div>
--->
-      <div class="copyright">
-        <h6>© Phil Choi 2021</h6>
       </div>
     </div>
   </footer>
 </template>
 
 <script>
-import PrimaryButton from "@/components/buttons/PrimaryButton.vue";
 
 export default {
   name: "Footer",
@@ -61,7 +54,6 @@ export default {
     },
   },
   components: {
-    PrimaryButton,
   },
 };
 </script>
@@ -71,7 +63,6 @@ export default {
 footer {
   padding-top: 4rem;
   padding-bottom: 2rem;
-  text-align: center;
 }
 
 .fcol {
@@ -82,18 +73,23 @@ footer {
   justify-content: center;
 }
 
-.desc p {
-  line-height: 1.6;
-  margin-bottom: 3rem;
+.baseline-something {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
 }
 
-.email {
-  background-color: #049cfc;
-  margin-bottom: 3rem;
+.section-headline {
+  text-align: center;
+}
+
+.desc p {
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 4rem;
 }
 
 .copyright {
-  margin-top: 2rem;
   color: #fff;
 }
 
@@ -112,5 +108,21 @@ footer {
 }
 
 .nav-link:nth-child(3n) {
+}
+
+@media only screen and (max-width: 800px) {
+  footer {
+    text-align: center;
+  }
+
+  .baseline-something {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .copyright {
+    margin-top: 2rem;
+    color: #fff;
+  }
 }
 </style>
