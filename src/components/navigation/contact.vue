@@ -9,8 +9,8 @@
 
       <div class="desc">
         <p>
-          Send an <a href="mailto:contact@philchoi.ca">email</a> or connect on
-          <a href="https://linkedin.com">LinkedIn</a> if you have a mobile app
+          Send an <a href="mailto:contact@philchoi.ca" target="_blank">email</a> or connect on
+          <a href="https://linkedin.com/in/pchoi1" target="_blank">LinkedIn</a> if you have a mobile app
           or web project in mind.
         </p>
       </div>
