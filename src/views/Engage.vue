@@ -1,8 +1,8 @@
 <template>
   <div>
-    <Nav id="nav" tColor="bk" bgColor="b2" v-if="!mobileView" />
+    <Nav id="Nav" tColor="bk" bgColor="b2" v-if="!mobileView" />
 
-    <NavMobile id="nav_mobile" tColor="bk" bgColor="b2" v-if="mobileView" />
+    <NavMobile id="NavMobile" tColor="bk" bgColor="b2" v-if="mobileView" />
 
     <ArticleHeader
       id="headline"
@@ -149,7 +149,7 @@
 <script>
 // @ is an alias to /src
 
-import Nav from "@/components/navigation/nav.vue";
+import Nav from "@/components/navigation/Navigation.vue";
 import NavMobile from "@/components/navigation/nav_mobile.vue";
 import ArticleHeader from "@/components/layouts/article_header.vue";
 import ArticleDetails from "@/components/layouts/article_details.vue";

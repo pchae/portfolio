@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Nav id="nav" tColor="bk" bgColor="b2" v-if="!mobileView" />
+    <Nav tColor="bk" bgColor="b2" v-if="!mobileView" />
 
     <NavMobile tColor="bk" bgColor="b2" v-if="mobileView" />
 
@@ -15,7 +15,7 @@
 <script>
 // @ is an alias to /src
 
-import Nav from "@/components/navigation/nav.vue";
+import Nav from "@/components/navigation/Navigation.vue";
 import NavMobile from "@/components/navigation/nav_mobile.vue";
 import ImageGrid from "@/components/layouts/image_grid.vue";
 import Contact from "@/components/navigation/contact.vue";

@@ -34,7 +34,7 @@
         <div id="nav" class="container-lg fcol menu-links">
           <div class="nav-link">
             <router-link to="/" active-class="active" exact>
-              <h2>Work</h2>
+              <h2>Projects</h2>
             </router-link>
           </div>
           <div class="nav-link">
@@ -66,15 +66,15 @@ export default {
   props: {
     sectionID: {
       type: String,
-      default: '',
+      default: "",
     },
     bgColor: {
       type: String,
-      default: '',
+      default: "",
     },
     tColor: {
       type: String,
-      default: '',
+      default: "",
     },
   },
   data: function() {
@@ -99,8 +99,6 @@ header {
   justify-content: space-between;
 }
 
-.frow {
-}
 /* Overlay Menu */
 
 .button {
@@ -155,15 +153,6 @@ header {
   margin-bottom: 4rem;
 }
 
-.social-link:nth-child(odd) {
-  margin-right: 2rem;
-}
-
-.social-link:nth-child(even) {
-  margin-left: 2rem;
-}
-
-
 /* Link Style Override */
 
 .active {
@@ -172,7 +161,7 @@ header {
 
 .active > h2 {
   color: #fff;
-  border-bottom: 0px solid;
+  border-bottom: 1px solid;
 }
 
 .link {
