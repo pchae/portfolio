@@ -2,14 +2,14 @@
   <div>
 
     <Nav
-      id="Nav"
+      id="nav"
       tColor="bk"
       bgColor="b2"
       v-if="!mobileView"
     />
 
     <NavMobile
-      id="NavMobile"
+      id="nav_mobile"
       tColor="bk"
       bgColor="b2"
       v-if="mobileView"
@@ -128,7 +128,7 @@
 <script>
 // @ is an alias to /src
 
-import Nav from "@/components/navigation/Navigation.vue";
+import Nav from "@/components/navigation/nav.vue";
 import NavMobile from "@/components/navigation/nav_mobile.vue";
 import ArticleHeader from "@/components/layouts/article_header.vue";
 import ArticleDetails from "@/components/layouts/article_details.vue";
@@ -136,7 +136,7 @@ import ImageBlock from "@/components/layouts/image_block.vue";
 import MediaBlock from "@/components/layouts/MediaBlock.vue";
 import textblock from "@/components/layouts/article_text_block.vue";
 import contact from "@/components/navigation/contact.vue";
-import Footer from "@/components/navigation/Footer.vue";
+import Footer from "@/components/navigation/footer.vue";
 
 export default {
   data: () => {
