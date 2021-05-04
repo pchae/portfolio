@@ -1,49 +1,32 @@
 <template>
   <!-- Footer -->
   <footer :id="[sectionID]" :class="[padding, bgColor]">
-    <div class="container-sm fcol">
-      <div class="section-headline">
-        <h2>Let's talk</h2>
-      </div>
+    <div class="container fcol">
 
-      <div class="desc">
-        <p>
-          If you have a website or mobile app project in mind or need some product advice, feel free to send an email.
-        </p>
-      </div>
-
-      <div class="frow">
-        <PrimaryButton
-          buttonName="contact@philchoi.ca"
-          url="mailto:contact@philchoi.ca"
-          class="email"
-          type="email"
-        />
-      </div>
-<!--
-      <div id="nav-links" class="frow">
-        <div class="nav-link">
-          <a href="https://linkedin.com/in/pchoi1/"
-            ><img src="@/assets/icons/icon-linkedin.svg" alt="linkedin icon"
-          /></a>
+      <div class="baseline-something frow">
+        <div id="nav-links" class="frow">
+          <div class="nav-link">
+            <a href="https://linkedin.com/in/pchoi1/"
+              ><img src="@/assets/icons/icon-linkedin.svg" alt="linkedin icon"
+            /></a>
+          </div>
+          <div class="nav-link">
+            <a href="mailto:contact@philchoi.ca"
+              ><img src="@/assets/icons/icon-mail2.svg" alt="email icon"
+            /></a>
+          </div>
         </div>
-        <div class="nav-link">
-          <a href="https://github.com/username/"
-            ><img src="@/assets/icons/icon-github.png" alt="mail icon"
-          /></a>
+
+        <div class="copyright">
+          <h6>© 2021 Phil Choi. All Rights Reserved.</h6>
         </div>
       </div>
--->
-      <div class="copyright">
-        <h6>© Phil Choi 2021</h6>
-      </div>
+
     </div>
   </footer>
 </template>
 
 <script>
-import PrimaryButton from "@/components/buttons/PrimaryButton.vue";
-
 export default {
   name: "Footer",
   props: {
@@ -60,57 +43,66 @@ export default {
       default: "",
     },
   },
-  components: {
-    PrimaryButton,
-  },
+  components: {},
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-footer {
-  padding-top: 4rem;
-  padding-bottom: 2rem;
-  text-align: center;
-}
+  footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-top: 1px solid #000;
+  }
 
-.fcol {
-  justify-content: center;
-}
+  .fcol {
+    justify-content: center;
+  }
 
-.frow {
-  justify-content: center;
-}
+  .frow {
+    justify-content: center;
+  }
 
-.desc p {
-  line-height: 1.6;
-  margin-bottom: 3rem;
-}
+  .baseline-something {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
 
-.email {
-  background-color: #049cfc;
-  margin-bottom: 3rem;
-}
-
-.copyright {
-  margin-top: 2rem;
-  color: #fff;
-}
+  .copyright {
+    color: #fff;
+  }
 
 /* Link Override */
 
-.nav-link {
-  color: #fff;
-}
+  .nav-link {
+    color: #fff;
+  }
 
-.nav-link:nth-child(1n) {
-  padding-right: 3rem;
-}
+  .nav-link:nth-child(1n) {
+    padding-right: 3rem;
+  }
 
-.nav-link:nth-child(2n) {
-  padding-right: 0rem;
-}
+  .nav-link:nth-child(2n) {
+    padding-right: 0rem;
+  }
 
-.nav-link:nth-child(3n) {
-}
+  .nav-link:nth-child(3n) {
+  }
+
+  @media only screen and (max-width: 800px) {
+    footer {
+      text-align: center;
+    }
+
+    .baseline-something {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .copyright {
+      margin-top: 2rem;
+      color: #fff;
+    }
+  }
 </style>

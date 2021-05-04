@@ -118,7 +118,10 @@
       desc="The app was successfully launched in 2016 and featured on Microsoft's Windows Experience Blog."
     />
 
-    <Footer id="footer" class="b1" />
+    <contact id="contact" class="b2" />
+
+    <Footer id="footer" class="b2" />
+
   </div>
 </template>
 
@@ -132,6 +135,7 @@ import ArticleDetails from "@/components/layouts/article_details.vue";
 import ImageBlock from "@/components/layouts/image_block.vue";
 import MediaBlock from "@/components/layouts/MediaBlock.vue";
 import textblock from "@/components/layouts/article_text_block.vue";
+import contact from "@/components/navigation/contact.vue";
 import Footer from "@/components/navigation/Footer.vue";
 
 export default {
@@ -155,6 +159,7 @@ export default {
     ImageBlock,
     MediaBlock,
     textblock,
+    contact,
     Footer,
   },
   metaInfo: {

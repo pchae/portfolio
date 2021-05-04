@@ -125,7 +125,10 @@
       desc="The new features and UI refresh successfully shifted 50% of all sales to the digital platforms and increased revenue by $20 Million to a total of $80 Million in 2015. It also increased the average app store ratings to 4.5/5."
     />
 
-    <Footer id="footer" class="b1" />
+    <contact id="contact" class="b2" />
+
+    <Footer id="footer" class="b2" />
+
   </div>
 </template>
 
@@ -138,6 +141,7 @@ import ArticleHeader from "@/components/layouts/article_header.vue";
 import ArticleDetails from "@/components/layouts/article_details.vue";
 import ImageBlock from "@/components/layouts/image_block.vue";
 import textblock from "@/components/layouts/article_text_block.vue";
+import contact from "@/components/navigation/contact.vue";
 import Footer from "@/components/navigation/Footer.vue";
 
 export default {
@@ -160,6 +164,7 @@ export default {
     ArticleDetails,
     ImageBlock,
     textblock,
+    contact,
     Footer,
   },
   metaInfo: {

@@ -1,19 +1,8 @@
 <template>
   <div>
+    <Nav id="Nav" tColor="bk" bgColor="b2" v-if="!mobileView" />
 
-    <Nav
-      id="Nav"
-      tColor="bk"
-      bgColor="b2"
-      v-if="!mobileView"
-    />
-
-    <NavMobile
-      id="NavMobile"
-      tColor="bk"
-      bgColor="b2"
-      v-if="mobileView"
-    />
+    <NavMobile id="NavMobile" tColor="bk" bgColor="b2" v-if="mobileView" />
 
     <ArticleHeader
       id="headline"
@@ -22,11 +11,7 @@
       subhead="Engage is a multi-channel social media engagement tool used by news media, sports teams and brands to promote live dynamic content and drive audience participation."
     />
 
-    <ArticleDetails
-      id="detail"
-      class="pad2 b2"
-    />
-
+    <ArticleDetails id="detail" class="pad2 b2" />
 
     <ImageBlock
       id="header-mockup"
@@ -42,7 +27,6 @@
       desc="Upon joining as Design Lead, I made it a priority to establish a close relationship with Customer Support Managers and their clients. By taking the time to address outstanding issues and expected timelines, we were able to create a buffer that allowed us to meet the business demands of simultaneously overhauling the user experiences of multiple SaaS products while continuing to add value to their legacy versions."
     />
 
-
     <MediaBlock
       id="ui-mobile-apps"
       class="pb5 b2"
@@ -50,7 +34,6 @@
       img-src="project/engage/engage-old_stream.png"
       img-alt="Lorem ipsum"
     />
-
 
     <textblock
       id="caption-tech-debt"
@@ -67,7 +50,6 @@
       img-alt="Engage Content Studio PWA screens"
     />
 
-
     <textblock
       id="caption-analytics"
       class="pad2 b2"
@@ -83,15 +65,12 @@
       img-alt="Pendo analytics dashboard"
     />
 
-
     <textblock
       id="caption-visual-design"
       class="pad2 b2"
       intro="Design Process"
       desc="A separate audit was initiated to identify common elements between the SaaS platforms as well as document their usage patterns. We also established reusable patterns, common atomic elements, and where responsive design was needed. Once the core user flows were defined, sketches and mid-fidelity wireframes were produced which incorporated best practices from Apple's Human Interface Guidelines, Google's Material Design, and 8pt Grid Systems. The core components formed the foundation of the Design System that would be used to align the company's products."
     />
-
-
 
     <textblock
       id="caption-testing"
@@ -108,7 +87,6 @@
       img-alt="Usability Testing session"
     />
 
-
     <textblock
       id="caption-client-requests"
       class="pad2 b2"
@@ -123,7 +101,6 @@
       img-src="project/engage/engage-new_ui.jpg"
       img-alt="DELL EMC livestream UI"
     />
-
 
     <textblock
       id="caption-extras"
@@ -163,7 +140,9 @@
       desc="Implementing DesignOps led to a $96,000 USD reduction in Product Design stack & Engineering expenses across the organization. The inclusion of the Design System increased front-end development velocity by 20% and the redesign beta for Engage's mobile experience (Content Studio) led to an 11% increase in client contract renewals."
     />
 
-    <Footer id="footer" class="b1" />
+    <contact id="contact" class="b2" />
+
+    <Footer id="footer" class="b2" />
   </div>
 </template>
 
@@ -177,12 +156,13 @@ import ArticleDetails from "@/components/layouts/article_details.vue";
 import ImageBlock from "@/components/layouts/image_block.vue";
 import MediaBlock from "@/components/layouts/MediaBlock.vue";
 import textblock from "@/components/layouts/article_text_block.vue";
+import contact from "@/components/navigation/contact.vue";
 import Footer from "@/components/navigation/Footer.vue";
 
 export default {
   data: () => {
     return {
-      mobileView: false
+      mobileView: false,
     };
   },
   methods: {
@@ -200,6 +180,7 @@ export default {
     ImageBlock,
     MediaBlock,
     textblock,
+    contact,
     Footer,
   },
   metaInfo: {
@@ -217,14 +198,14 @@ export default {
         result: [
           "$96,000 USD reduction in tech stack expenses.",
           "11% increase in client contract renewals.",
-        ]
-      }
+        ],
+      },
     };
   },
 
   created() {
     this.handleView();
-    window.addEventListener('resize', this.handleView);
+    window.addEventListener("resize", this.handleView);
   },
 };
 </script>

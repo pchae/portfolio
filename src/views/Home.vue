@@ -6,7 +6,9 @@
 
     <ImageGrid id="projects" class="pt120 b2" />
 
-    <Footer id="footer" class="b1" />
+    <contact id="contact" class="b2" />
+
+    <Footer id="footer" class="b2" />
   </div>
 </template>
 
@@ -16,6 +18,7 @@
 import Nav from "@/components/navigation/Navigation.vue";
 import NavMobile from "@/components/navigation/nav_mobile.vue";
 import ImageGrid from "@/components/layouts/image_grid.vue";
+import contact from "@/components/navigation/contact.vue";
 import Footer from "@/components/navigation/Footer.vue";
 
 export default {
@@ -35,6 +38,7 @@ export default {
     Nav,
     NavMobile,
     ImageGrid,
+    contact,
     Footer,
   },
   metaInfo: {
