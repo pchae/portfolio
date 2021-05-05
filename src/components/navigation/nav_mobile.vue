@@ -163,8 +163,8 @@ header {
 
 /* Link Style Override */
 
-.active {
-  background-color: none;
+a {
+  color: #fff;
 }
 
 .active > h2 {
