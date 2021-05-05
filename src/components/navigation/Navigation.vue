@@ -89,8 +89,8 @@ header {
 
 /* Link Style Override */
 
-nav-link a {
-  color: #049CFC;
+a {
+  color: #fff;
 }
 
 .active {
