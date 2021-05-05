@@ -6,12 +6,12 @@
       <div class="baseline-something frow">
         <div id="nav-links" class="frow">
           <div class="nav-link">
-            <a href="https://linkedin.com/in/pchoi1/"
+            <a href="https://linkedin.com/in/pchoi1/" target="_blank"
               ><img src="@/assets/icons/icon-linkedin.svg" alt="linkedin icon"
             /></a>
           </div>
           <div class="nav-link">
-            <a href="mailto:contact@philchoi.ca"
+            <a href="mailto:contact@philchoi.ca" target="_blank"
               ><img src="@/assets/icons/icon-mail2.svg" alt="email icon"
             /></a>
           </div>

@@ -42,6 +42,18 @@
               <h2>About</h2>
             </router-link>
           </div>
+          <div class="frow">
+            <div class="social-link">
+              <a href="https://linkedin.com/in/pchoi1/" target="_blank"
+                ><img src="@/assets/icons/linkedin-40.svg" alt="linkedin icon"
+              /></a>
+            </div>
+            <div class="social-link">
+              <a href="mailto:contact@philchoi.ca" target="_blank"
+                ><img src="@/assets/icons/mail-40.svg" alt="email icon"
+              /></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -139,6 +151,14 @@ header {
 
 .nav-link:nth-child(even) {
   margin-bottom: 4rem;
+}
+
+.social-link:nth-child(odd) {
+  margin-right: 2rem;
+}
+
+.social-link:nth-child(even) {
+  margin-left: 2rem;
 }
 
 /* Link Style Override */
