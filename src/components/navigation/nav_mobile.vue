@@ -153,6 +153,14 @@ header {
   margin-bottom: 4rem;
 }
 
+.social-link:nth-child(odd) {
+  margin-right: 2rem;
+}
+
+.social-link:nth-child(even) {
+  margin-left: 2rem;
+}
+
 /* Link Style Override */
 
 .active {
