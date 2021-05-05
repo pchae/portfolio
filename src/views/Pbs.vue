@@ -136,7 +136,7 @@ import ImageBlock from "@/components/layouts/image_block.vue";
 import MediaBlock from "@/components/layouts/MediaBlock.vue";
 import textblock from "@/components/layouts/article_text_block.vue";
 import Contact from "@/components/navigation/contact.vue";
-import Footer from "@/components/navigation/footer.vue";
+import Footer from "@/components/navigation/Footer.vue";
 
 export default {
   data: () => {

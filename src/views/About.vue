@@ -48,7 +48,7 @@ import IntroBlock from "@/components/layouts/IntroBlock.vue";
 import TextParagraph from "@/components/layouts/text_paragraph.vue";
 import Clientgrid from "@/components/clients/Clientlist.vue";
 import Contact from "@/components/navigation/contact.vue";
-import Footer from "@/components/navigation/footer.vue";
+import Footer from "@/components/navigation/Footer.vue";
 
 export default {
   data: () => {
