@@ -34,6 +34,7 @@ export default {
   },
 
   name: "home",
+
   components: {
     Nav,
     NavMobile,

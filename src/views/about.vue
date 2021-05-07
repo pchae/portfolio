@@ -25,7 +25,6 @@
       class="pb5 b2"
     />
 
-
     <ClientList
       id="clientlist"
       class="pad5 b2"
@@ -69,6 +68,7 @@ export default {
     NavMobile,
     IntroBlock,
     TextParagraph,
+
     ClientList,
     Contact,
     Footer,

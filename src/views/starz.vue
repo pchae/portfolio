@@ -320,6 +320,7 @@ export default {
   },
 
   name: "starz",
+  
   components: {
     Nav,
     NavMobile,

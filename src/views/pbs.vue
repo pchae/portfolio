@@ -144,6 +144,7 @@ export default {
   },
 
   name: "pbs",
+
   components: {
     Nav,
     NavMobile,
@@ -159,6 +160,7 @@ export default {
     // if no subcomponents specify a metaInfo.title, this title will be used
     title: "Phil Choi",
     // all titles will be injected into this template
+
     titleTemplate: "%s - PBS",
   },
   provide() {
