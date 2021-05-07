@@ -32,14 +32,14 @@
       id="header"
       class="pb5 b2"
       img-src="project/mma/header.jpg"
-      img-alt="PBS header image"
+      img-alt="Header image"
     />
 
     <textblock
       id="intro"
       class="pad2 b2"
-      intro="Overview"
-      desc="MMA API is a Software as a Service (SaaS) platform of modular, cloud-based microservices aimed at modernizing real-time data and analytics for Mixed Martial Arts."
+      intro="Preview"
+      desc="A Software as a Service (SaaS) suite of modular, cloud-based microservices aimed at modernizing real-time data and analytics for Mixed Martial Arts."
     />
 
     <MediaBlock
@@ -47,7 +47,7 @@
       class="pb5 b2"
       subline=""
       img-src="project/mma/search.jpg"
-      img-alt="RENAME"
+      img-alt="search overlay UI"
     />
 
     <MediaBlock
@@ -55,7 +55,7 @@
       class="pb5 b2"
       subline=""
       img-src="project/mma/stats.jpg"
-      img-alt="RENAME"
+      img-alt="Stats Overview UI"
     />
 
     <MediaBlock
@@ -63,7 +63,7 @@
       class="pb5 b2"
       subline=""
       img-src="project/mma/signup.jpg"
-      img-alt="RENAME"
+      img-alt="Signup UI"
     />
 
 
