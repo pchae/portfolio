@@ -31,7 +31,7 @@
     <ImageBlock
       id="header"
       class="pb5 b2"
-      img-src="project/mma/header.jpg"
+      img-src="project/mma/signup.jpg"
       img-alt="Header image"
     />
 
@@ -46,24 +46,8 @@
       id="RENAME"
       class="pb5 b2"
       subline=""
-      img-src="project/mma/search.jpg"
-      img-alt="search overlay UI"
-    />
-
-    <MediaBlock
-      id="RENAME"
-      class="pb5 b2"
-      subline=""
-      img-src="project/mma/stats.jpg"
+      img-src="project/mma/profile.jpg"
       img-alt="Stats Overview UI"
-    />
-
-    <MediaBlock
-      id="RENAME"
-      class="pb5 b2"
-      subline=""
-      img-src="project/mma/signup.jpg"
-      img-alt="Signup UI"
     />
 
 

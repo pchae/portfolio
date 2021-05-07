@@ -50,7 +50,7 @@ export default {
 <style scoped>
 .flex {
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: flex-start;
   gap: 2rem;
 }
 
