@@ -24,13 +24,13 @@
 
     <ArticleDetails
       id="detail"
-      class="pt3 b2"
+      class="pad2 b2"
     />
 
 
     <ImageBlock
       id="header-mockup"
-      class=" b2"
+      class="pb5 b2"
       img-src="project/pizza/header.jpg"
       img-alt="Pizza Pizza header image"
     />
@@ -104,7 +104,7 @@
 
     <ColumnTwo
       id="ui-maps"
-      class="pb5 b2"
+      class="pad5 b2"
       headline="Store locator"
       desc="Another key feature was the Store locator for pick-up and takeout orders which opened up the app to larger underserved demographics that prefered to visit locations in person and pay with cash."
       img-src="project/pizza/map.jpg"
