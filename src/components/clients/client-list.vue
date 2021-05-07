@@ -73,10 +73,10 @@
 </template>
 
 <script>
-import Logo from "@/components/clients/Logo.vue";
+import Logo from "@/components/clients/logo.vue";
 
 export default {
-  name: "Clientgrid",
+  name: "ClientList",
   props: {
     index: {
       type: Number,
