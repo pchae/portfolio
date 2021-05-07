@@ -103,13 +103,18 @@
     />
 
 
-    <ColumnTwo
-      id="ui-2col"
-      class="pb5 b2"
-      headline="Store locator"
+    <textblock
+      id="caption-gps"
+      class="pad2 b2"
+      intro="Store locator"
       desc="Another key feature was the Store locator for pick-up and takeout orders which opened up the app to larger underserved demographics that prefered to visit locations in person and pay with cash."
-      img-src="project/pizza/map.jpg"
-      img-alt="store locator UI"
+    />
+
+    <ImageBlock
+      id="ui-maps"
+      class="pb5 b2"
+      img-src="project/pizza/maps.jpg"
+      img-alt="store locator interface"
     />
 
 
@@ -130,15 +135,14 @@
 <script>
 // @ is an alias to /src
 
-import Nav from '@/components/navigation/Navigation.vue';
-import NavMobile from '@/components/navigation/nav_mobile.vue';
-import ArticleHeader from '@/components/layouts/article_header.vue';
-import ArticleDetails from '@/components/layouts/article_details.vue';
-import ImageBlock from '@/components/layouts/image_block.vue';
-import textblock from '@/components/layouts/article_text_block.vue';
-import ColumnTwo from '@/components/layouts/col_two.vue';
-import Contact from '@/components/navigation/contact.vue';
-import Footer from '@/components/navigation/Footer.vue';
+import Nav from "@/components/navigation/Navigation.vue";
+import NavMobile from "@/components/navigation/nav_mobile.vue";
+import ArticleHeader from "@/components/layouts/article_header.vue";
+import ArticleDetails from "@/components/layouts/article_details.vue";
+import ImageBlock from "@/components/layouts/image_block.vue";
+import textblock from "@/components/layouts/article_text_block.vue";
+import Contact from "@/components/navigation/contact.vue";
+import Footer from "@/components/navigation/Footer.vue";
 
 export default {
   data: () => {
@@ -160,7 +164,6 @@ export default {
     ArticleDetails,
     ImageBlock,
     textblock,
-    ColumnTwo,
     Contact,
     Footer,
   },
