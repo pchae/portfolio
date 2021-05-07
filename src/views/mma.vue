@@ -35,27 +35,18 @@
       img-alt="PBS header image"
     />
 
-
-    <MediaBlock
-      id="featured-show"
-      class="pb5 b2"
-      subline=""
-      img-src="project/mma/dashboard.png"
-      img-alt="RENAME"
-    />
-
     <textblock
       id="intro"
       class="pad2 b2"
       intro="Overview"
-      desc="PBS is a non-profit American public broadcaster and a prominent provider of educational shows including Sesame Street."
+      desc="MMA API is a microservice based SaaS product aimed at revolutionizing real-time stats and data for Mixed Martial Arts."
     />
 
     <MediaBlock
       id="RENAME"
       class="pb5 b2"
       subline=""
-      img-src="project/mma/CU_9.jpg"
+      img-src="project/mma/search.jpg"
       img-alt="RENAME"
     />
 
@@ -63,7 +54,7 @@
       id="RENAME"
       class="pb5 b2"
       subline=""
-      img-src="project/mma/layout.png"
+      img-src="project/mma/signup.jpg"
       img-alt="RENAME"
     />
 
