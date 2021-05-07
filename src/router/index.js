@@ -11,7 +11,7 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: () => import(/* webpackChunkName: "home" */ '../views/Home.vue'),
+    component: () => import(/* webpackChunkName: "home" */ '../views/home.vue'),
     meta: {
       auth: true,
       title: 'Phil Choi - Product Design',
@@ -33,7 +33,7 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
+    component: () => import(/* webpackChunkName: "about" */ '../views/about.vue'),
     meta: {
       auth: true,
       title: 'About - Phil Choi',
@@ -57,7 +57,7 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "starz" */ '../views/Starz.vue'),
+    component: () => import(/* webpackChunkName: "starz" */ '../views/starz.vue'),
     meta: {
       auth: true,
       title: 'Phil Choi - Starz Play',
@@ -80,7 +80,7 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "pizza" */ '../views/Pizza.vue'),
+    component: () => import(/* webpackChunkName: "pizza" */ '../views/pizza.vue'),
     meta: {
       auth: true,
       title: 'Phil Choi - Pizza Pizza',
@@ -99,11 +99,11 @@ const routes = [
   // Project: Engage
   {
     path: '/engage',
-    name: 'Engage',
+    name: 'engage',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "engage" */ '../views/Engage.vue'),
+    component: () => import(/* webpackChunkName: "engage" */ '../views/engage.vue'),
     meta: {
       auth: true,
       title: 'Phil Choi - Engage',
@@ -119,14 +119,37 @@ const routes = [
       ],
     },
   },
-  // Project: PBS
+  // Project: MMA
   {
-    path: '/pbs',
-    name: 'PBS',
+    path: '/mma',
+    name: 'mma',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "pbs" */ '../views/Pbs.vue'),
+    component: () => import(/* webpackChunkName: "mma" */ '../views/mma.vue'),
+    meta: {
+      auth: true,
+      title: 'Phil Choi - MMA SaaS',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'Phil Choi MMA SaaS',
+        },
+        {
+          property: 'og:description',
+          content: 'Phil Choi MMA SaaS',
+        },
+      ],
+    },
+  },
+  // Project: PBS
+  {
+    path: '/pbs',
+    name: 'pbs',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "pbs" */ '../views/pbs.vue'),
     meta: {
       auth: true,
       title: 'Phil Choi - Public Broadcasting Service',

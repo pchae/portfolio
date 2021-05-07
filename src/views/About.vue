@@ -63,7 +63,7 @@ export default {
     },
   },
 
-  name: "About",
+  name: "about",
   components: {
     Nav,
     NavMobile,

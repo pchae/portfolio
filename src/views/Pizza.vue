@@ -151,7 +151,7 @@ export default {
     },
   },
 
-  name: "Pizza",
+  name: "pizza",
   components: {
     Nav,
     NavMobile,

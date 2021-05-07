@@ -143,7 +143,7 @@ export default {
     },
   },
 
-  name: "pbs",
+  name: "mma",
   components: {
     Nav,
     NavMobile,
@@ -159,17 +159,16 @@ export default {
     // if no subcomponents specify a metaInfo.title, this title will be used
     title: "Phil Choi",
     // all titles will be injected into this template
-    titleTemplate: "%s - PBS",
+    titleTemplate: "%s - MMA SaaS",
   },
   provide() {
     return {
       workInfo: {
-        client: "Public Broadcasting Service, Digiflare",
-        year: "2014",
-        role: "Sr. UX/UI Designer",
+        client: "Saturdays.io",
+        year: "2021",
+        role: "Principle Designer",
         result: [
-          "Successful launch in 2016.",
-          "Featured on Microsoft's Windows Experience Blog."
+          "Development in progress"
         ]
       }
     };

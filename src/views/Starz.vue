@@ -319,7 +319,7 @@ export default {
     },
   },
 
-  name: "Starz",
+  name: "starz",
   components: {
     Nav,
     NavMobile,
