@@ -18,7 +18,7 @@
     <ArticleHeader
       id="headline"
       class="pt120 b2"
-      title="Revamping microservice based architecture for Mixed Martial Arts"
+      title="Microservice based SaaS for Mixed Martial Arts"
       subhead=""
     />
 
@@ -39,7 +39,7 @@
       id="intro"
       class="pad2 b2"
       intro="Overview"
-      desc="MMA API is a microservice based SaaS product aimed at revolutionizing real-time stats and data for Mixed Martial Arts."
+      desc="MMA API is a Software as a Service (SaaS) platform of modular, cloud-based microservices aimed at modernizing real-time data and analytics for Mixed Martial Arts."
     />
 
     <MediaBlock
@@ -47,6 +47,14 @@
       class="pb5 b2"
       subline=""
       img-src="project/mma/search.jpg"
+      img-alt="RENAME"
+    />
+
+    <MediaBlock
+      id="RENAME"
+      class="pb5 b2"
+      subline=""
+      img-src="project/mma/stats.jpg"
       img-alt="RENAME"
     />
 
@@ -114,9 +122,9 @@ export default {
       workInfo: {
         client: "N/A",
         year: "2021",
-        role: "Principle Designer",
+        role: "Product Design Lead",
         result: [
-          "Development in progress"
+          "In development"
         ]
       }
     };
