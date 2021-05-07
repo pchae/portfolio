@@ -11,11 +11,14 @@
       subhead="Engage is a multi-channel social media engagement tool used by news media, sports teams and brands to promote live dynamic content and drive audience participation."
     />
 
-    <ArticleDetails id="detail" class="pad2 b2" />
+    <ArticleDetails
+      id="detail"
+      class="pad2 b2"
+    />
 
     <ImageBlock
       id="header-mockup"
-      class="pad2 b2"
+      class="pb5 b2"
       img-src="project/engage/landscape.jpg"
       img-alt="Starz header image"
     />

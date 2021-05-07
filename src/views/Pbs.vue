@@ -24,24 +24,17 @@
 
     <ArticleDetails
       id="detail"
-      class="pad3 b2"
+      class="pad2 b2"
     />
 
 
     <ImageBlock
       id="header"
-      class=" b2"
+      class="pb5 b2"
       img-src="project/pbs/header.jpg"
       img-alt="PBS header image"
     />
 
-
-    <textblock
-      id="intro"
-      class="pad2 b2"
-      intro="Overview"
-      desc="PBS is a non-profit American public broadcaster and a prominent provider of educational shows including Sesame Street, Downton Abbey and Mind of a Chef. However, even with 80% household viewership in the United States, they needed a digital presence to maintain relevance."
-    />
 
     <MediaBlock
       id="featured-show"
@@ -49,6 +42,13 @@
       subline=""
       img-src="project/pbs/featured.jpg"
       img-alt="Featured Shows layout for PBS on Surface tablets."
+    />
+
+    <textblock
+      id="intro"
+      class="pad2 b2"
+      intro="Overview"
+      desc="PBS is a non-profit American public broadcaster and a prominent provider of educational shows including Sesame Street, Downton Abbey and Mind of a Chef. However, even with 80% household viewership in the United States, they needed a digital presence to maintain relevance."
     />
 
 
@@ -104,19 +104,12 @@
 
     <MediaBlock
       id="ui-lumia"
-      class=" b2"
+      class="pb5 b2"
       subline=""
       img-src="project/pbs/lumia.jpg"
       img-alt="Misc screens for Lumia phones."
     />
 
-
-    <textblock
-      id="caption-outcome"
-      class="pad5 b2"
-      intro="Outcome"
-      desc="The app was successfully launched in 2016 and featured on Microsoft's Windows Experience Blog."
-    />
 
     <Contact id="contact" class="b2" />
 
@@ -175,8 +168,8 @@ export default {
         year: "2014",
         role: "Sr. UX/UI Designer",
         result: [
-          "Featured on Microsoft's Windows Experience Blog.",
-          "Launched in 2016."
+          "Successful launch in 2016.",
+          "Featured on Microsoft's Windows Experience Blog."
         ]
       }
     };

@@ -25,7 +25,7 @@
 
     <ArticleDetails
       id="detail"
-      class="pad3 b2"
+      class="pad2 b2"
     />
 
 
