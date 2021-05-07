@@ -58,6 +58,14 @@
       img-alt="RENAME"
     />
 
+    <MediaBlock
+      id="RENAME"
+      class="pb5 b2"
+      subline=""
+      img-src="project/mma/media.jpg"
+      img-alt="RENAME"
+    />
+
 
     <Contact id="contact" class="b2" />
 
@@ -114,9 +122,9 @@ export default {
       workInfo: {
         client: "N/A",
         year: "2021",
-        role: "Principle Designer",
+        role: "Product Design Lead",
         result: [
-          "Development in progress"
+          "In development"
         ]
       }
     };
