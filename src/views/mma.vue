@@ -54,7 +54,7 @@
       id="RENAME"
       class="pb5 b2"
       subline=""
-      img-src="project/mma/signup.jpg"
+      img-src="project/mma/stats.jpg"
       img-alt="RENAME"
     />
 
@@ -62,7 +62,7 @@
       id="RENAME"
       class="pb5 b2"
       subline=""
-      img-src="project/mma/media.jpg"
+      img-src="project/mma/signup.jpg"
       img-alt="RENAME"
     />
 
