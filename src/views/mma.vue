@@ -18,7 +18,7 @@
     <ArticleHeader
       id="headline"
       class="pt120 b2"
-      title="Introducing an iconic public broadcaster to Windows"
+      title="Revamping microservice based architecture for Mixed Martial Arts"
       subhead=""
     />
 
@@ -31,7 +31,7 @@
     <ImageBlock
       id="header"
       class="pb5 b2"
-      img-src="project/pbs/header.jpg"
+      img-src="project/mma/header.jpg"
       img-alt="PBS header image"
     />
 
@@ -40,74 +40,31 @@
       id="featured-show"
       class="pb5 b2"
       subline=""
-      img-src="project/pbs/featured.jpg"
-      img-alt="Featured Shows layout for PBS on Surface tablets."
+      img-src="project/mma/dashboard.png"
+      img-alt="RENAME"
     />
 
     <textblock
       id="intro"
       class="pad2 b2"
       intro="Overview"
-      desc="PBS is a non-profit American public broadcaster and a prominent provider of educational shows including Sesame Street, Downton Abbey and Mind of a Chef. However, even with 80% household viewership in the United States, they needed a digital presence to maintain relevance."
-    />
-
-
-    <textblock
-      id="Objectives"
-      class="pad2 b2"
-      intro="Objectives"
-      desc="The Digiflare team invited me to help shape the user experience and visual design of a new responsive streaming app for PBS. Unlike typical responsive design projects, this needed to be future-ready in order to scale across Microsoft's current and unreleased Surface tablet devices while combining the PBS brand with Microsoft's Metro design language."
-    />
-
-
-    <MediaBlock
-      id="surface-home-hub"
-      class="pb5 b2"
-      subline=""
-      img-src="project/pbs/home_hub.jpg"
-      img-alt="Home Hub showing expanded menu."
+      desc="PBS is a non-profit American public broadcaster and a prominent provider of educational shows including Sesame Street."
     />
 
     <MediaBlock
-      id="surface-resume"
+      id="RENAME"
       class="pb5 b2"
       subline=""
-      img-src="project/pbs/history.jpg"
-      img-alt="Previously watched: Resume interface."
-    />
-
-
-    <MediaBlock
-      id="surface-show-detail"
-      class="pb5 b2"
-      subline=""
-      img-src="project/pbs/show_detail.jpg"
-      img-alt="Show Details interface."
-    />
-
-
-    <MediaBlock
-      id="surface-playback"
-      class="pb5 b2"
-      subline=""
-      img-src="project/pbs/playback.jpg"
-      img-alt="Video Player interface."
-    />
-
-
-    <textblock
-      id="caption-phone"
-      class="pad2 b2"
-      intro="Lumia Phones"
-      desc="The apps were required to have responsive designs that dynamically scaled from Lumia phone resolutions all the way up to 2K on Surface tablets and Windows PCs. We achieved this by using a Base-2 grid system which enabled us to maintain a consistent look while scaling across devices."
+      img-src="project/mma/CU_9.jpg"
+      img-alt="RENAME"
     />
 
     <MediaBlock
-      id="ui-lumia"
+      id="RENAME"
       class="pb5 b2"
       subline=""
-      img-src="project/pbs/lumia.jpg"
-      img-alt="Misc screens for Lumia phones."
+      img-src="project/mma/layout.png"
+      img-alt="RENAME"
     />
 
 
@@ -121,7 +78,7 @@
 <script>
 // @ is an alias to /src
 
-import Nav from "@/components/navigation/Navigation.vue";
+import Nav from "@/components/navigation/nav.vue";
 import NavMobile from "@/components/navigation/nav_mobile.vue";
 import ArticleHeader from "@/components/layouts/article_header.vue";
 import ArticleDetails from "@/components/layouts/article_details.vue";
@@ -129,7 +86,7 @@ import ImageBlock from "@/components/layouts/image_block.vue";
 import MediaBlock from "@/components/layouts/MediaBlock.vue";
 import textblock from "@/components/layouts/article_text_block.vue";
 import Contact from "@/components/navigation/contact.vue";
-import Footer from "@/components/navigation/Footer.vue";
+import Footer from "@/components/navigation/footer.vue";
 
 export default {
   data: () => {
@@ -164,7 +121,7 @@ export default {
   provide() {
     return {
       workInfo: {
-        client: "Saturdays.io",
+        client: "N/A",
         year: "2021",
         role: "Principle Designer",
         result: [
