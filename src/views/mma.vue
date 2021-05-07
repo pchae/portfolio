@@ -37,7 +37,7 @@
     <ImageBlock
       id="header"
       class="pb5 b2"
-      img-src="project/mma/280e456de467d6022ea6e8474d0645ec.webp"
+      img-src="project/mma/header.jpg"
       img-alt="header image"
     />
 
