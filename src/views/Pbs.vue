@@ -31,7 +31,7 @@
     <ImageBlock
       id="header"
       class=" b2"
-      img-src="project/pbs/responsive.jpg"
+      img-src="project/pbs/header.jpg"
       img-alt="PBS header image"
     />
 
