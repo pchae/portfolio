@@ -31,10 +31,12 @@ html {
 
 ::-moz-selection { /* Code for Firefox */
   background: #C0E4FE;
+  color: #000;
 }
 
 ::selection {
   background: #C0E4FE;
+  color: #000;
 }
 
 
