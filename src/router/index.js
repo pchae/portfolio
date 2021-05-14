@@ -27,6 +27,30 @@ const routes = [
       ],
     },
   },
+  // 404 page
+  {
+    path: '/404',
+    name: '404',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "404" */ '../views/404.vue'),
+    meta: {
+      auth: true,
+      title: '404 - Phil Choi',
+      metaTags: [
+        {
+          name: 'description',
+          content: '404 Error',
+        },
+        {
+          property: 'og:description',
+          content: '404 Error',
+        },
+      ],
+    },
+  },
+  // About page
   {
     path: '/about',
     name: 'about',
@@ -49,7 +73,6 @@ const routes = [
       ],
     },
   },
-
   // Project: Starz Play
   {
     path: '/starz',
@@ -115,6 +138,29 @@ const routes = [
         {
           property: 'og:description',
           content: 'Phil Choi Engage',
+        },
+      ],
+    },
+  },
+  // Project: Fintech
+  {
+    path: '/fintech',
+    name: 'fintech',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "fintech" */ '../views/fintech.vue'),
+    meta: {
+      auth: true,
+      title: 'Phil Choi - Fintech',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'Phil Choi Fintech',
+        },
+        {
+          property: 'og:description',
+          content: 'Phil Choi Fintech',
         },
       ],
     },
