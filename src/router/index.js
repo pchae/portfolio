@@ -30,22 +30,22 @@ const routes = [
   // 404 page
   {
     path: '/404',
-    name: '404',
+    name: 'PageNotFound',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "404" */ '../views/404.vue'),
+    component: () => import(/* webpackChunkName: "PageNotFound" */ '../views/404.vue'),
     meta: {
       auth: true,
-      title: '404 - Phil Choi',
+      title: '404 Page not found - Phil Choi',
       metaTags: [
         {
           name: 'description',
-          content: '404 Error',
+          content: '404 Page not found',
         },
         {
           property: 'og:description',
-          content: '404 Error',
+          content: '404 Page not found',
         },
       ],
     },

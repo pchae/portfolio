@@ -51,7 +51,7 @@ export default {
     },
   },
 
-  name: "404",
+  name: "PageNotFound",
   components: {
     Nav,
     NavMobile,
@@ -79,10 +79,4 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-
-.tall {
-  height: 100%;
-  background-color: #000;
-}
-
 </style>
