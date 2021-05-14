@@ -18,7 +18,7 @@
     <ArticleHeader
       id="headline"
       class="pt120 b2"
-      title="Microservice based SaaS for Mixed Martial Arts"
+      title="Project Preview"
       subhead=""
     />
 
@@ -27,19 +27,18 @@
       class="pad2 b2"
     />
 
+    <textblock
+      id="intro"
+      class="pad2 b2"
+      intro="Overview"
+      desc="Below is a preview of visual designs for a Software as a Service (SaaS) MVP that aims to provide innovative user experiences powered by a proprietary real-time stats and analytics API for live Mixed Martial Arts events. The project uses a Microservice architecture, domain-driven development principles, and modern web frameworks like Express and Vue.js."
+    />
 
     <ImageBlock
       id="header"
       class="pb5 b2"
       img-src="project/mma/signup.jpg"
       img-alt="Header image"
-    />
-
-    <textblock
-      id="intro"
-      class="pad2 b2"
-      intro="Preview"
-      desc="A Software as a Service (SaaS) suite of modular, cloud-based microservices aimed at modernizing real-time data and analytics for Mixed Martial Arts."
     />
 
     <MediaBlock
