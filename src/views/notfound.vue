@@ -51,7 +51,7 @@ export default {
     },
   },
 
-  name: "PageNotFound",
+  name: "NotFound",
   components: {
     Nav,
     NavMobile,
