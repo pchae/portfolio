@@ -121,6 +121,13 @@
       img-alt="Design system Social media components"
     />
 
+    <textblock
+      id="caption-extras"
+      class="pad2 b2"
+      intro="Social Media modules"
+      desc="One of Engage's core features is the ability to add, curate, and moderate multiple social media sources into a single feed known as a 'vertical'. The app achieved this by recreating the layouts and populating the content with cached copies of the original social media posts from platforms like Twitter, Instagram, Youtube, and Facebook. All of the modules needed to be updated and redesigned to add responsiveness, pass WCAG 2.1 accessibility guidelines, and match the latest UIs of the social media platforms. Custom modules for video and editorial content were also designed and developed to fulfill requests from the company's media clients."
+    />
+
     <MediaBlock
       id="social-cards2"
       class="pb2 b2"
@@ -133,7 +140,7 @@
       id="social-cards3"
       class=" b2"
       subline=""
-      img-src="project/engage/card_spec3.jpg"
+      img-src="project/engage/social_cards.jpg"
       img-alt="Design system Social media components"
     />
 
