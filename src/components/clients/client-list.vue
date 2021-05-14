@@ -2,7 +2,7 @@
   <div :id="[id]" :class="[padding, bgColor]">
     <div class="container">
       <div class="section-title pb4">
-        <h3 class="section-headline">Select clients</h3>
+        <h3 class="section-headline">Past clients</h3>
       </div>
       <div class="client-partners">
         <!-- Row 1 -->
