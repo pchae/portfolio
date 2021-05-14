@@ -27,6 +27,30 @@ const routes = [
       ],
     },
   },
+  // 404 page
+  {
+    path: '/404',
+    name: 'NotFound',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "notfound" */ '../views/notfound.vue'),
+    meta: {
+      auth: true,
+      title: '404 Page not found - Phil Choi',
+      metaTags: [
+        {
+          name: 'description',
+          content: '404 Page not found',
+        },
+        {
+          property: 'og:description',
+          content: '404 Page not found',
+        },
+      ],
+    },
+  },
+  // About page
   {
     path: '/about',
     name: 'about',
@@ -49,7 +73,6 @@ const routes = [
       ],
     },
   },
-
   // Project: Starz Play
   {
     path: '/starz',
