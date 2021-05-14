@@ -142,29 +142,6 @@ const routes = [
       ],
     },
   },
-  // Project: Fintech
-  {
-    path: '/fintech',
-    name: 'fintech',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "fintech" */ '../views/fintech.vue'),
-    meta: {
-      auth: true,
-      title: 'Phil Choi - Fintech',
-      metaTags: [
-        {
-          name: 'description',
-          content: 'Phil Choi Fintech',
-        },
-        {
-          property: 'og:description',
-          content: 'Phil Choi Fintech',
-        },
-      ],
-    },
-  },
   // Project: MMA
   {
     path: '/mma',
