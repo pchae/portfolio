@@ -142,29 +142,6 @@ const routes = [
       ],
     },
   },
-  // Project: MMA
-  {
-    path: '/mma',
-    name: 'mma',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "mma" */ '../views/mma.vue'),
-    meta: {
-      auth: true,
-      title: 'Phil Choi - MMA SaaS',
-      metaTags: [
-        {
-          name: 'description',
-          content: 'Phil Choi MMA SaaS',
-        },
-        {
-          property: 'og:description',
-          content: 'Phil Choi MMA SaaS',
-        },
-      ],
-    },
-  },
   // Project: PBS
   {
     path: '/pbs',
