@@ -29,7 +29,7 @@ const routes = [
   },
   // 404 page
   {
-    path: '/404',
+    path: '*',
     name: 'NotFound',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
