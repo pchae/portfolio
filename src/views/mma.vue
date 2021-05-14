@@ -31,7 +31,7 @@
       id="intro"
       class="pad2 b2"
       intro="Overview"
-      desc="Below is a preview of visual designs for a Software as a Service (SaaS) MVP that aims to provide innovative user experiences that utilize a proprietary real-time stats and analytics API for live Mixed Martial Arts events. The project uses a Microservice architecture, domain-driven development principles, and modern frameworks like Express and Vue.js."
+      desc="Below is a preview of visual designs for a Software as a Service (SaaS) MVP that aims to provide innovative user experiences powered by a proprietary real-time stats and analytics API for live Mixed Martial Arts events. The project uses a Microservice architecture, domain-driven development principles, and modern web frameworks like Express and Vue.js."
     />
 
     <ImageBlock
