@@ -50,7 +50,7 @@ export default {
 }
 
 .twothird {
-  width: 66%;
+  width: 70%;
 }
 
 @media only screen and (max-width: 800px) {
