@@ -26,7 +26,7 @@
     />
 
     <ClientList
-      id="clientlist"
+      id="clients"
       class="pad5 b2"
     />
 
