@@ -1,7 +1,7 @@
 <template>
   <div :id="[id]" :class="[padding, bgColor]">
     <div class="text-container container">
-      <div class="fcol">
+      <div class="fcol twothird">
         <div class="frow" v-for="item in about.about" :key="item.id">
           <p class="subtext" v-html="item.pg"></p>
         </div>
@@ -47,5 +47,21 @@ export default {
 
 .frow:last-child {
   margin-bottom: 0rem;
+}
+
+.twothird {
+  width: 66%;
+}
+
+@media only screen and (max-width: 800px) {
+  .twothird {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .twothird {
+    width: 100%;
+  }
 }
 </style>
