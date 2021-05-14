@@ -66,15 +66,15 @@ export default {
   props: {
     sectionID: {
       type: String,
-      default: "",
+      default: '',
     },
     bgColor: {
       type: String,
-      default: "",
+      default: '',
     },
     tColor: {
       type: String,
-      default: "",
+      default: '',
     },
   },
   data: function() {
@@ -91,7 +91,7 @@ header {
   display: block;
   position: fixed;
   width: 100%;
-  border-bottom: 1px solid #000;
+  border-bottom: 0px solid #000;
   z-index: 1000;
 }
 

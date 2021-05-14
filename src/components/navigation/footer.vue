@@ -32,15 +32,15 @@ export default {
   props: {
     padding: {
       type: String,
-      default: "",
+      default: '',
     },
     bgColor: {
       type: String,
-      default: "",
+      default: '',
     },
     sectionID: {
       type: String,
-      default: "",
+      default: '',
     },
   },
   components: {},
@@ -52,7 +52,7 @@ export default {
   footer {
     padding-top: 2rem;
     padding-bottom: 2rem;
-    border-top: 1px solid #000;
+    border-top: 0px solid #000;
   }
 
   .fcol {

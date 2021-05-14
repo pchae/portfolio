@@ -25,15 +25,15 @@ export default {
   props: {
     padding: {
       type: String,
-      default: "",
+      default: '',
     },
     bgColor: {
       type: String,
-      default: "",
+      default: '',
     },
     sectionID: {
       type: String,
-      default: "",
+      default: '',
     },
   },
   components: {},
