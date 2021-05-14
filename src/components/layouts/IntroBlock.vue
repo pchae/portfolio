@@ -18,17 +18,17 @@ export default {
   props: {
     headline: {
       type: String,
-      default: "",
+      default: '',
     },
     status: {
       type: String,
-      default: "",
+      default: '',
     },
   },
   data() {
     return {
-      padding: "",
-      bgColor: "",
+      padding: '',
+      bgColor: '',
       id: '',
     };
   },
