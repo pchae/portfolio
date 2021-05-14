@@ -30,15 +30,15 @@ export default {
   props: {
     sectionID: {
       type: String,
-      default: "",
+      default: '',
     },
     bgColor: {
       type: String,
-      default: "",
+      default: '',
     },
     tColor: {
       type: String,
-      default: "",
+      default: '',
     },
   },
 };
