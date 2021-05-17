@@ -1,10 +1,8 @@
 <template>
   <!-- Footer -->
   <footer :id="[sectionID]" :class="[padding, bgColor]">
-    <div class="container fcol">
-
-      <div class="baseline-something frow">
-        <div id="nav-links" class="frow">
+    <div class="container ft-nav">
+        <div class="frow nav-links">
           <div class="nav-link">
             <a href="https://linkedin.com/in/pchoi1/" target="_blank"
               ><img src="@/assets/icons/icon-linkedin.svg" alt="linkedin icon"
@@ -20,8 +18,6 @@
         <div class="copyright">
           <h6>© 2021 Phil Choi. All Rights Reserved.</h6>
         </div>
-      </div>
-
     </div>
   </footer>
 </template>
@@ -55,28 +51,27 @@ export default {
     border-top: 0px solid #000;
   }
 
-  .fcol {
-    justify-content: center;
-  }
-
   .frow {
     justify-content: center;
   }
 
-  .baseline-something {
+  .ft-nav {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+    height: 1.5rem;
   }
 
   .copyright {
+    align-self: center;
     color: #fff;
+    height: 1.5rem;
   }
 
 /* Link Override */
 
-  .nav-link {
-    color: #fff;
+  .nav-links {
+    height: 1.5rem;
   }
 
   .nav-link:nth-child(1n) {
@@ -95,14 +90,21 @@ export default {
       text-align: center;
     }
 
-    .baseline-something {
+    .ft-nav {
       display: flex;
       flex-direction: column;
+      height: 6rem;
     }
 
     .copyright {
+      width: 100%;
       margin-top: 2rem;
       color: #fff;
     }
+
+    .nav-links {
+      width: 100%;
+   }
+
   }
 </style>
