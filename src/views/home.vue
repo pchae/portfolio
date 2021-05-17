@@ -61,19 +61,19 @@ export default {
         },
         {
           id: "1",
-          to: "/pizza",
-          imgSrc: "thumbs/pizza.jpg",
-          imgAlt: "Pizza Pizza",
-          title: "Pizza Pizza",
-          desc: "iOS, Android",
-        },
-        {
-          id: "2",
           to: "/engage",
           imgSrc: "thumbs/engage.jpg",
           imgAlt: "Scribblelive Engage",
           title: "Engage",
           desc: "PWA, Responsive Web",
+        },
+        {
+          id: "2",
+          to: "/pizza",
+          imgSrc: "thumbs/pizza.jpg",
+          imgAlt: "Pizza Pizza",
+          title: "Pizza Pizza",
+          desc: "iOS, Android",
         },
         {
           id: "3",
