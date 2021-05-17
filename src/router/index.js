@@ -165,6 +165,29 @@ const routes = [
       ],
     },
   },
+  // Project: RBC
+  {
+    path: '/fintech',
+    name: 'fintech',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "rbc" */ '../views/fintech.vue'),
+    meta: {
+      auth: true,
+      title: 'Phil Choi - Royal Bank of Canada',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'Phil Choi RBC',
+        },
+        {
+          property: 'og:description',
+          content: 'Phil Choi RBC',
+        },
+      ],
+    },
+  },
 ];
 
 const router = new VueRouter({

@@ -13,15 +13,13 @@
       bgColor="b2"
       v-if="mobileView"
     />
-<div class="tall">
+
     <IntroBlock
       id="title"
       class="pt120 b2"
       headline="404"
       status="Page not found."
     />
-</div>
-    <Contact id="contact" class="b2" />
 
     <Footer
       id="footer"
@@ -35,7 +33,6 @@
 import Nav from "@/components/navigation/nav.vue";
 import NavMobile from "@/components/navigation/nav_mobile.vue";
 import IntroBlock from "@/components/layouts/IntroBlock.vue";
-import Contact from "@/components/navigation/contact.vue";
 import Footer from "@/components/navigation/footer.vue";
 
 export default {
@@ -56,7 +53,6 @@ export default {
     Nav,
     NavMobile,
     IntroBlock,
-    Contact,
     Footer,
   },
 
