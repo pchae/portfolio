@@ -4,7 +4,7 @@
 
     <NavMobile tColor="bk" bgColor="b2" v-if="mobileView" />
 
-    <ImageGrid id="projects" class="pt120 b2" />
+    <ImageGrid id="projects" class="pt12 b2" />
 
     <Contact id="contact" class="b2" />
 

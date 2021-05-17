@@ -16,15 +16,11 @@
 
     <IntroBlock
       id="title"
-      class="pt120 b2"
+      class="pt12 b2"
       headline="404"
       status="Page not found."
     />
 
-    <Footer
-      id="footer"
-      class="b2"
-    />
   </div>
 </template>
 
@@ -33,7 +29,6 @@
 import Nav from "@/components/navigation/nav.vue";
 import NavMobile from "@/components/navigation/nav_mobile.vue";
 import IntroBlock from "@/components/layouts/IntroBlock.vue";
-import Footer from "@/components/navigation/footer.vue";
 
 export default {
   data: () => {
@@ -53,7 +48,6 @@ export default {
     Nav,
     NavMobile,
     IntroBlock,
-    Footer,
   },
 
   computed: {

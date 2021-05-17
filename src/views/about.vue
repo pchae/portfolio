@@ -16,7 +16,7 @@
 
     <IntroBlock
       id="title"
-      class="pt120 b2"
+      class="pt12 b2"
       headline="My focus is on art, design, and technology as well as when, where, and how they affect everyday life."
     />
 
