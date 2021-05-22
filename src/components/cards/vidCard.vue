@@ -18,18 +18,6 @@
 export default {
   name: 'VidCard',
   props: {
-    index: {
-      type: Number,
-      default: 1,
-    },
-    title: {
-      type: String,
-      default: '',
-    },
-    desc: {
-      type: String,
-      default: '',
-    },
     vidSrc: {
       type: String,
       default: '',
