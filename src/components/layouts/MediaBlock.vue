@@ -20,10 +20,6 @@
 export default {
   name: 'MediaBlock',
   props: {
-    headline: {
-      type: String,
-      default: '',
-    },
     subline: {
       type: String,
       default: '',
