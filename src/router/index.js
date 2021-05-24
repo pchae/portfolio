@@ -1,16 +1,11 @@
 /* eslint-disable no-unused-vars */
 import Vue from 'vue';
-import VueRouter from 'vue-router';
-import Meta from 'vue-meta';
-
-
-Vue.use(VueRouter);
-Vue.use(Meta);
+import { createRouter, createWebHistory } from 'vue-router';
 
 const routes = [
   {
     path: '/',
-    name: 'home',
+    name: 'Home',
     component: () => import(/* webpackChunkName: "home" */ '../views/home.vue'),
     meta: {
       auth: true,
@@ -29,7 +24,7 @@ const routes = [
   },
   // 404 page
   {
-    path: '*',
+    path: '/:pathMatch(.*)*',
     name: 'NotFound',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
@@ -53,11 +48,11 @@ const routes = [
   // About page
   {
     path: '/about',
-    name: 'about',
+    name: 'About',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/about.vue'),
+    component: () => import(/* webpackChunkName: "about" */ '@/views/about.vue'),
     meta: {
       auth: true,
       title: 'About - Phil Choi',
@@ -76,11 +71,11 @@ const routes = [
   // Project: Starz Play
   {
     path: '/starz',
-    name: 'starz',
+    name: 'Starz',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "starz" */ '../views/starz.vue'),
+    component: () => import(/* webpackChunkName: "starz" */ '@/views/starz.vue'),
     meta: {
       auth: true,
       title: 'Phil Choi - Starz Play',
@@ -99,7 +94,7 @@ const routes = [
   // Project: Pizza Pizza
   {
     path: '/pizza',
-    name: 'pizza',
+    name: 'Pizza',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
@@ -122,7 +117,7 @@ const routes = [
   // Project: Engage
   {
     path: '/engage',
-    name: 'engage',
+    name: 'Engage',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
@@ -145,7 +140,7 @@ const routes = [
   // Project: PBS
   {
     path: '/pbs',
-    name: 'pbs',
+    name: 'Pbs',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
@@ -168,7 +163,7 @@ const routes = [
   // Project: RBC
   {
     path: '/fintech',
-    name: 'fintech',
+    name: 'Fintech',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
@@ -190,14 +185,14 @@ const routes = [
   },
 ];
 
-const router = new VueRouter({
-  mode: 'history',
+const router = createRouter({
+  history: createWebHistory(process.env.BASE_URL),
   base: process.env.BASE_URL,
   routes,
   scrollBehavior(to, from, savedPosition) {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
-        resolve({ x: 0, y: 0 });
+        resolve({ top: 0 });
       }, 500);
     });
   },
