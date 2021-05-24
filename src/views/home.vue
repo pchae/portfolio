@@ -97,7 +97,7 @@ export default {
           to: "/pbs",
           imgSrc: "thumbs/pbs.jpg",
           imgAlt: "Public Broadcasting Service",
-          title: "PBS",
+          title: "Public Broadcasting Service",
           desc: "Microsoft Lumia & Surface",
         },
       ],
