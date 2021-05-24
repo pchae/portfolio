@@ -26,12 +26,11 @@
       class="pad2 b2"
     />
 
-
-    <ImageBlock
-      id="header"
+    <Video
+      id="video"
       class="pb5 b2"
-      img-src="project/pbs/featured.jpg"
-      img-alt="PBS header image"
+      vid-src="project/pbs/logo.mp4"
+      vid-alt="PBS logo burst animation"
     />
 
     <textblock
@@ -41,11 +40,11 @@
       desc="PBS is a non-profit American public broadcaster and a prominent provider of educational shows including Sesame Street, Downton Abbey and Mind of a Chef. However, even with 80% household viewership in the United States, they needed a digital presence to maintain relevance."
     />
 
-    <Video
-      id="video"
+    <ImageBlock
+      id="header"
       class="pb5 b2"
-      vid-src="project/engage/demo-reel.mp4"
-      vid-alt="Roku Design Specs"
+      img-src="project/pbs/featured.jpg"
+      img-alt="PBS header image"
     />
 
     <textblock
