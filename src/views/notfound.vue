@@ -2,15 +2,15 @@
   <div>
     <Nav
       id="Nav"
-      tColor="bk"
-      bgColor="b2"
+      t-color="bk"
+      bg-color="b2"
       v-if="!mobileView"
     />
 
     <NavMobile
       id="NavMobile"
-      tColor="bk"
-      bgColor="b2"
+      t-color="bk"
+      bg-color="b2"
       v-if="mobileView"
     />
 
@@ -20,7 +20,6 @@
       headline="404"
       status="Page not found."
     />
-
   </div>
 </template>
 

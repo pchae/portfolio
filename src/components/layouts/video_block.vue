@@ -1,7 +1,8 @@
 <template>
   <div
     :id="[id]"
-    :class="[padding, bgColor]">
+    :class="[padding, bgColor]"
+  >
     <div class="container-lg media">
       <video
         ref="video"
@@ -9,7 +10,6 @@
         loop
         muted
         playsinline
-        :preload="preload"
         :src="require('@/assets/' + vidSrc)"
         :alt="vidAlt"
         type="video/mp4"

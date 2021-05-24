@@ -1,7 +1,10 @@
 <template>
   <div class="thumb">
     <div class="">
-      <img :src="require('@/assets/' + imgSrc)" :alt="imgAlt" />
+      <img
+        v-lazy="require('@/assets/' + imgSrc)"
+        :alt="imgAlt"
+      >
     </div>
     <div class="text-box">
       <h4 class="card-title">

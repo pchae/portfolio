@@ -1,8 +1,18 @@
 <template>
   <div>
-    <Nav id="Nav" tColor="bk" bgColor="b2" v-if="!mobileView" />
+    <Nav
+      id="Nav"
+      t-color="bk"
+      bg-color="b2"
+      v-if="!mobileView"
+    />
 
-    <NavMobile id="NavMobile" tColor="bk" bgColor="b2" v-if="mobileView" />
+    <NavMobile
+      id="NavMobile"
+      t-color="bk"
+      bg-color="b2"
+      v-if="mobileView"
+    />
 
     <ArticleHeader
       id="headline"
@@ -159,9 +169,15 @@
       desc="Implementing DesignOps led to a $96,000 USD reduction in Product Design stack & Engineering expenses across the organization. The inclusion of the Design System increased front-end development velocity by 20% and the redesign beta for Engage's mobile experience (Content Studio) led to an 11% increase in client contract renewals."
     />
 
-    <Contact id="contact" class="b2" />
+    <Contact
+      id="contact"
+      class="b2"
+    />
 
-    <Footer id="footer" class="b2" />
+    <Footer
+      id="footer"
+      class="b2"
+    />
   </div>
 </template>
 
@@ -191,7 +207,7 @@ export default {
     },
   },
 
-  name: "engage",
+  name: "Engage",
   components: {
     Nav,
     NavMobile,

@@ -2,15 +2,15 @@
   <div>
     <Nav
       id="Nav"
-      tColor="bk"
-      bgColor="b2"
+      t-color="bk"
+      bg-color="b2"
       v-if="!mobileView"
     />
 
     <NavMobile
       id="NavMobile"
-      tColor="bk"
-      bgColor="b2"
+      t-color="bk"
+      bg-color="b2"
       v-if="mobileView"
     />
 
@@ -30,7 +30,10 @@
       class="pad5 b2"
     />
 
-    <Contact id="contact" class="b2" />
+    <Contact
+      id="contact"
+      class="b2"
+    />
 
     <Footer
       id="footer"
@@ -62,7 +65,7 @@ export default {
     },
   },
 
-  name: "about",
+  name: "About",
   components: {
     Nav,
     NavMobile,

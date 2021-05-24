@@ -1,5 +1,5 @@
 <template>
-  <button><a v-bind:href="url"><h5>{{ buttonName }}</h5></a></button>
+  <button><a :href="url"><h5>{{ buttonName }}</h5></a></button>
 </template>
 
 <script>

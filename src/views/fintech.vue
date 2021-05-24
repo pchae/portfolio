@@ -1,17 +1,16 @@
 <template>
   <div>
-
     <Nav
       id="Nav"
-      tColor="bk"
-      bgColor="b2"
+      t-color="bk"
+      bg-color="b2"
       v-if="!mobileView"
     />
 
     <NavMobile
       id="NavMobile"
-      tColor="bk"
-      bgColor="b2"
+      t-color="bk"
+      bg-color="b2"
       v-if="mobileView"
     />
 
@@ -58,10 +57,15 @@
       img-alt="responsive web layouts."
     />
 
-    <Contact id="contact" class="b2" />
+    <Contact
+      id="contact"
+      class="b2"
+    />
 
-    <Footer id="footer" class="b2" />
-
+    <Footer
+      id="footer"
+      class="b2"
+    />
   </div>
 </template>
 
@@ -90,7 +94,7 @@ export default {
     },
   },
 
-  name: "mma",
+  name: "Mma",
   components: {
     Nav,
     NavMobile,

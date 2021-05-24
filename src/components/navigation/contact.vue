@@ -1,8 +1,10 @@
 <template>
   <!-- Contact -->
-  <section :id="[sectionID]" :class="[padding, bgColor]">
+  <section
+    :id="[sectionID]"
+    :class="[padding, bgColor]"
+  >
     <div class="container fcol">
-
       <div class="section-headline">
         <h2>Get in touch for project inquiries</h2>
       </div>
@@ -12,10 +14,12 @@
           Available for freelance projects starting: July 2021.
         </p>
         <p>
-          Mail: <a href="mailto:contact@philchoi.ca" target="_blank">contact at philchoi.ca</a>
+          Mail: <a
+            href="mailto:contact@philchoi.ca"
+            target="_blank"
+          >contact at philchoi.ca</a>
         </p>
       </div>
-
     </div>
   </section>
 </template>

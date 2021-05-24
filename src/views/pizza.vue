@@ -1,17 +1,16 @@
 <template>
   <div>
-
     <Nav
       id="Nav"
-      tColor="bk"
-      bgColor="b2"
+      t-color="bk"
+      bg-color="b2"
       v-if="!mobileView"
     />
 
     <NavMobile
       id="NavMobile"
-      tColor="bk"
-      bgColor="b2"
+      t-color="bk"
+      bg-color="b2"
       v-if="mobileView"
     />
 
@@ -119,10 +118,15 @@
       desc="The new features and UI refresh successfully shifted 50% of all sales to the digital platforms and increased revenue by $20 Million to a total of $80 Million in 2015. It also increased the average app store ratings to 4.5/5."
     />
 
-    <Contact id="contact" class="b2" />
+    <Contact
+      id="contact"
+      class="b2"
+    />
 
-    <Footer id="footer" class="b2" />
-
+    <Footer
+      id="footer"
+      class="b2"
+    />
   </div>
 </template>
 
@@ -151,7 +155,7 @@ export default {
     },
   },
 
-  name: "pizza",
+  name: "Pizza",
 
   components: {
     Nav,

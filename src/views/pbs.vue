@@ -1,17 +1,16 @@
 <template>
   <div>
-
     <Nav
       id="Nav"
-      tColor="bk"
-      bgColor="b2"
+      t-color="bk"
+      bg-color="b2"
       v-if="!mobileView"
     />
 
     <NavMobile
       id="NavMobile"
-      tColor="bk"
-      bgColor="b2"
+      t-color="bk"
+      bg-color="b2"
       v-if="mobileView"
     />
 
@@ -31,17 +30,8 @@
     <ImageBlock
       id="header"
       class="pb5 b2"
-      img-src="project/pbs/header.jpg"
-      img-alt="PBS header image"
-    />
-
-
-    <MediaBlock
-      id="featured-show"
-      class="pb5 b2"
-      subline=""
       img-src="project/pbs/featured.jpg"
-      img-alt="Featured Shows layout for PBS on Surface tablets."
+      img-alt="PBS header image"
     />
 
     <textblock
@@ -117,10 +107,15 @@
     />
 
 
-    <Contact id="contact" class="b2" />
+    <Contact
+      id="contact"
+      class="b2"
+    />
 
-    <Footer id="footer" class="b2" />
-
+    <Footer
+      id="footer"
+      class="b2"
+    />
   </div>
 </template>
 
@@ -150,7 +145,7 @@ export default {
     },
   },
 
-  name: "pbs",
+  name: "Pbs",
 
   components: {
     Nav,

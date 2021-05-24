@@ -1,17 +1,16 @@
 <template>
   <div>
-
     <Nav
       id="Nav"
-      tColor="bk"
-      bgColor="b2"
+      t-color="bk"
+      bg-color="b2"
       v-if="!mobileView"
     />
 
     <NavMobile
       id="NavMobile"
-      tColor="bk"
-      bgColor="b2"
+      t-color="bk"
+      bg-color="b2"
       v-if="mobileView"
     />
 
@@ -287,10 +286,15 @@
       desc="Successfully launched across 3 platforms in Q3 2016 with over 200,000 active subscriptions within the first 3 months. Active subscriptions increased to 2 Million in 12 months and generated $25.7 Million ARR."
     />
 
-    <Contact id="contact" class="b2" />
+    <Contact
+      id="contact"
+      class="b2"
+    />
 
-    <Footer id="footer" class="b2" />
-
+    <Footer
+      id="footer"
+      class="b2"
+    />
   </div>
 </template>
 
@@ -320,7 +324,7 @@ export default {
     },
   },
 
-  name: "starz",
+  name: "Starz",
   
   components: {
     Nav,

@@ -1,23 +1,34 @@
 <template>
   <!-- Footer -->
-  <footer :id="[sectionID]" :class="[padding, bgColor]">
+  <footer
+    :id="[sectionID]"
+    :class="[padding, bgColor]"
+  >
     <div class="container ft-nav">
-        <div class="frow nav-links">
-          <div class="nav-link">
-            <a href="https://linkedin.com/in/pchoi1/" target="_blank"
-              ><img src="@/assets/icons/icon-linkedin.svg" alt="linkedin icon"
-            /></a>
-          </div>
-          <div class="nav-link">
-            <a href="mailto:contact@philchoi.ca" target="_blank"
-              ><img src="@/assets/icons/icon-mail2.svg" alt="email icon"
-            /></a>
-          </div>
+      <div class="frow nav-links">
+        <div class="nav-link">
+          <a
+            href="https://linkedin.com/in/pchoi1/"
+            target="_blank"
+          ><img
+            src="@/assets/icons/icon-linkedin.svg"
+            alt="linkedin icon"
+          ></a>
         </div>
+        <div class="nav-link">
+          <a
+            href="mailto:contact@philchoi.ca"
+            target="_blank"
+          ><img
+            src="@/assets/icons/icon-mail2.svg"
+            alt="email icon"
+          ></a>
+        </div>
+      </div>
 
-        <div class="copyright">
-          <h6>© 2021 Phil Choi. All Rights Reserved.</h6>
-        </div>
+      <div class="copyright">
+        <h6>© 2021 Phil Choi. All Rights Reserved.</h6>
+      </div>
     </div>
   </footer>
 </template>

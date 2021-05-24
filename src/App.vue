@@ -1,27 +1,31 @@
 <template>
   <div id="app">
-    <transition name="fade" appear >
-      <router-view />
-    </transition>
+    <router-view v-slot="{ Component }">
+      <transition
+        name="fade"
+        mode="out-in"
+      >
+        <component :is="Component" />
+      </transition>
+    </router-view>
   </div>
 </template>
 
 <style>
-  .fade-enter-active, .fade-leave-active {
+  .fade-enter-active,
+  .fade-leave-active {
     transition: opacity 0.25s ease;
   }
-  .fade-enter-from, .fade-leave-to {
-    opacity: 0;
-  }
-  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+
+  .fade-enter-from,
+  .fade-leave-to {
     opacity: 0;
   }
 
-  .fade-enter-active {
-    transition-delay: 0.25s;
+  .fade-enter-to,
+  .fade-leave-from {
+    opacity: 1;
   }
 
-  .fade-enter, .fade-leave-active {
-    opacity: 0
-  }
+
 </style>

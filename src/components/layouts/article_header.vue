@@ -1,5 +1,8 @@
 <template>
-  <div :id="[id]" :class="[padding, bgColor]">
+  <div
+    :id="[id]"
+    :class="[padding, bgColor]"
+  >
     <div class="container">
       <div class="fcol intro">
         <h1 class="project-headline">

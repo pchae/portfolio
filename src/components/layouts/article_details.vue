@@ -1,26 +1,43 @@
 <template>
-  <div :id="[id]" :class="[padding, bgColor]">
+  <div
+    :id="[id]"
+    :class="[padding, bgColor]"
+  >
     <div class="container">
       <div class="flex-list">
         <div class="list-group">
           <div class="list-container">
             <ul>
-              <li class="detail-heading">CLIENT</li>
-              <li class="">{{ workInfo.client }}</li>
+              <li class="detail-heading">
+                CLIENT
+              </li>
+              <li class="">
+                {{ workInfo.client }}
+              </li>
             </ul>
           </div>
           <div class="list-container">
             <ul>
-              <li class="detail-heading">ROLE</li>
-              <li class="">{{ workInfo.role }}</li>
+              <li class="detail-heading">
+                ROLE
+              </li>
+              <li class="">
+                {{ workInfo.role }}
+              </li>
             </ul>
           </div>
         </div>
         <div class="list-group">
           <div class="list-container-full">
             <ul>
-              <li class="detail-heading">RESULTS</li>
-              <li v-for="item in workInfo.result" :key="item" class="lilist">
+              <li class="detail-heading">
+                RESULTS
+              </li>
+              <li
+                v-for="item in workInfo.result"
+                :key="item"
+                class="lilist"
+              >
                 {{ item }}
               </li>
             </ul>

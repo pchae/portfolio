@@ -1,9 +1,19 @@
 <template>
-  <div :id="[id]" :class="[padding, bgColor]">
+  <div
+    :id="[id]"
+    :class="[padding, bgColor]"
+  >
     <div class="text-container container">
       <div class="fcol twothird">
-        <div class="frow" v-for="item in about.about" :key="item.id">
-          <p class="subtext" v-html="item.pg"></p>
+        <div
+          class="frow"
+          v-for="item in about.about"
+          :key="item.id"
+        >
+          <p
+            class="subtext"
+            v-html="item.pg"
+          />
         </div>
       </div>
     </div>
