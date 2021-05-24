@@ -29,8 +29,8 @@
     <Video
       id="video"
       class="pb5 b2"
-      vid-src="project/pbs/logo.mp4"
-      vid-alt="PBS logo burst animation"
+      vid-src="project/pbs/pbs_logo.mp4"
+      vid-alt="PBS logo animation"
     />
 
     <textblock
