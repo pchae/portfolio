@@ -18,7 +18,7 @@
     <ArticleHeader
       id="headline"
       class="pt120 b2"
-      title="Redesigning Canada's Top 5 Financial institutions"
+      title="Royal Bank of Canada"
       subhead=""
     />
 
@@ -111,11 +111,11 @@ export default {
   provide() {
     return {
       workInfo: {
-        client: "Royal Bank of Canada, Bank of Montreal",
+        client: "Royal Bank of Canada, RBC Rewards",
         year: "2016",
         role: "Product Design Lead",
         result: [
-          "Mixed"
+          "2017 launch"
         ]
       }
     };

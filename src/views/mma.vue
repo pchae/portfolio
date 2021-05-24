@@ -18,7 +18,7 @@
     <ArticleHeader
       id="headline"
       class="pt120 b2"
-      title="Project Preview"
+      title="Work in progress"
       subhead=""
     />
 
