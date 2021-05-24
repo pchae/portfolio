@@ -1,7 +1,8 @@
 <template>
   <div
     :id="[id]"
-    :class="[padding, bgColor]">
+    :class="[padding, bgColor]"
+  >
     <div class="container-lg media-block">
       <img
         v-lazy="require('@/assets/' + imgSrc)"
@@ -20,10 +21,6 @@
 export default {
   name: 'MediaBlock',
   props: {
-    headline: {
-      type: String,
-      default: '',
-    },
     subline: {
       type: String,
       default: '',

@@ -1,8 +1,18 @@
 <template>
   <div>
-    <Nav id="Nav" tColor="bk" bgColor="b2" v-if="!mobileView" />
+    <Nav
+      id="Nav"
+      t-color="bk"
+      bg-color="b2"
+      v-if="!mobileView"
+    />
 
-    <NavMobile id="NavMobile" tColor="bk" bgColor="b2" v-if="mobileView" />
+    <NavMobile
+      id="NavMobile"
+      t-color="bk"
+      bg-color="b2"
+      v-if="mobileView"
+    />
 
     <ArticleHeader
       id="headline"
@@ -113,12 +123,11 @@
       desc="A separate audit was initiated to identify common elements between the SaaS platforms as well as document their usage patterns. We also established reusable patterns, common atomic elements, and where responsive design was needed. Once the core user flows were defined, sketches and mid-fidelity wireframes were produced which incorporated best practices from Apple's Human Interface Guidelines, Google's Material Design, and 8pt Grid Systems. The core components formed the foundation of the Design System that would be used to align the company's products."
     />
 
-    <MediaBlock
-      id="social-cards1"
+    <Video
+      id="video"
       class="pb2 b2"
-      subline=""
-      img-src="project/engage/card_spec1.jpg"
-      img-alt="Design system Social media components"
+      vid-src="project/engage/exchange.mp4"
+      vid-alt="Design system Social media components"
     />
 
     <textblock
@@ -126,6 +135,14 @@
       class="pad2 b2"
       intro="Social Media modules"
       desc="One of Engage's core features is the ability to add, curate, and moderate multiple social media sources into a single feed known as a 'vertical'. The app achieved this by recreating the layouts and populating the content with cached copies of the original social media posts from platforms like Twitter, Instagram, Youtube, and Facebook. All of the modules needed to be updated and redesigned to add responsiveness, pass WCAG 2.1 accessibility guidelines, and match the latest UIs of the social media platforms. Custom modules for video and editorial content were also designed and developed to fulfill requests from the company's media clients."
+    />
+
+    <MediaBlock
+      id="social-cards1"
+      class="pb2 b2"
+      subline=""
+      img-src="project/engage/card_spec1.jpg"
+      img-alt="Design system Social media components"
     />
 
     <MediaBlock
@@ -152,9 +169,15 @@
       desc="Implementing DesignOps led to a $96,000 USD reduction in Product Design stack & Engineering expenses across the organization. The inclusion of the Design System increased front-end development velocity by 20% and the redesign beta for Engage's mobile experience (Content Studio) led to an 11% increase in client contract renewals."
     />
 
-    <Contact id="contact" class="b2" />
+    <Contact
+      id="contact"
+      class="b2"
+    />
 
-    <Footer id="footer" class="b2" />
+    <Footer
+      id="footer"
+      class="b2"
+    />
   </div>
 </template>
 
@@ -166,6 +189,7 @@ import NavMobile from "@/components/navigation/nav_mobile.vue";
 import ArticleHeader from "@/components/layouts/article_header.vue";
 import ArticleDetails from "@/components/layouts/article_details.vue";
 import ImageBlock from "@/components/layouts/image_block.vue";
+import Video from "@/components/layouts/video_block.vue";
 import MediaBlock from "@/components/layouts/MediaBlock.vue";
 import textblock from "@/components/layouts/article_text_block.vue";
 import Contact from "@/components/navigation/contact.vue";
@@ -183,7 +207,7 @@ export default {
     },
   },
 
-  name: "engage",
+  name: "Engage",
   components: {
     Nav,
     NavMobile,
@@ -191,6 +215,7 @@ export default {
     ArticleDetails,
     ImageBlock,
     MediaBlock,
+    Video,
     textblock,
     Contact,
     Footer,

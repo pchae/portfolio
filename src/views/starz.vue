@@ -1,17 +1,16 @@
 <template>
   <div>
-
     <Nav
       id="Nav"
-      tColor="bk"
-      bgColor="b2"
+      t-color="bk"
+      bg-color="b2"
       v-if="!mobileView"
     />
 
     <NavMobile
       id="NavMobile"
-      tColor="bk"
-      bgColor="b2"
+      t-color="bk"
+      bg-color="b2"
       v-if="mobileView"
     />
 
@@ -31,7 +30,7 @@
 
     <ImageBlock
       id="header-mockup"
-      class=" b2"
+      class="pb5 b2"
       webp-src="project/starz/movie.webp"
       img-src="project/starz/movie.jpg"
       img-alt="Starz header image"
@@ -66,11 +65,11 @@
       desc="We started with the Roku due to its hardware limitations and created high fidelity specs based off the SDKs to quickly validate functional layouts with our development team. These early iterative cycles helped us understand what was and wasn't possible on each platform and minimized wasted effort."
     />
 
-    <ImageBlock
-      id="diagram-process"
+    <Video
+      id="video"
       class="pb5 b2"
-      img-src="project/starz/process.jpg"
-      img-alt="Product Design process"
+      vid-src="project/engage/d398d32c-b7d6-45a3-b4aa-6182157e9786_1600745888.960x540at1200_h264.mp4"
+      vid-alt="Roku Design Specs"
     />
 
     <textblock
@@ -287,10 +286,15 @@
       desc="Successfully launched across 3 platforms in Q3 2016 with over 200,000 active subscriptions within the first 3 months. Active subscriptions increased to 2 Million in 12 months and generated $25.7 Million ARR."
     />
 
-    <Contact id="contact" class="b2" />
+    <Contact
+      id="contact"
+      class="b2"
+    />
 
-    <Footer id="footer" class="b2" />
-
+    <Footer
+      id="footer"
+      class="b2"
+    />
   </div>
 </template>
 
@@ -302,6 +306,7 @@ import NavMobile from "@/components/navigation/nav_mobile.vue";
 import ArticleHeader from "@/components/layouts/article_header.vue";
 import ArticleDetails from "@/components/layouts/article_details.vue";
 import ImageBlock from "@/components/layouts/image_block.vue";
+import Video from "@/components/layouts/video_block.vue";
 import MediaBlock from "@/components/layouts/MediaBlock.vue";
 import textblock from "@/components/layouts/article_text_block.vue";
 import Contact from "@/components/navigation/contact.vue";
@@ -319,7 +324,7 @@ export default {
     },
   },
 
-  name: "starz",
+  name: "Starz",
   
   components: {
     Nav,
@@ -327,6 +332,7 @@ export default {
     ArticleHeader,
     ArticleDetails,
     ImageBlock,
+    Video,
     MediaBlock,
     textblock,
     Contact,

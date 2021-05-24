@@ -14,8 +14,10 @@
           </p>
         </div>
         <div class="frow">
-          <p class="subtext" v-html="para">
-          </p>
+          <p
+            class="subtext"
+            v-html="para"
+          />
         </div>
         <div class="frow">
           <p class="subtext">

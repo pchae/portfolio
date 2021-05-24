@@ -1,24 +1,23 @@
 <template>
   <div>
-
     <Nav
       id="Nav"
-      tColor="bk"
-      bgColor="b2"
+      t-color="bk"
+      bg-color="b2"
       v-if="!mobileView"
     />
 
     <NavMobile
       id="NavMobile"
-      tColor="bk"
-      bgColor="b2"
+      t-color="bk"
+      bg-color="b2"
       v-if="mobileView"
     />
 
     <ArticleHeader
       id="headline"
       class="pt120 b2"
-      title="Redesigning Canada's Top 5 Financial institutions"
+      title="Royal Bank of Canada"
       subhead=""
     />
 
@@ -58,10 +57,15 @@
       img-alt="responsive web layouts."
     />
 
-    <Contact id="contact" class="b2" />
+    <Contact
+      id="contact"
+      class="b2"
+    />
 
-    <Footer id="footer" class="b2" />
-
+    <Footer
+      id="footer"
+      class="b2"
+    />
   </div>
 </template>
 
@@ -90,7 +94,7 @@ export default {
     },
   },
 
-  name: "mma",
+  name: "Mma",
   components: {
     Nav,
     NavMobile,
@@ -111,11 +115,11 @@ export default {
   provide() {
     return {
       workInfo: {
-        client: "Royal Bank of Canada, Bank of Montreal",
+        client: "Royal Bank of Canada, RBC Rewards",
         year: "2016",
         role: "Product Design Lead",
         result: [
-          "Mixed"
+          "2017 launch"
         ]
       }
     };

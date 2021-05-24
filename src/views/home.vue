@@ -1,14 +1,31 @@
 <template>
   <div>
-    <Nav tColor="bk" bgColor="b2" v-if="!mobileView" />
+    <Nav
+      t-color="bk"
+      bg-color="b2"
+      v-if="!mobileView"
+    />
 
-    <NavMobile tColor="bk" bgColor="b2" v-if="mobileView" />
+    <NavMobile
+      t-color="bk"
+      bg-color="b2"
+      v-if="mobileView"
+    />
 
-    <ImageGrid id="projects" class="pt12 b2" />
+    <ImageGrid
+      id="projects"
+      class="pt12 b2"
+    />
 
-    <Contact id="contact" class="b2" />
+    <Contact
+      id="contact"
+      class="b2"
+    />
 
-    <Footer id="footer" class="b2" />
+    <Footer
+      id="footer"
+      class="b2"
+    />
   </div>
 </template>
 
@@ -33,7 +50,7 @@ export default {
     },
   },
 
-  name: "home",
+  name: "Home",
 
   components: {
     Nav,

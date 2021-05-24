@@ -1,7 +1,8 @@
 <template>
   <div
     :id="[id]"
-    :class="[padding, bgColor]">
+    :class="[padding, bgColor]"
+  >
     <div class="container-lg media">
       <picture>
         <img

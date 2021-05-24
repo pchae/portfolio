@@ -5,8 +5,10 @@
   >
     <div class="container-lg">
       <div class="frow">
-
-        <div id="col-left" class="col-1">
+        <div
+          id="col-left"
+          class="col-1"
+        >
           <div class="row1">
             <h3 class="section-headline">
               {{ headline }}
@@ -19,10 +21,15 @@
           </div>
         </div>
 
-          <div id="col-right" class="col-2">
-            <img :src="require('@/assets/' + imgSrc)" :alt="imgAlt" />
-          </div>
-
+        <div
+          id="col-right"
+          class="col-2"
+        >
+          <img
+            :src="require('@/assets/' + imgSrc)"
+            :alt="imgAlt"
+          >
+        </div>
       </div>
     </div>
   </section>

@@ -1,10 +1,18 @@
 <template>
   <!-- Header -->
-  <header :id="[sectionID]" :class="[bgColor]" class="pad05">
+  <header
+    :id="[sectionID]"
+    :class="[bgColor]"
+    class="pad05"
+  >
     <div>
       <div class="container-lg fcontain">
         <div class="logo">
-          <router-link to="/" active-class="active" exact>
+          <router-link
+            to="/"
+            active-class="active"
+            exact
+          >
             <h5>Phil Choi</h5>
           </router-link>
         </div>
@@ -15,11 +23,18 @@
           @click="toggle = !toggle"
           aria-expanded="false"
         >
-          <img src="@/assets/icons/menu.svg" alt="menu icon" />
+          <img
+            src="@/assets/icons/menu.svg"
+            alt="menu icon"
+          >
         </div>
       </div>
 
-      <div id="menu" class="overlay" v-show="toggle">
+      <div
+        id="menu"
+        class="overlay"
+        v-show="toggle"
+      >
         <div class="container-lg fcontain overnav pad05">
           <div
             role="button"
@@ -27,31 +42,53 @@
             @click="toggle = !toggle"
             aria-expanded="true"
           >
-            <img src="@/assets/icons/close.svg" alt="close icon" />
+            <img
+              src="@/assets/icons/close.svg"
+              alt="close icon"
+            >
           </div>
         </div>
 
-        <div id="nav" class="container-lg fcol menu-links">
+        <div
+          id="nav"
+          class="container-lg fcol menu-links"
+        >
           <div class="nav-link">
-            <router-link to="/" active-class="active" exact>
+            <router-link
+              to="/"
+              active-class="active"
+              exact
+            >
               <h2>Projects</h2>
             </router-link>
           </div>
           <div class="nav-link">
-            <router-link to="/about" active-class="active" exact>
+            <router-link
+              to="/about"
+              active-class="active"
+              exact
+            >
               <h2>About</h2>
             </router-link>
           </div>
           <div class="frow">
             <div class="social-link">
-              <a href="https://linkedin.com/in/pchoi1/" target="_blank"
-                ><img src="@/assets/icons/linkedin-32.svg" alt="linkedin icon"
-              /></a>
+              <a
+                href="https://linkedin.com/in/pchoi1/"
+                target="_blank"
+              ><img
+                src="@/assets/icons/linkedin-32.svg"
+                alt="linkedin icon"
+              ></a>
             </div>
             <div class="social-link">
-              <a href="mailto:contact@philchoi.ca" target="_blank"
-                ><img src="@/assets/icons/mail-32.svg" alt="email icon"
-              /></a>
+              <a
+                href="mailto:contact@philchoi.ca"
+                target="_blank"
+              ><img
+                src="@/assets/icons/mail-32.svg"
+                alt="email icon"
+              ></a>
             </div>
           </div>
         </div>

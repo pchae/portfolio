@@ -1,21 +1,40 @@
 <template>
   <!-- Header -->
-  <header :id="[sectionID]" :class="[bgColor]" class="pad05">
+  <header
+    :id="[sectionID]"
+    :class="[bgColor]"
+    class="pad05"
+  >
     <div class="container fcontain">
       <div class="logo">
-        <router-link to="/" active-class="active" exact>
+        <router-link
+          to="/"
+          active-class="active"
+          exact
+        >
           <h5>Phil Choi</h5>
         </router-link>
       </div>
 
-      <div id="nav" class="fcontain menu-links">
+      <div
+        id="nav"
+        class="fcontain menu-links"
+      >
         <div class="nav-link">
-          <router-link to="/" active-class="active" exact>
+          <router-link
+            to="/"
+            active-class="active"
+            exact
+          >
             <h6>Projects</h6>
           </router-link>
         </div>
         <div class="nav-link">
-          <router-link to="/about" active-class="active" exact>
+          <router-link
+            to="/about"
+            active-class="active"
+            exact
+          >
             <h6>About</h6>
           </router-link>
         </div>

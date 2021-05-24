@@ -1,17 +1,16 @@
 <template>
   <div>
-
     <Nav
       id="Nav"
-      tColor="bk"
-      bgColor="b2"
+      t-color="bk"
+      bg-color="b2"
       v-if="!mobileView"
     />
 
     <NavMobile
       id="NavMobile"
-      tColor="bk"
-      bgColor="b2"
+      t-color="bk"
+      bg-color="b2"
       v-if="mobileView"
     />
 
@@ -31,17 +30,8 @@
     <ImageBlock
       id="header"
       class="pb5 b2"
-      img-src="project/pbs/header.jpg"
-      img-alt="PBS header image"
-    />
-
-
-    <MediaBlock
-      id="featured-show"
-      class="pb5 b2"
-      subline=""
       img-src="project/pbs/featured.jpg"
-      img-alt="Featured Shows layout for PBS on Surface tablets."
+      img-alt="PBS header image"
     />
 
     <textblock
@@ -51,6 +41,12 @@
       desc="PBS is a non-profit American public broadcaster and a prominent provider of educational shows including Sesame Street, Downton Abbey and Mind of a Chef. However, even with 80% household viewership in the United States, they needed a digital presence to maintain relevance."
     />
 
+    <Video
+      id="video"
+      class="pb5 b2"
+      vid-src="project/engage/demo-reel.mp4"
+      vid-alt="Roku Design Specs"
+    />
 
     <textblock
       id="Objectives"
@@ -111,10 +107,15 @@
     />
 
 
-    <Contact id="contact" class="b2" />
+    <Contact
+      id="contact"
+      class="b2"
+    />
 
-    <Footer id="footer" class="b2" />
-
+    <Footer
+      id="footer"
+      class="b2"
+    />
   </div>
 </template>
 
@@ -126,6 +127,7 @@ import NavMobile from "@/components/navigation/nav_mobile.vue";
 import ArticleHeader from "@/components/layouts/article_header.vue";
 import ArticleDetails from "@/components/layouts/article_details.vue";
 import ImageBlock from "@/components/layouts/image_block.vue";
+import Video from "@/components/layouts/video_block.vue";
 import MediaBlock from "@/components/layouts/MediaBlock.vue";
 import textblock from "@/components/layouts/article_text_block.vue";
 import Contact from "@/components/navigation/contact.vue";
@@ -143,7 +145,7 @@ export default {
     },
   },
 
-  name: "pbs",
+  name: "Pbs",
 
   components: {
     Nav,
@@ -152,6 +154,7 @@ export default {
     ArticleDetails,
     ImageBlock,
     MediaBlock,
+    Video,
     textblock,
     Contact,
     Footer,

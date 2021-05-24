@@ -1,12 +1,17 @@
 <template>
-  <section :id="[id]" :class="[padding, bgColor]">
+  <section
+    :id="[id]"
+    :class="[padding, bgColor]"
+  >
     <div class="container">
       <div class="fcol intro ">
         <h2 class="section-headline pb2">
           {{ headline }}
         </h2>
-        <h3 class="subtext" v-html="status">
-        </h3>
+        <h3
+          class="subtext"
+          v-html="status"
+        />
       </div>
     </div>
   </section>

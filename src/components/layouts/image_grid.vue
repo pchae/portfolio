@@ -1,10 +1,18 @@
 <template>
-  <section :id="[id]" :class="[padding, bgColor]">
+  <section
+    :id="[id]"
+    :class="[padding, bgColor]"
+  >
     <div class="container-lg content-wrapper">
       <div class="flex pb5">
-
-        <div class="list-container" v-for="item in projects" :key="item.id">
-          <router-link :to="item.to" exact>
+        <div
+          class="list-container"
+          v-for="item in projects"
+          :key="item.id"
+        >
+          <router-link
+            :to="item.to"
+          >
             <ImgCard
               :img-src="item.imgSrc"
               :img-alt="item.imgAlt"
@@ -13,7 +21,6 @@
             />
           </router-link>
         </div>
-
       </div>
     </div>
   </section>

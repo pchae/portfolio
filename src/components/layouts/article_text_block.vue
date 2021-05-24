@@ -20,7 +20,7 @@
 
 <script>
 export default {
-  name: 'textblock',
+  name: 'Textblock',
   props: {
     intro: {
       type: String,

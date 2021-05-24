@@ -1,24 +1,23 @@
 <template>
   <div>
-
     <Nav
       id="Nav"
-      tColor="bk"
-      bgColor="b2"
+      t-color="bk"
+      bg-color="b2"
       v-if="!mobileView"
     />
 
     <NavMobile
       id="NavMobile"
-      tColor="bk"
-      bgColor="b2"
+      t-color="bk"
+      bg-color="b2"
       v-if="mobileView"
     />
 
     <ArticleHeader
       id="headline"
       class="pt120 b2"
-      title="Project Preview"
+      title="Work in progress"
       subhead=""
     />
 
@@ -50,10 +49,15 @@
     />
 
 
-    <Contact id="contact" class="b2" />
+    <Contact
+      id="contact"
+      class="b2"
+    />
 
-    <Footer id="footer" class="b2" />
-
+    <Footer
+      id="footer"
+      class="b2"
+    />
   </div>
 </template>
 
@@ -82,7 +86,7 @@ export default {
     },
   },
 
-  name: "mma",
+  name: "Mma",
   components: {
     Nav,
     NavMobile,
