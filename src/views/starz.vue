@@ -65,11 +65,11 @@
       desc="We started with the Roku due to its hardware limitations and created high fidelity specs based off the SDKs to quickly validate functional layouts with our development team. These early iterative cycles helped us understand what was and wasn't possible on each platform and minimized wasted effort."
     />
 
-    <Video
-      id="video"
+    <ImageBlock
+      id="ui-movie"
       class="pb5 b2"
-      vid-src="project/engage/app_screens.mp4"
-      vid-alt="Roku Design Specs"
+      img-src="project/starz/process.jpg"
+      img-alt="Roku design specifications"
     />
 
     <textblock
@@ -306,7 +306,6 @@ import NavMobile from "@/components/navigation/nav_mobile.vue";
 import ArticleHeader from "@/components/layouts/article_header.vue";
 import ArticleDetails from "@/components/layouts/article_details.vue";
 import ImageBlock from "@/components/layouts/image_block.vue";
-import Video from "@/components/layouts/video_block.vue";
 import MediaBlock from "@/components/layouts/MediaBlock.vue";
 import textblock from "@/components/layouts/article_text_block.vue";
 import Contact from "@/components/navigation/contact.vue";
@@ -332,7 +331,6 @@ export default {
     ArticleHeader,
     ArticleDetails,
     ImageBlock,
-    Video,
     MediaBlock,
     textblock,
     Contact,
