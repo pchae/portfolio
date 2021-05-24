@@ -6,7 +6,7 @@
   >
     <div class="container fcol">
       <div class="section-headline">
-        <h2>Get in touch for project inquiries</h2>
+        <h3>Get in touch for project inquiries</h3>
       </div>
 
       <div class="desc">
