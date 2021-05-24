@@ -18,10 +18,6 @@
 export default {
   name: 'ImageBlock',
   props: {
-    webpSrc: {
-      type: String,
-      default: '',
-    },
     imgSrc: {
       type: String,
       default: '',
