@@ -70,7 +70,7 @@ export default {
         {
           id: "2",
           to: "/pizza",
-          imgSrc: "thumbs/pizza.jpg",
+          imgSrc: "thumbs/mobile.jpg",
           imgAlt: "Pizza Pizza",
           title: "Pizza Pizza",
           desc: "iOS, Android",
