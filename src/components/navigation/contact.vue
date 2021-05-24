@@ -10,21 +10,23 @@
       </div>
 
       <div class="desc">
-        <p>
-          Available for freelance projects starting: July 2021.
+        <p class="pb2">
+          Available for freelance projects starting July 2021.
         </p>
-        <p>
-          Mail: <a
-            href="mailto:contact@philchoi.ca"
-            target="_blank"
-          >contact at philchoi.ca</a>
-        </p>
+        <PrimaryButton
+          button-name="Send an email"
+          url="mailto:contact@philchoi.ca"
+          class="ctaButton"
+        />
       </div>
     </div>
   </section>
 </template>
 
 <script>
+// @ is an alias to /src
+import PrimaryButton from "@/components/buttons/PrimaryButton.vue";
+
 export default {
   name: "Contact",
   props: {
@@ -41,51 +43,46 @@ export default {
       default: '',
     },
   },
-  components: {},
+  components: {
+    PrimaryButton,
+  },
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  section {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    border-top: 0px solid #303030;
-  }
+section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  border-top: 0px solid #303030;
+}
 
-  .fcol {
-    justify-content: center;
-  }
+.fcol {
+  justify-content: center;
+}
 
-  .frow {
-    justify-content: center;
-  }
+.frow {
+  justify-content: center;
+}
 
-  .baseline-something {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-  }
 
-  .section-headline {
-  }
+.section-headline {
+}
 
-  .desc p {
-    line-height: 1.6;
-  }
+.desc p {
+  line-height: 1.6;
+}
+
+.ctaButton {
+  border: 1px solid #0cccff;
+  background-color: #0a0a0a;
+}
+
 
 /* Link Override */
 
-
-
-  @media only screen and (max-width: 800px) {
-    section {
-      text-align: center;
-    }
-
-    .baseline-something {
-      display: flex;
-      flex-direction: column;
-    }
+@media only screen and (max-width: 800px) {
+  section {
   }
+}
 </style>
