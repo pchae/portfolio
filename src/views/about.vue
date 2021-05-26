@@ -52,6 +52,7 @@ import ClientList from "@/components/clients/client-list.vue";
 import Contact from "@/components/navigation/contact.vue";
 import Footer from "@/components/navigation/footer.vue";
 
+
 export default {
   data: () => {
     return {
