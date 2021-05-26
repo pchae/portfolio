@@ -31,6 +31,7 @@
       class="pb5 b2"
       vid-src="project/pbs/pbs_logo.mp4"
       vid-alt="PBS logo animation"
+      img-src="project/pbs/playback.jpg"
     />
 
     <textblock
