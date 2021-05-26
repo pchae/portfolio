@@ -11,16 +11,8 @@
   </div>
 </template>
 
-<script setup lang="ts">
-import { useHead } from '@vueuse/head'
-// https://github.com/vueuse/head
-// you can use this to manipulate the document head in any components
-useHead({
-  title: 'Phil Choi - Product Design Portfolio',
-  meta: [
-    { name: 'description', content: 'Product Design Portfolio' },
-  ],
-})
+<script>
+
 </script>
 
 <style>
