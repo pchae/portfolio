@@ -12,6 +12,7 @@
         playsinline
         :src="require('@/assets/' + vidSrc)"
         :alt="vidAlt"
+        :poster="require('@/assets/' + imgSrc)"
         type="video/mp4"
       />
     </div>
@@ -27,6 +28,10 @@ export default {
       default: '',
     },
     vidAlt: {
+      type: String,
+      default: '',
+    },
+    imgSrc: {
       type: String,
       default: '',
     },
