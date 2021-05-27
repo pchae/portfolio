@@ -26,12 +26,11 @@
       class="pad2 b2"
     />
 
-    <Video
-      id="video"
+    <ImageBlock
+      id="header"
       class="pb5 b2"
-      vid-src="project/pbs/pbs_logo.mp4"
-      vid-alt="PBS logo animation"
-      img-src="project/pbs/playback.jpg"
+      img-src="project/pbs/header.jpg"
+      img-alt="PBS mockup devices image"
     />
 
     <textblock
@@ -127,7 +126,6 @@ import NavMobile from "@/components/navigation/nav_mobile.vue";
 import ArticleHeader from "@/components/layouts/article_header.vue";
 import ArticleDetails from "@/components/layouts/article_details.vue";
 import ImageBlock from "@/components/layouts/image_block.vue";
-import Video from "@/components/layouts/video_block.vue";
 import MediaBlock from "@/components/layouts/MediaBlock.vue";
 import textblock from "@/components/layouts/article_text_block.vue";
 import Contact from "@/components/navigation/contact.vue";
@@ -154,7 +152,6 @@ export default {
     ArticleDetails,
     ImageBlock,
     MediaBlock,
-    Video,
     textblock,
     Contact,
     Footer,
