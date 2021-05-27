@@ -31,7 +31,6 @@
     <ImageBlock
       id="header-mockup"
       class="pb5 b2"
-      webp-src="project/starz/movie.webp"
       img-src="project/starz/movie.jpg"
       img-alt="Starz header image"
     />
@@ -53,24 +52,11 @@
 
     <textblock
       id="caption-challenge-one"
-      class="pt2 b2"
+      class="pad2 b2"
       intro="Objectives"
       desc="The goals of the team were to design, build, and deploy 3 versions of the app in near simultaneous launch windows. The end to end design was alloted 3 months to produce Roku, Amazon FireTV and Samsung SmartTVs experiences which were all new platforms for the Digiflare team."
     />
 
-    <textblock
-      id="solution-challenge-two"
-      class="pad2 b2"
-      intro=""
-      desc="We started with the Roku due to its hardware limitations and created high fidelity specs based off the SDKs to quickly validate functional layouts with our development team. These early iterative cycles helped us understand what was and wasn't possible on each platform and minimized wasted effort."
-    />
-
-    <ImageBlock
-      id="ui-movie"
-      class="pb5 b2"
-      img-src="project/starz/process.jpg"
-      img-alt="Roku design specifications"
-    />
 
     <textblock
       id="caption-auth1"
