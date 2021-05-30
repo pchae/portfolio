@@ -29,7 +29,29 @@ import Nav from "@/components/navigation/nav.vue";
 import NavMobile from "@/components/navigation/nav_mobile.vue";
 import IntroBlock from "@/components/layouts/IntroBlock.vue";
 
+import { defineComponent, computed, reactive } from 'vue';
+import { useHead } from "@vueuse/head";
+
 export default {
+// Page meta tags
+setup() {
+    const siteData = reactive({
+      title: `404 - Phil Choi`,
+      description: `404 - File not found`,
+    })
+
+    useHead({
+      // Can be static or computed
+      title: computed(() => siteData.title),
+      meta: [
+        {
+          name: `description`,
+          content: computed(() => siteData.description),
+        },
+      ],
+    })
+  },
+
   data: () => {
     return {
       mobileView: false,

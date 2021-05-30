@@ -297,7 +297,29 @@ import textblock from "@/components/layouts/article_text_block.vue";
 import Contact from "@/components/navigation/contact.vue";
 import Footer from "@/components/navigation/footer.vue";
 
+import { defineComponent, computed, reactive } from 'vue';
+import { useHead } from "@vueuse/head";
+
 export default {
+// Page meta tags
+setup() {
+    const siteData = reactive({
+      title: `Phil Choi - Starz Play`,
+      description: `Phil Choi - Starz Play project`,
+    })
+
+    useHead({
+      // Can be static or computed
+      title: computed(() => siteData.title),
+      meta: [
+        {
+          name: `description`,
+          content: computed(() => siteData.description),
+        },
+      ],
+    })
+  },
+
   data: () => {
     return {
       mobileView: false

@@ -143,7 +143,29 @@ import ColumnTwo from "@/components/layouts/col_two.vue";
 import Contact from "@/components/navigation/contact.vue";
 import Footer from "@/components/navigation/footer.vue";
 
+import { defineComponent, computed, reactive } from 'vue';
+import { useHead } from "@vueuse/head";
+
 export default {
+// Page meta tags
+setup() {
+    const siteData = reactive({
+      title: `Phil Choi - Pizza Pizza`,
+      description: `Phil Choi - Pizza Pizza project`,
+    })
+
+    useHead({
+      // Can be static or computed
+      title: computed(() => siteData.title),
+      meta: [
+        {
+          name: `description`,
+          content: computed(() => siteData.description),
+        },
+      ],
+    })
+  },
+
   data: () => {
     return {
       mobileView: false

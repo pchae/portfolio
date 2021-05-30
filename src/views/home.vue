@@ -38,7 +38,29 @@ import ImageGrid from "@/components/layouts/image_grid.vue";
 import Contact from "@/components/navigation/contact.vue";
 import Footer from "@/components/navigation/footer.vue";
 
+import { defineComponent, computed, reactive } from 'vue';
+import { useHead } from "@vueuse/head";
+
 export default {
+// Page meta tags
+setup() {
+    const siteData = reactive({
+      title: `Phil Choi - Product Designer`,
+      description: `Phil Choi - Product Design portfolio`,
+    })
+
+    useHead({
+      // Can be static or computed
+      title: computed(() => siteData.title),
+      meta: [
+        {
+          name: `description`,
+          content: computed(() => siteData.description),
+        },
+      ],
+    })
+  },
+
   data: () => {
     return {
       mobileView: false,
