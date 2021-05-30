@@ -52,8 +52,34 @@ import ClientList from "@/components/clients/client-list.vue";
 import Contact from "@/components/navigation/contact.vue";
 import Footer from "@/components/navigation/footer.vue";
 
+import { defineComponent, computed, reactive } from 'vue';
+import { useHead } from "@vueuse/head";
 
 export default {
+// Page meta tags
+setup() {
+    const siteData = reactive({
+      title: `About - Phil Choi`,
+      description: `About Phil Choi, Product Designer based in Toronto`,
+      ogdescription: `About Phil Choi, Product Designer based in Toronto`,
+    })
+
+    useHead({
+      // Can be static or computed
+      title: computed(() => siteData.title),
+      meta: [
+        {
+          property: `description`,
+          content: computed(() => siteData.description),
+        },
+        {
+          property: `og:description`,
+          content: computed(() => siteData.ogdescription),
+        },
+      ],
+    })
+  },
+
   data: () => {
     return {
       mobileView: false,
@@ -79,13 +105,6 @@ export default {
   },
 
   computed: {
-  },
-
-  metaInfo: {
-    // if no subcomponents specify a metaInfo.title, this title will be used
-    title: "Phil Choi",
-    // all titles will be injected into this template
-    titleTemplate: "About - %s",
   },
 
   created() {

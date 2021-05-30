@@ -53,6 +53,14 @@
       id="RENAME"
       class="pb5 b2"
       subline=""
+      img-src="project/fintech/rewards.jpg"
+      img-alt="RENAME"
+    />
+
+    <MediaBlock
+      id="RENAME"
+      class="pb5 b2"
+      subline=""
       img-src="project/fintech/web.jpg"
       img-alt="responsive web layouts."
     />
@@ -82,7 +90,29 @@ import textblock from "@/components/layouts/article_text_block.vue";
 import Contact from "@/components/navigation/contact.vue";
 import Footer from "@/components/navigation/footer.vue";
 
+import { defineComponent, computed, reactive } from 'vue';
+import { useHead } from "@vueuse/head";
+
 export default {
+// Page meta tags
+setup() {
+    const siteData = reactive({
+      title: `Phil Choi - RBC`,
+      description: `Phil Choi - Royal Bank of Canada apps`,
+    })
+
+    useHead({
+      // Can be static or computed
+      title: computed(() => siteData.title),
+      meta: [
+        {
+          property: `description`,
+          content: computed(() => siteData.description),
+        },
+      ],
+    })
+  },
+
   data: () => {
     return {
       mobileView: false
@@ -106,12 +136,14 @@ export default {
     Contact,
     Footer,
   },
+
   metaInfo: {
     // if no subcomponents specify a metaInfo.title, this title will be used
     title: "Phil Choi",
     // all titles will be injected into this template
     titleTemplate: "%s - Fintech",
   },
+
   provide() {
     return {
       workInfo: {
