@@ -9,6 +9,7 @@
         <div class="nav-link">
           <a
             href="https://linkedin.com/in/pchoi1/"
+            rel="noreferrer"
             target="_blank"
           ><img
             src="@/assets/icons/icon-linkedin.svg"
