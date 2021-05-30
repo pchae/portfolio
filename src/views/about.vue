@@ -52,8 +52,29 @@ import ClientList from "@/components/clients/client-list.vue";
 import Contact from "@/components/navigation/contact.vue";
 import Footer from "@/components/navigation/footer.vue";
 
+import { defineComponent, computed, reactive } from 'vue';
+import { useHead } from "@vueuse/head";
 
 export default {
+// Page meta tags
+setup() {
+    const siteData = reactive({
+      title: `About Phil Choi`,
+      description: `Phil Choi - About`,
+    })
+
+    useHead({
+      // Can be static or computed
+      title: computed(() => siteData.title),
+      meta: [
+        {
+          name: `description`,
+          content: computed(() => siteData.description),
+        },
+      ],
+    })
+  },
+
   data: () => {
     return {
       mobileView: false,
@@ -79,13 +100,6 @@ export default {
   },
 
   computed: {
-  },
-
-  metaInfo: {
-    // if no subcomponents specify a metaInfo.title, this title will be used
-    title: "Phil Choi",
-    // all titles will be injected into this template
-    titleTemplate: "About - %s",
   },
 
   created() {

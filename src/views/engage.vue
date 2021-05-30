@@ -127,7 +127,7 @@
       id="social-cards1"
       class="pb2 b2"
       subline=""
-      img-src="project/engage/card_spec1.jpg"
+      img-src="project/engage/1c5c9f6ce8f9817ca1740cc44a1df199.png"
       img-alt="Design system Social media components"
     />
 
@@ -187,7 +187,29 @@ import textblock from "@/components/layouts/article_text_block.vue";
 import Contact from "@/components/navigation/contact.vue";
 import Footer from "@/components/navigation/footer.vue";
 
+import { defineComponent, computed, reactive } from 'vue';
+import { useHead } from "@vueuse/head";
+
 export default {
+// Page meta tags
+setup() {
+    const siteData = reactive({
+      title: `Phil Choi - Engage`,
+      description: `Phil Choi - Engage project`,
+    })
+
+    useHead({
+      // Can be static or computed
+      title: computed(() => siteData.title),
+      meta: [
+        {
+          name: `description`,
+          content: computed(() => siteData.description),
+        },
+      ],
+    })
+  },
+
   data: () => {
     return {
       mobileView: false,
