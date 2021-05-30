@@ -53,6 +53,14 @@
       id="RENAME"
       class="pb5 b2"
       subline=""
+      img-src="project/fintech/rewards.jpg"
+      img-alt="RENAME"
+    />
+
+    <MediaBlock
+      id="RENAME"
+      class="pb5 b2"
+      subline=""
       img-src="project/fintech/web.jpg"
       img-alt="responsive web layouts."
     />
@@ -106,12 +114,14 @@ export default {
     Contact,
     Footer,
   },
+
   metaInfo: {
     // if no subcomponents specify a metaInfo.title, this title will be used
     title: "Phil Choi",
     // all titles will be injected into this template
     titleTemplate: "%s - Fintech",
   },
+
   provide() {
     return {
       workInfo: {
