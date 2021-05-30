@@ -59,8 +59,9 @@ export default {
 // Page meta tags
 setup() {
     const siteData = reactive({
-      title: `About Phil Choi`,
-      description: `Phil Choi - About`,
+      title: `About - Phil Choi`,
+      description: `About Phil Choi, Product Designer based in Toronto`,
+      ogdescription: `About Phil Choi, Product Designer based in Toronto`,
     })
 
     useHead({
@@ -68,8 +69,12 @@ setup() {
       title: computed(() => siteData.title),
       meta: [
         {
-          name: `description`,
+          property: `description`,
           content: computed(() => siteData.description),
+        },
+        {
+          property: `og:description`,
+          content: computed(() => siteData.ogdescription),
         },
       ],
     })
