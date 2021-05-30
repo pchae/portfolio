@@ -305,7 +305,7 @@ export default {
 setup() {
     const siteData = reactive({
       title: `Phil Choi - Starz Play`,
-      description: `Phil Choi - Starz Play project`,
+      description: `Phil Choi - Starz Play apps`,
     })
 
     useHead({
@@ -313,7 +313,7 @@ setup() {
       title: computed(() => siteData.title),
       meta: [
         {
-          name: `description`,
+          property: `description`,
           content: computed(() => siteData.description),
         },
       ],

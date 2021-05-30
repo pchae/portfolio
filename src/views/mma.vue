@@ -81,8 +81,8 @@ export default {
 // Page meta tags
 setup() {
     const siteData = reactive({
-      title: `Phil Choi - MMA API`,
-      description: `Phil Choi - MMA API project`,
+      property: `Phil Choi - MMA API`,
+      description: `Phil Choi - MMA API app`,
     })
 
     useHead({

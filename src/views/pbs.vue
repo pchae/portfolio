@@ -139,7 +139,7 @@ export default {
 setup() {
     const siteData = reactive({
       title: `Phil Choi - Public Broadcasting Service`,
-      description: `Phil Choi - Public Broadcasting Service project`,
+      description: `Phil Choi - Public Broadcasting Service apps`,
     })
 
     useHead({
@@ -147,7 +147,7 @@ setup() {
       title: computed(() => siteData.title),
       meta: [
         {
-          name: `description`,
+          property: `description`,
           content: computed(() => siteData.description),
         },
       ],

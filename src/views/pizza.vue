@@ -151,7 +151,7 @@ export default {
 setup() {
     const siteData = reactive({
       title: `Phil Choi - Pizza Pizza`,
-      description: `Phil Choi - Pizza Pizza project`,
+      description: `Phil Choi - Pizza Pizza apps`,
     })
 
     useHead({
@@ -159,7 +159,7 @@ setup() {
       title: computed(() => siteData.title),
       meta: [
         {
-          name: `description`,
+          property: `description`,
           content: computed(() => siteData.description),
         },
       ],

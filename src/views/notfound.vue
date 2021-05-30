@@ -45,7 +45,7 @@ setup() {
       title: computed(() => siteData.title),
       meta: [
         {
-          name: `description`,
+          property: `description`,
           content: computed(() => siteData.description),
         },
       ],

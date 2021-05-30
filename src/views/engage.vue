@@ -195,7 +195,7 @@ export default {
 setup() {
     const siteData = reactive({
       title: `Phil Choi - Engage`,
-      description: `Phil Choi - Engage project`,
+      description: `Phil Choi - Engage apps`,
     })
 
     useHead({
@@ -203,7 +203,7 @@ setup() {
       title: computed(() => siteData.title),
       meta: [
         {
-          name: `description`,
+          property: `description`,
           content: computed(() => siteData.description),
         },
       ],

@@ -98,7 +98,7 @@ export default {
 setup() {
     const siteData = reactive({
       title: `Phil Choi - RBC`,
-      description: `Phil Choi - Royal Bank of Canada projects`,
+      description: `Phil Choi - Royal Bank of Canada apps`,
     })
 
     useHead({
@@ -106,7 +106,7 @@ setup() {
       title: computed(() => siteData.title),
       meta: [
         {
-          name: `description`,
+          property: `description`,
           content: computed(() => siteData.description),
         },
       ],
