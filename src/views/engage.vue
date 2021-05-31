@@ -203,7 +203,7 @@ setup() {
       title: computed(() => siteData.title),
       meta: [
         {
-          property: `description`,
+          name: `description`,
           content: computed(() => siteData.description),
         },
       ],

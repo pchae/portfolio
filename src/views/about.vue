@@ -69,11 +69,11 @@ setup() {
       title: computed(() => siteData.title),
       meta: [
         {
-          property: `description`,
+          name: `description`,
           content: computed(() => siteData.description),
         },
         {
-          property: `og:description`,
+          name: `og:description`,
           content: computed(() => siteData.ogdescription),
         },
       ],
