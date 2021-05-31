@@ -127,7 +127,7 @@
       id="social-cards1"
       class="pb2 b2"
       subline=""
-      img-src="project/engage/1c5c9f6ce8f9817ca1740cc44a1df199.png"
+      img-src="project/engage/card_spec1.jpg"
       img-alt="Design system Social media components"
     />
 
