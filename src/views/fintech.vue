@@ -45,22 +45,6 @@
       id="RENAME"
       class="pb5 b2"
       subline=""
-      img-src="project/fintech/rewards.jpg"
-      img-alt="RENAME"
-    />
-
-    <MediaBlock
-      id="RENAME"
-      class="pb5 b2"
-      subline=""
-      img-src="project/fintech/rewards.jpg"
-      img-alt="RENAME"
-    />
-
-    <MediaBlock
-      id="RENAME"
-      class="pb5 b2"
-      subline=""
       img-src="project/fintech/web.jpg"
       img-alt="responsive web layouts."
     />
