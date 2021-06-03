@@ -47,7 +47,7 @@
       id="caption-payments"
       class="pad2 b2"
       intro="Payments"
-      desc="The initial releases of Pizza Pizza's apps did not support in-app payments and was a known pain point for customers. I worked with the Lead IA to define the registration and payment flows for major credit cards and custom currencies like loyalty points. We also experimented with contactless payment options based on research involving QR code adoption in East Asian countries like South Korea and Japan. Allowing users to complete every step of the ordering and payment process from within the apps led to a $20 million increase in revenue for 2015."
+      desc="The initial releases of Pizza Pizza's apps did not support in-app payments and revealed a clear pain point for users. I worked with the Lead IA to create the end-to-end design solutions for registration and payment flows using major credit cards and custom currencies like loyalty points. We also experimented with contactless payment options for retail using QR codes based on research of East Asian markets. Allowing users to complete every step of the ordering and payment process from within the apps was a major contributing factor that led to a $20 million increase in revenue for 2015."
     />
 
     <ImageBlock
