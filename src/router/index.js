@@ -62,6 +62,15 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "pbs" */ '../views/pbs.vue'),
   },
+  // Project: Misc
+  {
+    path: '/misc',
+    name: 'Misc',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "misc" */ '../views/misc.vue'),
+  },
   // Project: RBC
   {
     path: '/fintech',
