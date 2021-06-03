@@ -117,27 +117,11 @@
     />
 
     <MediaBlock
-      id="wf-home-samsung"
-      class="pb5 b2"
-      subline="Samsung SmartTV - Home Hub wireframe"
-      img-src="project/starz/wire-feature-samsung.jpg"
-      img-alt="SmartTV - Home user interface wireframe"
-    />
-
-    <MediaBlock
       id="wf-home-amazon"
       class="pb5 b2"
       subline="Amazon FireTV - Home Hub wireframe"
       img-src="project/starz/wire-feature-firetv.jpg"
       img-alt="FireTV - Home user interface wireframe"
-    />
-
-
-    <textblock
-      id="caption-show-detail"
-      class="pad2 b2"
-      intro="Show Details"
-      desc=""
     />
 
     <MediaBlock
@@ -156,26 +140,12 @@
       img-alt="Samsung SmartTV - Show Details UI wireframe"
     />
 
-    <MediaBlock
-      id="wf-show-amazon"
-      class="pb5 b2"
-      subline="Amazon FireTV - Show Details wireframe"
-      img-src="project/starz/wire-show-firetv.jpg"
-      img-alt="Amazon FireTV - Show Details UI wireframe"
-    />
 
     <textblock
       id="caption-visual-design"
-      class="pt2 b2"
+      class="pad2 b2"
       intro="Visual Design"
       desc="We created a dark, minimalist user interface with high contrast ratios to place emphasis on the poster art and reduce eye strain. It was also essential that we tried to capture the essence of going to a movie theatre while incorporating Starz branding."
-    />
-
-    <textblock
-      id="caption-visual-design2"
-      class="pad2 b2"
-      intro=""
-      desc="An often overlooked detail was our inclusion of developer input during the early design solutioning sessions. We created a feedback loop that enabled us to quickly iterate on design patterns and build a MVP ahead of schedule. This also meant our team could make informed technical decisions from the start and avoid creating experiences that could negatively affect performance."
     />
 
     <MediaBlock
@@ -187,26 +157,11 @@
     />
 
     <MediaBlock
-      id="ui-feature-samsung"
-      class="pb5 b2"
-      subline="Samsung SmartTV - Home Hub"
-      img-src="project/starz/ui-feature-samsung.jpg"
-      img-alt="Samsung SmartTV - Feature Home UI mockup"
-    />
-
-    <MediaBlock
       id="ui-feature-amazon"
       class="pb5 b2"
       subline="Amazon FireTV - Home Hub"
       img-src="project/starz/ui-feature-firetv.jpg"
       img-alt="Amazon FireTV - Feature Home UI mockup"
-    />
-
-    <textblock
-      id="caption-movie-detail"
-      class="pad2 b2"
-      intro="Movie Details"
-      desc="The Movie Details layouts had similar bandwidth requirements for the Show Details. It was also essential that we tried to capture the essence of going to a movie theatre."
     />
 
     <MediaBlock
@@ -218,20 +173,21 @@
     />
 
     <MediaBlock
-      id="ui-movie-samsung"
-      class="pb5 b2"
-      subline="Samsung SmartTV - Movie Details UI. The SmartTV had an upscaled 720p (1280x720) resolution and its software comprised of web applications primarily built with HTML5, CSS, and JavaScript."
-      img-src="project/starz/ui-movie-samsung.jpg"
-      img-alt="Samsung SmartTV - Movie Details UI mockup"
-    />
-
-    <MediaBlock
       id="ui-movie-amazon"
       class="pb5 b2"
       subline="Amazon FireTV - Movie Details UI. The FireTV had the best hardware out of the 3 platforms, allowing us to create immersive pages with fullscreen animated backgrounds and previews."
       img-src="project/starz/ui-movie-firetv.jpg"
       img-alt="Amazon FireTV - Movie Details UI mockup"
     />
+
+    <MediaBlock
+      id="ui-resume2"
+      class="pb5 b2"
+      subline="Amazon FireTV - Resume series UI exploration."
+      img-src="project/starz/resume2.jpg"
+      img-alt="Amazon FireTV - Resume series UI mockup"
+    />
+
 
     <textblock
       id="caption-design-handoff"
