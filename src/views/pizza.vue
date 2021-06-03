@@ -39,15 +39,15 @@
       id="caption-overview"
       class="pad2 b2"
       intro="Overview"
-      desc="Pizza Pizza is one of Canada’s largest Quick Service Restaurant (QSR) chains and first pizza ordering iPhone app. While consulting at Plastic Mobile, I was the design lead for the digital wallet, store locator, QR payments, Club 11-11, French support, and a UI refresh for iOS 8."
+      desc="Pizza Pizza is one of Canada’s largest Quick Service Restaurant (QSR) chains and first pizza ordering iPhone app. I led the design for the digital wallet, store locator, in-app payments, Club 11-11 memberships, bilingual (French) support, and a UI refresh to coincide with the release of iOS 8."
     />
 
 
     <textblock
       id="caption-payments"
       class="pad2 b2"
-      intro="Contactless Payments"
-      desc="We wanted to experiment with creating easier payment methods and took learnings from the adoption of QR codes in South Korea and Japan. This reduced a major source of friction by enabling users to complete every step of the ordering and payment process from within the app."
+      intro="Payments"
+      desc="The initial releases of Pizza Pizza's apps did not support in-app payments and was a known pain point for customers. I worked with the Lead IA to define the registration and payment flows for major credit cards and custom currencies like loyalty points. We also experimented with contactless payment options based on research involving QR code adoption in East Asian countries like South Korea and Japan. Allowing users to complete every step of the ordering and payment process from within the apps led to a $20 million increase in revenue for 2015."
     />
 
     <ImageBlock
@@ -70,6 +70,20 @@
       class="pb5 b2"
       img-src="project/pizza/wallet.jpg"
       img-alt="digital wallet wireframes"
+    />
+
+    <textblock
+      id="caption-maps"
+      class="pad2 b2"
+      intro="Store Locator"
+      desc="We added a mapping? integration/feature to surface? restaurant locations using location based services to help users interested in ordering for pick-up and takeout."
+    />
+
+    <ImageBlock
+      id="ui-map"
+      class="pb5 b2"
+      img-src="project/pizza/maps.jpg"
+      img-alt="Store locator user interfaces"
     />
 
 
@@ -101,15 +115,6 @@
       img-alt="club 11-11 account transfer interface"
     />
 
-    <ColumnTwo
-      id="ui-maps"
-      class="pad5 b2"
-      headline="Store locator"
-      desc="Another key feature was the Store locator for pick-up and takeout orders which opened up the app to larger underserved demographics that prefered to visit locations in person and pay with cash."
-      img-src="project/pizza/map.jpg"
-      img-alt="store locator interface"
-    />
-
 
     <textblock
       id="caption-outcome"
@@ -139,7 +144,6 @@ import ArticleHeader from "@/components/layouts/article_header.vue";
 import ArticleDetails from "@/components/layouts/article_details.vue";
 import ImageBlock from "@/components/layouts/image_block.vue";
 import textblock from "@/components/layouts/article_text_block.vue";
-import ColumnTwo from "@/components/layouts/col_two.vue";
 import Contact from "@/components/navigation/contact.vue";
 import Footer from "@/components/navigation/footer.vue";
 
@@ -186,7 +190,6 @@ setup() {
     ArticleDetails,
     ImageBlock,
     textblock,
-    ColumnTwo,
     Contact,
     Footer,
   },

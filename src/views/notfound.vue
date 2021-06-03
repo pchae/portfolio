@@ -36,8 +36,8 @@ export default {
 // Page meta tags
 setup() {
     const siteData = reactive({
-      title: `404 - Phil Choi`,
-      description: `404 - File not found`,
+      title: `Page not found - Phil Choi`,
+      description: `404: Page not found`,
     })
 
     useHead({
