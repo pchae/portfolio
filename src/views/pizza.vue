@@ -76,7 +76,7 @@
       id="caption-maps"
       class="pad2 b2"
       intro="Store Locator"
-      desc="We also added quality of life enhancements to users that preferred to visit locations for pick-up and takeout purchases. The Store locator used a combination of Location-based services (GPS), cellular data, sorting by proximity, and map APIs specific to each platform."
+      desc="We also added quality of life enhancements for users that preferred to visit locations for pick-up and takeout purchases. The Store locator used a combination of Location-based services (GPS), cellular data, sorting algorithms based on proximity, and map APIs specific to each platform."
     />
 
     <ImageBlock
