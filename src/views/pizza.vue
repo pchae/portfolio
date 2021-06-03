@@ -76,7 +76,7 @@
       id="caption-maps"
       class="pad2 b2"
       intro="Store Locator"
-      desc="We added a mapping? integration/feature to surface? restaurant locations using location based services to help users interested in ordering for pick-up and takeout."
+      desc="We also added quality of life enhancements for users that preferred to visit locations for pick-up and takeout purchases. The interactive map features used a combination of Location-based services (GPS) and cellular data with rankings based on proximity."
     />
 
     <ImageBlock
