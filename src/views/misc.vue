@@ -46,31 +46,23 @@
     />
 
     <ImageBlock
-      id="ui-cnn"
+      id="ui-cnn1"
       class="b2"
       img-src="project/misc/cnn.jpg"
       img-alt="REPLACE ME."
     />
 
     <ImageBlock
-      id="ui-cnn"
+      id="ui-cnn2"
       class="b2"
       img-src="project/misc/cnn2.jpg"
       img-alt="REPLACE ME."
     />
 
     <ImageBlock
-      id="ui-cnn"
+      id="ui-cnn3"
       class="pb5 b2"
       img-src="project/misc/cnn3.jpg"
-      img-alt="REPLACE ME."
-    />
-
-    <MediaBlock
-      id="ui-misc"
-      class="pb5 b2"
-      subline="app screen mosaic"
-      img-src="project/misc/mosaic.webp"
       img-alt="REPLACE ME."
     />
 
