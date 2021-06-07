@@ -29,19 +29,17 @@
       desc="Native app and responsive web projects from 2014 to 2021."
     />
 
-    <MediaBlock
-      id="ui-glx"
+    <ImageBlock
+      id="ui-c51"
       class="pb5 b2"
-      subline="glx app"
-      img-src="project/misc/glx.jpg"
+      img-src="project/misc/c51.jpg"
       img-alt="REPLACE ME."
     />
 
-    <MediaBlock
-      id="ui-c51"
+    <ImageBlock
+      id="ui-bmo"
       class="pb5 b2"
-      subline="c51 core app"
-      img-src="project/misc/c51.jpg"
+      img-src="project/misc/bmo.jpg"
       img-alt="REPLACE ME."
     />
 
@@ -86,7 +84,6 @@ import Nav from "@/components/navigation/nav.vue";
 import NavMobile from "@/components/navigation/nav_mobile.vue";
 import ArticleHeader from "@/components/layouts/article_header.vue";
 import ImageBlock from "@/components/layouts/image_block.vue";
-import MediaBlock from "@/components/layouts/MediaBlock.vue";
 import textblock from "@/components/layouts/article_text_block.vue";
 import Contact from "@/components/navigation/contact.vue";
 import Footer from "@/components/navigation/footer.vue";
@@ -131,7 +128,6 @@ setup() {
     NavMobile,
     ArticleHeader,
     ImageBlock,
-    MediaBlock,
     textblock,
     Contact,
     Footer,
@@ -146,11 +142,11 @@ setup() {
   provide() {
     return {
       workInfo: {
-        client: "Student Price Card, Shoppers Drug Mart, Guestlogix",
+        client: "SPC, BMO, SDM, GLX",
         year: "2014 - 2021",
         role: "Sr. UX/UI Designer, Design Lead",
         result: [
-          "Lorem ipsum dolor sit",
+          "",
         ]
       }
     };
