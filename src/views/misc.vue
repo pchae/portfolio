@@ -26,44 +26,51 @@
       id="intro"
       class="pad2 b2"
       intro="Overview"
-      desc="Past work from 2014 to 2021."
+      desc="Native app and responsive web projects from 2014 to 2021."
+    />
+
+    <MediaBlock
+      id="ui-glx"
+      class="pb5 b2"
+      subline="glx app"
+      img-src="project/misc/glx.jpg"
+      img-alt="REPLACE ME."
+    />
+
+    <MediaBlock
+      id="ui-c51"
+      class="pb5 b2"
+      subline="c51 core app"
+      img-src="project/misc/c51.jpg"
+      img-alt="REPLACE ME."
     />
 
     <ImageBlock
-      id="header"
-      class="pb5 b2"
-      img-src="project/mma/header.jpg"
+      id="ui-cnn"
+      class="b2"
+      img-src="project/misc/cnn.jpg"
       img-alt="REPLACE ME."
     />
 
     <ImageBlock
-      id="header"
+      id="ui-cnn"
+      class="b2"
+      img-src="project/misc/cnn2.jpg"
+      img-alt="REPLACE ME."
+    />
+
+    <ImageBlock
+      id="ui-cnn"
       class="pb5 b2"
-      img-src="project/misc/mobile.jpeg"
+      img-src="project/misc/cnn3.jpg"
       img-alt="REPLACE ME."
     />
 
     <MediaBlock
-      id="ui-something"
+      id="ui-misc"
       class="pb5 b2"
-      subline=""
-      img-src="project/mma/signup.jpg"
-      img-alt="REPLACE ME."
-    />
-
-    <MediaBlock
-      id="ui-something"
-      class="pb5 b2"
-      subline=""
-      img-src="project/mma/layout.png"
-      img-alt="REPLACE ME."
-    />
-
-    <MediaBlock
-      id="ui-something"
-      class="pb5 b2"
-      subline=""
-      img-src="project/misc/e309f39095c21d58c8df87fe3d3403fb.webp"
+      subline="app screen mosaic"
+      img-src="project/misc/mosaic.webp"
       img-alt="REPLACE ME."
     />
 
