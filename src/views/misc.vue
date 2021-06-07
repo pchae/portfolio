@@ -26,7 +26,7 @@
       id="intro"
       class="pad2 b2"
       intro="Overview"
-      desc="Native app projects from 2014 to 2021."
+      desc="Native mobile designs for CNNgo, BMO, and an unreleased Daily Fantasy Sports app."
     />
 
 
