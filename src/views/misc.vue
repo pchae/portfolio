@@ -26,7 +26,7 @@
       id="intro"
       class="pad2 b2"
       intro="Overview"
-      desc="Native app and responsive web projects from 2014 to 2021."
+      desc="Native app projects from 2014 to 2021."
     />
 
 
