@@ -26,22 +26,9 @@
       id="intro"
       class="pad2 b2"
       intro="Overview"
-      desc="Native app and responsive web projects from 2014 to 2021."
+      desc="Native app projects from 2014 to 2021."
     />
 
-    <ImageBlock
-      id="ui-c51"
-      class="pb5 b2"
-      img-src="project/misc/c51.jpg"
-      img-alt="REPLACE ME."
-    />
-
-    <ImageBlock
-      id="ui-bmo"
-      class="pb5 b2"
-      img-src="project/misc/bmo.jpg"
-      img-alt="REPLACE ME."
-    />
 
     <ImageBlock
       id="ui-cnn1"
@@ -64,6 +51,19 @@
       img-alt="REPLACE ME."
     />
 
+    <ImageBlock
+      id="ui-bmo"
+      class="pb5 b2"
+      img-src="project/misc/bmo.jpg"
+      img-alt="REPLACE ME."
+    />
+
+    <ImageBlock
+      id="ui-dfs"
+      class="pb5 b2"
+      img-src="project/misc/dfs.jpg"
+      img-alt="REPLACE ME."
+    />
 
     <Contact
       id="contact"
