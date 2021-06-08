@@ -32,6 +32,13 @@
 
     <ImageBlock
       id="ui-cnn1"
+      class="pb5 b2"
+      img-src="project/misc/c51.jpg"
+      img-alt="REPLACE ME."
+    />
+
+    <ImageBlock
+      id="ui-cnn1"
       class="b2"
       img-src="project/misc/cnn.jpg"
       img-alt="REPLACE ME."
