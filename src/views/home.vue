@@ -87,44 +87,6 @@ setup() {
     // all titles will be injected into this template
     titleTemplate: "%s - Product Design",
   },
-  provide() {
-    return {
-      projects: [
-        {
-          id: "0",
-          to: "/starz",
-          imgSrc: "thumbs/starz.jpg",
-          imgAlt: "Starz Play",
-          title: "Starz Play",
-          desc: "Roku, Samsung SmartTV, Amazon FireTV",
-        },
-        {
-          id: "1",
-          to: "/engage",
-          imgSrc: "thumbs/engage.jpg",
-          imgAlt: "Scribblelive Engage",
-          title: "Engage",
-          desc: "PWA, Responsive Web",
-        },
-        {
-          id: "2",
-          to: "/pizza",
-          imgSrc: "thumbs/pizza.jpg",
-          imgAlt: "Pizza Pizza",
-          title: "Pizza Pizza",
-          desc: "iOS, Android",
-        },
-        {
-          id: "3",
-          to: "/pbs",
-          imgSrc: "thumbs/pbs.jpg",
-          imgAlt: "Public Broadcasting Service",
-          title: "Public Broadcasting Service",
-          desc: "Microsoft Lumia & Surface",
-        },
-      ],
-    };
-  },
 
   created() {
     this.handleView();

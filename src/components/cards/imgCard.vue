@@ -23,19 +23,19 @@ export default {
   props: {
     title: {
       type: String,
-      default: "",
+      default: '',
     },
     desc: {
       type: String,
-      default: "",
+      default: '',
     },
     imgSrc: {
       type: String,
-      default: "",
+      default: '',
     },
     imgAlt: {
       type: String,
-      default: "",
+      default: '',
     },
   },
 };
