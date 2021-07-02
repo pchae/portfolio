@@ -7,7 +7,7 @@
       <div class="flex pb5">
         <div
           class="list-container"
-          v-for="item in projects"
+          v-for="item in projects.projects"
           :key="item.id"
         >
           <router-link
@@ -27,12 +27,17 @@
 </template>
 
 <script>
+import { mapState } from 'vuex';
 import ImgCard from "@/components/cards/imgCard.vue";
 
 export default {
   name: "ImageGrid",
   props: {
   },
+
+  computed: mapState({
+    projects: state => state.projects
+  }),
 
   data() {
     return {
@@ -44,11 +49,6 @@ export default {
 
   components: {
     ImgCard,
-  },
-
-  inject: ["projects"],
-  created() {
-    console.log(this.projects);
   },
 };
 </script>
