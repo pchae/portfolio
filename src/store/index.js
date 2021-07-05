@@ -5,7 +5,7 @@ import projectJson from '@/json/projects.json';
 export default createStore({
   state: {
     about: aboutJson,
-    projects: projectJson,
+    project: projectJson,
   },
 
   getters: {
