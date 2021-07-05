@@ -36,7 +36,7 @@ export default {
   },
 
   computed: mapState({
-    projects: state => state.projects
+    projects: state => state.project
   }),
 
   data() {
