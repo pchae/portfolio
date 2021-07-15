@@ -25,7 +25,7 @@
       class="pb5 b2"
     />
 
-    <ClientList
+    <Clientlist
       id="clients"
       class="pad5 b2"
     />
@@ -48,7 +48,7 @@ import Nav from "@/components/navigation/nav.vue";
 import NavMobile from "@/components/navigation/nav_mobile.vue";
 import IntroBlock from "@/components/layouts/IntroBlock.vue";
 import TextParagraph from "@/components/layouts/text_paragraph.vue";
-import ClientList from "@/components/clients/client-list.vue";
+import Clientlist from "@/components/layouts/client.vue";
 import Contact from "@/components/navigation/contact.vue";
 import Footer from "@/components/navigation/footer.vue";
 
@@ -99,7 +99,7 @@ setup() {
     IntroBlock,
     TextParagraph,
 
-    ClientList,
+    Clientlist,
     Contact,
     Footer,
   },
