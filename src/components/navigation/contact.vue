@@ -11,7 +11,7 @@
 
       <div class="desc">
         <p class="pb2">
-          Available for freelance projects starting July 2021.
+          Available for freelance projects in July 2022.
         </p>
         <PrimaryButton
           button-name="Send an email"
